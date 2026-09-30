@@ -1,0 +1,1 @@
+(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,15378,t=>{"use strict";t.s(["default",0,function(t){let e,o=t.split(/([A-Z])/g),c=[],l="";for(e=1;e<o.length;e+=2)c.push(l=l.slice(0,o[e].charCodeAt(0)-65)+o[e+1]);return c}])}]);

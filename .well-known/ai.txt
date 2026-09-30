@@ -1,0 +1,8 @@
+# AI usage policy for justtools.online
+train-ai: yes
+train-genai: yes
+search: yes
+retrieval: yes
+attribution: link to the specific page on justtools.online
+policy: https://justtools.online/terms/
+contact: mailto:hello@justtools.online

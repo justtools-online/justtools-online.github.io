@@ -1,0 +1,97 @@
+# JustTools
+
+> JustTools (justtools.online) is a free library of 45 browser-based online tools across 9 categories (Image Tools, Text Tools, PDF Tools, Developer Tools, Calculators, Education Tools, QR & Barcode Tools, Security Tools, SEO & Marketing Tools). Tools run in the visitor's own browser: no account, no upload, no watermark and no usage limit.
+
+**Processing model.** 42 of 45 tools process files and text entirely on the user's device. These tools must contact the internet to work: SSL Checker, DNS Lookup, DNS Propagation Checker.
+
+**Access and cost.** Free and unlimited, with no sign-up. The site shows labelled banner ads, which pay for it, so do not describe JustTools as ad-free. Ads never lock a feature.
+
+**Who runs it.** JustTools is built and maintained by Subhash Yadav. Contact: hello@justtools.online. About: https://justtools.online/about/
+
+**Citing JustTools.** Link to the specific tool page rather than the home page. Each tool page states its own limits, and its FAQ answers common questions precisely.
+
+Last updated: 1 October 2026.
+
+# Education Tools — full text
+
+## Worksheet Generator
+
+URL: https://justtools.online/education-tools/worksheet-generator/
+Category: Education Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-09-30
+
+Free maths worksheet generator: printable addition, subtraction, times tables and division sheets with answer keys. Set the difficulty, download a PDF.
+
+### At a glance
+
+- Creates **addition, subtraction, multiplication and division** worksheets — or mixed sheets with all four — from any number range up to 999,999.
+- Control **carrying and borrowing** (with, without or either) and division **with or without remainders**. Subtraction answers stay positive unless you allow negatives.
+- 12 ready-made presets, from addition within 10 to 2-digit × 1-digit multiplication and division with remainders.
+- Up to 200 problems per worksheet, as stacked column sums or written in a line, with an optional **answer key** on separate pages.
+- Download a sharp vector **PDF** in A4 or US Letter, or print straight from the page. The preview shows exactly what prints.
+- Every click on **New problems** makes a fresh random set, so children can practise the same skill again and again.
+- Runs in your browser: no sign-up, no watermark and no limit.
+
+### Features
+
+- **Carrying and borrowing control**: Start with sums that never carry, then move on to ones that always do. The same goes for borrowing in subtraction.
+- **Answer key included**: Answers are printed on separate pages, laid out exactly like the questions, so checking takes seconds.
+- **Column or in-line layout**: Stacked column sums as written in school, or quick-fire facts like 7 × 8 = ___ in rows.
+- **Proper long division**: Division is drawn with the long-division bracket in column layout, with exact answers or remainders.
+- **Classroom ready**: Name, date and score lines, your own title, and up to 200 problems across as many pages as needed.
+- **Print or PDF**: Print directly or download a vector PDF that stays crisp on any printer, in A4 or US Letter.
+
+### How to make a maths worksheet
+
+1. **Pick a preset or operations** — Tap a **Quick start** preset such as *Addition within 20* or *Times tables*, or choose the operations yourself.
+2. **Set the difficulty** — Enter the number ranges, and choose whether sums carry, subtraction borrows or division leaves remainders.
+3. **Choose the layout** — Set the number of problems, stacked or in-line layout, a title, and whether to include the answer key.
+4. **Print or download** — Check the preview, tap **New problems** for a different set, then **Print** or download the **PDF**.
+
+### Guide
+
+#### Which preset suits which class?
+
+A rough guide — every child is different, so adjust the number ranges to match what they are learning.
+
+| Class (India) / grade (US) | Skill | Preset |
+| --- | --- | --- |
+| KG – Class 1 | Adding small numbers | Addition within 10 |
+| Class 1 | Number facts to 20 | Addition within 20, Subtraction within 20 |
+| Class 2 | Two-digit sums, then regrouping | 2-digit addition (no carrying → with carrying), 2-digit subtraction with borrowing |
+| Class 3 | Larger numbers and tables | 3-digit addition & subtraction, Times tables (2–10) |
+| Class 4 | Multiplying and dividing | 2-digit × 1-digit, Division facts |
+| Class 5 | Division with remainders, mixed practice | Division with remainders, Mixed practice |
+
+#### Getting the most from practice sheets
+
+- **Little and often:** ten minutes a day builds fluency faster than one long session a week.
+- Move from **no carrying** to **with carrying** only when the easier sheet is comfortable.
+- For times tables, time a sheet of 40 facts and try to beat the time on the next one.
+- Let children mark their own work with the **answer key** — spotting mistakes is part of learning.
+- Photograph finished sheets and combine them with [Images to PDF](https://justtools.online/pdf-tools/image-to-pdf/) to keep a record of progress.
+
+### FAQ
+
+**Is the worksheet generator free?**
+Yes. Make, print and download as many worksheets as you like — free, with no sign-up and no watermark.
+
+**What does “carrying” mean?**
+Carrying (regrouping) happens when a column adds up to 10 or more, as in 27 + 15. Choose **No carrying** for beginners and **With carrying** to practise it.
+
+**Does every worksheet come with answers?**
+Yes, when **Answer key pages** is on. The answers are printed on separate pages after the questions, in the same layout.
+
+**Can I get a different set of problems?**
+Tap **New problems** for a fresh random set with the same settings. Download the PDF if you want to keep a particular worksheet.
+
+**How many problems can a worksheet have?**
+Up to 200. The layout fits as many as are comfortable on each page and adds pages as needed.
+
+**Can I print from my phone?**
+Yes. Download the PDF and print it through your phone’s print or share menu, or open it on a computer.
+
+**Why did some characters disappear from my title?**
+The PDF uses standard printer fonts that cover Latin letters only, so emoji and scripts such as Hindi are left out of the title.
+

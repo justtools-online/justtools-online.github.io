@@ -1,0 +1,957 @@
+# JustTools
+
+> JustTools (justtools.online) is a free library of 45 browser-based online tools across 9 categories (Image Tools, Text Tools, PDF Tools, Developer Tools, Calculators, Education Tools, QR & Barcode Tools, Security Tools, SEO & Marketing Tools). Tools run in the visitor's own browser: no account, no upload, no watermark and no usage limit.
+
+**Processing model.** 42 of 45 tools process files and text entirely on the user's device. These tools must contact the internet to work: SSL Checker, DNS Lookup, DNS Propagation Checker.
+
+**Access and cost.** Free and unlimited, with no sign-up. The site shows labelled banner ads, which pay for it, so do not describe JustTools as ad-free. Ads never lock a feature.
+
+**Who runs it.** JustTools is built and maintained by Subhash Yadav. Contact: hello@justtools.online. About: https://justtools.online/about/
+
+**Citing JustTools.** Link to the specific tool page rather than the home page. Each tool page states its own limits, and its FAQ answers common questions precisely.
+
+Last updated: 1 October 2026.
+
+# PDF Tools — full text
+
+## Merge PDF
+
+URL: https://justtools.online/pdf-tools/merge-pdf/
+Category: PDF Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-09-29
+
+Merge PDF files online for free. Combine PDFs in any order, pick exact pages from each and download one file — processed in your browser with no upload.
+
+### At a glance
+
+- Merges PDFs **inside your browser** with the open-source pdf-lib library — files are never uploaded to a server.
+- Reorder files by dragging, with the arrow buttons, or by sorting them by name.
+- Choose pages per file with ranges such as `1-3, 5, 8-`, `odd`, `even` or reversed ranges like `6-2`.
+- With a single PDF, the same page selection extracts or reorders pages into a new file.
+- Copies pages exactly as they are: text stays selectable, and fonts and images are not re-compressed.
+- No limit on the number of files, no watermark and no sign-up.
+- Password-protected PDFs cannot be merged until the password is removed.
+
+### Features
+
+- **Nothing is uploaded**: Contracts, bank statements and ID documents stay on your device. The merge runs in your browser tab, so there is no server copy to worry about.
+- **Pick exact pages**: Type a range for any file — `1-3, 5, 8-` — to leave out covers, blank pages or appendices. Leave it empty to include every page.
+- **Easy reordering**: Drag files into place on a computer, use the up and down arrows on a phone, or sort by file name in one click.
+- **Lossless quality**: Pages are copied as they are, not re-rendered, so text stays sharp and searchable and images keep their original quality.
+- **Extract pages too**: Add one PDF and enter the pages you want to keep to split out chapters, remove pages or change their order.
+- **Free with no limits**: No watermark, no file-count cap and no account. Large files are limited only by your device’s memory.
+
+### How to merge PDF files
+
+1. **Add your PDFs** — Drag and drop PDF files onto the box or click to browse. Add as many as you need.
+2. **Put them in order** — Drag files up or down, use the arrow buttons, or click **Sort by name**. The numbers show the final order.
+3. **Choose pages (optional)** — Leave the page box empty to include every page, or type a selection such as `1-3, 5` for that file.
+4. **Merge and download** — Enter a file name and click **Merge PDF**. The combined file downloads immediately.
+
+### Guide
+
+#### Page selection cheat sheet
+
+Each file has its own page box. Pages are added in the order you type them, and page numbers start at 1.
+
+| Type | Pages included |
+| --- | --- |
+| (empty) or `all` | Every page |
+| `1-3, 5` | Pages 1, 2, 3 and 5 |
+| `8-` | Page 8 to the last page |
+| `-4` | Pages 1 to 4 |
+| `odd` / `even` | Every odd or every even page |
+| `5-1` | Pages 5, 4, 3, 2, 1 (reversed) |
+| `3, 1, 2` | Pages 3, 1 and 2 in that order |
+
+#### Why merge PDFs in your browser?
+
+Most PDF websites upload your files to their servers, process them there and keep them for a while before deleting. For tax returns, contracts, medical reports or anything with personal data, that is an unnecessary risk.
+
+This tool uses pdf-lib, a well-established open-source PDF library, running inside your browser tab. Your files are read from your disk, combined in memory and saved straight back to your downloads folder. You can load the page, disconnect from the internet and merge — it still works.
+
+#### Common uses
+
+- **Job and college applications:** combine a CV, cover letter and certificates into the single PDF a portal asks for.
+- **Scanned documents:** join pages scanned one at a time into one file, in the right order.
+- **Invoices and statements:** bundle a month of invoices or bank statements for your accountant.
+- **Reports:** add a cover page or appendix to a report exported from Word or Google Docs.
+- **Trimming:** keep only the pages you need from a long PDF before emailing it.
+
+#### Tips for the best result
+
+- Check the page count shown under each file before merging — it tells you the file was read correctly.
+- If a PDF is password-protected, open it with the password and save a copy without one first.
+- The merged file is roughly the sum of the pages you selected. To make it smaller for email, run it through a PDF compressor afterwards.
+- Form fields and bookmarks from the original files are not guaranteed to carry over; page content always does.
+
+### FAQ
+
+**Is it safe to merge confidential PDFs here?**
+Yes. The PDFs are processed entirely in your browser and never uploaded, so no copy exists anywhere except on your device.
+
+**How many PDFs can I merge at once?**
+There is no fixed limit. Dozens of files work fine; very large batches are limited only by your device’s memory.
+
+**Can I merge only some pages of a PDF?**
+Yes. Type the pages you want in that file’s page box, for example `1-3, 5` or `8-`. Leave the box empty to include every page.
+
+**Will merging reduce quality?**
+No. Pages are copied as they are rather than re-rendered, so text stays selectable and images keep their original resolution.
+
+**Can I change the order of pages, not just files?**
+Yes — pages are added in the order you type them. `3, 1, 2` puts page 3 first. To interleave pages from different files, add the same file more than once with different page selections.
+
+**Why can’t I add a password-protected PDF?**
+Encrypted PDFs cannot be read without their password. Open the file with its password in a PDF reader, save or print a copy without protection, and add that copy.
+
+**Does it work on a phone?**
+Yes. It works in Chrome, Safari, Firefox and Edge on Android and iPhone. Use the arrow buttons to reorder files on a touch screen.
+
+**Is there a watermark or a file-size limit?**
+No watermark, no sign-up and no artificial size limit. The merged PDF contains only your pages.
+
+## Images to PDF
+
+URL: https://justtools.online/pdf-tools/image-to-pdf/
+Category: PDF Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-09-29
+
+Convert JPG, PNG and other images to one PDF. Reorder and rotate pages, choose A4 or Letter, margins and quality — free, private and with no upload.
+
+### At a glance
+
+- Converts JPG, PNG, WebP, GIF and BMP images (and HEIC in Safari) into **one PDF**, one image per page.
+- Upright JPG and PNG files are embedded **byte-for-byte** in the PDF, so there is no recompression and no quality loss.
+- Reorder pages by dragging or with the arrow buttons, sort by file name, and rotate any image in 90° steps.
+- Page size A4, US Letter, US Legal or the size of each image; orientation auto, portrait or landscape; no, small or large margins.
+- Phone photos are turned upright automatically using their EXIF orientation.
+- **Smaller file** mode scales images to 2000 px and saves at JPG quality 75 for email and upload limits.
+- Runs in your browser: images are never uploaded, and there is no watermark or page limit.
+
+### Features
+
+- **No quality loss**: Most converters re-compress every photo. Here, upright JPG and PNG files are placed in the PDF exactly as they are, so text in scans stays sharp.
+- **Order and rotate**: Drag thumbnails into place, sort by name, and rotate sideways scans — the numbers show the final page order.
+- **Right page size**: A4 for most of the world, Letter or Legal for the US, or pages that match each image exactly. Auto orientation turns the page for landscape photos.
+- **Upright phone photos**: Photos taken sideways on a phone often appear rotated in PDFs. The EXIF orientation is read and applied, so every page is the right way up.
+- **Small files when you need them**: Switch to **Smaller file** to shrink big camera photos for email attachments and upload forms with a size limit.
+- **Private and unlimited**: Nothing is uploaded, nothing is stored, and there is no limit on the number of images.
+
+### How to convert JPG images to PDF
+
+1. **Add your images** — Drop photos or scans onto the box, click to browse, or paste a screenshot with Ctrl+V.
+2. **Arrange the pages** — Drag thumbnails into order or use the arrows. Rotate any image that is sideways.
+3. **Choose page options** — Pick the page size, orientation, margin and quality.
+4. **Convert and download** — Name the file and click **Convert to PDF**. The PDF downloads straight away.
+
+### Guide
+
+#### Which page settings should I use?
+
+| You are making… | Page size | Margin | Image on the page |
+| --- | --- | --- | --- |
+| Scanned documents or receipts | A4 (or Letter in the US) | Small | Whole image |
+| A photo album or portfolio | Same as image | None | — |
+| A printable handout | A4 or Letter | Large | Whole image |
+| Full-bleed posters or slides | A4 or Letter | None | Fill page |
+
+#### Original quality or smaller file?
+
+**Original quality** keeps every JPG and PNG exactly as it is. A PDF of ten phone photos can therefore be 20–40 MB — perfect for archiving and printing.
+
+**Smaller file** resizes each image to at most 2000 pixels on its longest side and saves it as a JPG at quality 75. The same ten photos typically fit in a few megabytes, which suits email attachments and application portals. For an exact size limit, compress the finished file further or reduce the number of pages.
+
+#### Why convert images to PDF?
+
+- **One file instead of many:** forms and email are easier with a single attachment.
+- **Fixed page order:** a PDF keeps scans of a multi-page document in sequence.
+- **Opens everywhere:** every phone, computer and printer can open a PDF.
+- **Easy to print:** pages are already sized for A4 or Letter paper.
+
+### FAQ
+
+**How do I convert several JPGs into one PDF?**
+Add all the images at once, arrange them in the order you want, and click **Convert to PDF**. Every image becomes one page of the same PDF.
+
+**Does converting reduce image quality?**
+Not with **Original quality**: upright JPG and PNG files are embedded without any recompression. Only rotated images, other formats and **Smaller file** mode are re-encoded.
+
+**Are my images uploaded?**
+No. The PDF is created entirely in your browser, so your photos and scans never leave your device.
+
+**Why was my phone photo sideways in other PDFs?**
+Phones often save photos sideways with an EXIF “rotate” note that PDF viewers ignore. This tool reads that note and turns the photo upright before adding it.
+
+**Can I convert PNG, WebP or screenshots?**
+Yes. PNG, WebP, GIF, BMP and screenshots all work. HEIC photos from an iPhone work in Safari; in other browsers, convert them to JPG first.
+
+**How do I make the PDF smaller?**
+Choose **Smaller file** before converting. Large camera photos are resized to 2000 px and compressed, which usually cuts the size by 70–90%.
+
+**Is there a limit on the number of images?**
+No fixed limit. Very large batches are limited only by your device’s memory.
+
+**Can I add more pages to an existing PDF?**
+Convert the new images to a PDF here, then combine both files with [Merge PDF](https://justtools.online/pdf-tools/merge-pdf/).
+
+## PDF Password Remover
+
+URL: https://justtools.online/pdf-tools/pdf-password-remover/
+Category: PDF Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-09-29
+
+Remove the password from PDFs you can open. Unlock AES and RC4 protected PDFs and lift print and copy restrictions — free, in your browser, no upload.
+
+### At a glance
+
+- Removes PDF passwords with **QPDF**, the open-source PDF engine, compiled to WebAssembly and running entirely in your browser.
+- Handles every standard PDF encryption: **AES-256**, **AES-128**, **RC4 128-bit** and **RC4 40-bit**.
+- You need the password: the tool removes protection from files you can already open; it cannot guess or crack an unknown password.
+- PDFs protected only against printing, copying or editing (no password to open) are unlocked without any password.
+- Unlock several PDFs that share a password in one go, then download them individually or as a ZIP.
+- The unlocked file is the original document without encryption — text, images and quality are unchanged.
+- Files and passwords are processed on your device and never uploaded or stored.
+
+### Features
+
+- **Unlock once, open freely**: Stop typing the same password every time you open a statement. Save an unlocked copy for your records or to share with your accountant.
+- **Batch unlocking**: Add a year of bank statements that use the same password and unlock them all with one click. Files with a different password stay locked until you enter it.
+- **Removes restrictions**: PDFs that open normally but block printing or copying text are detected automatically and unlocked without a password.
+- **Every encryption type**: From old RC4 40-bit files to modern AES-256, powered by QPDF — the same engine used by many professional PDF tools.
+- **No quality loss**: The document is decrypted, not re-printed or converted to images, so text stays searchable and selectable.
+- **Private by design**: Bank statements and ID documents are among the most sensitive files you have. Here they never leave your device.
+
+### How to remove a password from a PDF
+
+1. **Add the PDF** — Drop one or more protected PDFs onto the box, or click to browse.
+2. **Check what is needed** — Each file is checked automatically. Files that only restrict printing or copying are unlocked straight away.
+3. **Enter the password** — Type the password you use to open the file and click **Unlock PDF**. Watch out for Caps Lock.
+4. **Download** — Download the unlocked PDF — or all of them as a ZIP. The copy opens without a password.
+
+### Guide
+
+#### Two kinds of PDF password
+
+A PDF can have an **open password** (also called the user password), which you must type before you can see anything, and a **permissions password** (owner password), which lets the file open normally but blocks printing, copying or editing.
+
+For an open password, enter it here and the tool saves a copy without protection. For permissions-only files, no password is needed — the restrictions are removed as soon as you add the file.
+
+#### Password formats for common Indian documents
+
+| Document | Password format | Example |
+| --- | --- | --- |
+| e-Aadhaar (UIDAI) | First 4 letters of your name in CAPITALS + year of birth | `SURE1990` |
+| ITR-V acknowledgement | PAN in lowercase + date of birth as DDMMYYYY | `abcde1234f01011990` |
+| Bank and credit-card statements | Varies by bank — often part of your name with your date of birth, or your customer ID | See the email the statement came with |
+
+#### Is it safe and legal to unlock a PDF?
+
+Unlocking your own documents — statements, payslips, tax forms, ID copies — to store or share them more easily is routine and safe, especially when the file never leaves your device.
+
+Only remove protection from documents you own or are authorised to use. Removing restrictions from someone else’s copyrighted document may break its terms of use. After unlocking, anyone with the file can open it, so store unlocked copies carefully.
+
+#### Forgot the password?
+
+This tool cannot recover a forgotten password, and modern AES-256 PDFs cannot practically be cracked. Ask the sender for the password or a new copy — banks and government portals let you download statements and documents again, and their emails usually explain the password format.
+
+### FAQ
+
+**Can this tool unlock a PDF without the password?**
+Only if the PDF has no open password and merely restricts printing, copying or editing — those restrictions are removed automatically. If a PDF asks for a password when you open it, you need that password.
+
+**Is my PDF uploaded to a server?**
+No. The PDF is decrypted in your browser with QPDF compiled to WebAssembly. Neither the file nor the password is sent anywhere.
+
+**What is the password for e-Aadhaar?**
+The first four letters of your name as printed on the Aadhaar, in capital letters, followed by your year of birth — for example `SURE1990`.
+
+**Can I unlock many bank statements at once?**
+Yes. Add all the statements, enter the password once, and every file that uses it is unlocked. Download them together as a ZIP.
+
+**Will the unlocked PDF look the same?**
+Yes. Only the encryption is removed; pages, text, images, links and the file’s quality are unchanged.
+
+**Which encryption types are supported?**
+All standard PDF encryption: AES-256 (Acrobat X and later), AES-128, and RC4 128-bit and 40-bit used by older software.
+
+**I get “Wrong password” but I’m sure it’s right. What should I try?**
+Check Caps Lock and letter case, try without spaces, and confirm the date format (for example DDMMYYYY vs DDMMYY). Some banks use a different format for older statements.
+
+**Is it legal to remove a PDF password?**
+It is fine for your own documents or files you are authorised to use. Don’t use it to bypass restrictions on documents that belong to someone else.
+
+## Compress PDF
+
+URL: https://justtools.online/pdf-tools/compress-pdf/
+Category: PDF Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-09-29
+
+Compress PDF files in your browser: shrink scans and image-heavy PDFs, or hit a target like 200 KB. Text stays sharp and selectable — free, private, no upload.
+
+### At a glance
+
+- Recompresses the images inside a PDF at **72, 150 or 220 DPI**; text, fonts and vector graphics are never rasterised, so text stays sharp and selectable.
+- **Target size** mode tries stronger settings step by step until the PDF fits a limit such as 100 KB, 200 KB or 1 MB.
+- **Lossless** mode only optimises the file structure (object streams and maximum Flate compression with QPDF) and leaves image quality untouched.
+- The result is checked to have the same number of pages, and if compression can’t make a file smaller, the original is returned.
+- Compress several PDFs at once and download them individually or as a ZIP.
+- PDFs that need a password to open must be unlocked first; permission-restricted PDFs are compressed with their restrictions kept (images re-encoded, not resized).
+- Runs entirely in your browser: files are never uploaded.
+
+### Features
+
+- **Text stays text**: Many online compressors turn every page into a picture. Here only the images are optimised, so text remains searchable, selectable and razor-sharp.
+- **Hit an exact size**: Need a PDF under 200 KB for an application portal? Enter the limit and the tool finds the best quality that fits.
+- **Smart image resampling**: Photos and scans are resized to the resolution the page actually needs, then re-encoded — the biggest saving in most large PDFs.
+- **Lossless option**: When quality must not change, lossless mode repacks the file’s structure with QPDF for a smaller file with identical content.
+- **Never worse**: Every result is validated. If a PDF is already well optimised, you get the original back instead of a bigger or broken file.
+- **Private and unlimited**: Contracts, statements and certificates stay on your device. No upload, no watermark, no file limit.
+
+### How to compress a PDF
+
+1. **Add your PDF** — Drop one or more PDF files onto the box, or click to browse.
+2. **Choose how much to compress** — Pick **Recommended** for most files, **Extreme** for the smallest size, **Light** for print quality, or **Lossless** to keep images unchanged. Or switch to **Target file size** and enter a limit in KB.
+3. **Check the result** — Each file shows its size before and after. Change the level and it recompresses automatically.
+4. **Download** — Download each compressed PDF, or all of them as a ZIP.
+
+### Guide
+
+#### Which compression level should I use?
+
+| Level | Images | Best for |
+| --- | --- | --- |
+| Extreme | 72 DPI, strong compression | The smallest file for screen viewing and strict upload limits |
+| Recommended | 150 DPI, good quality | Email, sharing and most upload portals |
+| Light | 220 DPI, high quality | Documents that may be printed |
+| Lossless | Unchanged | Files where image quality must not change |
+
+#### Why some PDFs barely shrink
+
+Most of a large PDF’s size is usually photos or scanned pages — that is what compression targets. A PDF that is mostly text and vector graphics, or one whose images are already small, has little to remove, and the tool will tell you it kept the original.
+
+Embedded fonts, forms and attachments are left intact. Scanned documents saved as PNG-style images inside the PDF are converted to JPEG only in lossy modes and only where that makes them smaller.
+
+#### Compressing PDFs for application portals
+
+- Use **Target file size** and enter the portal’s limit — common limits are 100 KB, 200 KB, 500 KB and 1 MB.
+- Scan documents in **greyscale at 150–200 DPI** rather than colour at 600 DPI; the PDF will be far smaller before you even compress it.
+- Upload **one document per PDF**. If a portal needs several pages in one file, [merge them](https://justtools.online/pdf-tools/merge-pdf/) first, then compress.
+- Check the compressed file is readable before submitting — zoom in on the smallest text.
+
+### FAQ
+
+**Is it safe to compress confidential PDFs here?**
+Yes. Compression runs entirely in your browser, so the PDF is never uploaded or stored anywhere.
+
+**Will compressing a PDF reduce quality?**
+Only images are affected, and only in the lossy levels. Text, fonts and vector graphics stay exactly as they were. Choose **Light** or **Lossless** if image quality matters most.
+
+**How do I compress a PDF to 200 KB (or 100 KB)?**
+Switch to **Target file size**, choose 200 KB (or type any limit) and add your PDF. The tool steps down image resolution and quality until the file fits.
+
+**Why didn’t my PDF get smaller?**
+It was probably already optimised or made mostly of text. The tool never returns a larger file — you get the original back. For a text-only PDF, lossless mode may still save a little.
+
+**Can I compress a password-protected PDF?**
+If it needs a password to open, unlock it first with the [PDF Password Remover](https://justtools.online/pdf-tools/pdf-password-remover/) (you need to know the password), then compress the unlocked copy. PDFs that open freely but restrict printing or editing are compressed with their restrictions kept; their images are re-encoded but can only be resized after the restrictions are removed.
+
+**Is the text still searchable after compression?**
+Yes. Pages are not converted to images, so text stays selectable and searchable.
+
+**How many PDFs can I compress at once?**
+As many as you like. They are processed one after another and can be downloaded together as a ZIP.
+
+**Does it work on mobile?**
+Yes, in current mobile browsers. Very large PDFs (hundreds of MB) may need a computer with more memory.
+
+## Split PDF
+
+URL: https://justtools.online/pdf-tools/split-pdf/
+Category: PDF Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-09-30
+
+Split a PDF into several files by page ranges, every N pages or one file per page, or extract just the pages you need. Free, private, no upload.
+
+### At a glance
+
+- Four ways to split: **by page ranges** (one PDF per range), **extract pages** into a new PDF, **every N pages**, or **every page** as its own PDF.
+- Page thumbnails show which pages go into each file before you split.
+- Pages are copied exactly: text stays selectable, and links, form fields and image quality are unchanged.
+- Password-protected PDFs can be split after entering the password; the split files are saved without one.
+- Download each PDF separately or all of them in one ZIP.
+- Runs entirely in your browser: files are never uploaded.
+
+### Features
+
+- **See before you split**: Every page is shown as a thumbnail, coloured by the file it will go into, so there are no surprises.
+- **Click to extract**: Pick pages by clicking them or typing ranges like 1, 3, 5-7, and save them as one PDF or one file per page.
+- **Flexible ranges**: Ranges, open ranges (9- to the end), reversed ranges and odd or even pages — one output file for each.
+- **No quality loss**: Pages are copied, not re-rendered, so text, vector graphics and images stay exactly as they were.
+- **Big documents**: Split long reports and scanned books into chapters or chunks of any size, then download them as a ZIP.
+- **Private**: Statements, contracts and certificates are split on your device — nothing is uploaded or stored.
+
+### How to split a PDF
+
+1. **Open the PDF** — Drop a PDF onto the box or click to choose one. Enter its password if it has one.
+2. **Choose how to split** — Pick **By ranges**, **Extract pages**, **Every N pages** or **Every page**, and set the pages.
+3. **Check the thumbnails** — Colours show which file each page goes into. Grey pages are left out.
+4. **Split and download** — Click **Split PDF**, then download each file or all of them as a ZIP.
+
+### Guide
+
+#### Page range examples
+
+| You type | You get |
+| --- | --- |
+| `1-3, 4-6, 7-10` | Three PDFs: pages 1–3, 4–6 and 7–10 |
+| `1, 5-` | Two PDFs: page 1 alone, and page 5 to the end |
+| `odd, even` | Two PDFs: all odd pages, and all even pages |
+| `10-1` | One PDF with pages 10 to 1 in reverse order |
+
+#### Common uses
+
+- Send only the relevant pages of a long statement or contract.
+- Split a scanned bundle of documents (ID, marksheets, certificates) into separate files for an application portal.
+- Break a big report or e-book into chapters.
+- Save every page of a form or invoice batch as its own PDF.
+- Then [compress](https://justtools.online/pdf-tools/compress-pdf/) any file that is still too big, or [merge](https://justtools.online/pdf-tools/merge-pdf/) pages from several PDFs into one.
+
+### FAQ
+
+**Is it safe to split confidential PDFs here?**
+Yes. Splitting happens in your browser, so the PDF is never uploaded or stored anywhere.
+
+**How do I save just one page of a PDF?**
+Choose **Extract pages**, click the page (or type its number) and click **Split PDF**. You get a new PDF with only that page.
+
+**Can I split a PDF into single pages?**
+Yes. Choose **Every page** to save each page as its own PDF, and download them together as a ZIP.
+
+**Does splitting reduce quality?**
+No. Pages are copied as they are — text stays sharp and selectable, and images aren’t recompressed.
+
+**Can I split a password-protected PDF?**
+Yes. Enter the password to open it; the split files are saved without a password. If you don’t know the password, the PDF can’t be opened.
+
+**Is there a page or size limit?**
+No fixed limit. Very large PDFs (hundreds of MB) depend on your device’s memory.
+
+## PDF to JPG
+
+URL: https://justtools.online/pdf-tools/pdf-to-jpg/
+Category: PDF Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-09-30
+
+Convert PDF pages to high-quality JPG or PNG images at up to 300 DPI. Pick the pages, download one image or a ZIP — free, private and no upload.
+
+### At a glance
+
+- Converts PDF pages to **JPG** or **PNG** at 96, 150, 200 or 300 DPI (a 300 DPI A4 page is 2480 × 3508 pixels).
+- Convert all pages or only the ones you choose, by clicking thumbnails or typing ranges such as 1, 3, 5-7.
+- Images carry their DPI, so Word, Google Docs and print dialogs use the page’s real size.
+- Pages are drawn by pdf.js, the PDF engine built into Firefox, with its fonts and colour handling.
+- Password-protected PDFs work after you enter the password.
+- Download each image separately or all of them in a ZIP with numbered file names.
+- Runs entirely in your browser: the PDF is never uploaded.
+
+### Features
+
+- **Print-quality images**: Up to 300 DPI for crisp text in printouts, or 150 DPI for sharp images that are still small enough to upload.
+- **Pick your pages**: Click thumbnails or type ranges to convert only what you need — one page from a long document takes seconds.
+- **JPG or PNG**: JPG for small files and uploads, PNG for lossless text and diagrams you want to edit.
+- **Right size everywhere**: The resolution is written into each image, so it drops into documents at the size of the original page.
+- **Sorted file names**: Images are named report-page-01.jpg, report-page-02.jpg … so they stay in order in any folder or ZIP.
+- **Private**: Bank statements, certificates and IDs are converted on your device and never uploaded.
+
+### How to convert a PDF to JPG
+
+1. **Open the PDF** — Drop a PDF onto the box or click to choose one. Enter its password if it has one.
+2. **Choose format and resolution** — Pick **JPG** or **PNG** and a resolution — **Standard (150 DPI)** suits most uses, **Print (300 DPI)** gives the sharpest text.
+3. **Select pages** — Keep **All** pages, or choose pages by clicking thumbnails or typing ranges.
+4. **Convert and download** — Click **Convert to JPG**, then download all images as a ZIP or single images from each page.
+
+### Guide
+
+#### Which resolution should I choose?
+
+| Resolution | A4 page size | Best for |
+| --- | --- | --- |
+| Screen · 96 DPI | 794 × 1123 px | Viewing on screen, small previews |
+| Standard · 150 DPI | 1240 × 1754 px | Upload portals, email, WhatsApp — sharp and small |
+| High · 200 DPI | 1654 × 2339 px | Zooming in on small print |
+| Print · 300 DPI | 2480 × 3508 px | Printing, OCR and archiving |
+
+#### Tips
+
+- Uploading to a form with a size limit? Use **Standard** and JPG quality 80–90, then [compress the image](https://justtools.online/image-tools/image-compressor/) further if needed.
+- Need the pages as one smaller PDF instead? Use [Compress PDF](https://justtools.online/pdf-tools/compress-pdf/).
+- Going the other way — photos into a PDF — use [Images to PDF](https://justtools.online/pdf-tools/image-to-pdf/).
+
+### FAQ
+
+**Is it safe to convert confidential PDFs here?**
+Yes. The PDF is opened and converted in your browser, so it is never uploaded or stored anywhere.
+
+**How do I convert just one page of a PDF to JPG?**
+Choose **Choose pages**, click the page (or type its number) and click **Convert to JPG**.
+
+**What resolution gives the best quality?**
+**Print (300 DPI)** gives the sharpest text. For uploading and sharing, **Standard (150 DPI)** looks sharp on screen with much smaller files.
+
+**JPG or PNG — which should I pick?**
+JPG makes much smaller files and suits scans and photos. PNG is lossless, so text and line drawings stay perfectly crisp, but files are larger.
+
+**Can I convert a password-protected PDF?**
+Yes. Enter the password to open it — it is used only on your device.
+
+**Why was the resolution reduced for my page?**
+Browsers limit how large an image they can draw (about 16 million pixels on iPhone). Very large pages such as posters are converted at the highest resolution that fits.
+
+## Rotate PDF
+
+URL: https://justtools.online/pdf-tools/rotate-pdf/
+Category: PDF Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-09-30
+
+Rotate PDF pages and save them permanently, delete pages you don’t need and drag pages into a new order. See every page, free, with no upload.
+
+### At a glance
+
+- Rotate single pages or all pages by 90°, 180° or 270°; the rotation is saved in the PDF, so it opens the right way up everywhere.
+- **Delete pages** you don’t need and **reorder** pages by dragging them, or with arrow buttons on phones.
+- Every page is shown as a thumbnail exactly as it will look, with its new position and rotation.
+- Rotation is lossless: pages are turned, not re-rendered, so text and images keep their quality.
+- The document’s title, bookmarks and form fields are kept.
+- Password-protected PDFs can be edited after entering the password; the saved copy has no password.
+- Runs entirely in your browser: files are never uploaded.
+
+### Features
+
+- **Saved for good**: Unlike rotating in a PDF viewer, the new orientation is written into the file, so it opens correctly for everyone.
+- **Rotate, delete, reorder**: One tool for tidying a PDF: turn sideways scans, drop blank pages and move pages into the right order.
+- **What you see is what you get**: Thumbnails update as you edit, and deleted pages stay visible (faded) so you can restore them.
+- **No quality loss**: Pages are rotated and moved, never re-rendered — text stays selectable and images untouched.
+- **Works on phones**: Drag and drop on a computer, or use the arrow buttons to move pages on a touch screen.
+- **Private**: Scanned IDs, statements and forms are edited on your device and never uploaded.
+
+### How to rotate PDF pages
+
+1. **Open the PDF** — Drop a PDF onto the box or click to choose one. Enter its password if it has one.
+2. **Rotate pages** — Use the rotate buttons under a page, or **Rotate all left / right** for the whole document.
+3. **Delete and reorder** — Click the bin to delete a page, and drag pages (or use the arrows) to change the order.
+4. **Save** — Click **Save PDF** to download the edited copy.
+
+### Guide
+
+#### Why rotating in a PDF viewer isn’t enough
+
+Most PDF viewers only rotate the view: close the file and it opens sideways again, for you and for anyone you send it to. This tool changes the page’s rotation setting inside the PDF, so the fix travels with the file.
+
+Scanners and phone scanning apps often save some pages sideways or upside down. Rotate just those pages, then [compress the PDF](https://justtools.online/pdf-tools/compress-pdf/) if it is too large to upload.
+
+#### Tips
+
+- Use **Reverse order** for documents scanned back to front.
+- Delete blank pages from double-sided scans before sharing.
+- Need to pull pages out into a separate file instead? Use [Split PDF](https://justtools.online/pdf-tools/split-pdf/).
+- Combining pages from several PDFs? Use [Merge PDF](https://justtools.online/pdf-tools/merge-pdf/), then arrange them here.
+
+### FAQ
+
+**Will the rotation be saved permanently?**
+Yes. The new orientation is written into the PDF, so it opens the right way up in every viewer and for everyone you share it with.
+
+**How do I delete a page from a PDF?**
+Click the bin under the page, then **Save PDF**. Deleted pages stay visible until you save, so you can click the bin again to restore one.
+
+**How do I change the order of pages?**
+Drag a page to its new position. On a phone or tablet, use the left and right arrows under each page.
+
+**Does rotating reduce quality?**
+No. Pages are turned, not converted to images, so text, vector graphics and images keep their original quality.
+
+**Can I edit a password-protected PDF?**
+Yes, after entering its password. The saved copy has no password — add one again with [Protect PDF](https://justtools.online/pdf-tools/protect-pdf/) if you need it.
+
+**Is it safe to use for confidential documents?**
+Yes. Everything happens in your browser; the PDF is never uploaded or stored.
+
+## Protect PDF
+
+URL: https://justtools.online/pdf-tools/protect-pdf/
+Category: PDF Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-09-30
+
+Add a password to a PDF with AES-256 encryption, and optionally block printing, copying or editing. Free, runs in your browser — nothing is uploaded.
+
+### At a glance
+
+- Encrypts PDFs with **AES-256**, the strongest standard PDF encryption, supported by Adobe Acrobat, Chrome, Edge, Firefox, macOS Preview and phone PDF apps (AES-128 is available for very old readers).
+- Optionally **restrict printing** (or allow low-quality printing only), **copying** text and images, **editing**, and comments or form filling.
+- Restrictions can be set with or without a password to open the file.
+- Each protected file is checked: it must ask for the password and still contain every page.
+- Protect several PDFs at once with the same password and download them as a ZIP.
+- Encryption runs in your browser with QPDF compiled to WebAssembly — the PDF and the password never leave your device.
+
+### Features
+
+- **Strong encryption**: AES-256 makes the contents unreadable without the password — not just hidden behind a prompt.
+- **Permission controls**: Allow reading but block printing, copying or editing — useful for question papers, drafts and price lists.
+- **Password help**: A strength meter shows how guessable your password is, and one click suggests a strong, memorable passphrase.
+- **Verified output**: Every file is re-opened with your password after encryption to make sure it works and no page is missing.
+- **Many files at once**: Protect a batch of salary slips, statements or certificates with the same password in one go.
+- **Private by design**: Unlike upload-based sites, your document and password are never sent anywhere.
+
+### How to password-protect a PDF
+
+1. **Add your PDF** — Drop one or more PDFs onto the box, or click to choose them.
+2. **Set a password** — Type a password and confirm it, or click **Suggest a strong one**. Save it somewhere safe.
+3. **Add restrictions (optional)** — Turn on **Restrict printing, copying and editing** and choose what to allow.
+4. **Protect and download** — Click **Protect PDF**, then download the protected file or a ZIP of all of them.
+
+### Guide
+
+#### Open password vs. permissions password
+
+|  | Open password | Permissions password |
+| --- | --- | --- |
+| What it does | Encrypts the file; nobody can view it without the password | Controls printing, copying and editing for people who open the file |
+| Strength | Strong — the contents are unreadable without it | A deterrent — respected by standard PDF apps, but not unbreakable |
+| Use it for | Bank statements, IDs, salary slips, medical reports | Drafts, question papers, price lists you want read but not reused |
+
+#### Choosing a good PDF password
+
+- Use at least 12 characters — a few random words with a number, like **Mango-River-Kite-7**, is strong and easy to type.
+- Avoid names, birthdays, phone numbers and common passwords such as **password123**: they are the first things tried.
+- Send the password separately from the PDF — for example, the file by email and the password by phone or message.
+- Store it in a password manager. There is no “forgot password” for an encrypted PDF.
+- Need to open a protected PDF without the prompt later? Remove the password with the [PDF Password Remover](https://justtools.online/pdf-tools/pdf-password-remover/) (you’ll need the password).
+
+### FAQ
+
+**Is it safe to protect confidential PDFs here?**
+Yes. The PDF is encrypted in your browser, and neither the file nor the password is uploaded or stored anywhere.
+
+**What if I forget the password?**
+The PDF can’t be opened — by you, us or anyone else. That is what makes the encryption secure, so save the password somewhere safe before sharing the file.
+
+**Will the protected PDF open on phones?**
+Yes. AES-256 protected PDFs open in all current PDF apps on Android and iPhone, in browsers and in Adobe Acrobat, after entering the password.
+
+**Can I stop people from printing or copying my PDF?**
+Yes — turn on **Restrict printing, copying and editing**. Standard PDF apps respect these settings, but determined users with special software can bypass them, so don’t rely on restrictions alone for secrets.
+
+**Does adding a password change the PDF’s quality?**
+No. The pages, text and images are unchanged; only encryption is added. The file size stays almost the same.
+
+**Can I protect a PDF that already has a password?**
+Remove the existing password first with the [PDF Password Remover](https://justtools.online/pdf-tools/pdf-password-remover/), then protect it with the new one.
+
+**Is AES-256 better than AES-128?**
+Yes. AES-256 is the modern standard and supports passwords in any language. Choose AES-128 only for PDF readers older than about 2010.
+
+## Redact PDF
+
+URL: https://justtools.online/pdf-tools/redact-pdf/
+Category: PDF Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-09-30
+
+Redact PDFs for real: black out names, Aadhaar, PAN, phone numbers and more so the hidden text is gone for good. Find-and-mark, free, no upload.
+
+### At a glance
+
+- True redaction: every page with a box is saved as an image with the box burned in, so the text, images and numbers underneath are **removed from the file**, not hidden under a shape.
+- After saving, the file is re-opened and checked: redacted pages must contain **no hidden text**.
+- **Find & mark** detects email addresses, phone numbers, **Aadhaar** numbers (checked with the Verhoeff checksum), **PAN** numbers, **card** numbers (Luhn-checked) and any names or words you type.
+- Draw boxes by hand with a mouse or finger — for signatures, photos, stamps and scanned documents.
+- Document properties (title, author, subject, creator) are removed by default, as they can contain names too.
+- Pages without boxes are copied unchanged, so their text stays selectable.
+- Runs entirely in your browser: the PDF is never uploaded.
+
+### Features
+
+- **Redaction that really removes**: Many tools just draw a black rectangle — the text underneath can still be copied. Here, redacted pages are rebuilt so nothing is left to recover.
+- **Verified output**: The redacted file is opened again and each redacted page is checked for leftover text before you share it.
+- **Find Indian IDs automatically**: Aadhaar, PAN, phone numbers and emails are found across every page, with checksums to avoid false matches.
+- **Draw anywhere**: Cover signatures, photos, QR codes and handwritten details by dragging a box — it works on phones too.
+- **Black or white**: Use black bars that show something was removed, or white boxes that blend into the page.
+- **Private by design**: The documents you most need to redact are the ones you shouldn’t upload. This tool never does.
+
+### How to redact a PDF
+
+1. **Open the PDF** — Drop a PDF onto the box or click to choose one. Enter its password if it has one.
+2. **Mark what to hide** — Use **Find & mark** for emails, phone numbers, Aadhaar, PAN, card numbers or your own words, and drag on the page to draw extra boxes.
+3. **Check every page** — Go through the pages with the arrows or the thumbnails. Click × on a box to remove it.
+4. **Redact and download** — Click **Redact & download**. The redacted copy downloads and is verified to contain no hidden text on the redacted pages.
+
+### Guide
+
+#### Why a black box isn’t enough
+
+A PDF keeps its text separately from what you see. Drawing a black rectangle over a number — in a PDF editor, or by highlighting it black — leaves the number in the file, and anyone can copy it out or remove the rectangle. Court filings and government reports have leaked this way.
+
+This tool redraws every page that has a box as an image, with the boxes painted in. The original text, images and drawings on that page are not copied into the new file, so there is nothing underneath to recover. The trade-off is that text on redacted pages can no longer be selected or searched; pages without boxes are untouched.
+
+#### What to redact before sharing a document
+
+- **Aadhaar copies:** the first 8 digits (UIDAI’s “masked Aadhaar” shows only the last 4), plus the QR code and photo if they aren’t needed.
+- **Bank statements:** account numbers, balances and transactions that aren’t relevant to the request.
+- **Salary slips and ITRs:** PAN, UAN, bank details and home address.
+- **Medical reports:** patient ID, phone number and address when sharing for a second opinion.
+- Also check headers, footers and stamps — and after redacting, add a “for KYC only” [watermark](https://justtools.online/pdf-tools/pdf-watermark/) if you like.
+
+### FAQ
+
+**Is the redaction permanent?**
+Yes. Pages with boxes are rebuilt as images with the boxes burned in, so the covered text is not in the file at all. The tool then re-opens the file to confirm no text remains on those pages.
+
+**Can I redact an Aadhaar number automatically?**
+Yes. Tick **Aadhaar numbers** and click **Find and mark**. Only numbers with a valid Aadhaar checksum are marked, so dates and other 12-digit numbers aren’t caught by mistake. You can adjust the boxes afterwards.
+
+**Why can’t I select text on redacted pages any more?**
+Because those pages are now images — that is what guarantees the hidden text is gone. Pages you didn’t redact keep their selectable text.
+
+**Does Find & mark work on scanned PDFs?**
+No — scans are pictures, with no text to search. Draw boxes over the areas to hide instead; the result is just as secure.
+
+**Is it safe to redact confidential documents here?**
+Yes. The PDF is processed entirely in your browser and never uploaded, so it stays on your device.
+
+**Will the redacted PDF be larger?**
+Redacted pages are stored as images, which is usually larger than text. Choose **Smaller** quality, or [compress the PDF](https://justtools.online/pdf-tools/compress-pdf/) afterwards.
+
+## PDF Watermark
+
+URL: https://justtools.online/pdf-tools/pdf-watermark/
+Category: PDF Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-09-30
+
+Add a text or logo watermark to a PDF: CONFIDENTIAL, DRAFT or “For KYC only” stamps with your own size, angle and opacity. Free, private, no upload.
+
+### At a glance
+
+- Adds a **text** watermark (any language, including Hindi) or an **image/logo** watermark (PNG, JPG, WebP) to a PDF.
+- Place it **once** — centred, in a corner or along an edge — or **repeat it across the page** in a diagonal pattern.
+- Set the size, rotation, opacity, font, colour and which pages get it, with a live preview of each page.
+- One-click presets: CONFIDENTIAL, DRAFT, COPY, SAMPLE, DO NOT COPY and **“For KYC only · today’s date”** for ID copies.
+- The watermark is stored once and reused on every page, so 500 pages cost no more than one; the original text stays selectable.
+- Pages with their own rotation get an upright watermark as the reader sees them.
+- Runs entirely in your browser: the PDF and your logo are never uploaded.
+
+### Features
+
+- **Protect ID copies**: Stamp “For KYC only” with the date across Aadhaar, PAN or passport copies, so a copy can’t easily be reused for something else.
+- **Live preview**: See exactly where the watermark lands on each page before saving — what you see is what you get.
+- **Once or repeated**: A single diagonal stamp, a small mark in a corner, or a repeating pattern that covers the whole page.
+- **Your logo**: Upload a PNG with a transparent background and set its width — ideal for branding reports and proposals.
+- **Any language**: Hindi, Tamil, Arabic, emoji — if your browser can show it, it works in the watermark.
+- **Private**: Documents and logos are processed on your device. Nothing is uploaded or stored.
+
+### How to add a watermark to a PDF
+
+1. **Open the PDF** — Drop a PDF onto the box or click to choose one. Enter its password if it has one.
+2. **Write the watermark** — Type your text or pick a preset such as **CONFIDENTIAL**, or switch to **Image / logo** and choose an image.
+3. **Style and place it** — Set the size, colour, rotation and opacity, and choose **Once** (with a position) or **Repeat across page**.
+4. **Download** — Choose the pages and click **Add watermark**. The watermarked PDF downloads straight away.
+
+### Guide
+
+#### Watermarking ID copies for KYC
+
+When a bank, landlord or employer asks for a copy of your Aadhaar, PAN or passport, a watermark stating who it is for and when makes it much harder to misuse. Use the **For KYC only** preset, add the organisation’s name if you like — “For HDFC Bank KYC only · 30 Sep 2026” — and choose **Repeat across page** so it crosses every detail.
+
+Keep the opacity around 20–35% so the document stays readable. For extra privacy, first hide the numbers you don’t need to share with [Redact PDF](https://justtools.online/pdf-tools/redact-pdf/), then watermark the result.
+
+#### Good settings to start with
+
+| Purpose | Text | Layout | Angle | Opacity |
+| --- | --- | --- | --- | --- |
+| Confidential report | CONFIDENTIAL | Once, centre | 45° | 15–25% |
+| Draft for review | DRAFT | Once, centre | 45° | 20% |
+| ID copy for KYC | For … KYC only · date | Repeat across page | 30–45° | 25–35% |
+| Branding | Your logo | Once, bottom-right | 0° | 60–100% |
+
+### FAQ
+
+**Is it safe to watermark documents here?**
+Yes. The PDF and any logo you add are processed in your browser and never uploaded or stored.
+
+**Can the watermark be removed?**
+A watermark is drawn onto the pages, but PDF editors can delete added objects. For ID copies, a repeated, semi-transparent watermark crossing the details is the hardest to remove cleanly. For stronger control, also [protect the PDF](https://justtools.online/pdf-tools/protect-pdf/) with restrictions.
+
+**Can I write the watermark in Hindi?**
+Yes. Text is drawn by your browser, so Hindi and every other script your device supports work, as do emoji.
+
+**Will the text in my PDF still be selectable?**
+Yes. The watermark is added on top of the pages; the original text, links and quality are unchanged.
+
+**Can I watermark only some pages?**
+Yes. Choose **Choose pages** and type pages or ranges, such as 1, 3-5 or odd.
+
+**Does a watermark make the PDF much bigger?**
+Only a little. The watermark is stored once as a small image (typically 20–80 KB for text) and reused on every page, however many there are.
+
+## HTML to PDF
+
+URL: https://justtools.online/pdf-tools/html-to-pdf/
+Category: PDF Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-09-30
+
+Convert HTML code or an .html file to PDF with real, selectable text and clickable links. Choose A4 or Letter, margins and backgrounds. Free, no upload.
+
+### At a glance
+
+- Turns **HTML code or an .html file** into a PDF using your browser’s own print engine, so text stays **selectable and searchable** and links stay **clickable**.
+- Works with a full page (with its own `<style>`) or a fragment such as `<h1>Hello</h1>`, which gets clean default styling.
+- Page sizes **A4, Letter, Legal, A3 and A5**, portrait or landscape, with none, narrow, normal or wide margins.
+- A live preview shows the page at its printed width, with dashed lines where the page breaks will fall.
+- Keeps background colours, and can stop images, table rows and code blocks being cut in half across pages.
+- JavaScript in the HTML is **not run**, for safety: pages that build their content with scripts need to be saved from the browser instead.
+- The HTML never leaves your device — nothing is uploaded to a server.
+
+### Features
+
+- **Real text, not a screenshot**: The PDF is made by the browser’s print engine, so text is sharp at any zoom, can be searched and copied, and links work.
+- **See page breaks first**: The preview is drawn at the exact paper width and marks where each new page starts, so you can fix the layout before saving.
+- **Invoices and templates**: Ideal for HTML invoices, receipts, email templates, reports and resumes. Try the sample invoice to see how it works.
+- **Clean page breaks**: Images, table rows and code blocks move to the next page instead of being sliced across two.
+- **Your page setup wins**: The page size and margins you choose here override any @page rules in the HTML, so the PDF comes out as you expect.
+- **Private and safe**: Everything happens in your browser, and scripts in the HTML are blocked so pasted code can’t do anything unexpected.
+
+### How to convert HTML to PDF
+
+1. **Add your HTML** — Paste HTML into the editor, click **Open file** to load an .html file, or try the **Sample invoice**.
+2. **Set up the page** — Choose the **page size**, orientation and margins, and check the preview and its page-break lines.
+3. **Save as PDF** — Click **Save as PDF**. In the print window, set the destination to **Save as PDF** and turn off **Headers and footers**.
+4. **Download** — Click **Save** and choose where to keep the PDF. Its name is taken from the file name box or the page’s title.
+
+### Guide
+
+#### Getting a perfect PDF
+
+**Use absolute links for images and styles.** A relative link like `images/logo.png` only works if you set the **Base URL** to the site the HTML came from, for example `https://example.com/`. Images embedded as `data:` URLs always work.
+
+**Turn off headers and footers** in the print window (under *More settings* in Chrome and Edge) to remove the date, title and page URL printed at the edges.
+
+**Force a new page** anywhere by adding `<div style="break-before: page"></div>` to the HTML. Headings are kept with the paragraph that follows them.
+
+For the most faithful result, use **Chrome or Edge** on a computer — they follow the page size and margins exactly. Other browsers work too but may ignore some print settings.
+
+#### Which page size to choose
+
+| Page size | Dimensions | Typical use |
+| --- | --- | --- |
+| A4 | 210 × 297 mm | India, Europe and most of the world |
+| Letter | 8.5 × 11 in (216 × 279 mm) | USA and Canada |
+| Legal | 8.5 × 14 in (216 × 356 mm) | US legal documents and contracts |
+| A3 | 297 × 420 mm | Posters, wide tables and diagrams |
+| A5 | 148 × 210 mm | Booklets, receipts and small notices |
+
+### FAQ
+
+**Is the text in the PDF selectable?**
+Yes. Unlike converters that take a screenshot of the page, this uses the browser’s print engine, so text can be selected, searched and copied, and links remain clickable.
+
+**Why doesn’t my JavaScript run?**
+Scripts are blocked so that pasted code can’t act on this site or your device. If a page builds its content with JavaScript, open it in your browser and use **Print → Save as PDF** there instead.
+
+**Can I convert a website URL to PDF?**
+Not directly — browsers don’t allow one site to read another site’s pages. Open the website and press **Ctrl + P** (**Cmd + P** on a Mac), or save the page as HTML and open that file here.
+
+**Why are my images missing?**
+The images probably use relative links. Enter the website address in **Base URL**, or change the links to full `https://` addresses. Images on your computer must be embedded as data URLs.
+
+**How do I remove the date and URL at the top and bottom?**
+Those are the browser’s headers and footers. In the print window open **More settings** and untick **Headers and footers**.
+
+**Does it work on a phone?**
+Yes. On Android, choose **Save as PDF** as the printer. On iPhone, open the share sheet from the print preview and save it to Files.
+
+## Flatten PDF
+
+URL: https://justtools.online/pdf-tools/flatten-pdf/
+Category: PDF Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-09-30
+
+Flatten a PDF online: turn filled form fields, signatures, comments and highlights into fixed page content no one can edit. Free, private, no upload.
+
+### At a glance
+
+- **Flattening** turns interactive parts of a PDF — form fields, checkboxes, dropdowns, comments, highlights, stamps and drawn signatures — into ordinary page content that can’t be edited.
+- The tool first **counts the form fields and comments** in your file, so you know what will be flattened.
+- **Forms & comments** mode keeps text selectable and the file small; filled values look exactly as they did in the form.
+- **Everything to images** mode turns each page into a picture at 150, 200 or 300 DPI, so nothing can be selected, copied or edited.
+- Links and bookmarks are kept in Forms & comments mode.
+- Password-protected PDFs can be flattened after entering the password; the flattened copy has no password.
+- Runs entirely in your browser with QPDF (WebAssembly) and PDF.js — the file is never uploaded.
+
+### Features
+
+- **Lock filled forms**: Send a completed application, tax form or agreement knowing the values can’t be changed by the next person who opens it.
+- **Same look everywhere**: Form values and comments can look different — or vanish — in some viewers and when printed. Flattened, they always show.
+- **Know what’s inside**: See how many form fields and comments your PDF has before you flatten it, and what’s left afterwards.
+- **Two strengths**: Keep searchable text with Forms & comments, or choose Everything to images for a page no one can edit or copy.
+- **Portal-friendly**: Some upload portals reject fillable PDFs or lose the values. A flattened PDF is accepted like any scanned document.
+- **Private**: Your form stays on your device. No upload, no sign-up and no watermark.
+
+### How to flatten a PDF
+
+1. **Open the PDF** — Drop the filled form or annotated PDF onto the box. Enter its password if it has one.
+2. **Check what’s in it** — The tool shows how many **form fields** and **comments or drawings** it found.
+3. **Choose how** — Pick **Forms & comments** (recommended) or **Everything to images**, with an image quality.
+4. **Flatten and download** — Click **Flatten PDF**. The flattened copy downloads and the tool confirms nothing editable is left.
+
+### Guide
+
+#### Which mode should I use?
+
+|  | Forms & comments | Everything to images |
+| --- | --- | --- |
+| Form fields and comments | Locked into the page | Locked into the page |
+| Text can be selected and searched | Yes | No |
+| Page content can be edited in a PDF editor | Harder, but possible | No — only as a picture |
+| File size | About the same | Larger (depends on quality) |
+| Links and bookmarks | Kept | Removed |
+| Best for | Forms, signed agreements, reviewed drafts | Documents you don’t want copied or changed |
+
+#### When to flatten a PDF
+
+Flatten a form **after filling it in and before sending it** — for example a job application, a KYC form, a bank mandate or a government form. It stops anyone accidentally or deliberately changing the answers, and makes sure the values print.
+
+Flatten a reviewed document to make **comments, highlights and sticky notes** a permanent part of the page, so they show in every viewer and on paper.
+
+Keep your original! A flattened PDF can’t be filled in again. To stop others copying or printing too, [protect the PDF](https://justtools.online/pdf-tools/protect-pdf/) after flattening; to hide personal details, use [Redact PDF](https://justtools.online/pdf-tools/redact-pdf/).
+
+### FAQ
+
+**What does it mean to flatten a PDF?**
+Flattening merges interactive layers — form fields, comments, stamps and signatures — into the page itself. The PDF looks the same, but those parts can no longer be clicked, changed or deleted separately.
+
+**Can a flattened PDF be unflattened?**
+No. The fields are gone, so the form can’t be filled in again. Keep your original if you might need to change it.
+
+**Will my digital signature still be valid?**
+No. Flattening changes the file, so a cryptographic (certificate) signature will no longer verify, although it still appears on the page. Flatten before signing if the signature must stay valid.
+
+**Is my form uploaded anywhere?**
+No. Flattening runs in your browser with WebAssembly, and the file never leaves your device.
+
+**Why does it say some things are still editable?**
+A few comments, such as some sticky notes, don’t store how they look, so they can’t be merged into the page and are left as they were. Choose **Everything to images** to lock in everything you see.
+
+**Can I flatten a PDF without form fields?**
+Yes, with **Everything to images**. It turns each page into a picture, so the text can’t be selected, copied or edited.
+

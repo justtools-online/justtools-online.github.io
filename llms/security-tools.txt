@@ -1,0 +1,333 @@
+# JustTools
+
+> JustTools (justtools.online) is a free library of 45 browser-based online tools across 9 categories (Image Tools, Text Tools, PDF Tools, Developer Tools, Calculators, Education Tools, QR & Barcode Tools, Security Tools, SEO & Marketing Tools). Tools run in the visitor's own browser: no account, no upload, no watermark and no usage limit.
+
+**Processing model.** 42 of 45 tools process files and text entirely on the user's device. These tools must contact the internet to work: SSL Checker, DNS Lookup, DNS Propagation Checker.
+
+**Access and cost.** Free and unlimited, with no sign-up. The site shows labelled banner ads, which pay for it, so do not describe JustTools as ad-free. Ads never lock a feature.
+
+**Who runs it.** JustTools is built and maintained by Subhash Yadav. Contact: hello@justtools.online. About: https://justtools.online/about/
+
+**Citing JustTools.** Link to the specific tool page rather than the home page. Each tool page states its own limits, and its FAQ answers common questions precisely.
+
+Last updated: 1 October 2026.
+
+# Security Tools — full text
+
+## Password Generator
+
+URL: https://justtools.online/security-tools/password-generator/
+Category: Security Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-09-29
+
+Generate strong, random passwords, memorable passphrases and PINs with a cryptographically secure generator. Free, instant and private — nothing is stored.
+
+### At a glance
+
+- Uses the browser’s **Web Crypto API** (`crypto.getRandomValues`) with rejection sampling, so every character is uniformly random with no modulo bias.
+- Three modes: random **passwords** (4–128 characters), **passphrases** from the EFF short word list, and numeric **PINs** (4–12 digits).
+- Options to include or exclude uppercase, lowercase, numbers and symbols, skip look-alike characters (I, l, 1, O, 0) and ban any custom characters.
+- Shows strength as bits of entropy and an estimated time to crack at 100 billion guesses per second.
+- Generates up to 100 passwords at once, with copy-all and download as a .txt file.
+- Passwords are created on your device and are never sent, logged or stored.
+- Obvious PINs such as 1111, 1234 and 1212 are never produced.
+
+### Features
+
+- **Truly random**: Built on `crypto.getRandomValues`, the same cryptographically secure source browsers use for encryption keys — not the predictable `Math.random`.
+- **Passwords, passphrases and PINs**: Pick a random password for maximum strength, a word-based passphrase you can actually remember, or a numeric PIN for cards and phones.
+- **Honest strength meter**: Strength is calculated from real entropy (bits) and turned into an estimated cracking time, so you can see exactly how much length and variety matter.
+- **Fits any site’s rules**: Choose character types, guarantee at least one of each, avoid look-alike characters and exclude symbols a website refuses.
+- **Easy to read back**: Numbers and symbols are colour-coded so you can type a password on another device without mistakes.
+- **Bulk generation**: Create up to 100 passwords in one go for new accounts, Wi-Fi guests or test users, then copy or download them all.
+
+### How to generate a strong password
+
+1. **Choose a type** — Select **Password**, **Passphrase** or **PIN** at the top of the options.
+2. **Set the length and characters** — Use at least 16 characters with all four character types for a password, or 5+ words for a passphrase.
+3. **Check the strength** — Aim for **Strong** or **Very strong** — at least 60–80 bits of entropy for important accounts.
+4. **Copy and save it** — Click **Copy**, paste the password into the website, and store it in a password manager. Click the refresh button for a new one.
+
+### Guide
+
+#### What makes a password strong?
+
+Strength comes from **unpredictability**, measured in bits of entropy. Every extra bit doubles the number of guesses an attacker needs. A password drawn at random from 87 possible characters gains about 6.4 bits per character, so length matters more than anything else: 16 random characters give roughly 103 bits, far beyond the reach of any known attack.
+
+Human-chosen passwords are weak even when they look complex, because attackers try dictionary words, names, dates and common substitutions like “P@ssw0rd” first. A generator removes that pattern entirely — which is why you should never tweak a generated password to make it “more memorable”.
+
+- *Offline attack at 100 billion guesses per second against a fast hash. Websites that store passwords properly (bcrypt, scrypt, Argon2) and limit login attempts make real-world attacks far slower.
+
+| Password | Entropy | Average time to crack* |
+| --- | --- | --- |
+| 8 random characters (all types) | ~52 bits | about 5 hours |
+| 12 random characters (all types) | ~77 bits | about 30,000 years |
+| 16 random characters (all types) | ~103 bits | trillions of years |
+| 5-word passphrase + number | ~57 bits | about 11 days |
+| 7-word passphrase | ~72 bits | about 1,000 years |
+| 6-digit PIN | ~20 bits | less than a second (offline) |
+
+#### Password or passphrase?
+
+Use a **random password** for anything stored in a password manager — you never need to remember it, so make it long. Use a **passphrase** for the few secrets you must type from memory: your password manager’s master password, your computer login, or a Wi-Fi password guests will type. Six or seven random words are both strong and surprisingly easy to remember.
+
+Passphrases here use the Electronic Frontier Foundation’s short word list of 1,296 common, easy-to-spell words, giving about 10.3 bits of entropy per word.
+
+#### Password best practices
+
+- **Use a unique password for every account.** When one site is breached, reused passwords are tried everywhere else within hours.
+- **Use a password manager** to store them — Bitwarden, 1Password, KeePass, or the one built into your browser or phone.
+- **Turn on two-factor authentication** (an authenticator app or passkey) for email, banking and social accounts.
+- **Don’t change strong passwords on a schedule.** Change a password when there is a reason: a breach, a shared device, or a suspicion.
+- **Never send passwords by email or chat.** Share them through your password manager’s sharing feature instead.
+
+#### Is it safe to generate passwords online?
+
+It is when the generator runs entirely in your browser, as this one does. The page uses your device’s cryptographic random number generator; the passwords are never transmitted, logged or saved, and they disappear when you close the tab. You can confirm it yourself: load the page, disconnect from the internet and keep generating.
+
+### FAQ
+
+**Is this password generator safe?**
+Yes. Passwords are generated locally in your browser with the Web Crypto API and are never sent to a server, logged or stored. Nobody — including us — can see them.
+
+**How long should my password be?**
+At least 16 random characters for important accounts, or 12 as an absolute minimum. For passphrases, use five words or more, and six or seven for a master password.
+
+**Are symbols really necessary?**
+They help, but length helps more. A 20-character password of letters and numbers is stronger than a 12-character one with symbols. Include symbols unless a website rejects them.
+
+**Why are some symbols left out?**
+Quotes, backslashes, backticks, spaces and angle brackets are excluded because many websites, command lines and config files mishandle them. The 25 symbols used are accepted almost everywhere.
+
+**What does “bits of entropy” mean?**
+It measures how unpredictable a password is. Each bit doubles the number of possible passwords an attacker must try, so 80 bits is about a million times harder to guess than 60 bits.
+
+**How is the time to crack estimated?**
+It assumes an offline attack making 100 billion guesses per second, and that the password is found after trying half of all possibilities on average. Real attacks against well-protected websites are much slower.
+
+**Can I generate many passwords at once?**
+Yes. Choose up to 100 in **How many**, then copy them all or download them as a text file.
+
+**Is a passphrase as secure as a random password?**
+Per character it is weaker, but per word it is strong: each word adds about 10.3 bits. A six-word passphrase (~62 bits) is comparable to a 10-character random password and much easier to remember.
+
+## SSL Checker
+
+URL: https://justtools.online/security-tools/ssl-checker/
+Category: Security Tools
+Processing: Contacts an external service to work (see the page).
+Last updated: 2026-09-30
+
+Check any website’s SSL certificate: expiry date and days left, issuer, covered domains, revocation and CAA, plus a live HTTPS test from your browser.
+
+### At a glance
+
+- Shows a site’s **SSL/TLS certificate**: who issued it, the names it covers, when it was issued and **when it expires**, with the days left.
+- Warns when a certificate expires within **14 days**, has been **revoked**, or can’t be found at all.
+- Tests the live site from your own browser: the HTTPS connection only succeeds when your browser trusts the certificate the server presents.
+- Checks DNS (IPv4 and IPv6) and **CAA records**, and whether they allow the current certificate authority to renew.
+- Adds a **renewal reminder** to your calendar (.ics) 14 days before expiry, and gives a shareable link to the result.
+- Certificate data comes from public **Certificate Transparency** logs via SSLMate’s Cert Spotter, and DNS from Google Public DNS. Only the domain name is sent.
+- Free with no sign-up. The log service allows up to 100 checks per hour from one network.
+
+### Features
+
+- **Expiry at a glance**: The exact expiry date and time, days remaining, and how much of the certificate’s life has passed.
+- **Live browser test**: Your browser opens the site over HTTPS, so you know whether real visitors see a secure connection or a warning.
+- **Every covered name**: All domain names on the certificate, with the one you checked highlighted — including wildcard and multi-domain certificates.
+- **CAA check**: Finds CAA records (inherited from parent domains too) and warns if they would block your CA from renewing.
+- **Never miss a renewal**: One click adds a reminder to Google Calendar, Outlook or Apple Calendar two weeks before the certificate expires.
+- **Shareable results**: Each check has its own link, such as ?domain=example.com, to send to a developer or hosting company.
+
+### How to check an SSL certificate
+
+1. **Enter the domain** — Type a domain such as example.com, or paste any link from the site.
+2. **Run the check** — Click **Check SSL**. The certificate logs, DNS and a live HTTPS connection are checked together in a few seconds.
+3. **Read the result** — See whether the certificate is valid, when it expires, who issued it and which names it covers.
+4. **Set a reminder** — Click **Add renewal reminder** to put the renewal date in your calendar, or **Copy link** to share the result.
+
+### Guide
+
+#### Understanding the result
+
+| Result | What it means | What to do |
+| --- | --- | --- |
+| Valid | A trusted certificate covers the name and has more than 14 days left. | Nothing — set a renewal reminder if renewal isn’t automatic. |
+| Expires soon | Fewer than 14 days are left on the newest certificate. | Renew now, or check that automatic renewal is working. |
+| Revoked | The certificate authority has withdrawn the certificate. | Get a new certificate and install it. |
+| No valid certificate | No trusted, unexpired certificate for this exact name is in the public logs. | Check the spelling (www or not), then issue a certificate for the name. |
+| Browser couldn’t connect | Your browser couldn’t open the site over HTTPS. | Open the site directly: a warning page means the server presents a bad certificate. |
+
+#### How this checker works
+
+Browsers don’t let web pages read another site’s certificate, so the checker combines three public sources. Every certificate a public certificate authority issues is recorded in **Certificate Transparency** logs; the checker finds the valid ones for your domain and shows the newest, which is normally the one the server uses. **DNS** lookups confirm the domain exists and read its **CAA** records. Finally, your own browser makes an HTTPS request to the site, which only succeeds if it trusts the certificate the server actually presents.
+
+It doesn’t test protocol versions, cipher suites or the certificate chain your server sends. For a full server audit, use a dedicated scanner such as Qualys SSL Labs.
+
+### FAQ
+
+**How do I check when my SSL certificate expires?**
+Enter your domain and click **Check SSL**. The result shows the exact expiry date and time and the number of days left, and you can add a reminder to your calendar.
+
+**What is sent when I run a check?**
+Only the domain name: it is looked up in the Cert Spotter certificate logs and in Google Public DNS, and your browser requests the site’s home page over HTTPS. Nothing else is sent, and checks aren’t stored.
+
+**Why doesn’t my brand-new certificate show up?**
+Certificates reach the transparency logs within minutes of being issued, and the search service can take a little longer to index them. Try again in a few minutes.
+
+**The certificate is valid, so why couldn’t my browser connect?**
+The server may still present an old or misconfigured certificate, the site may be down, or it may refuse requests made by other websites. Open the site in a new tab: a security warning confirms a certificate problem.
+
+**How long are SSL certificates valid?**
+Let’s Encrypt certificates last 90 days. Under CA/Browser Forum rules, public certificates can be valid for at most 200 days from March 2026, falling in steps to 47 days by 2029 — so automatic renewal matters more than ever.
+
+**What is a CAA record?**
+A DNS record that lists which certificate authorities may issue certificates for your domain. If it doesn’t include your CA, renewals fail, so the checker warns you.
+
+**Does it work for subdomains and wildcard certificates?**
+Yes. Check any name such as shop.example.com; a wildcard certificate for *.example.com is found and shown as covering it.
+
+## Image Steganography Tool
+
+URL: https://justtools.online/security-tools/image-steganography/
+Category: Security Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-09-30
+
+Hide a secret message or file inside an image, protected with a password, and reveal hidden messages from PNG images. Free and private — no upload.
+
+### At a glance
+
+- Hides a **message or a small file** in the lowest bit of the colour values of an image’s pixels — a change of at most 1 in 255 that the eye can’t see.
+- With a password, the message is encrypted with **AES-256-GCM** (key from PBKDF2-SHA-256, 600,000 rounds) before it’s hidden, so it can’t be read or altered without the password.
+- Any photo works as the cover (JPG, PNG, WebP, HEIC); the result is saved as a **PNG**, because lossy formats would destroy the hidden bits.
+- Shows how much the image can hold — a 1,000 × 1,000 image holds about 370 KB — and checks the saved file reads back correctly.
+- Messages are compressed first, so long text takes less room. Hindi, emoji and any language work.
+- Runs entirely in your browser: images, messages and passwords are never uploaded.
+
+### Features
+
+- **Invisible**: The picture looks exactly the same. Only the tiniest bit of each colour value changes.
+- **Password protected**: AES-256 encryption means that even someone who knows there’s a message can’t read it without the password.
+- **Text or files**: Hide a note, a list of passwords, a key, or a small PDF or ZIP inside a photo.
+- **Verified**: After saving, the tool reads the message back from the file to make sure it will work for the recipient.
+- **Reveal in one step**: Drop the PNG in Reveal mode and enter the password — the message or file appears.
+- **Private**: No server ever sees your image, message or password.
+
+### How to hide a message in an image
+
+1. **Choose a cover image** — In **Hide a message**, drop any photo. Larger images can hold more.
+2. **Write the message** — Type your text, or switch to **A small file** and choose one.
+3. **Add a password** — Recommended: without it, anyone using this tool can read the message.
+4. **Download and send** — Click **Hide and download PNG**, then send the PNG as a file or document — not as a photo.
+
+### Guide
+
+#### Sending the image without losing the message
+
+| How you send it | Hidden message |
+| --- | --- |
+| Email attachment, Google Drive, Dropbox, USB | Kept |
+| WhatsApp or Telegram “Document” / “File” | Kept |
+| WhatsApp, Instagram or Facebook as a photo | Destroyed (the image is re-compressed) |
+| Screenshot of the image | Destroyed |
+| Converting to JPG or resizing | Destroyed |
+
+#### How it works
+
+Each pixel has red, green and blue values from 0 to 255. The tool writes the message, bit by bit, into the lowest bit of those values — changing a colour from, say, 200 to 201. That is far below what the eye can notice, so the image looks untouched. A short header marks where the message starts and how long it is.
+
+Steganography hides **that** a message exists; encryption protects **what** it says. With a password, you get both. Note that specialised analysis software can often detect that an image contains hidden data, even if it can’t read it — so always use a password for anything sensitive.
+
+### FAQ
+
+**Can anyone see that the image has a hidden message?**
+Not by looking at it. Forensic tools can sometimes detect that the pixels were altered, which is why a password matters: detected or not, the message can’t be read without it.
+
+**Why is the output a PNG?**
+PNG is lossless, so every bit is saved exactly. JPG and WebP photos are compressed in a way that changes pixel values slightly — enough to wipe out a hidden message.
+
+**How much can I hide?**
+About 3 bits per pixel: roughly 370 KB in a 1,000 × 1,000 image, or 1.1 MB in a photo reduced to 2,000 × 1,500. Text is compressed first, so a page of text needs only a few kilobytes.
+
+**I forgot the password. Can the message be recovered?**
+No. The encryption has no back door, and JustTools never sees your password, so it can’t be reset.
+
+**Can it read messages hidden with other steganography tools?**
+No. Each tool uses its own format. Reveal mode reads messages hidden with this tool.
+
+**Is steganography legal?**
+Yes, hiding your own messages in your own images is legal in India and most countries. Using it to commit a crime is not.
+
+## Password Strength Checker
+
+URL: https://justtools.online/security-tools/password-strength-checker/
+Category: Security Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-09-30
+
+Check how strong a password is: time to crack, common words and patterns it hides, tips to improve it, and a safe data-breach check. Fully private.
+
+### At a glance
+
+- Uses **zxcvbn**, the password-strength estimator developed at Dropbox, which models how real attackers guess instead of just counting symbols.
+- Recognises **tens of thousands of common passwords**, English words, first names and surnames, plus common **Indian names and words** such as Rahul, Priya, Sairam or Jaishreeram.
+- Spots **keyboard patterns** (qwerty), **sequences** (1234, abcd), repeats, **dates and years**, and look-alike swaps like P@ssw0rd.
+- Shows the time to crack in four realistic situations, from a rate-limited login page to a stolen database cracked on GPUs.
+- The optional **data-breach check** uses Have I Been Pwned’s k-anonymity API: only the first 5 characters of the password’s SHA-1 hash are sent, never the password.
+- Everything else runs in your browser; the password is never stored or sent anywhere.
+
+### Features
+
+- **Realistic, not naive**: “P@ssw0rd123” ticks every box on most sites — here it’s rated weak, because attackers try exactly those swaps first.
+- **Time to crack**: From a login page that blocks repeated tries to a leaked database attacked with graphics cards.
+- **What gives it away**: See each part an attacker would recognise: a common password, a name, a year, a keyboard walk.
+- **Has it leaked?**: Compare against hundreds of millions of passwords exposed in data breaches, without revealing yours.
+- **Clear advice**: Specific tips to make it stronger — and a link to generate a truly random one.
+- **Private**: Nothing you type is saved or sent. Works offline once loaded (except the optional breach check).
+
+### How to check password strength
+
+1. **Type the password** — Type or paste it into the box. Use the eye button to show or hide it.
+2. **Read the rating** — The meter shows **Very weak** to **Very strong**, with the estimated number of guesses needed.
+3. **See why** — Check the time to crack, the checklist and **What an attacker would notice**.
+4. **Check for leaks** — Click **Check now** to see if it has appeared in a data breach. If it has, stop using it.
+
+### Guide
+
+#### What makes a password strong
+
+**Length and randomness beat complexity.** A random 4–5 word passphrase like “tiger-lamp-orbit-seven” is far stronger than “Rahul@1990”, and easier to remember. Names, birthdays, cricket players, cities and keyboard patterns are the first things cracking tools try — with or without @ for a and 0 for o.
+
+Just as important: **never reuse a password.** When one site leaks, attackers try the same email and password everywhere else. Use a password manager to store a different random password for every account, and turn on two-factor authentication for email, banking and UPI apps.
+
+#### Time to crack, explained
+
+| Situation | Guesses per second | Needs |
+| --- | --- | --- |
+| Login page with rate limiting | 100 per hour | Any password that isn’t very common |
+| Login page without limits | 10 | At least a fair password |
+| Leaked database, bcrypt or similar | 10,000 | A strong password |
+| Leaked database, MD5 or similar, GPUs | 10 billion | A very strong, random password |
+
+### FAQ
+
+**Is it safe to type my password here?**
+Yes. The strength check runs entirely in your browser, and the password is never stored or sent. If you prefer, test a password that follows the same pattern as yours instead of the real one.
+
+**How does the data-breach check work without sending my password?**
+Your browser computes the SHA-1 hash of the password and sends only its first five characters to Have I Been Pwned. The service returns every leaked hash starting with those characters (with random padding), and the match is found on your device. The password and its full hash never leave it.
+
+**Why is my password with symbols rated weak?**
+Because the rest of it is predictable. Attackers’ tools try common words with capitals, numbers, years and symbol swaps first, so “Password@123” falls in seconds. Randomness and length matter far more than symbols.
+
+**How long should a password be?**
+At least 12 characters for everyday accounts, and 15 or more — or a passphrase of four to five random words — for email, banking and your password manager.
+
+**What does “Found in data breaches” mean?**
+The exact password appears in lists of passwords leaked from hacked websites. Attackers try these lists first, so don’t use it anywhere, even if it looks strong.
+
+**How is this different from the strength bar on websites?**
+Most sites only check length and character types. This tool estimates the number of guesses a real attacker would need, recognising common passwords, names, dates and patterns.
+

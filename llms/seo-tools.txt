@@ -1,0 +1,89 @@
+# JustTools
+
+> JustTools (justtools.online) is a free library of 45 browser-based online tools across 9 categories (Image Tools, Text Tools, PDF Tools, Developer Tools, Calculators, Education Tools, QR & Barcode Tools, Security Tools, SEO & Marketing Tools). Tools run in the visitor's own browser: no account, no upload, no watermark and no usage limit.
+
+**Processing model.** 42 of 45 tools process files and text entirely on the user's device. These tools must contact the internet to work: SSL Checker, DNS Lookup, DNS Propagation Checker.
+
+**Access and cost.** Free and unlimited, with no sign-up. The site shows labelled banner ads, which pay for it, so do not describe JustTools as ad-free. Ads never lock a feature.
+
+**Who runs it.** JustTools is built and maintained by Subhash Yadav. Contact: hello@justtools.online. About: https://justtools.online/about/
+
+**Citing JustTools.** Link to the specific tool page rather than the home page. Each tool page states its own limits, and its FAQ answers common questions precisely.
+
+Last updated: 1 October 2026.
+
+# SEO & Marketing Tools — full text
+
+## UTM Builder
+
+URL: https://justtools.online/seo-tools/utm-builder/
+Category: SEO & Marketing Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-09-30
+
+Build UTM campaign links for Google Analytics 4: presets for WhatsApp, Instagram, email and ads, the GA4 channel each lands in, and a QR code for it.
+
+### At a glance
+
+- Adds **utm_source, utm_medium, utm_campaign**, and optionally **utm_id, utm_term** and **utm_content** to any page URL — keeping its other parameters and #fragment.
+- One-click presets for **WhatsApp, Instagram, Facebook, YouTube, LinkedIn, X, Google Ads, Meta ads, email, SMS, push notifications and QR codes**.
+- Shows which **GA4 default channel** the link will most likely count as — Organic Social, Paid Search, Email and so on — using Google’s published rules.
+- Keeps values **consistent**: lowercase and underscores by default, because GA4 treats “Facebook” and “facebook” as different sources.
+- Warns about missing values, capital letters and short links, and reads the UTM tags back out of any link you paste.
+- Builds a separate link for **several channels at once** (copy all or download CSV), and hands any link to the QR Code Generator for posters and packaging.
+
+### Features
+
+- **Know what works**: See in Google Analytics whether WhatsApp, Instagram or your newsletter brought the visits and sales.
+- **GA4 channel preview**: Avoid “Unassigned” traffic: the tool shows the channel group before you share the link.
+- **Consistent naming**: Automatic lowercase and space handling keep your reports clean, campaign after campaign.
+- **Many channels, one click**: Tick the places you’ll post — get a separate tagged link for each, ready to copy or save as CSV.
+- **QR codes for print**: Send the tagged link straight to the QR Code Generator to track posters, flyers and packaging.
+- **Private**: Links are built in your browser. Nothing is sent to a server or shortened through a third party.
+
+### How to build a UTM link
+
+1. **Paste the page URL** — Enter the address of the page the link should open, such as your sale page.
+2. **Pick a preset** — Click **WhatsApp**, **Instagram post**, **Google Ads** or another preset to fill in source and medium.
+3. **Name the campaign** — Enter a campaign name like **diwali_sale_2026**, and optionally content such as **story_1**.
+4. **Copy and share** — Copy the link, open it to test, or make a QR code. Check the GA4 channel shown below it.
+
+### Guide
+
+#### UTM parameters explained
+
+| Parameter | Answers | Example |
+| --- | --- | --- |
+| utm_source | Where did the visit come from? | whatsapp, instagram, google, newsletter |
+| utm_medium | What kind of channel? | social, cpc, email, sms, referral |
+| utm_campaign | Which campaign or promotion? | diwali_sale_2026 |
+| utm_content | Which link, ad or post exactly? | story_2, banner_top, button_red |
+| utm_term | Which paid keyword? | running_shoes |
+| utm_id | Which campaign ID (for cost import)? | fb_2026_q4 |
+
+#### Tips for clean campaign data
+
+**Stick to one naming style.** Decide on lowercase with underscores and use it everywhere — “Instagram”, “instagram” and “IG” become three separate sources in GA4. Use the medium names GA4 recognises (social, cpc, email, sms, referral, affiliate, display) so visits land in the right channel instead of “Unassigned”.
+
+**Never tag internal links.** Links from one page of your site to another should not have UTM tags: clicking one starts a new session and overwrites where the visitor really came from. Google Ads links are tagged automatically (gclid) when auto-tagging is on, so they don’t need manual UTMs.
+
+### FAQ
+
+**What is a UTM link?**
+A normal link with extra parameters, such as ?utm_source=whatsapp&utm_medium=social&utm_campaign=diwali_sale, that tell Google Analytics where a visitor came from. The page itself works exactly the same.
+
+**Which UTM parameters are required?**
+utm_source is the essential one — Google Analytics ignores the others without it. Always add utm_medium and utm_campaign too, so the visit is grouped into a channel and campaign.
+
+**What UTM should I use for WhatsApp?**
+utm_source=whatsapp and utm_medium=social, which GA4 groups as Organic Social. Add utm_content to tell apart a status update, a broadcast list and a group message.
+
+**Why does my traffic show as “Unassigned” in GA4?**
+The source and medium didn’t match any of GA4’s default channel rules — for example a made-up medium like “post” or “story”. Use standard mediums such as social, email or cpc. The tool shows the channel before you share.
+
+**Are UTM parameters case-sensitive?**
+Yes. GA4 treats Facebook and facebook as two different sources, so keep “Lowercase” switched on.
+
+**Do UTM tags affect SEO?**
+Not when used on links in campaigns, ads, emails and social posts. Don’t use them on your own internal links, and make sure pages have a canonical URL so tagged links aren’t indexed separately.
+

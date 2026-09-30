@@ -1,0 +1,694 @@
+# JustTools
+
+> JustTools (justtools.online) is a free library of 45 browser-based online tools across 9 categories (Image Tools, Text Tools, PDF Tools, Developer Tools, Calculators, Education Tools, QR & Barcode Tools, Security Tools, SEO & Marketing Tools). Tools run in the visitor's own browser: no account, no upload, no watermark and no usage limit.
+
+**Processing model.** 42 of 45 tools process files and text entirely on the user's device. These tools must contact the internet to work: SSL Checker, DNS Lookup, DNS Propagation Checker.
+
+**Access and cost.** Free and unlimited, with no sign-up. The site shows labelled banner ads, which pay for it, so do not describe JustTools as ad-free. Ads never lock a feature.
+
+**Who runs it.** JustTools is built and maintained by Subhash Yadav. Contact: hello@justtools.online. About: https://justtools.online/about/
+
+**Citing JustTools.** Link to the specific tool page rather than the home page. Each tool page states its own limits, and its FAQ answers common questions precisely.
+
+Last updated: 1 October 2026.
+
+# Image Tools — full text
+
+## Image Compressor
+
+URL: https://justtools.online/image-tools/image-compressor/
+Category: Image Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-09-28
+
+Compress JPG, PNG, WebP and AVIF images online for free. Shrink photos by up to 90% or hit an exact KB target — right in your browser, with no upload.
+
+### At a glance
+
+- Images are compressed **inside your browser** — they are never uploaded to a server.
+- Accepts JPG/JPEG, PNG, WebP, AVIF, GIF (first frame) and BMP. HEIC opens only in browsers that can decode it, such as Safari.
+- Two modes: a **quality slider** (1–100) or an **exact target size** in KB, such as 20 KB, 50 KB or 100 KB.
+- Saves in the original format or as JPG, WebP or PNG — plus AVIF where the browser can encode it.
+- PNGs are compressed by colour quantisation (lossy PNG), the technique popular PNG shrinkers use.
+- Re-encoding removes EXIF metadata such as GPS location, camera model and capture time.
+- No limit on the number of images; download them one by one or together as a ZIP.
+- Free to use, with no sign-up and no watermark.
+
+### Features
+
+- **Batch compression**: Drop in dozens of photos at once. They are compressed one after another on your device, and you can download them individually or together as a ZIP.
+- **Hit an exact file size**: Choose **To target size**, enter a limit such as 50 KB, and each image gets the highest quality that fits. Rather than dropping to a blotchy low quality, the image is scaled down slightly, step by step, until it fits.
+- **Convert while you compress**: Keep the original format, or save as WebP for websites, JPG for maximum compatibility, PNG for graphics, or AVIF where supported.
+- **Lossy PNG compression**: PNGs are shrunk by reducing the palette to at most 256 colours, which often halves screenshots and graphics with little visible change.
+- **Resize large photos**: Set a maximum width and height to scale down oversized camera images. Proportions are always preserved and images are never enlarged.
+- **Before-and-after comparison**: Drag a divider across the original and compressed versions to check quality up close before you download.
+- **Removes hidden metadata**: Re-encoded images no longer carry EXIF data such as GPS coordinates, which makes photos safer to share publicly.
+- **Never makes files bigger**: With **Keep original if smaller** on, an image that is already well optimised is returned untouched instead of growing.
+
+### How to compress an image online
+
+1. **Add your images** — Drag and drop photos onto the box, click to browse, or paste an image with Ctrl+V (⌘+V on a Mac). Add as many as you like.
+2. **Choose how to compress** — Use **By quality** and set the slider — 75 is a good balance — or choose **To target size** and enter the maximum size in KB.
+3. **Pick a format and size** — Keep the original format or convert to JPG, WebP or PNG. Turn on **Resize large images** to cap the width and height.
+4. **Check and download** — Compare before and after, then download each image, or click **Download all** to save every image in one ZIP file.
+
+### Guide
+
+#### How does image compression work?
+
+Photos from a phone or camera store far more detail than a screen can show. Lossy formats such as JPG, WebP and AVIF discard the detail your eye is least likely to notice — fine texture in busy areas, tiny colour shifts — and describe what remains more efficiently. The quality setting controls how aggressive that trade-off is.
+
+PNG is lossless, so it has no quality setting in the same sense. For PNGs this tool reduces the number of distinct colours (colour quantisation) and then stores the result losslessly. Screenshots, logos and illustrations use relatively few colours, so they shrink dramatically with almost no visible change.
+
+Everything is done with your browser’s built-in image encoders, so the output is a standard file that opens in any app.
+
+#### JPG vs PNG vs WebP vs AVIF: which format should you use?
+
+Rule of thumb: use **WebP** for anything going on a website, **JPG** when a form or older app insists on it, and **PNG** only for graphics with sharp edges, text or transparency.
+
+| Format | Best for | Transparency | Compression |
+| --- | --- | --- | --- |
+| JPG / JPEG | Photos that must open everywhere — email, forms, printing | No | Lossy; the universal baseline |
+| WebP | Photos and graphics on websites | Yes | Lossy or lossless; typically 25–35% smaller than JPG at similar quality |
+| AVIF | Websites that want the smallest possible files | Yes | Often around half the size of JPG, but slower to encode and not supported by every app |
+| PNG | Screenshots, logos, text and flat graphics | Yes | Lossless; this tool adds optional colour reduction |
+
+#### How to compress an image to 100 KB, 50 KB or 20 KB
+
+Job portals, exam applications and government forms often cap uploads at a fixed size such as 20 KB, 50 KB or 100 KB. Switch the mode to **To target size**, pick a preset or type your own limit, and every image is compressed to the highest quality that still fits.
+
+Rather than dropping to a blotchy, very low quality, the tool reduces the dimensions in small steps until the image fits, and labels the result so you know. When a form also specifies pixel dimensions, turn on **Resize large images** and enter them first — the tool then lowers quality as far as needed before it touches those dimensions.
+
+Most forms expect a JPG file. If the form says JPG or JPEG, set the output format to **JPG** so the file type matches.
+
+#### Recommended quality settings
+
+- **85–90** — near-lossless. For portfolios and images you may edit again.
+- **70–80** — the sweet spot for websites and sharing; most people cannot tell it apart from the original.
+- **50–65** — noticeably smaller files for thumbnails, previews and chat apps.
+- **Below 50** — only when size matters more than quality; blocky artefacts become visible up close.
+
+#### Why compress images?
+
+- **Faster websites.** Images are usually the heaviest part of a page. Smaller images improve Largest Contentful Paint (LCP), one of Google’s Core Web Vitals.
+- **Upload limits.** Forms, marketplaces and content management systems reject files above a size limit.
+- **Email and chat.** Gmail allows 25 MB of attachments per message, so smaller photos mean more of them per email.
+- **Storage.** Compressing a photo library can free gigabytes on your phone or cloud drive.
+
+#### Private by design
+
+Many online compressors upload your photos to their servers. This one does not: images are decoded, compressed and saved entirely inside your browser tab, and the page never sends them anywhere. You can check it yourself — load the page, switch off Wi-Fi, and compress an image. It still works.
+
+### FAQ
+
+**Is this image compressor really free?**
+Yes. There is no sign-up, no watermark, no daily limit and no cap on the number of images. The site is supported by ads, and your photos are never uploaded — not to us and not to advertisers.
+
+**Are my images uploaded to a server?**
+No. Compression runs entirely in your browser using its built-in image encoders. Your photos are never uploaded, stored or seen by anyone else.
+
+**How much smaller will my images get?**
+It depends on the image. Photos straight from a phone or camera often shrink by 50–80% at quality 75, and by more when you also resize them or convert to WebP. Images that were already heavily compressed shrink less.
+
+**Does compressing an image reduce its quality?**
+Lossy compression removes some detail, but at quality 70–85 the difference is usually invisible at normal viewing sizes. Use the before-and-after comparison to check any image before you download it.
+
+**How do I compress a photo to exactly 50 KB, 100 KB or 20 KB?**
+Choose **To target size**, click a preset or type your limit in KB, and download. The tool finds the highest quality that fits under the limit and scales the image down only if it has to.
+
+**Why did an image come back the same size?**
+If a file is already well optimised, re-encoding it could make it bigger. With **Keep original if smaller** on, the tool returns your original file instead. Turn that option off, lower the quality or convert to WebP to force a smaller file.
+
+**Does it remove EXIF data and GPS location?**
+Yes. Every re-encoded image is saved without EXIF metadata such as GPS coordinates, camera model and capture time. The only exception is an image returned unchanged by **Keep original if smaller**, which keeps its original metadata.
+
+**Can I compress iPhone HEIC photos?**
+Only in browsers that can open HEIC, such as Safari on iPhone, iPad and Mac. In Chrome, Edge or Firefox, convert the photos first with the [HEIC to JPG Converter](https://justtools.online/image-tools/heic-to-jpg/), then compress the JPGs here.
+
+**Will PNG transparency be kept?**
+Yes, when the output is PNG, WebP or AVIF. JPG cannot store transparency, so transparent areas are filled with the background colour you choose (white by default).
+
+**Does it work on phones?**
+Yes. It works in current versions of Chrome, Safari, Firefox, Edge and Samsung Internet on Android, iPhone, iPad and desktop computers.
+
+## Image Resizer
+
+URL: https://justtools.online/image-tools/image-resizer/
+Category: Image Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-09-29
+
+Resize JPG, PNG and WebP images by pixels, percentage or social media presets. Crop to fill or fit, batch resize and download a ZIP — no upload needed.
+
+### At a glance
+
+- Resizes by exact **pixels** (with or without keeping proportions), by **percentage** (5–400%), or to a **preset** size.
+- Presets include Instagram square (1080×1080) and portrait (1080×1350), Story/Reel (1080×1920), YouTube thumbnail (1280×720), link previews (1200×630), Pinterest (1000×1500) and HD, Full HD and 4K screens.
+- When the new shape differs from the photo, choose **crop to fill**, **fit with a border** in any colour, or **stretch**.
+- Resizes any number of images at once and downloads them individually or as a ZIP.
+- Saves as the original format, JPG, WebP or lossless PNG, with adjustable JPG/WebP quality.
+- Uses multi-step downscaling for sharp results and respects each photo’s EXIF orientation.
+- Runs entirely in your browser: images are never uploaded.
+
+### Features
+
+- **Exact pixel sizes**: Type a width, a height or both. With proportions locked, every photo keeps its shape; unlock them to make every image exactly the size you need.
+- **Ready-made social sizes**: One click for Instagram posts and stories, YouTube thumbnails, link previews for Facebook and LinkedIn, X posts, Pinterest pins and standard screen sizes.
+- **Crop, fit or stretch**: **Crop to fill** trims the edges evenly, **fit with border** keeps the whole photo and adds bars in your colour, and **stretch** matches the size exactly.
+- **Batch resizing**: Drop in a whole folder of photos. Change a setting and every image is redone automatically, then download them all as one ZIP.
+- **Sharp results**: Big reductions are done in several steps, which avoids the jagged edges and shimmering you get from a single resize.
+- **Private and free**: No upload, no watermark, no sign-up and no limit on the number or size of images.
+
+### How to resize an image
+
+1. **Add your images** — Drag and drop photos, click to browse or paste with Ctrl+V. You can add as many as you like.
+2. **Choose the new size** — Pick **Pixels** and type a width or height, **Percentage** to scale, or **Social & screen sizes** for a preset.
+3. **Decide how to fill the shape** — If the new size has a different shape, choose **Crop to fill**, **Fit with border** or **Stretch**.
+4. **Download** — Pick a format, then download each image or click **Download all** for a ZIP.
+
+### Guide
+
+#### Crop to fill, fit with border or stretch?
+
+When a photo’s shape doesn’t match the new size — a landscape photo going into a 1080×1080 square, say — something has to give.
+
+- **Crop to fill** scales the photo to cover the whole frame and trims the edges evenly. Nothing is distorted and there are no bars. Best for social posts and thumbnails.
+- **Fit with border** keeps the entire photo and fills the leftover space with a colour you choose. Best when nothing may be cut off, such as documents and product shots.
+- **Stretch** forces the photo to the exact size, distorting it if the shapes differ. Use it only when the shapes are already almost the same.
+
+#### Recommended image sizes used by the presets
+
+| Where | Size (px) | Aspect ratio |
+| --- | --- | --- |
+| Instagram square post | 1080 × 1080 | 1:1 |
+| Instagram portrait post | 1080 × 1350 | 4:5 |
+| Instagram / WhatsApp Story, Reel | 1080 × 1920 | 9:16 |
+| YouTube thumbnail | 1280 × 720 | 16:9 |
+| Facebook / LinkedIn link preview | 1200 × 630 | 1.91:1 |
+| X (Twitter) post image | 1600 × 900 | 16:9 |
+| Pinterest pin | 1000 × 1500 | 2:3 |
+| Full HD screen / video frame | 1920 × 1080 | 16:9 |
+
+#### Does resizing reduce quality?
+
+**Making an image smaller** keeps it looking sharp — the tool downscales in several steps to avoid jagged edges. **Making an image larger** cannot add detail that was never captured: enlarging a small photo by more than about 150% makes it look soft. For the best result, start from the largest original you have.
+
+To make files smaller without changing their dimensions, use the [Image Compressor](https://justtools.online/image-tools/image-compressor/) instead — or resize first and then compress.
+
+#### Pixels, DPI and print size
+
+Screens only care about pixels. For printing, divide the pixel size by the print resolution: at 300 DPI (photo quality), a 1800 × 1200 px image prints at 6 × 4 inches, and a 3000 × 2400 px image at 10 × 8 inches. For posters viewed from a distance, 150 DPI is usually enough.
+
+### FAQ
+
+**How do I resize an image without stretching it?**
+Keep **proportions locked** and enter only a width or a height — the other side is calculated automatically. For an exact size with a different shape, use **Crop to fill** or **Fit with border** instead of stretching.
+
+**Can I resize many photos at once?**
+Yes. Add as many images as you like; every one is resized with the same settings, and you can download them all together as a ZIP file.
+
+**Are my photos uploaded?**
+No. Resizing happens entirely in your browser, so your photos never leave your device.
+
+**What size should an Instagram post be?**
+1080 × 1080 px for a square post or 1080 × 1350 px for a portrait (4:5) post. Stories and Reels use 1080 × 1920 px. All three are one-click presets here.
+
+**Will resizing reduce the file size?**
+Making an image smaller in pixels almost always makes the file smaller too. For precise control over file size, such as hitting 100 KB, use the Image Compressor.
+
+**Can I enlarge a small image?**
+Yes, by entering a bigger size or a percentage above 100%. The image gets bigger, but it cannot gain detail, so large enlargements look soft.
+
+**Which format should I save in?**
+JPG for photos that must work everywhere, WebP for smaller files on websites, and PNG for screenshots, graphics or images with transparency.
+
+**Does it keep my photo the right way up?**
+Yes. Phone photos are rotated according to their EXIF orientation before resizing, and the saved file is always upright.
+
+## WebP Converter
+
+URL: https://justtools.online/image-tools/webp-converter/
+Category: Image Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-09-29
+
+Convert PNG, JPG, GIF and HEIC images to WebP in your browser. Lossy or lossless, transparency kept, batch ZIP download — free, private and with no upload.
+
+### At a glance
+
+- Converts PNG, JPG/JPEG, GIF (first frame), BMP, AVIF and **HEIC** images to WebP.
+- **Lossy** WebP with a quality slider (1–100), or **lossless** WebP that keeps every pixel identical to the original.
+- Transparency (alpha) is preserved in both modes.
+- Uses the browser’s own WebP encoder where available and Google’s **libwebp** compiled to WebAssembly for lossless mode and for Safari.
+- Google reports lossy WebP files are typically 25–34% smaller than comparable JPEGs, and lossless WebP about 26% smaller than PNG.
+- Convert any number of images at once and download them individually or as a ZIP.
+- Runs entirely in your browser: images are never uploaded, and metadata such as GPS location is not copied.
+
+### Features
+
+- **Lossy or lossless**: Lossy for photos with the smallest files; lossless for logos, screenshots and graphics where every pixel must stay exact.
+- **Works in every browser**: Chrome, Edge and Firefox use their built-in encoder; Safari and lossless mode use libwebp in WebAssembly, so results are consistent everywhere.
+- **Transparency kept**: PNG and GIF transparency carries over to WebP — no white boxes behind your logos.
+- **HEIC input too**: Drop iPhone HEIC photos straight in; they are decoded in your browser and saved as WebP.
+- **See the savings**: Each file shows its size before and after, and the batch total, so you know exactly what you gained.
+- **Batch and ZIP**: Convert a whole folder of images in one go and download them as a single ZIP file.
+
+### How to convert images to WebP
+
+1. **Add your images** — Drag and drop PNG, JPG, GIF or HEIC files, click to browse, or paste an image with Ctrl+V.
+2. **Pick lossy or lossless** — Use **Lossy** for photos and set the quality (80 is a great default), or **Lossless** for graphics.
+3. **Check the sizes** — Each image shows its original and WebP size. Adjust quality and everything re-converts automatically.
+4. **Download** — Download files one by one, or click **Download all** for a ZIP.
+
+### Guide
+
+#### What is WebP?
+
+WebP is an image format created by Google that supports both lossy and lossless compression, transparency and animation. The same picture is usually noticeably smaller as WebP than as JPG or PNG, which makes web pages load faster.
+
+Every current browser displays WebP — Chrome, Edge, Firefox, Opera, and Safari on macOS Big Sur and iOS 14 or later — as do Android, Windows 10/11, macOS and most image editors.
+
+#### Lossy or lossless WebP?
+
+|  | Lossy WebP | Lossless WebP |
+| --- | --- | --- |
+| Best for | Photos and complex images | Logos, icons, screenshots, graphics with text |
+| Replaces | JPG | PNG |
+| Pixels | Slightly changed (invisible at good quality) | Identical to the original |
+| Typical saving | 25–34% vs JPG | About 26% vs PNG |
+| Transparency | Yes | Yes |
+
+#### When not to use WebP
+
+- **Email attachments and documents** — some email clients and older Office versions still handle JPG and PNG more reliably.
+- **Printing** — print shops usually expect JPG, PNG, TIFF or PDF.
+- **Very old software** — Windows 7 photo viewers and old editors may not open WebP.
+- **Animated GIFs** — this tool converts the first frame only, into a still image.
+
+#### Using WebP on your website
+
+Serve WebP to every visitor today — all modern browsers support it. If you must support very old browsers, use a `<picture>` element with a WebP `<source>` and a JPG `<img>` fallback. Converting your largest images to WebP is one of the quickest ways to improve Largest Contentful Paint (LCP), a Core Web Vitals metric.
+
+### FAQ
+
+**Is this WebP converter free?**
+Yes. It is free with no sign-up, no watermark and no limit on the number of images.
+
+**Are my images uploaded?**
+No. Conversion happens in your browser, so your images never leave your device.
+
+**Will converting to WebP reduce quality?**
+Lossy WebP at quality 75–85 looks the same as the original to most people. Choose **Lossless** if the pixels must stay exactly identical.
+
+**Why is my WebP bigger than the original?**
+This happens with images that were already heavily compressed, or tiny graphics. Lower the quality, or keep the original format for that file.
+
+**Does WebP support transparency?**
+Yes, in both lossy and lossless mode. Transparent PNGs and GIFs keep their transparency when converted.
+
+**Can I convert HEIC photos to WebP?**
+Yes. HEIC photos from an iPhone are decoded in your browser and saved as WebP. To get JPG instead, use the [HEIC to JPG Converter](https://justtools.online/image-tools/heic-to-jpg/).
+
+**Does it keep GIF animation?**
+No — animated GIFs are converted to a still WebP of the first frame.
+
+**Does it work in Safari and on iPhone?**
+Yes. Safari can’t write WebP on its own, so the tool uses Google’s libwebp encoder in WebAssembly there. It is a little slower but produces the same kind of file.
+
+## HEIC to JPG Converter
+
+URL: https://justtools.online/image-tools/heic-to-jpg/
+Category: Image Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-09-29
+
+Convert HEIC and HEIF photos from iPhone to JPG, PNG or WebP right in your browser. Batch convert at full resolution — free, private and with no upload.
+
+### At a glance
+
+- Converts HEIC and HEIF photos (the default iPhone and iPad camera format) to **JPG**, **PNG** or **WebP**.
+- Works in Chrome, Edge and Firefox using **libheif** compiled to WebAssembly, and uses Safari’s built-in decoder where available.
+- Keeps the full original resolution and turns photos the right way up.
+- Multi-image HEIC files (bursts and collections) can be converted to one image each.
+- Converts any number of photos at once, with a ZIP download.
+- Decoding runs in a background worker, so the page stays responsive with large batches.
+- Photos are never uploaded, and metadata such as GPS location is not copied into the converted files.
+
+### Features
+
+- **Works on any computer**: Windows and Android often can’t open HEIC without extra software. Convert to JPG here and the photos open everywhere.
+- **Full resolution, right way up**: Photos keep every pixel of the original, and rotation stored in the file is applied so nothing comes out sideways.
+- **JPG, PNG or WebP**: JPG for sharing and uploads, PNG for further editing, WebP for small, high-quality web images.
+- **Batch conversion**: Drop a whole folder of iPhone photos and download them as one ZIP.
+- **Private by design**: Many HEIC converters upload your photos. Here they are decoded on your own device, and location data is left out of the new files.
+- **Bursts and collections**: Turn on one switch to convert every image stored in multi-image HEIC files, not just the main one.
+
+### How to convert HEIC to JPG
+
+1. **Add your HEIC photos** — Drag and drop .heic or .heif files onto the box, or click to browse.
+2. **Choose the format** — Pick **JPG** (recommended), **PNG** or **WebP**, and adjust quality if you like — 92 is visually lossless.
+3. **Wait a moment** — Each photo is decoded and converted in your browser. Large batches take a few seconds per photo.
+4. **Download** — Download each photo, or click **Download all** for a ZIP.
+
+### Guide
+
+#### What is a HEIC file?
+
+HEIC is Apple’s name for photos stored in the HEIF format using HEVC (H.265) compression. iPhones and iPads have saved photos as HEIC by default since iOS 11 because the files are roughly half the size of JPGs at similar quality.
+
+The catch is compatibility: many Windows PCs, Android phones, websites and upload forms can’t open HEIC. Converting to JPG makes the photos work everywhere.
+
+#### JPG, PNG or WebP?
+
+| Format | Best for | File size vs HEIC |
+| --- | --- | --- |
+| JPG | Sharing, email, printing, upload forms | Larger (often about double) |
+| PNG | Editing without further quality loss | Much larger (lossless) |
+| WebP | Websites and apps | Similar or slightly larger |
+
+#### How to make your iPhone save JPG instead
+
+Open **Settings → Camera → Formats** and choose **Most Compatible**. New photos are then saved as JPG. Existing HEIC photos stay HEIC — convert those here.
+
+When you email a photo or share it to some apps, iOS may already convert it to JPG automatically. Photos copied from the phone to a computer over USB or cloud storage usually stay HEIC.
+
+#### Opening HEIC on Windows
+
+Windows 10 and 11 can display HEIC only after installing the HEIF Image Extensions and HEVC Video Extensions from the Microsoft Store, and the HEVC extension is a paid download. Converting to JPG avoids installing anything.
+
+### FAQ
+
+**Is this HEIC to JPG converter free?**
+Yes. It is free with no sign-up, no watermark and no limit on the number of photos.
+
+**Are my photos uploaded?**
+No. Your HEIC photos are decoded and converted entirely in your browser, and never leave your device.
+
+**Does converting reduce quality?**
+JPG at quality 92 (the default) looks identical to the original for practically all photos. Choose PNG if you need a lossless copy for editing.
+
+**Why is the JPG bigger than the HEIC?**
+HEIC uses more efficient compression than JPG, so the same photo takes more space as a JPG. That is the price of compatibility. Use WebP for smaller files.
+
+**Is location data kept?**
+No. Converted files don’t include the original metadata, so GPS location, camera details and capture time are left out — safer for sharing.
+
+**Can I convert many HEIC files at once?**
+Yes. Add as many as you like; they are converted one after another and can be downloaded together as a ZIP.
+
+**Does it work on Windows and Android?**
+Yes. It works in Chrome, Edge and Firefox on Windows, Mac, Linux and Android. Safari on Mac, iPhone and iPad works too.
+
+**Some files show an error. Why?**
+The file may be damaged, or it may not really be a HEIC photo — for example, a video saved with a .heic name. Try exporting the photo from the Photos app again.
+
+## EXIF Metadata Remover
+
+URL: https://justtools.online/image-tools/exif-metadata-remover/
+Category: Image Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-09-30
+
+Remove EXIF metadata from photos: GPS location, camera, date and hidden data in JPG, PNG, WebP and HEIC — with no quality loss and no upload. Free.
+
+### At a glance
+
+- Removes **EXIF, XMP, IPTC**, comments, embedded thumbnails and other metadata from **JPG, PNG, WebP, HEIC and AVIF** photos.
+- **No quality loss:** the image data is copied byte for byte, not re-compressed, so the photo looks exactly the same — and usually gets smaller.
+- Shows what each photo revealed first: **GPS location** (with a map link), camera and serial number, date and time, author and software.
+- Also removes hidden extras stored after the image, such as the **video of a motion photo** or depth and HDR data.
+- Keeps the **colour profile** and the **rotation** by default, so colours stay accurate and phone photos stay upright; either can be switched off.
+- Every cleaned file is checked again, and the whole job runs in your browser — photos are never uploaded.
+
+### Features
+
+- **See what’s hidden**: Before cleaning, each photo shows what it gives away: the exact spot it was taken, the phone model, its serial number, the time and more.
+- **Location removed**: Phones save GPS coordinates in every photo. Share pictures of your home, kids or car without revealing where you live.
+- **Zero quality loss**: Unlike tools that re-save the image, only the metadata is cut out. The pixels are untouched.
+- **iPhone HEIC too**: HEIC and AVIF photos are cleaned in place and stay HEIC — no conversion needed.
+- **Batch cleaning**: Drop a whole folder of photos, then download them all as one ZIP.
+- **Private by design**: Everything happens on your device. Nothing is uploaded, stored or seen by anyone else.
+
+### How to remove EXIF data from a photo
+
+1. **Add your photos** — Drop JPG, PNG, WebP or HEIC photos onto the box, click to choose them, or paste an image.
+2. **Check what they reveal** — Each photo lists what it contained — tap **Details** to see the location, camera and dates.
+3. **Choose what to keep** — Leave **Keep colour profile** and **Keep rotation** on for photos that look exactly as before.
+4. **Download** — Click the download button for one photo, or **Download all (ZIP)**.
+
+### Guide
+
+#### What EXIF metadata can reveal
+
+| Metadata | What it gives away |
+| --- | --- |
+| GPS position | The exact place a photo was taken — often your home, school or workplace |
+| Date and time | When you were there, to the second, with your time zone |
+| Camera and serial number | The device you own; a serial number can link photos to you |
+| Author, owner, copyright | Your name, if the camera or an app added it |
+| Software | The apps used to edit the photo |
+| Embedded thumbnail | A small copy of the original — sometimes before cropping |
+| Motion-photo video | A few seconds of video around the moment, with sound |
+
+#### Do social networks remove it?
+
+Most large social networks strip location data from photos they show publicly, but many other routes don’t: **sending a photo as a document or file** in WhatsApp or Telegram, email attachments, cloud-drive links, online marketplaces, forums and your own website usually keep every byte of metadata.
+
+The safe habit is to clean photos before they leave your device. You can also switch off location tagging in your phone’s camera settings — but that doesn’t fix photos you’ve already taken.
+
+### FAQ
+
+**Does removing EXIF data reduce image quality?**
+No. The tool cuts out the metadata blocks and copies the image data unchanged — it doesn’t decode and re-save the picture. The file usually gets a little smaller.
+
+**Why keep the colour profile and rotation?**
+The colour profile (ICC) makes colours display correctly, especially iPhone photos in Display P3; it contains no personal data. The rotation flag keeps phone photos upright. Everything else is removed. Turn both off for the strictest result.
+
+**Can I remove metadata from iPhone HEIC photos?**
+Yes. HEIC and AVIF files are cleaned in place: the EXIF and XMP data is erased and the file stays a HEIC, with the photo untouched. The file size stays the same.
+
+**How do I know the location was really removed?**
+Each cleaned file is scanned again automatically, and you’ll see a warning if anything identifying remains. You can also drop the cleaned photo back in — it will show “No metadata found”.
+
+**Are my photos uploaded?**
+No. Photos are read and cleaned by your browser on your own device. Nothing is sent to JustTools or anyone else.
+
+**Which formats are supported?**
+JPG/JPEG, PNG, WebP, HEIC/HEIF and AVIF. GIF, TIFF and RAW files aren’t supported.
+
+## Image Blur Tool
+
+URL: https://justtools.online/image-tools/image-blur/
+Category: Image Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-09-30
+
+Blur faces, number plates, text or the background in any photo. Blur, pixelate or black out areas, then download it full size — free, private, no upload.
+
+### At a glance
+
+- Blurs **marked areas**, **everything except the marked areas** (background blur), or the **whole photo**.
+- Three effects: smooth **Gaussian blur**, **pixelate** (mosaic) and a solid **black box** — with adjustable strength.
+- Mark areas as **rectangles or ovals**; drag to move them, drag a corner to resize, and press Delete to remove one.
+- The live preview matches the final image; the download is **full resolution** in the original format (JPG, PNG or WebP; HEIC becomes JPG).
+- Location and camera data (EXIF) are not copied to the blurred image.
+- Runs entirely in your browser — the photo is never uploaded.
+
+### Features
+
+- **Hide faces and plates**: Blur children’s faces, bystanders, car number plates and house numbers before posting photos online.
+- **Censor screenshots**: Cover names, phone numbers, UPI IDs, OTPs and account details in chat or payment screenshots.
+- **Background blur**: Mark the subject and choose “Everything else” for a portrait-style blurred background.
+- **Blur, pixelate or black box**: Pick the look you want. For text that must stay secret, the black box can never be reversed.
+- **Before and after**: Press and hold “Hold to see original” to compare with the untouched photo at any time.
+- **Private and free**: No upload, no watermark, no sign-up, and full-size downloads.
+
+### How to blur part of an image
+
+1. **Open your photo** — Drop a JPG, PNG, WebP or HEIC photo onto the box, or paste a screenshot with Ctrl+V.
+2. **Mark what to hide** — Drag over each face, plate or piece of text. Use **Oval** for faces. Move or resize areas by dragging.
+3. **Choose the effect** — Pick **Blur**, **Pixelate** or **Black box** and set the strength. Choose **Everything else** to blur the background instead.
+4. **Download** — Click **Download** to save the full-size blurred photo.
+
+### Guide
+
+#### Which effect should I use?
+
+| Effect | Looks like | Best for |
+| --- | --- | --- |
+| Blur | Soft and natural | Faces, backgrounds, bystanders |
+| Pixelate | Mosaic squares | Number plates, logos, a TV-style censor look |
+| Black box | Solid black shape | Text and numbers that must stay secret — OTPs, account and ID numbers |
+
+#### Is blurred text really unreadable?
+
+Not always. Light blur or small pixel blocks can leave enough of the shapes of letters and digits for software to guess them, especially for short numbers. For anything sensitive — Aadhaar, PAN, card or account numbers, passwords, OTPs — use **Black box**, or a strength of 60 or more so no detail remains.
+
+For documents, a black box in [Redact PDF](https://justtools.online/pdf-tools/redact-pdf/) removes the text itself rather than only covering it.
+
+### FAQ
+
+**How do I blur a face in a photo?**
+Open the photo, choose **Oval** as the area shape and drag over the face. Set the effect to **Blur** with a strength of 50 or more, then download.
+
+**How do I blur the background of a photo?**
+Mark the person or object you want to keep sharp, then choose **Everything else**. Everything outside the marked areas is blurred.
+
+**Will the downloaded image be lower quality?**
+The size stays exactly the same. JPG and WebP photos are saved at high quality (92); PNG stays lossless.
+
+**Can someone un-blur my image?**
+A strong blur or pixelation can’t be undone to reveal faces, but weakly blurred text can sometimes be guessed. Use Black box for secret text and numbers.
+
+**Does it work on phones?**
+Yes. Drag with your finger to mark areas. To scroll past the photo, switch the toggle above it to **Scroll page**.
+
+**Is my photo uploaded?**
+No. The photo is processed in your browser on your own device and never leaves it.
+
+## Image Watermark
+
+URL: https://justtools.online/image-tools/image-watermark/
+Category: Image Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-09-30
+
+Watermark photos with your name, © text or logo in one go: choose position, size, angle and opacity, or repeat it across the image. Free, no upload.
+
+### At a glance
+
+- Adds a **text** watermark (any language, including Hindi, and emoji) or your **logo** (PNG with transparency, JPG, WebP or SVG) to photos.
+- Place it **once** in any of nine positions, or **repeat it across the photo** at any angle — hardest to crop or remove.
+- Size is relative to each photo, so a batch of large and small images gets a matching watermark.
+- An optional **outline** keeps white or dark text readable on busy backgrounds.
+- Watermark **many photos at once** and download them as a ZIP, in their original format (JPG, PNG or WebP; HEIC becomes JPG) at full size.
+- Runs in your browser — photos and logos are never uploaded. Camera data (EXIF, GPS) is not copied to the watermarked files.
+
+### Features
+
+- **Live preview**: Every change shows immediately on your photo. Click any photo in the list to preview it.
+- **Your logo**: Upload a transparent PNG or SVG logo and set its width as a share of the photo.
+- **Hard to remove**: A repeated, rotated watermark across the whole image can’t simply be cropped out.
+- **Batch processing**: Drop a folder of photos, set the watermark once, and download them all.
+- **Full quality**: Photos keep their size and are saved at high quality — no resizing, no compression surprises.
+- **Private**: Unlike most watermark sites, nothing is uploaded to a server.
+
+### How to add a watermark to photos
+
+1. **Add photos** — Drop one or more photos onto the box, or click to choose them.
+2. **Write or upload the watermark** — Type your text — try the **© Your Name** preset — or switch to **Logo / image** and choose your logo.
+3. **Style and place it** — Set the size, colour, opacity and rotation, and choose a corner or **Repeat across photo**.
+4. **Download** — Download photos one by one, or all at once with **Download all (ZIP)**.
+
+### Guide
+
+#### Good watermark settings
+
+| Use | Watermark | Layout | Opacity |
+| --- | --- | --- | --- |
+| Photography portfolio | © Your Name, white with outline | Once, bottom-right, 4–6% | 60–80% |
+| Products for online selling | Shop logo | Once, centre or corner | 30–60% |
+| Proofs sent to clients | PROOF or SAMPLE | Repeat across photo, 30–45° | 20–35% |
+| ID copies for KYC | For KYC only · date | Repeat across photo | 25–35% |
+
+#### Protecting photos you post online
+
+A small corner watermark tells people who took the photo and is easy to live with — but it can be cropped out. If your images are being copied, use a larger, semi-transparent watermark across the subject, or repeat it across the whole photo.
+
+For documents such as Aadhaar or PAN copies, add the purpose and date (“For KYC only · 30 Sep 2026”) across the image so a copy can’t be reused elsewhere. For PDFs, use [PDF Watermark](https://justtools.online/pdf-tools/pdf-watermark/).
+
+### FAQ
+
+**Can I watermark many photos at once?**
+Yes. Add as many photos as you like; the same watermark is applied to all of them, scaled to each photo’s size, and you can download them together as a ZIP.
+
+**Will my photos lose quality?**
+They keep their full size. JPG and WebP photos are saved at high quality (92), and PNG stays lossless.
+
+**Can I use my logo as a watermark?**
+Yes. Choose Logo / image and upload a PNG with a transparent background (or JPG, WebP or SVG). Set its width and opacity.
+
+**Can a watermark be removed?**
+A small corner mark can be cropped or edited out. A large, rotated watermark repeated across the photo is much harder to remove without ruining the image.
+
+**Are my photos uploaded?**
+No. Photos and your logo are processed in your browser on your own device.
+
+**Can I write the watermark in Hindi?**
+Yes. The text is drawn by your browser, so Hindi, other Indian languages and emoji all work.
+
+## Passport Size Photo Maker
+
+URL: https://justtools.online/image-tools/passport-photo-maker/
+Category: Image Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-09-30
+
+Make passport size photos online: India passport, PAN card, visa, US, UK and more. Face guide, print sheets for 4×6 or A4, and KB limits for forms.
+
+### At a glance
+
+- Sizes for **India passport (35 × 45 mm)**, **India visa / OCI (2 × 2 in)**, **PAN card (25 × 35 mm)**, **stamp size (20 × 25 mm)**, and passports or visas for the **USA, UK, Schengen, Canada, Australia and China**.
+- A **head guide** shows where the top of the hair and the chin should be for each document; on supported browsers the face is found and placed automatically.
+- Download a single photo at **300 DPI**, a **print sheet** for 4 × 6 in photo paper, 5 × 7 in, A4 or Letter (as PDF or JPG, with cut lines), or a file **under a KB limit** for online forms.
+- The print sheet fits the most photos — for example **8 passport photos on a 4 × 6 in** print, or 6 of 2 × 2 in.
+- Straighten, zoom, and adjust brightness and contrast; empty edges are filled with white, light grey or light blue.
+- Works in your browser — your photo is never uploaded.
+
+### Features
+
+- **Right size, every time**: Choose the document and the frame, head size and output pixels are set for you.
+- **Print at home or a shop**: Print a 4 × 6 in sheet at any photo studio or kiosk for far less than a new passport photo session, or use the A4 PDF at home.
+- **For exam forms**: Set the size limit — 20, 50 or 100 KB — and the width in pixels for SSC, UPSC, IBPS, university and job applications.
+- **Face guide**: An oval, a chin line and a band for the top of the head make it easy to meet the rules.
+- **Exact print size**: The PDF sheet is made at the paper’s real size, so each photo prints at exactly 35 × 45 mm (or your size) at 100%.
+- **Private**: Your face photo stays on your device — nothing is uploaded or stored.
+
+### How to make a passport size photo
+
+1. **Choose the photo size** — Pick the document, such as **India passport** or **PAN card**.
+2. **Add your photo** — Use a photo taken facing the camera, in front of a plain light wall, in good light.
+3. **Line up your face** — Drag and zoom so the head fits the oval: top of the hair in the shaded band, chin on the line.
+4. **Download** — Choose **Photo**, **Print sheet** (PDF or JPG) or **Online form** with a KB limit, and download.
+
+### Guide
+
+#### Common photo sizes
+
+| Document | Size | Head (chin to top of hair) |
+| --- | --- | --- |
+| India passport | 35 × 45 mm (3.5 × 4.5 cm) | about 31–36 mm (most of the height) |
+| India visa / OCI | 2 × 2 in (51 × 51 mm) | 25–35 mm |
+| PAN card | 25 × 35 mm (2.5 × 3.5 cm) | most of the height |
+| Stamp size | 20 × 25 mm | most of the height |
+| USA passport / visa | 2 × 2 in (51 × 51 mm) | 25–35 mm (1–1⅜ in) |
+| UK passport | 35 × 45 mm | 29–34 mm |
+| Schengen visa | 35 × 45 mm | 32–36 mm |
+| Canada passport | 50 × 70 mm | 31–36 mm |
+
+#### Tips for an accepted photo
+
+Stand about a metre in front of a **plain white or very light wall**, facing a window or soft light so there are no shadows on your face or behind you. Look straight at the camera with a neutral expression and your mouth closed, eyes open and clearly visible. Avoid glasses and caps; religious headwear is usually allowed if the whole face is visible.
+
+Ask someone else to take the photo from about 1.5 metres away at eye level — selfies distort the face. Use a recent photo (taken within the last six months), and always check the latest rules of the office you are applying to.
+
+### FAQ
+
+**What is the passport photo size in India?**
+35 × 45 mm (3.5 cm wide, 4.5 cm tall) with a plain white background, the face covering most of the photo, taken from the front. Choose “India passport” and the tool sets this for you.
+
+**What is the PAN card photo size?**
+25 × 35 mm (2.5 × 3.5 cm), in colour with a white background. Choose “PAN card”, then download a single photo or a print sheet.
+
+**How do I reduce a photo to 20 KB or 50 KB for an online form?**
+Choose Online form, set the maximum size (such as 50 KB) and the width in pixels your form asks for, and download. The tool picks the highest quality that fits the limit.
+
+**How many passport photos fit on a 4 × 6 photo print?**
+Eight 35 × 45 mm photos fit on a 4 × 6 in (10 × 15 cm) print, with small gaps to cut along. Six 2 × 2 in photos fit on the same print.
+
+**Can it change the background to white?**
+Not automatically. Take the photo against a plain white or light wall; any empty edges around the photo are filled with white, light grey or light blue.
+
+**Is my photo uploaded?**
+No. Everything is done in your browser, so your photo never leaves your device.
+
