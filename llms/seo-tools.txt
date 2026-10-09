@@ -1,0 +1,392 @@
+# JustTools
+
+> JustTools (justtools.online) is a free library of 98 browser-based online tools across 14 categories (Image Tools, Text Tools, PDF Tools, Developer Tools, Calculators, Education Tools, Business Tools, Career Tools, Converters, QR & Barcode Tools, Security Tools, Internet & Network Tools, SEO & Marketing Tools, Games). Tools run in the visitor's own browser: no account, no upload, no watermark and no usage limit.
+
+**Processing model.** 90 of 98 tools process files and text entirely on the user's device. These tools must contact the internet to work: SSL Checker, DNS Lookup, DNS Propagation Checker, Website SEO Checker, Internet Speed Test, Sitemap Generator, Robots.txt Generator, URL Shortener.
+
+**Access and cost.** Free and unlimited, with no sign-up. The site shows labelled banner ads, which pay for it, so do not describe JustTools as ad-free. Ads never lock a feature.
+
+**Who runs it.** JustTools is built and maintained by Subhash Yadav. Contact: hello@justtools.online. About: https://justtools.online/about/
+
+**Citing JustTools.** Link to the specific tool page rather than the home page. Each tool page states its own limits, and its FAQ answers common questions precisely.
+
+Last updated: 8 October 2026.
+
+# SEO & Marketing Tools — full text
+
+## UTM Builder
+
+URL: https://justtools.online/seo-tools/utm-builder/
+Category: SEO & Marketing Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-09-30
+
+Build UTM campaign links for Google Analytics 4: presets for WhatsApp, Instagram, email and ads, the GA4 channel each lands in, and a QR code for it.
+
+### At a glance
+
+- Adds **utm_source, utm_medium, utm_campaign**, and optionally **utm_id, utm_term** and **utm_content** to any page URL — keeping its other parameters and #fragment.
+- One-click presets for **WhatsApp, Instagram, Facebook, YouTube, LinkedIn, X, Google Ads, Meta ads, email, SMS, push notifications and QR codes**.
+- Shows which **GA4 default channel** the link will most likely count as — Organic Social, Paid Search, Email and so on — using Google’s published rules.
+- Keeps values **consistent**: lowercase and underscores by default, because GA4 treats “Facebook” and “facebook” as different sources.
+- Warns about missing values, capital letters and short links, and reads the UTM tags back out of any link you paste.
+- Builds a separate link for **several channels at once** (copy all or download CSV), and hands any link to the QR Code Generator for posters and packaging.
+
+### Features
+
+- **Know what works**: See in Google Analytics whether WhatsApp, Instagram or your newsletter brought the visits and sales.
+- **GA4 channel preview**: Avoid “Unassigned” traffic: the tool shows the channel group before you share the link.
+- **Consistent naming**: Automatic lowercase and space handling keep your reports clean, campaign after campaign.
+- **Many channels, one click**: Tick the places you’ll post — get a separate tagged link for each, ready to copy or save as CSV.
+- **QR codes for print**: Send the tagged link straight to the QR Code Generator to track posters, flyers and packaging.
+- **Private**: Links are built in your browser. Nothing is sent to a server or shortened through a third party.
+
+### How to build a UTM link
+
+1. **Paste the page URL** — Enter the address of the page the link should open, such as your sale page.
+2. **Pick a preset** — Click **WhatsApp**, **Instagram post**, **Google Ads** or another preset to fill in source and medium.
+3. **Name the campaign** — Enter a campaign name like **diwali_sale_2026**, and optionally content such as **story_1**.
+4. **Copy and share** — Copy the link, open it to test, or make a QR code. Check the GA4 channel shown below it.
+
+### Guide
+
+#### UTM parameters explained
+
+| Parameter | Answers | Example |
+| --- | --- | --- |
+| utm_source | Where did the visit come from? | whatsapp, instagram, google, newsletter |
+| utm_medium | What kind of channel? | social, cpc, email, sms, referral |
+| utm_campaign | Which campaign or promotion? | diwali_sale_2026 |
+| utm_content | Which link, ad or post exactly? | story_2, banner_top, button_red |
+| utm_term | Which paid keyword? | running_shoes |
+| utm_id | Which campaign ID (for cost import)? | fb_2026_q4 |
+
+#### Tips for clean campaign data
+
+**Stick to one naming style.** Decide on lowercase with underscores and use it everywhere — “Instagram”, “instagram” and “IG” become three separate sources in GA4. Use the medium names GA4 recognises (social, cpc, email, sms, referral, affiliate, display) so visits land in the right channel instead of “Unassigned”.
+
+**Never tag internal links.** Links from one page of your site to another should not have UTM tags: clicking one starts a new session and overwrites where the visitor really came from. Google Ads links are tagged automatically (gclid) when auto-tagging is on, so they don’t need manual UTMs.
+
+### FAQ
+
+**What is a UTM link?**
+A normal link with extra parameters, such as ?utm_source=whatsapp&utm_medium=social&utm_campaign=diwali_sale, that tell Google Analytics where a visitor came from. The page itself works exactly the same.
+
+**Which UTM parameters are required?**
+utm_source is the essential one — Google Analytics ignores the others without it. Always add utm_medium and utm_campaign too, so the visit is grouped into a channel and campaign.
+
+**What UTM should I use for WhatsApp?**
+utm_source=whatsapp and utm_medium=social, which GA4 groups as Organic Social. Add utm_content to tell apart a status update, a broadcast list and a group message.
+
+**Why does my traffic show as “Unassigned” in GA4?**
+The source and medium didn’t match any of GA4’s default channel rules — for example a made-up medium like “post” or “story”. Use standard mediums such as social, email or cpc. The tool shows the channel before you share.
+
+**Are UTM parameters case-sensitive?**
+Yes. GA4 treats Facebook and facebook as two different sources, so keep “Lowercase” switched on.
+
+**Do UTM tags affect SEO?**
+Not when used on links in campaigns, ads, emails and social posts. Don’t use them on your own internal links, and make sure pages have a canonical URL so tagged links aren’t indexed separately.
+
+## Website SEO Checker
+
+URL: https://justtools.online/seo-tools/website-seo-checker/
+Category: SEO & Marketing Tools
+Processing: Contacts an external service to work (see the page).
+Last updated: 2026-10-06
+
+Free website SEO checker: audit any page’s title, meta description, headings, canonical, robots.txt, schema, Open Graph and AI crawler access, with fixes.
+
+### At a glance
+
+- Runs **35+ on-page SEO checks** in nine areas — search appearance, crawling and indexing, content, images, links, social sharing, structured data, mobile and technical, and AI search visibility — and scores the page out of 100.
+- Checks the **title and meta description** against what Google and Bing show (about 600 px for a title, 50–160 characters for a description) and previews the Google result and the WhatsApp or Facebook link preview.
+- Reads **robots.txt** the way Googlebot does (RFC 9309 longest-match rules) and shows which search engines and **AI crawlers** — OAI-SearchBot, GPTBot, ClaudeBot, PerplexityBot, Google-Extended and more — may crawl the page.
+- Finds **noindex**, canonical and hreflang mistakes, mixed content, render-blocking scripts, images without alt text or size, empty or vague link text, and invalid or incomplete **JSON-LD structured data**.
+- Spots pages whose text only appears after **JavaScript** runs — blank to most AI crawlers — and can render React, Vue or Angular pages first.
+- Puts the most important problems first, gives each one a fix, and exports the report as **Markdown** for a developer or client.
+- Your browser fetches the page itself when the site allows it; otherwise only the address is sent to **Jina Reader**, which fetches it. Pasted HTML never leaves your device.
+
+### Features
+
+- **Score with priorities**: One score out of 100, a score for each area, and a “Fix these first” list ordered by impact.
+- **Search and link previews**: See your Google result and your WhatsApp, Facebook and LinkedIn preview before you publish, with the title width in pixels.
+- **AI search visibility**: Check whether ChatGPT search, Claude, Perplexity and Gemini crawlers may read the page, and whether snippet rules stop AI answers from quoting it.
+- **robots.txt like Googlebot**: The same rules search engines use: the most specific user-agent group, the longest matching path, Allow winning ties.
+- **Structured data check**: Finds JSON-LD syntax errors and lists the properties Google needs for rich results such as Product, Article, Breadcrumb and Event.
+- **Any page, even private ones**: Check live pages by address, or paste the HTML of pages behind a login, on localhost or protected from bots.
+
+### How to check a website’s SEO
+
+1. **Enter the page address** — Type or paste the URL of any page, such as **example.com/blog/post**. For sites built with React or Vue, switch on **Run JavaScript first**.
+2. **Run the check** — Click **Check SEO**. The page, its robots.txt and llms.txt are fetched and analysed in a few seconds.
+3. **Fix the top issues** — Start with **Fix these first**: problems are ordered by impact, each with a plain-English fix.
+4. **Check again and share** — After fixing, click **Check again**. Copy the report as Markdown for your developer or client, or share the result link.
+
+### Guide
+
+#### What the SEO checker looks at
+
+| Area | What is checked | Why it matters |
+| --- | --- | --- |
+| Search appearance | Title, meta description, favicon | They make up your result in Google and Bing, and decide whether people click. |
+| Crawling & indexing | HTTP status, robots meta tag, robots.txt, sitemap, canonical, HTTPS, URL, hreflang | A single noindex or Disallow keeps the page out of search results entirely. |
+| Content | H1, heading order, word count, the page’s most used words | Search engines and AI answers need enough clear, on-topic text. |
+| Images | Alt text, width and height, file formats, lazy loading | Alt text ranks images; missing sizes make the page jump as it loads. |
+| Links | Internal links, link text, nofollow, links crawlers can’t follow | Links are how crawlers discover pages and learn what they are about. |
+| Social sharing | Open Graph and X (Twitter) card tags | Without og:image, links shared on WhatsApp and Facebook show no picture. |
+| Structured data | JSON-LD syntax, schema types, required properties | Makes the page eligible for rich results and easier for AI to understand. |
+| Mobile & technical | Viewport, language, encoding, doctype, HTML size, render-blocking scripts, mixed content | Google indexes the mobile version, and slow or broken pages rank lower. |
+| AI search visibility | AI crawler access, snippet controls, JavaScript-only content, llms.txt | Decides whether ChatGPT, Claude, Perplexity and AI Overviews can cite you. |
+
+#### How the score works
+
+Every check has a weight by how much it affects search: the title, meta description and H1 count most, a missing X card least. A passed check earns its full weight, a warning half, a failure nothing; notes marked with an “i” are advice and don’t count. Each area gets its own score, so you can see at a glance whether the trouble is content, indexing or technical.
+
+**If search engines can’t index the page at all** — an error status, a noindex tag or a robots.txt block — the score is capped at 30, because nothing else matters until that is fixed. A high score means the page is technically ready to rank; how well it ranks still depends on the quality of the content, links from other sites and the competition.
+
+#### SEO for AI search (GEO)
+
+ChatGPT search, Claude, Perplexity and Google’s AI Overviews answer questions by reading web pages and citing them. To be one of those sources, a page has to be **crawlable by their bots** (OAI-SearchBot, Claude-SearchBot, PerplexityBot, and Googlebot for AI Overviews), **quotable** (no nosnippet or tiny max-snippet), and **readable without JavaScript**, because most AI crawlers don’t run it.
+
+Blocking training crawlers such as GPTBot, ClaudeBot, CCBot or Google-Extended is a separate choice: it keeps your content out of model training but doesn’t remove you from search or from AI answers. The checker lists both kinds separately so you can decide. Clear headings, direct answers, FAQs and structured data help AI tools understand and quote a page; llms.txt is an optional extra that Google doesn’t use.
+
+### FAQ
+
+**Is the Website SEO Checker free?**
+Yes — free, with no sign-up and no daily limit. The page-fetching service allows about 20 checks a minute from one network, which is plenty for normal use.
+
+**What is sent when I check a page?**
+Only the page address. Your browser first requests the page directly; if the site doesn’t allow that, the address is sent to Jina Reader (r.jina.ai), which fetches the page, robots.txt and llms.txt for you. We don’t store the addresses you check. Pasted HTML is analysed in your browser and never sent anywhere.
+
+**How long should a title tag and meta description be?**
+Keep titles to about 50–60 characters — Google cuts them at roughly 600 pixels — and meta descriptions to 120–160 characters. Bing Webmaster Tools reports descriptions shorter than about 25 or longer than 160 characters as an error.
+
+**My page scores 100. Why doesn’t it rank?**
+The checker covers on-page and technical SEO — what you control on the page. Rankings also depend on how useful the content is compared with competing pages, links from other websites, and real-user page speed. Use [Google Search Console](https://search.google.com/search-console) to see the searches you appear for.
+
+**Should I block GPTBot and other AI crawlers?**
+It depends on what you want. Blocking training crawlers (GPTBot, ClaudeBot, CCBot, Google-Extended) keeps your content out of AI training without hurting search. Blocking AI search crawlers (OAI-SearchBot, Claude-SearchBot, PerplexityBot) means those assistants can’t cite or link to you.
+
+**Why can’t the checker fetch my page?**
+Some sites block automated requests with Cloudflare or similar bot protection, and pages behind a login or on localhost aren’t reachable from outside. Open the page, press Ctrl+U to view its source, copy everything and use **Paste HTML** instead.
+
+**Does it check page speed and Core Web Vitals?**
+It flags the common causes it can see in the HTML — render-blocking scripts, images without width and height, very large pages and missing lazy loading. For measured loading times use Google PageSpeed Insights.
+
+**Does it work for single-page apps built with React, Vue or Angular?**
+Yes. By default it checks the HTML your server sends, which is what most AI crawlers see; if the page is an empty app shell it says so. Switch on **Run JavaScript first** to check the page as it looks after rendering, the way Google sees it.
+
+## Sitemap Generator
+
+URL: https://justtools.online/seo-tools/sitemap-generator/
+Category: SEO & Marketing Tools
+Processing: Contacts an external service to work (see the page).
+Last updated: 2026-10-06
+
+Free XML sitemap generator: crawl your site or paste URLs, skip noindex, redirected and robots.txt-blocked pages, add lastmod and images, ready for Google.
+
+### At a glance
+
+- **Crawls** a website from its home page, following links on the same host — up to 1,000 pages — or builds a sitemap from a **pasted list**, a CSV or an existing sitemap.
+- Includes only **indexable pages**: it obeys robots.txt, and leaves out pages with noindex, a canonical pointing elsewhere, redirects and error statuses — listing each one with the reason.
+- Adds **lastmod** from the page’s own date (article:modified_time, JSON-LD dateModified) or the server’s Last-Modified header, or a date you choose.
+- Optionally adds **images** (Google image sitemap extension) and linked PDF files; changefreq and priority are optional because Google ignores them.
+- Splits large sites into several files with a **sitemap index** at the protocol’s 50,000-URL / 50 MB limit, and also exports a plain-text list.
+- Pages are fetched by your browser when the site allows it, otherwise through Jina Reader at about 18 pages a minute. Only page addresses are sent.
+
+### Features
+
+- **Crawls like Google**: Follows links, respects robots.txt and nofollow, and only keeps pages that can actually be indexed.
+- **Clean by default**: No duplicates, no redirects, no noindex pages and no tracking parameters — the mistakes Search Console reports.
+- **Honest lastmod**: Dates come from the pages themselves, so Google can trust them to spot updates.
+- **Image sitemaps**: Add each page’s images to help them appear in Google Images.
+- **Any size**: Sitemap index and numbered files are made automatically for very large sites.
+- **From a list too**: Paste URLs or open a CSV or old sitemap to clean it up and rebuild it.
+
+### How to create an XML sitemap
+
+1. **Enter your website** — Type your home page address and choose how many pages to crawl, or switch to **From a list of URLs**.
+2. **Let it crawl** — Pages are discovered through links; skipped pages are listed with the reason. You can stop at any time.
+3. **Choose the details** — Pick where **lastmod** comes from and whether to add images; leave changefreq and priority out unless you need them.
+4. **Upload and submit** — Download **sitemap.xml**, upload it to your site’s root, add it to robots.txt and submit it in Google Search Console and Bing Webmaster Tools.
+
+### Guide
+
+#### What belongs in a sitemap
+
+| Include | Leave out |
+| --- | --- |
+| Pages that return 200 and that you want in search results | Pages with noindex, or blocked in robots.txt |
+| The canonical version of each page | Duplicates, ?ref= and other tracking variants |
+| The final address after redirects | URLs that redirect or return 404 |
+| Accurate lastmod dates | Dates that change on every build without a real update |
+
+#### Do I need a sitemap?
+
+Search engines find most pages by following links, but a sitemap helps them discover new and updated pages faster — especially on new sites with few backlinks, large sites, and pages that few other pages link to. Google reads **loc** and an accurate **lastmod**; it ignores changefreq and priority.
+
+After uploading, list the sitemap in robots.txt (Sitemap: https://example.com/sitemap.xml) so every search engine finds it, and submit it once in Google Search Console and Bing Webmaster Tools to see how many pages are indexed. Google no longer accepts sitemap “pings”; Bing and Yandex also support IndexNow for instant updates.
+
+### FAQ
+
+**Is the sitemap generator free?**
+Yes, with no sign-up. Crawls are limited to 1,000 pages at a time; for bigger sites, crawl sections separately or use the URL list mode with an export from your CMS.
+
+**Why is the crawl slow for my site?**
+If your site doesn’t allow other websites to read its pages (most don’t), pages are fetched through Jina Reader, whose free service allows about 20 requests a minute — so 100 pages take around 6 minutes. Sites that allow it are crawled several pages at a time.
+
+**Why were some pages left out?**
+They can’t be indexed as they are: blocked by robots.txt, marked noindex, redirected, returning an error, or pointing to a different canonical URL. The “Pages left out” list shows the reason for each.
+
+**Should I set changefreq and priority?**
+Not for Google — it ignores both. They are optional and left out by default; an accurate lastmod is far more useful.
+
+**How many URLs can one sitemap hold?**
+50,000 URLs or 50 MB uncompressed. Larger sites need several sitemap files listed in a sitemap index, which the generator creates automatically.
+
+## Robots.txt Generator
+
+URL: https://justtools.online/seo-tools/robots-txt-generator/
+Category: SEO & Marketing Tools
+Processing: Contacts an external service to work (see the page).
+Last updated: 2026-10-06
+
+Create a robots.txt file free: block admin pages, AI training bots like GPTBot or SEO crawlers, add your sitemap, then test any URL against Google’s rules.
+
+### At a glance
+
+- Generates robots.txt from simple choices: default access, paths to block with exceptions, an optional Crawl-delay and your **sitemap** URLs.
+- Lets you allow or block **26 named crawlers** in four groups — search engines, AI search assistants (OAI-SearchBot, Claude-SearchBot, PerplexityBot), **AI training bots** (GPTBot, ClaudeBot, Google-Extended, CCBot …) and SEO crawlers (AhrefsBot, SemrushBot …).
+- Presets for WordPress, online shops, staging sites, and blocking AI training while staying in search and AI answers.
+- **Validates** any robots.txt with line numbers: rules outside a group, unsupported noindex, misspellings, relative sitemaps, blocked CSS and JavaScript, and Google’s 500 KiB limit.
+- **Tests a URL** against every crawler using Google’s matching rules (RFC 9309): the most specific user-agent group, the longest matching path, Allow winning ties — and shows the line that decided.
+- Loads a site’s live robots.txt for checking — directly from your browser when the site allows it, otherwise through Jina Reader. Building and testing happen on your device.
+
+### Features
+
+- **Correct by construction**: Groups, paths and sitemap lines are written the way Google, Bing and AI crawlers expect, with full sitemap URLs.
+- **AI crawler control**: Opt out of AI training without disappearing from ChatGPT, Claude or Perplexity search answers — or block AI completely.
+- **Smart presets**: WordPress, online shop, staging and AI presets give a sensible starting point in one click.
+- **Validator with line numbers**: Finds the mistakes that silently break robots.txt — and jumps to the line.
+- **URL tester**: See which crawlers may fetch a page and which rule decides, before you upload the file.
+- **Check any live site**: Load a website’s robots.txt to audit it, or to start editing your own.
+
+### How to create a robots.txt file
+
+1. **Pick a starting point** — Choose a preset such as **WordPress** or **Block AI training**, or start from **Allow everything**.
+2. **Add your rules** — List paths to keep out of search (like /admin/), allow or block specific crawlers, and add your sitemap URL.
+3. **Test it** — Click **Test a URL against this file** to check important pages are still crawlable.
+4. **Upload** — Download robots.txt and upload it to your site’s root so it opens at example.com/robots.txt.
+
+### Guide
+
+#### robots.txt rules at a glance
+
+| Line | Meaning | Example |
+| --- | --- | --- |
+| User-agent | Which crawler the following rules are for; * means all | User-agent: GPTBot |
+| Disallow | Paths the crawler must not fetch | Disallow: /admin/ |
+| Allow | An exception inside a disallowed path | Allow: /admin/help/ |
+| * | Matches any characters | Disallow: /*?sort= |
+| $ | Marks the end of the URL | Disallow: /*.pdf$ |
+| Sitemap | Full URL of a sitemap, anywhere in the file | Sitemap: https://example.com/sitemap.xml |
+
+#### What robots.txt can and can’t do
+
+robots.txt controls **crawling**, not indexing. A blocked page can still appear in Google as a bare link if other sites link to it, and Google can’t see a noindex tag on a page it isn’t allowed to fetch. To keep a page out of search results, allow crawling and add **<meta name="robots" content="noindex">** instead.
+
+It is also public and voluntary: well-behaved crawlers such as Googlebot, Bingbot, GPTBot and ClaudeBot obey it, but it is not access control. Never list secret paths in it, and protect private areas with a login.
+
+### FAQ
+
+**Where do I put robots.txt?**
+In the root of your domain, so it opens at https://example.com/robots.txt. Each subdomain (blog.example.com) needs its own file, and it must be plain text returning HTTP 200.
+
+**How do I block ChatGPT and other AI bots?**
+Add a group for each crawler with Disallow: /. To stop training only, block GPTBot, ClaudeBot, Google-Extended, CCBot and similar; to also leave AI search answers, block OAI-SearchBot, Claude-SearchBot and PerplexityBot. The “Block AI training” and “Block all AI” presets do this for you.
+
+**Will blocking Google-Extended remove my site from Google Search?**
+No. Google-Extended only controls whether Gemini may use your content for training and grounding. Search, including AI Overviews, uses Googlebot.
+
+**Does Google follow Crawl-delay?**
+No. Bing and Yandex do; Google adjusts its crawl rate automatically. If Googlebot overloads your server, return 503 or 429 temporarily.
+
+**Why does the validator say noindex isn’t supported?**
+Google stopped honouring Noindex lines in robots.txt in September 2019. Use a robots meta tag or the X-Robots-Tag HTTP header on the page instead.
+
+**Is blocking CSS and JavaScript a problem?**
+Yes. Google renders pages like a browser; without your CSS and JavaScript it may see a broken page and rank it lower. Keep folders such as /wp-includes/ and /_next/ crawlable.
+
+## URL Shortener
+
+URL: https://justtools.online/seo-tools/url-shortener/
+Category: SEO & Marketing Tools
+Processing: Contacts an external service to work (see the page).
+Last updated: 2026-10-07
+
+Free URL shortener: make short links with a custom ending, QR code, password, expiry and click stats — or check where any short link really goes.
+
+### At a glance
+
+- Shortens links with **spoo.me** or **da.gd** — free, open-source services — with an optional **custom ending** such as spoo.me/diwali-sale.
+- spoo.me links can have a **password**, a **click limit**, an **expiry date** and **bot blocking**, and come with **click statistics**: clicks per day, unique visitors, countries, referrers, devices and browsers.
+- Every link gets a **QR code** (PNG or SVG) and one-tap copy and share; **UTM tags** for Google Analytics can be added before shortening.
+- **Bulk shortening**: up to 100 links at once, with copy-all and a CSV download.
+- **Check a short link**: see where any bit.ly, TinyURL or other short link leads — every redirect, with warning signs — without opening it.
+- No sign-up. The links you make are listed **only in this browser**; JustTools has no server and never sees them.
+
+### Features
+
+- **Your own ending**: spoo.me/diwali-sale is easier to read, trust and type than a random code.
+- **Password, limit and expiry**: Protect a link, stop it after a number of clicks, or make it expire on a date.
+- **QR code for every link**: Download a crisp PNG or SVG for posters, menus, packaging and visiting cards.
+- **Click statistics**: Clicks per day, unique visitors, countries, referrers, devices and browsers.
+- **Bulk shortening**: Paste up to 100 addresses and get them all back as a list or a CSV file.
+- **Link checker**: See every redirect behind a short link and its real destination before you click.
+
+### How to shorten a URL
+
+1. **Paste the long URL** — Paste the address and, if you like, type a custom ending.
+2. **Choose options** — Pick spoo.me or da.gd, and add a password, click limit, expiry or UTM tags if you need them.
+3. **Shorten and share** — Press **Shorten**, then copy the link, share it or download its QR code.
+4. **Track clicks** — Open **Click stats** to see how many people opened a spoo.me link and where they came from.
+
+### Guide
+
+#### spoo.me or da.gd?
+
+|  | spoo.me | da.gd |
+| --- | --- | --- |
+| Example | spoo.me/diwali-sale | da.gd/sale26 |
+| Custom ending | 3–16 characters | Up to 10 characters |
+| Password, click limit, expiry | Yes | No |
+| Click statistics | Yes (public unless password-protected) | No |
+| Open source | Yes | Yes |
+
+#### Using short links safely
+
+- **Check before you click.** A short link hides where it goes — paste it into **Check a link** to see the destination first.
+- **Don’t shorten private links.** Anyone who has the short link can open it, so keep documents, payment and meeting links out of shorteners — or add a password.
+- **Short links can’t be edited.** If the page moves you’ll need a new link, so double-check the long URL before you share it widely.
+- **Prefer https:// pages.** Browsers warn visitors about pages that aren’t encrypted.
+
+### FAQ
+
+**Is this URL shortener free?**
+Yes. Shortening, custom endings, QR codes, bulk shortening and click statistics are free, with no sign-up.
+
+**How long do the short links last?**
+They have no expiry date unless you set one or a click limit. The services can remove links that break their rules, such as spam, phishing or malware.
+
+**Can I edit or delete a short link?**
+No. Links made without an account can’t be changed or deleted, so check the long URL before you share it. Removing a link from your list here only hides it in this browser.
+
+**Who can see my click statistics?**
+spoo.me statistics are public to anyone who knows the short link. Set a password to protect both the link and its statistics.
+
+**Why are the links not on justtools.online?**
+JustTools runs entirely in your browser and has no server to store links, so it uses free, open-source shortening services that work straight from the browser.
+
+**How can I tell if a short link is safe?**
+Use **Check a link**. It follows the link on da.gd’s server and shows every redirect and the final address, with warnings for bare IP addresses, look-alike domains and unencrypted pages. It can’t prove a site is safe, so read the final domain name carefully.
+

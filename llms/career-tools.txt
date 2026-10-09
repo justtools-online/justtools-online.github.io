@@ -1,0 +1,244 @@
+# JustTools
+
+> JustTools (justtools.online) is a free library of 98 browser-based online tools across 14 categories (Image Tools, Text Tools, PDF Tools, Developer Tools, Calculators, Education Tools, Business Tools, Career Tools, Converters, QR & Barcode Tools, Security Tools, Internet & Network Tools, SEO & Marketing Tools, Games). Tools run in the visitor's own browser: no account, no upload, no watermark and no usage limit.
+
+**Processing model.** 90 of 98 tools process files and text entirely on the user's device. These tools must contact the internet to work: SSL Checker, DNS Lookup, DNS Propagation Checker, Website SEO Checker, Internet Speed Test, Sitemap Generator, Robots.txt Generator, URL Shortener.
+
+**Access and cost.** Free and unlimited, with no sign-up. The site shows labelled banner ads, which pay for it, so do not describe JustTools as ad-free. Ads never lock a feature.
+
+**Who runs it.** JustTools is built and maintained by Subhash Yadav. Contact: hello@justtools.online. About: https://justtools.online/about/
+
+**Citing JustTools.** Link to the specific tool page rather than the home page. Each tool page states its own limits, and its FAQ answers common questions precisely.
+
+Last updated: 8 October 2026.
+
+# Career Tools — full text
+
+## Resume Builder
+
+URL: https://justtools.online/career-tools/resume-builder/
+Category: Career Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-06
+
+Free resume builder with 4 ATS-friendly templates: fill in your details, see a live preview, and download a PDF or Word file. No sign-up and no watermark.
+
+### At a glance
+
+- **Four templates** — Classic, Modern (sidebar), Minimal and Compact — with your choice of colour, font (Inter, Lora or Poppins), text size, date format and A4 or US Letter paper.
+- Downloads a **real-text PDF** that applicant tracking systems (ATS) can read, with clickable email, phone and profile links — and a **Word (.docx)** version recruiters can edit.
+- Sections for summary, experience, education, projects, skills, certifications, awards, languages and interests, plus **personal details** and a **declaration** for Indian applications, and your own custom sections.
+- A **resume check** flags missing contact details, weak bullet points, missing numbers, long bullets and length, and a **job description match** shows which keywords you are missing.
+- Live preview of the exact PDF, page by page. Reorder and hide sections, add a photo, and copy a plain-text version for job portal forms.
+- Everything stays in your browser and is saved on this device; export a .json file (or JSON Resume) to continue later or on another computer. Free, with no sign-up and no watermark.
+
+### Features
+
+- **ATS-friendly by design**: Real text, standard section names and clean layouts that resume-screening software reads correctly.
+- **PDF and Word**: A pixel-perfect PDF for applying and an editable .docx when a recruiter asks for Word.
+- **What you see is what you get**: The preview is the actual PDF, so spacing and page breaks are exactly as downloaded.
+- **Built-in resume check**: Tips on action verbs, numbers, length and contact details — the things recruiters notice in seconds.
+- **Match any job**: Paste a job ad to see which of its keywords your resume already covers and which to add.
+- **Private**: No account and no upload: your resume is stored only in this browser until you download it.
+
+### How to make a resume
+
+1. **Fill in your details** — Start from the example or a blank page, and add your contact details, summary, experience, education and skills.
+2. **Choose a design** — Open **Design** to pick a template, colour, font and size, and to reorder or hide sections.
+3. **Check it** — Open **Check** for tips, and paste a job description to see which keywords are missing.
+4. **Download** — Click **Download PDF** to apply, or **Word** for an editable copy. Use **Save data** to keep a copy you can edit later.
+
+### Guide
+
+#### Which sections to include
+
+| Section | Freshers | Experienced |
+| --- | --- | --- |
+| Summary | 2–3 lines on your skills and the role you want | 2–4 lines on your experience and biggest strengths |
+| Experience | Internships, part-time work, freelancing | Most recent first, 3–5 achievement bullets each |
+| Projects | College and personal projects — put them high up | Optional; side projects that show relevant skills |
+| Education | Near the top, with CGPA or percentage | Near the end; the score can be left out |
+| Skills | Tools, languages and software you can really use | Grouped: languages, tools, methods |
+| Certifications | Online courses and certificates | Professional certifications |
+| Personal details & declaration | Often asked for in campus and government jobs | Usually left out for private-sector and overseas jobs |
+
+#### How to write bullet points that get shortlisted
+
+- Start with an action verb — **Led, Built, Reduced, Increased, Launched** — not “Responsible for”.
+- Show the result with a number: “Cut report time from 3 days to 4 hours”, “Handled 120 customer calls a day”, “Saved ₹8 lakh a year”.
+- Keep each bullet to one or two lines, and 3–5 bullets per job.
+- Use the words from the job description for skills you really have — ATS software ranks resumes by matching them.
+- Keep the resume to one page with under about five years of experience, and two pages at most.
+
+### FAQ
+
+**Is this resume builder really free?**
+Yes. Every template, the PDF and Word downloads and the resume check are free, with no sign-up, no watermark and no limit on downloads or edits.
+
+**Is my resume uploaded or stored on a server?**
+No. The resume is created in your browser and saved only on this device. Nobody — including us — can see it. Clear it any time with Start blank.
+
+**Are these resumes ATS-friendly?**
+Yes. The PDF contains real, selectable text with standard section headings, which applicant tracking systems read correctly. Classic and Minimal are the safest choices for job portals; the two-column Modern template is fine for most modern systems.
+
+**Should I add a photo, date of birth and declaration?**
+In India they are common for government, PSU and campus applications. Leave them out for private-sector, MNC and overseas jobs, where recruiters prefer not to see them.
+
+**Can I edit my resume later?**
+Yes. It is saved automatically in this browser. To move it to another device, use More → Save data (.json) and open that file there. JSON Resume files from other tools can be opened too.
+
+**What is the best resume format for freshers?**
+One page: contact details, a two-line summary, education with CGPA, projects and internships with results, skills and certifications. The example resume shows the structure — replace it with your details.
+
+**Can I write my resume in Hindi?**
+Hindi text prints correctly in the PDF, but most companies and ATS software expect an English resume, and some systems read Hindi text imperfectly.
+
+## ATS Resume Checker
+
+URL: https://justtools.online/career-tools/ats-resume-checker/
+Category: Career Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-07
+
+Free ATS resume checker: see what applicant tracking systems read from your PDF or Word resume, get a score with clear fixes, and match it to any job.
+
+### At a glance
+
+- Reads your **PDF or Word (.docx)** resume the way ATS software does and shows the **text it extracts** and the **details it fills in** — name, email, phone, location, LinkedIn, experience, education and skills.
+- **40+ checks** in four groups — readability, contact details, sections and dates, and content — with an **ATS score out of 100** and a plain-English fix for every problem.
+- Finds what trips parsers up: **two-column layouts, layout tables, text boxes, headers and footers, icon fonts, spaced-out headings, scanned pages** and garbled text.
+- **Job match**: paste a job description to see which **hard skills, soft skills and keywords** you’re missing, and whether you meet the job title, years of experience and degree it asks for.
+- Recognises **350+ skills** in the spellings people use (Power BI / PowerBI, Node.js / NodeJS) and the headings Indian resumes use, such as Educational Qualifications and Positions of Responsibility.
+- Private: your resume is read **in your browser** and never uploaded. Free, with no sign-up and no limit on checks.
+
+### Features
+
+- **See what the ATS sees**: The extracted text and parsed fields show exactly where a layout scrambles or hides your details.
+- **Fixes, not just a score**: Every warning says why it matters and what to change, most important first.
+- **Keyword match**: Skills and keywords from any job ad, counted in the job and in your resume.
+- **Made for Indian resumes**: Understands Indian formats and flags Aadhaar or PAN numbers, date of birth and other personal details.
+- **Checks the real file**: Text boxes, tables, headers and image-only pages only show up in the PDF or Word file itself — so that is what it reads.
+- **Private**: No upload and no account: your resume never leaves your device.
+
+### How to check your resume for ATS
+
+1. **Add your resume** — Drop the PDF or Word file you send to employers, or paste the text.
+2. **Read the score and fixes** — Start with critical problems and warnings — each one says what to change.
+3. **Look at the ATS view** — See the text and details the ATS extracts. Jumbled lines mean the layout needs simplifying.
+4. **Match a job** — Paste the job description to find missing skills and keywords, then add the ones you really have.
+
+### Guide
+
+#### What ATS software needs from a resume
+
+| Check | Why it matters |
+| --- | --- |
+| Real, readable text | Scanned or image-only resumes come through empty. |
+| A simple layout | Columns, tables and text boxes can mix up or hide text. |
+| Standard headings | Experience, Education and Skills tell the ATS where each detail belongs. |
+| Contact details in the page | Some ATS ignore Word headers and footers. |
+| Dates on every role | They are used to work out your years of experience. |
+| Keywords from the job | Recruiters search and rank candidates by skills and job titles. |
+
+#### ATS myths
+
+- **“An ATS rejects most resumes automatically.”** Most systems only reject through screening questions you answer while applying, such as location or notice period. Otherwise recruiters decide — but they find candidates by searching what the ATS extracted, so a resume it reads badly rarely comes up.
+- **“You need a special ATS template.”** A clean, single-column PDF or Word file with standard headings works with every major ATS. Elaborate designs are what cause problems.
+- **“Add as many keywords as you can.”** A person reads the resume after the search. Add only skills you really have, and show them in results.
+- **“PDFs aren’t ATS-friendly.”** Modern ATS read text-based PDFs well. Scanned PDFs and image-heavy designs are the problem — this checker shows which kind yours is.
+
+### FAQ
+
+**What is an ATS score?**
+There is no single official score — every ATS (Workday, Taleo, Greenhouse, Naukri RMS and others) works a little differently. This score measures what they all depend on: whether the text can be read, whether your details and sections are recognised, and how clearly your achievements are written.
+
+**Is my resume uploaded anywhere?**
+No. The file is opened and checked by your browser; nothing is sent to a server, and it is gone when you close the page.
+
+**What is a good ATS score?**
+75 or more means software reads your resume well and the content is solid; 90 or more is excellent. More important than the number: fix every critical problem and warning.
+
+**Why is my job match low?**
+The match compares your resume with the skills and keywords in that job ad. Add the ones you really have — in your skills and in bullets that show them in use — with the same spelling as the job. Don’t add skills you don’t have.
+
+**Are two-column resumes bad for ATS?**
+Modern systems often cope, but many read across the page and mix the columns together. If the ATS view shows jumbled lines, switch to one column — the free [Resume Builder](https://justtools.online/career-tools/resume-builder/) makes one.
+
+**Should I send a PDF or a Word file?**
+Either works. Send what the job asks for; otherwise a text-based PDF keeps your layout exactly. Use .docx when a portal or recruiter asks for Word, and avoid scanned PDFs, images and old .doc files.
+
+## Marriage Biodata Maker
+
+URL: https://justtools.online/career-tools/marriage-biodata-maker/
+Category: Career Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-08
+
+Make a marriage biodata with photo in English, Hindi or Marathi — rashi, nakshatra, gotra, family details — and download a PDF or JPG for WhatsApp. Free.
+
+### At a glance
+
+- Builds a **marriage biodata** with personal, family and contact sections — including **rashi, nakshatra, gotra, manglik**, time and place of birth — ready in minutes.
+- Labels in **English, Hindi or Marathi**, or English with Hindi or Marathi underneath; dates, rashi, nakshatra and manglik values are translated too.
+- **5 designs** (Classic, Royal, Floral, Mandala, Minimal), any colour, serif or sans fonts, and a photo in a square, rounded or oval frame.
+- Top-line presets such as **॥ श्री गणेशाय नमः ॥**, ॥ ॐ ॥, ॥ जय श्री कृष्ण ॥, Ik Onkar and Bismillah — or your own text.
+- Downloads an **A4 PDF** for printing and a **JPG** for WhatsApp; the layout shrinks to keep everything on one page.
+- Everything stays in your browser and is saved on this device only — your details and photo are never uploaded.
+
+### Features
+
+- **Hindi and Marathi labels**: Switch the whole biodata between English, हिन्दी and मराठी in one click — no retyping.
+- **Add, remove, reorder**: Add fields like Kuldevi, Devak, blood group or partner expectations, rename any label and move rows up or down.
+- **Photo friendly**: Add a photo from your phone (iPhone HEIC too); it’s cropped neatly into the frame.
+- **One-page fit**: Long details shrink gently to fit A4; the preview warns if it still needs two pages.
+- **WhatsApp ready**: Download a sharp JPG, or share it straight from your phone.
+- **Private by design**: No sign-up and no upload — details are saved only in your browser.
+
+### How to make a marriage biodata
+
+1. **Fill in your details** — Enter personal, family and contact details. Leave out anything you don’t want printed — empty rows are skipped.
+2. **Add a photo** — Choose a clear, recent photo and its frame shape.
+3. **Choose the design** — Under **Design**, pick a template, colour, font and the label language.
+4. **Download** — Download the **PDF** to print or the **JPG** to send on WhatsApp.
+
+### Guide
+
+#### What to include in a marriage biodata
+
+- **Personal details:** name, date, time and place of birth, height, education, occupation and income.
+- **Horoscope details:** religion, caste, gotra, rashi, nakshatra and manglik status — families often match kundli from these.
+- **Family details:** parents’ names and occupations, brothers and sisters (with marital status) and native place.
+- **Contact details:** a contact person (often a parent), mobile number and address.
+- **Optional:** about me, hobbies, diet and partner expectations — keep each to a line or two.
+
+#### Biodata labels in three languages
+
+| English | हिन्दी | मराठी |
+| --- | --- | --- |
+| Date of Birth | जन्म तिथि | जन्मतारीख |
+| Time of Birth | जन्म समय | जन्मवेळ |
+| Rashi | राशि | रास |
+| Manglik | मांगलिक | मंगळ |
+| Father's Name | पिता का नाम | वडिलांचे नाव |
+| Native Place | मूल निवास | मूळ गाव |
+
+### FAQ
+
+**Is this marriage biodata maker free?**
+Yes — completely free, with no sign-up and no watermark. Download as many PDFs and JPGs as you like.
+
+**Can I make my biodata in Hindi or Marathi?**
+Yes. Under **Design → Labels in**, choose हिन्दी or मराठी, or English with Hindi or Marathi underneath. You can also type your details in any language.
+
+**How do I send my biodata on WhatsApp?**
+Tap **JPG** to save an image and send it like any photo, or **Share** on a phone to send it directly. Send the PDF as a document if you want the best print quality.
+
+**Which details should I leave out?**
+Anything you’re not comfortable sharing widely — biodatas get forwarded. Many families give a parent’s number instead of their own, and leave out the full address until later.
+
+**Will my biodata fit on one page?**
+Usually, yes — the text size adjusts automatically. If there’s too much, the preview shows two pages; shorten long entries or remove a few rows.
+
+**Are my details and photo uploaded?**
+No. The biodata is drawn in your browser and saved only on this device, so you can come back and edit it later.
+

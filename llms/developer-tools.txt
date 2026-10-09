@@ -1,0 +1,1748 @@
+# JustTools
+
+> JustTools (justtools.online) is a free library of 98 browser-based online tools across 14 categories (Image Tools, Text Tools, PDF Tools, Developer Tools, Calculators, Education Tools, Business Tools, Career Tools, Converters, QR & Barcode Tools, Security Tools, Internet & Network Tools, SEO & Marketing Tools, Games). Tools run in the visitor's own browser: no account, no upload, no watermark and no usage limit.
+
+**Processing model.** 90 of 98 tools process files and text entirely on the user's device. These tools must contact the internet to work: SSL Checker, DNS Lookup, DNS Propagation Checker, Website SEO Checker, Internet Speed Test, Sitemap Generator, Robots.txt Generator, URL Shortener.
+
+**Access and cost.** Free and unlimited, with no sign-up. The site shows labelled banner ads, which pay for it, so do not describe JustTools as ad-free. Ads never lock a feature.
+
+**Who runs it.** JustTools is built and maintained by Subhash Yadav. Contact: hello@justtools.online. About: https://justtools.online/about/
+
+**Citing JustTools.** Link to the specific tool page rather than the home page. Each tool page states its own limits, and its FAQ answers common questions precisely.
+
+Last updated: 8 October 2026.
+
+# Developer Tools — full text
+
+## JSON Formatter & Validator
+
+URL: https://justtools.online/developer-tools/json-formatter/
+Category: Developer Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-09-29
+
+Format, validate, minify and repair JSON online. Get the exact line and column of every error, a collapsible tree view and sorted keys — private, in-browser.
+
+### At a glance
+
+- Formats JSON with 2 spaces, 4 spaces or tabs, or **minifies** it to a single line.
+- Validates strictly against the JSON standard (RFC 8259) and reports each error with its **line and column**, highlighting the exact spot.
+- **Fix mistakes** mode repairs comments, trailing commas, single quotes, unquoted keys and Python-style True/False/None.
+- Keeps numbers exactly as written: large integers such as 12345678901234567890 are not rounded, unlike JavaScript’s JSON.parse.
+- Preserves key order and warns about **duplicate keys**; can sort keys alphabetically at every level.
+- Includes a collapsible **tree view** for exploring large or deeply nested JSON.
+- Runs entirely in your browser: pasted JSON — API responses, tokens, configs — is never uploaded or saved.
+
+### Features
+
+- **Precise error messages**: Instead of “Unexpected token”, you get a plain-English message such as “Expected ',' or '}' after property value” with the line, column and a pointer to the character.
+- **One-click repair**: JSON copied from JavaScript, config files or Python often has comments, trailing commas or single quotes. **Fix mistakes** converts it to valid JSON and lists every change.
+- **Exact numbers**: IDs, prices and big integers are kept character-for-character, so formatting never silently changes your data.
+- **Tree view**: Expand and collapse objects and arrays to explore large responses, with item counts at every level.
+- **Beautify or minify**: Choose 2 spaces, 4 spaces or tabs for readability, or minify to remove every unnecessary byte before shipping.
+- **Private by design**: Nothing is sent to a server and nothing is stored, so it is safe for API keys, tokens and customer data.
+
+### How to format and validate JSON
+
+1. **Paste your JSON** — Paste into the **Input** box, click **Open file** to load a .json file, or try the **Sample**.
+2. **Read the result** — Valid JSON is formatted instantly on the right. If it is invalid, the error bar shows the line, column and reason.
+3. **Fix any errors** — Click **Show in input** to jump to the problem, or **Fix automatically** to repair comments, trailing commas and quotes.
+4. **Copy or download** — Pick 2 spaces, 4 spaces, tabs or **Minify**, optionally sort keys, then copy the output or download it as a .json file.
+
+### Guide
+
+#### The most common JSON errors — and how to fix them
+
+JSON is stricter than JavaScript. These mistakes cause almost every “invalid JSON” error. All of them except missing commas, missing brackets and leading zeros can be repaired automatically with **Fix mistakes**.
+
+| Error | Invalid | Valid |
+| --- | --- | --- |
+| Trailing comma | `{"a": 1,}` | `{"a": 1}` |
+| Single quotes | `{'a': 'b'}` | `{"a": "b"}` |
+| Unquoted key | `{a: 1}` | `{"a": 1}` |
+| Comments | `{"a": 1 // note}` | `{"a": 1}` |
+| Missing comma | `{"a": 1 "b": 2}` | `{"a": 1, "b": 2}` |
+| Python literals | `{"ok": True, "x": None}` | `{"ok": true, "x": null}` |
+| Leading zero | `{"n": 007}` | `{"n": 7}` |
+| Raw line break in a string | `"line one` ↵ `line two"` | `"line one\nline two"` |
+
+#### Why numbers stay exact here
+
+JavaScript stores every number as a 64-bit float, so `JSON.parse` silently rounds integers above 9,007,199,254,740,991: `12345678901234567890` becomes `12345678901234567000`. That corrupts order IDs, tweet IDs and account numbers. This formatter keeps each number’s original text, so the output is exactly what you pasted — only the whitespace changes.
+
+#### Pretty-printed vs minified JSON
+
+- **Pretty-printed** (2 or 4 spaces, or tabs) is for people: logs, config files, code reviews and documentation.
+- **Minified** removes all optional whitespace and is for machines: API payloads, local storage and anything sent over the network. For typical JSON it is 10–30% smaller than 2-space formatting, before gzip.
+- **Sorted keys** make two JSON documents easy to compare in a diff, because the same keys always appear in the same order.
+
+#### JSON syntax in 60 seconds
+
+- Values are strings, numbers, `true`, `false`, `null`, objects `{}` or arrays `[]`.
+- Strings and keys use **double quotes** only. Escape `"` as `\"` and a backslash as `\\`.
+- Items are separated by commas, with no comma after the last one.
+- Numbers have no leading zeros, no `+` sign, and no `NaN` or `Infinity`.
+- Comments are not part of JSON. Use JSONC or JSON5 files if you need them, and strip comments before parsing.
+
+### FAQ
+
+**Is it safe to paste API responses or tokens here?**
+Yes. The formatter runs entirely in your browser; your JSON is never sent to a server, logged or saved. Close the tab and it is gone.
+
+**How do I find where my JSON is broken?**
+The red error bar gives the line and column and shows the line with a ^ under the problem. Click **Show in input** to jump straight to it.
+
+**What does “Fix mistakes” change?**
+It removes comments and trailing commas, converts single-quoted strings, quotes bare property names and turns Python’s True, False and None into true, false and null. Everything it changed is listed, and you can replace your input with the fixed JSON.
+
+**Why does my number look different in other tools?**
+Most online formatters use JavaScript’s JSON.parse, which rounds integers larger than 2^53. This tool keeps numbers exactly as written, so large IDs stay correct.
+
+**Can it handle large JSON files?**
+Yes — multi-megabyte files work, limited only by your device’s memory. Syntax colouring switches off above about 200 KB of output to keep the page fast.
+
+**Does it support JSON5 or JSONC?**
+Turn on **Fix mistakes** to read the most common JSON5/JSONC features — comments, trailing commas, single quotes and unquoted keys — and convert them into standard JSON.
+
+**What happens with duplicate keys?**
+The JSON standard leaves duplicates undefined; most parsers keep the last value. This tool does the same and shows a warning with the line of each duplicate, so you can fix the source.
+
+**Can I download the result?**
+Yes. Click **Download** to save the output as formatted.json or minified.json, or **Copy** to put it on your clipboard.
+
+## XML to JSON Converter
+
+URL: https://justtools.online/developer-tools/xml-to-json/
+Category: Developer Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-09-30
+
+Convert XML to JSON and JSON to XML online. Keeps attributes, arrays and leading zeros intact, shows exact error lines and never uploads your data.
+
+### At a glance
+
+- Converts **XML to JSON** and **JSON to XML**, instantly as you type.
+- Attributes become keys with a prefix (`@` by default), text beside attributes goes into `#text`, and repeated elements become arrays — all configurable.
+- Numbers and booleans are converted safely: values with leading zeros (`007`) or more than 15 significant digits stay as text, so IDs and codes are never changed.
+- **Always use arrays** keeps the JSON shape the same whether an element appears once or many times.
+- Invalid XML or JSON is reported with the exact **line and column**. CDATA, entities and namespaces are supported.
+- Copy the result or download it as a .json or .xml file.
+- Runs in your browser: the data you paste or open is never uploaded.
+
+### Features
+
+- **Both directions**: XML → JSON and JSON → XML in one tool. Switching direction carries the result across, so you can convert back and forth.
+- **Safe numbers**: Unlike many converters, it never turns “00482” into 482 or rounds a 20-digit ID. Only values that convert exactly become numbers.
+- **Predictable arrays**: Turn on **Always use arrays** so code that reads the JSON works the same for one item or a hundred.
+- **Exact error locations**: An unclosed tag or a missing comma is reported with its line and column, and one click jumps to it in the input.
+- **Your naming**: Choose the attribute prefix (@, _, -, $), rename the text key, drop namespace prefixes or ignore attributes entirely.
+- **Private**: Configs, API responses and feeds are converted on your device. Nothing is sent to a server.
+
+### How to convert XML to JSON
+
+1. **Add your XML** — Paste XML into the input, or click **Open file** to load an .xml, RSS or other XML file.
+2. **Adjust the options** — Open **Options** to change the attribute prefix, keep every element as an array, or turn off number conversion.
+3. **Check the result** — The JSON appears as you type. If the XML has an error, its line and column are shown.
+4. **Copy or download** — Copy the JSON or download it as a file. Choose **JSON → XML** to convert in the other direction.
+
+### Guide
+
+#### How XML maps to JSON
+
+| XML | JSON |
+| --- | --- |
+| `<name>Asha</name>` | `"name": "Asha"` |
+| `<user id="7"/>` | `"user": { "@id": 7 }` |
+| `<price currency="INR">799</price>` | `"price": { "@currency": "INR", "#text": 799 }` |
+| `<tag>a</tag><tag>b</tag>` | `"tag": ["a", "b"]` |
+| `<sku>00482</sku>` | `"sku": "00482"` (leading zero kept) |
+| `<empty/>` | `"empty": ""` |
+| `<![CDATA[<b>bold</b>]]>` | `"<b>bold</b>"` |
+
+#### How JSON becomes XML
+
+- Keys that start with the attribute prefix (`@id`) become attributes; the `#text` key becomes the element’s text.
+- Arrays repeat the element: `"item": [1, 2]` becomes `<item>1</item><item>2</item>`.
+- `null` and empty strings become empty elements like `<notes/>`.
+- XML needs one root element, so data with several top-level keys, or a top-level array, is wrapped in `<root>`.
+- Keys that aren’t valid XML names are made valid: `"first name"` becomes `<first_name>`, `"2nd"` becomes `<_2nd>`.
+- Numbers are written exactly as they appear in the JSON, and `&`, `<` and `>` are escaped.
+
+### FAQ
+
+**Is it safe to convert confidential XML here?**
+Yes. Conversion happens in your browser, so API responses, configs and feeds are never uploaded or stored.
+
+**Why are some numbers kept in quotes?**
+Values like `00482` or 20-digit IDs would change if turned into JSON numbers, so they stay as text. Turn off **Convert numbers & booleans** to keep every value as text.
+
+**Why is a single element not an array?**
+By default an element becomes an array only when it repeats. Turn on **Always use arrays** to make every element an array, so the structure never changes with the data.
+
+**What happens to attributes?**
+They become keys with a prefix — `@id` by default — placed before the element’s children. You can choose `_`, `-` or `$` instead, or ignore attributes.
+
+**Are XML comments kept?**
+No. JSON has no comments, so XML comments and the `<?xml ?>` declaration are dropped. CDATA content is kept as text.
+
+**Can I convert JSON to XML?**
+Yes. Choose **JSON → XML**. Keys starting with `@` become attributes and arrays become repeated elements, so XML converted to JSON here converts back to the same XML.
+
+**Does it work with RSS, SOAP and sitemap files?**
+Yes — any well-formed XML. Use **Remove namespace prefixes** for cleaner keys from SOAP and RSS media tags.
+
+## DNS Lookup
+
+URL: https://justtools.online/developer-tools/dns-lookup/
+Category: Developer Tools
+Processing: Contacts an external service to work (see the page).
+Last updated: 2026-09-30
+
+Free DNS lookup: check A, AAAA, CNAME, MX, NS, TXT, SOA and CAA records of any domain, see SPF and DMARC, and do reverse DNS for an IP address.
+
+### At a glance
+
+- Looks up **A, AAAA, CNAME, MX, NS, TXT, SOA, CAA, SRV, PTR, HTTPS, DS and DNSKEY** records, or all the everyday ones at once.
+- **All records** mode adds an overview: where the domain points, who hosts its DNS, which provider handles its email, and whether **SPF** and **DMARC** are set up.
+- Enter an **IP address** to find its host name (reverse DNS / PTR).
+- Shows whether answers are **DNSSEC-signed** and validated, and each record’s **TTL** in plain words.
+- Recognises common TXT records — SPF, DMARC, DKIM and verification codes for Google, Microsoft 365, Meta and others.
+- Queries go straight from your browser to the public DNS server you choose (Google, Cloudflare and five others) over encrypted DNS-over-HTTPS. Only the name you look up is sent.
+
+### Features
+
+- **Every record at once**: One click shows IPv4 and IPv6 addresses, mail servers, name servers, TXT, SOA, CAA and HTTPS records — no need to query each type.
+- **Email health check**: See at a glance whether the domain has MX, SPF and DMARC records, and what its DMARC policy tells receivers to do.
+- **Plain-English answers**: MX priorities, SOA timers, CAA rules and TXT verification codes are explained, and TTLs are shown as “1 hour”, not 3600.
+- **Choose the DNS server**: Compare the answer from Google Public DNS, Cloudflare 1.1.1.1 and other resolvers — handy right after changing a record.
+- **Reverse DNS**: Paste an IPv4 or IPv6 address to see the host name its owner registered for it.
+- **Copy and share**: Copy any value with one click, copy all records in dig format, or share a link that runs the same lookup.
+
+### How to look up DNS records
+
+1. **Enter the domain** — Type a domain such as **example.com**, paste a link or an email address, or enter an IP address for reverse DNS.
+2. **Pick a record type** — Leave **All records** selected for a full overview, or choose one type such as **MX** or **TXT**.
+3. **Look it up** — Click **Look up**. Records appear grouped by type, with their TTL and a short explanation.
+4. **Compare or copy** — Switch the **DNS server** to compare answers, copy records, or open the **propagation checker** to see the answer worldwide.
+
+### Guide
+
+#### DNS record types explained
+
+| Type | What it does | Example |
+| --- | --- | --- |
+| A | Points a name to an IPv4 address | 203.0.113.10 |
+| AAAA | Points a name to an IPv6 address | 2001:db8::10 |
+| CNAME | Makes a name an alias of another name | www → example.netlify.app |
+| MX | Mail servers for the domain, with priority | 10 mail.example.com |
+| NS | Name servers that hold the domain’s records | ada.ns.cloudflare.com |
+| TXT | Text: SPF, DMARC, DKIM, verification codes | v=spf1 include:_spf.google.com ~all |
+| SOA | Zone details: primary server, admin, serial, timers | ns1.example.com … |
+| CAA | Which authorities may issue SSL certificates | 0 issue "letsencrypt.org" |
+| PTR | Host name for an IP address (reverse DNS) | dns.google |
+
+#### Checking your email setup
+
+For email to arrive — and for your own mail not to land in spam — a domain needs **MX** records pointing to its mail provider, an **SPF** TXT record listing the servers allowed to send for it, and a **DMARC** record at `_dmarc.yourdomain` saying what to do with mail that fails the checks. Gmail and Yahoo require SPF and DMARC from bulk senders.
+
+There must be **only one SPF record**: two SPF records make both invalid. Start DMARC with `p=none` to monitor, then move to `quarantine` or `reject` once all your sending services pass. DKIM keys live at `selector._domainkey.yourdomain`; look them up by typing that full name and choosing **TXT**.
+
+### FAQ
+
+**What is a DNS lookup?**
+A DNS lookup asks the Domain Name System for the records of a name — for example the IP address of a website (A record) or the mail servers of a domain (MX). It’s what your browser does every time you visit a site.
+
+**Why does the DNS server I choose give a different answer?**
+Each DNS server caches answers for the record’s TTL. After a change, some servers still hold the old answer until their copy expires. Sites on a CDN may also give different answers by location. Use the DNS Propagation Checker to see many servers at once.
+
+**What does TTL mean?**
+Time to live: how long DNS servers may keep an answer before asking again. A TTL of 1 hour means a change can take up to an hour to reach everyone. Lower it a day before planned changes.
+
+**How do I do a reverse DNS lookup?**
+Enter an IP address, such as 8.8.8.8. The tool looks up its PTR record automatically and shows the host name, if the owner of the address has set one.
+
+**Is this the same as nslookup or dig?**
+It gives the same answers as `nslookup` or `dig` pointed at a public resolver, in your browser and with explanations. **Copy records** gives you dig-style output.
+
+**What is sent, and to whom?**
+Only the name you look up and the record type, sent from your browser over encrypted DNS-over-HTTPS to the DNS server you pick (Google Public DNS by default). JustTools doesn’t receive or store your lookups.
+
+## DNS Propagation Checker
+
+URL: https://justtools.online/developer-tools/dns-propagation-checker/
+Category: Developer Tools
+Processing: Contacts an external service to work (see the page).
+Last updated: 2026-09-30
+
+Check DNS propagation worldwide: see the A, CNAME, MX, NS or TXT answer from 7 public DNS networks and 18 ISPs in 15 countries, and track the change.
+
+### At a glance
+
+- Checks **A, AAAA, CNAME, MX, NS, TXT, CAA and SOA** records on **25 DNS servers and networks** at once.
+- **7 public DNS networks** — Google, Cloudflare, DNS.SB, Control D, CleanBrowsing, IIJ (Japan) and dnsforge (Germany) — each with its own cache.
+- **18 ISP networks in 15 countries**, including Jio, Airtel and ACT in India, answered by Google Public DNS as it would for their users (EDNS Client Subnet) — this shows where CDNs and GeoDNS send visitors.
+- Enter the **expected value** to see the percentage of servers already showing it, and roughly how long the rest may keep the old answer (their remaining TTL).
+- Identical answers are grouped and colour-coded, so you can spot the odd one out.
+- Can re-check automatically every minute while you wait. Queries go from your browser over encrypted DNS-over-HTTPS; only the domain and record type are sent.
+
+### Features
+
+- **Know when it’s live**: Type the new IP, CNAME target or TXT value and watch the percentage climb to 100% as servers pick up the change.
+- **When will it finish?**: Servers still showing the old value report how long they’ll keep it. The tool tells you the longest wait left.
+- **Worldwide view**: Public DNS networks plus ISP networks across India, the Americas, Europe, the Middle East, Africa and Asia-Pacific.
+- **CDN and GeoDNS aware**: See which server address visitors in each country get from services such as CloudFront, Akamai or Google.
+- **Auto-refresh**: Switch on “Check again every minute” and leave the tab open — no need to keep clicking.
+- **Shareable**: Copy a link with the domain, record type and expected value, and send it to your developer or hosting support.
+
+### How to check DNS propagation
+
+1. **Enter your domain** — Type the domain or subdomain you changed, such as **www.example.com**.
+2. **Choose the record type** — Pick **A** for a new server IP, **CNAME** for an alias, **MX** for email, **NS** for new name servers or **TXT** for verification codes.
+3. **Add the new value** — Optionally type the value you set, so each server is marked as updated or not.
+4. **Check** — Click **Check**. Results fill in within seconds; switch on auto-refresh to follow the change.
+
+### Guide
+
+#### How long does DNS propagation take?
+
+There is no single “propagation” process: every DNS server keeps a cached copy of your old record until its **TTL** (time to live) runs out, then fetches the new one. So a change is visible everywhere after at most the old record’s TTL — often 5 minutes to 1 hour, sometimes up to a day.
+
+**New name servers (NS)** take longer: the registry for your domain’s ending (.com, .in…) publishes them, and resolvers may keep the old delegation for up to 48 hours. To make planned changes fast, lower the record’s TTL to 5 minutes a day before the change, then raise it again afterwards.
+
+#### Reading the results
+
+| You see | What it means |
+| --- | --- |
+| Updated (green tick) | The server returns the value you expect. |
+| Different value (red) | The server still has the old answer cached — wait for its TTL to run out. |
+| No record | The name exists but has no record of this type on that server (possibly cached). |
+| Domain not found | The server believes the name doesn’t exist — common just after registering or adding a subdomain. |
+| Different answers by country | Normal for sites on a CDN or GeoDNS: visitors are sent to their nearest server. |
+| No answer | That server couldn’t be reached from your network (it may be blocked by a firewall or ad blocker). |
+
+### FAQ
+
+**Why do I still see the old website after the checker shows 100%?**
+Your computer, router or browser can cache DNS too. Try another browser or a private window, restart the router, or switch your device to a public DNS such as 1.1.1.1 or 8.8.8.8. On Windows, `ipconfig /flushdns` clears the system cache.
+
+**Can I speed up DNS propagation?**
+You can’t force other servers to drop their cache, but you can plan ahead: lower the TTL well before a change. Google and Cloudflare also offer web pages to purge their cached copy of a name.
+
+**Are these servers really in different countries?**
+The public DNS networks are global: each answers from its site nearest to you, with its own cache. The country rows ask Google Public DNS to answer as it would for users of each ISP network, using EDNS Client Subnet — accurate for CDN and GeoDNS answers, but served from Google’s cache near you.
+
+**Why do different countries get different IP addresses?**
+Sites on a CDN (Cloudflare, CloudFront, Akamai, Fastly) or with GeoDNS deliberately give visitors the address of a nearby server. That’s expected and not a propagation problem.
+
+**Why does it say “Domain not found” for a domain I just registered?**
+New domains can take from minutes to a few hours to appear, and servers that asked before it existed remember the “not found” answer for the zone’s negative-cache time (shown as TTL).
+
+**What is sent, and to whom?**
+Only the domain and record type, sent from your browser over encrypted DNS-over-HTTPS to the DNS services listed on the page. JustTools doesn’t receive or store your checks.
+
+## JSON to CSV Converter
+
+URL: https://justtools.online/developer-tools/json-to-csv/
+Category: Developer Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-09-30
+
+Convert JSON to CSV for Excel or Google Sheets: nested objects become columns, lists are kept and big numbers stay exact. Also CSV to JSON. No upload.
+
+### At a glance
+
+- Converts a JSON **array of objects** into CSV rows, with every key as a column — even keys that only some objects have.
+- Finds the rows inside API responses like `{"data": {"users": [...]}}` automatically, and reads **JSON Lines** (NDJSON).
+- **Nested objects** become `parent.child` columns; lists of values are joined in one cell (or written as JSON).
+- Numbers are copied digit for digit, so long IDs like 12345678901234567890 and prices like 1.10 aren’t rounded.
+- Comma, semicolon, tab or pipe delimiters, RFC 4180 quoting, and an optional UTF-8 BOM so **Excel** shows Hindi, ₹ and accents correctly.
+- Also converts **CSV to JSON**, detecting the delimiter, turning numbers and true/false into JSON types (leading zeros stay text) and `a.b` columns back into nested objects.
+- Runs in your browser — your data is never uploaded.
+
+### Features
+
+- **Table preview**: See the result as a spreadsheet-style table before downloading, or switch to the raw CSV text.
+- **Handles messy JSON**: Objects with different keys, nested objects, lists and wrapper objects are all turned into a proper rectangular table.
+- **Excel and Sheets ready**: The download opens correctly in Excel, Google Sheets and Numbers, including Indian languages and the ₹ sign.
+- **Formula-safe option**: Optionally stop cells that start with =, +, - or @ from running as spreadsheet formulas (CSV injection).
+- **Both directions**: Switch to CSV → JSON to turn a spreadsheet export back into clean, nested JSON for an API or config.
+- **Exact error messages**: Invalid JSON is reported with the line and column of the mistake.
+
+### How to convert JSON to CSV
+
+1. **Add your JSON** — Paste JSON into the left box, click **Open file**, or try the **Sample**.
+2. **Check the table** — The CSV appears as a table straight away. Nested objects become columns like **address.city**.
+3. **Adjust the options** — Pick the **delimiter**, and open **Options** to flatten, join lists or make the file Excel-ready.
+4. **Download** — Click **Download** for a .csv file, or **Copy** to paste into a spreadsheet.
+
+### Guide
+
+#### How JSON becomes a table
+
+| JSON | CSV |
+| --- | --- |
+| [{"name": "Asha", "age": 31}] | Columns name, age — one row per object |
+| {"address": {"city": "Pune"}} | Column address.city |
+| {"skills": ["SQL", "Excel"]} | One cell: SQL; Excel (or ["SQL","Excel"]) |
+| {"data": [ … ]} | Rows are taken from the data array |
+| null | Empty cell |
+| "Mehta, Jr." | "Mehta, Jr." — quoted because of the comma |
+
+#### Opening CSV files in Excel
+
+Keep **Excel-ready (UTF-8 BOM)** switched on: without it, Excel on Windows may show Hindi text or the ₹ sign as garbled characters. If your Excel uses a comma as the decimal separator (common in Europe), choose the **semicolon** delimiter.
+
+Excel drops leading zeros from numbers like phone numbers and PIN codes when it opens a CSV. The data in the file is correct — to keep the zeros, import it with **Data → From Text/CSV** and set that column to Text.
+
+### FAQ
+
+**Can it convert nested JSON to CSV?**
+Yes. Nested objects become columns named with dots, such as address.city. Lists of simple values are joined into one cell, and lists of objects are written as JSON text in the cell.
+
+**What if my objects have different keys?**
+Every key found in any object becomes a column, in the order first seen. Objects without a key get an empty cell there.
+
+**Is my data uploaded anywhere?**
+No. The conversion runs entirely in your browser, so API responses, customer lists and exports never leave your device.
+
+**How large a file can it handle?**
+Files of several megabytes convert in a second or two. Very large files are limited only by your device’s memory; the table preview shows the first 200 rows.
+
+**Why do my Hindi or ₹ characters look wrong in Excel?**
+Excel needs a byte order mark to detect UTF-8. Keep “Excel-ready (UTF-8 BOM)” switched on in Options and download again.
+
+**Can I convert CSV back to JSON?**
+Yes — choose CSV → JSON. The delimiter is detected automatically, numbers and true/false become JSON values, and columns like address.city become nested objects.
+
+## CSV to JSON Converter
+
+URL: https://justtools.online/developer-tools/csv-to-json/
+Category: Developer Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-09-30
+
+Convert CSV or data pasted from Excel to JSON: auto-detected delimiter, real numbers and true/false, nested objects from dotted columns. Free, no upload.
+
+### At a glance
+
+- Turns each CSV row into a JSON object, using the **first row as keys** (or column1, column2… when there’s no header).
+- Detects the delimiter automatically — **comma, semicolon, tab or pipe** — so cells copied from **Excel or Google Sheets** can be pasted directly.
+- Converts **numbers, true/false and empty cells** into proper JSON values, while phone numbers, PIN codes with leading zeros and long IDs stay text.
+- Columns named like **address.city** become nested objects.
+- Four output shapes: **array of objects**, **array of arrays**, an object **keyed by the first column**, or **JSON Lines** — with 2 or 4 spaces, tabs or minified.
+- Follows RFC 4180: quoted fields, commas and line breaks inside quotes, and doubled quotes all work. Runs in your browser; data is never uploaded.
+
+### Features
+
+- **Straight from Excel**: Select cells in Excel or Google Sheets, copy, and paste here — tab-separated data is recognised automatically.
+- **Proper JSON types**: Numbers become numbers and true/false become booleans — without breaking IDs like 007 or 16-digit card numbers.
+- **Nested objects**: user.name and user.email columns become {"user": {"name": …, "email": …}}.
+- **The shape you need**: Objects for APIs, arrays for charts, keyed objects for lookups, or JSON Lines for big-data tools.
+- **Handles messy files**: Missing header names, duplicate columns and rows with extra or missing fields are handled and reported.
+- **Private**: Customer lists and exports stay on your device — nothing is uploaded.
+
+### How to convert CSV to JSON
+
+1. **Add your CSV** — Paste CSV, paste cells copied from Excel or Google Sheets, or click **Open file** to load a .csv file.
+2. **Check the options** — Open **Options** to choose the output shape, indentation, and whether to convert numbers and nest dotted columns.
+3. **Review the JSON** — The JSON appears as you type, with a count of rows and columns and notes about any irregular rows.
+4. **Copy or download** — Click **Copy**, or **Download** a .json (or .jsonl) file.
+
+### Guide
+
+#### Output shapes
+
+| Shape | Looks like | Good for |
+| --- | --- | --- |
+| Objects | [{"id": 1, "name": "Asha"}, …] | APIs, JavaScript, most uses |
+| Arrays | [["id", "name"], [1, "Asha"], …] | Charts, compact data, keeping column order |
+| Keyed | {"1": {"id": 1, "name": "Asha"}, …} | Looking rows up by ID |
+| JSON Lines | {"id": 1, …} on each line | Streaming, logs, BigQuery and data pipelines |
+
+#### How values are converted
+
+With **Convert numbers & booleans** on, 42 and 3.14 become numbers, true and false become booleans, and empty cells become null. Values that only look like numbers stay text: anything with a leading zero (phone numbers, PIN codes like 012345, employee IDs like 007) and anything longer than 15 digits (card and account numbers), because JSON numbers would lose those digits.
+
+Switch the option off to keep every value as text exactly as it appears in the CSV.
+
+### FAQ
+
+**Can I convert an Excel file to JSON?**
+Yes. Open the sheet, select the cells (including the header row), copy, and paste them here. To use a file instead, save it from Excel as CSV UTF-8 and open that.
+
+**Why are some numbers kept as text?**
+Numbers with leading zeros or more than 15 digits would change if stored as JSON numbers, so they stay text. Turn off “Convert numbers & booleans” to keep everything as text.
+
+**What if my CSV uses semicolons?**
+The delimiter is detected automatically — commas, semicolons (common in Europe), tabs and pipes all work. You can also pick one yourself.
+
+**Is my data uploaded?**
+No. The conversion runs entirely in your browser; your file never leaves your device.
+
+**How do I get nested JSON?**
+Name the columns with dots, like address.city and address.pin, and keep “Nest dotted columns” on. They become {"address": {"city": …, "pin": …}}.
+
+**Can I convert JSON back to CSV?**
+Yes — switch to JSON → CSV, or use the JSON to CSV Converter, which also shows the result as a table.
+
+## UUID Generator
+
+URL: https://justtools.online/developer-tools/uuid-generator/
+Category: Developer Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-09-30
+
+Generate UUIDs (GUIDs) online: random v4, sortable v7, v1, and name-based v5 and v3 — one or 10,000 at a time. Also decode and validate any UUID.
+
+### At a glance
+
+- Generates **version 4** (random), **version 7** (Unix time, sortable), **version 1** (time-based), **version 5** (SHA-1) and **version 3** (MD5) UUIDs, plus the nil and max UUIDs — all following **RFC 9562**.
+- Random bits come from your browser’s **cryptographically secure** generator (Web Crypto).
+- Version 7 UUIDs generated together stay **in order** even within the same millisecond, which keeps database indexes fast.
+- Version 1 UUIDs use a random node ID, so they **never reveal your device’s MAC address**.
+- Generate up to **10,000** at once, uppercase or lowercase, with or without hyphens, in {braces}, "quotes" or as urn:uuid:, one per line or comma-separated.
+- The decoder shows any UUID’s version, variant and — for v1, v6 and v7 — the date and time it was created.
+
+### Features
+
+- **The right version**: v4 for general IDs, v7 for database keys, v5 for repeatable IDs from names — each explained in one line.
+- **Bulk generation**: Make 10, 100 or 10,000 UUIDs and copy them all or download a .txt file.
+- **Any format**: Match your code or database: uppercase for .NET GUIDs, no hyphens for compact keys, quotes and commas for SQL.
+- **Name-based UUIDs**: Turn domain names, URLs or any text into stable v5 or v3 UUIDs — one per line.
+- **Decode & validate**: Paste a UUID — or a log line containing several — to check it and see when it was created.
+- **Private and offline**: UUIDs are made on your device. Nothing is sent to a server or logged.
+
+### How to generate a UUID
+
+1. **Pick a version** — Keep **v4** for a random UUID, or choose **v7** for time-ordered IDs.
+2. **Choose how many** — Enter a number or pick **10**, **100** or **1,000**.
+3. **Set the format** — Turn on **Uppercase**, remove **Hyphens**, or wrap each UUID in braces, quotes or urn:uuid:.
+4. **Copy** — Click **Copy** (or **Copy all**), or download the list as a text file.
+
+### Guide
+
+#### Which UUID version should I use?
+
+| Version | Made from | Use it for |
+| --- | --- | --- |
+| v4 | 122 random bits | General-purpose unique IDs — the default choice |
+| v7 | Unix time in ms + random bits | Database primary keys and anything you sort by creation time |
+| v1 | Time + clock sequence + node | Older systems that expect time-based UUIDs |
+| v5 | SHA-1 of a namespace and a name | The same ID every time for the same input |
+| v3 | MD5 of a namespace and a name | Compatibility with systems that already use v3 |
+
+#### Are UUIDs really unique?
+
+A version 4 UUID has 122 random bits: about 5.3 × 10³⁶ possible values. You would need to generate a billion UUIDs every second for about 86 years before the chance of a single duplicate reached 50%. In practice, UUIDs from a good random source never collide.
+
+UUIDs aren’t secrets, though: don’t use them as passwords or security tokens. And while v7 UUIDs are great database keys, they reveal the time they were created.
+
+### FAQ
+
+**What is the difference between a UUID and a GUID?**
+None in practice. GUID (globally unique identifier) is Microsoft’s name for a UUID. Windows and .NET often show GUIDs in uppercase and in braces — switch on Uppercase and choose { } to match.
+
+**Is UUID v7 better than v4?**
+For database keys, usually yes: v7 UUIDs increase over time, so new rows go at the end of the index instead of random places, which keeps inserts fast. Use v4 when the creation time shouldn’t be visible.
+
+**Are these UUIDs safe to use in production?**
+Yes. They follow RFC 9562 and use your browser’s cryptographically secure random number generator — the same quality as crypto.randomUUID() or uuid libraries.
+
+**How do I check whether a string is a valid UUID?**
+Open Decode & validate and paste it. The tool accepts common formats — with or without hyphens, braces or urn:uuid: — and shows the version, variant and, for time-based versions, when it was created.
+
+**Why does v5 give the same UUID every time?**
+That’s the point of name-based UUIDs: the same namespace and name always produce the same UUID, so different systems can derive matching IDs without talking to each other.
+
+**Can a UUID be decoded to get the time?**
+For versions 1, 6 and 7, yes — the creation time is stored inside. Version 4 is purely random, and v3 and v5 are hashes, so they contain no time.
+
+## URL Encoder / Decoder
+
+URL: https://justtools.online/developer-tools/url-encoder-decoder/
+Category: Developer Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-09-30
+
+Encode or decode URLs and query strings online: %20, + and UTF-8 (Hindi, emoji) done right, errors pinpointed, and URL parameters shown in a table.
+
+### At a glance
+
+- Three encodings for three jobs: **parameter value** (encodeURIComponent), **whole URL** (encodeURI) and **form data** (application/x-www-form-urlencoded, spaces as +).
+- Encodes text as **UTF-8**, so Hindi, other Indian scripts, ₹ and emoji become the %E0%A4… sequences every browser and server understands.
+- The decoder turns %20 and + back into spaces and shows **exactly where** an invalid sequence like “50%off” or broken UTF-8 is.
+- Spots **double encoding** (%2520) and decodes again with one click.
+- Paste a full URL to see its host, path, fragment and every **query parameter decoded in a table** — edit, add or remove parameters and copy the updated URL.
+- Optional strict RFC 3986 mode and line-by-line conversion. Everything runs in your browser.
+
+### Features
+
+- **Live, both ways**: Results update as you type. Switch between Encode and Decode and the result carries over.
+- **Right encoding, explained**: Each mode says when to use it, so a URL doesn’t break because its slashes or ampersands were encoded.
+- **Clear errors**: Instead of “URIError: malformed URI”, see which character is wrong and why.
+- **Query parameter editor**: Read long tracking URLs at a glance, fix a value, remove a parameter, and get a correctly encoded URL back.
+- **Batch mode**: Turn on Each line separately to encode or decode a whole list of values or URLs at once.
+- **Private**: URLs with tokens or personal data never leave your device.
+
+### How to encode or decode a URL
+
+1. **Choose Encode or Decode** — Pick **Encode** to make text safe for a URL, or **Decode** to read an encoded link.
+2. **Pick what you’re encoding** — Use **Parameter value** for a single value, **Whole URL** for a complete link, or **Form data** for form posts.
+3. **Paste your text** — The result appears as you type. Problems are pointed out with the exact character.
+4. **Copy or edit** — Copy the result, or edit the query parameters in the **URL parts** table and copy the updated URL.
+
+### Guide
+
+#### Which encoding should I use?
+
+| You have | Use | Example |
+| --- | --- | --- |
+| A value for ?q= or a path segment | Parameter value | chai & samosa → chai%20%26%20samosa |
+| A complete URL with spaces or Hindi | Whole URL | https://x.in/a b → https://x.in/a%20b |
+| Data for an HTML form or POST body | Form data | chai & samosa → chai+%26+samosa |
+
+#### Common percent-encodings
+
+| Character | Encoded | Character | Encoded |
+| --- | --- | --- | --- |
+| space | %20 (or + in forms) | & | %26 |
+| / | %2F | = | %3D |
+| ? | %3F | # | %23 |
+| % | %25 | + | %2B |
+| @ | %40 | ₹ | %E2%82%B9 |
+
+### FAQ
+
+**What is URL encoding?**
+URLs may only contain a limited set of characters. URL (percent) encoding replaces any other character — spaces, &, non-English letters, emoji — with % followed by the hexadecimal value of each of its UTF-8 bytes, such as %20 for a space.
+
+**Should a space be %20 or +?**
+Both mean a space, in different places. %20 works everywhere in a URL; + means a space only in query strings and form data. When decoding, keep “+ means space” on for query strings and form data.
+
+**What’s the difference between encodeURI and encodeURIComponent?**
+encodeURI encodes a complete URL but leaves characters that structure it — : / ? & = # — alone. encodeURIComponent encodes those too, which is right for a single value you put inside a URL, but would break a whole URL.
+
+**Why does decoding fail with “malformed URI”?**
+The text contains a % that isn’t followed by two hexadecimal digits (like “50%off”), or bytes that aren’t valid UTF-8. The tool shows the exact character; encode a literal % as %25.
+
+**What is double encoding?**
+Encoding text that’s already encoded, so %20 becomes %2520. The tool notices when a decoded result still contains escapes and offers to decode it again.
+
+**Is my URL sent anywhere?**
+No. Encoding, decoding and parsing all happen in your browser.
+
+## Base64 Encoder & Decoder
+
+URL: https://justtools.online/developer-tools/base64-encoder-decoder/
+Category: Developer Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-01
+
+Encode text or files to Base64 and decode Base64 back — UTF-8, URL-safe Base64URL, data URLs for images, file type detection. Free, private, no upload.
+
+### At a glance
+
+- Encodes and decodes **Base64 (RFC 4648)** as you type, with text treated as **UTF-8** — Hindi, ₹ and emoji round-trip correctly.
+- Supports **Base64URL** (- and _, as in JWTs), with or without = padding, and 76-character line wrapping for email (MIME).
+- The decoder ignores spaces and line breaks, accepts missing padding and data: URLs, and says exactly which character is invalid.
+- Decoded binary data is **recognised** — PNG, JPEG, WebP, GIF, PDF, ZIP, MP3, MP4, fonts and more — with an image preview and a download button.
+- Converts **any file to Base64** or a **data URL**, and gives ready-made <img> and CSS snippets for images.
+- Runs entirely in your browser: nothing you encode or decode is uploaded.
+
+### Features
+
+- **Live both ways**: Switch between Encode and Decode and the result carries over — handy for checking a round trip.
+- **Base64 to image or PDF**: Paste Base64 from an API or email source and get the actual file back, previewed and ready to save.
+- **Image to data URL**: Drop an icon or logo to embed it directly in HTML, CSS or JSON.
+- **Clear errors**: Invalid characters, misplaced padding and truncated input are explained instead of failing silently.
+- **JWT friendly**: Decode the parts of a JSON Web Token — they’re Base64URL without padding.
+- **Private**: Tokens, keys and files stay on your device.
+
+### How to encode or decode Base64
+
+1. **Choose text or file** — Use **Text** to convert text, or **File / image** to convert a file.
+2. **Pick Encode or Decode** — Encode turns text into Base64; Decode turns Base64 back.
+3. **Paste or drop** — Paste text or Base64, or drop a file. The result appears immediately.
+4. **Copy or download** — Copy the result, or download the decoded file with the right extension.
+
+### Guide
+
+#### Base64 in a nutshell
+
+Base64 writes any data — text, images, PDFs — using just 64 safe characters (A–Z, a–z, 0–9, + and /), so it can travel through systems made for text: JSON, XML, email, URLs and HTML. Every 3 bytes become 4 characters, so Base64 is about **33% larger** than the original.
+
+**Base64 is not encryption.** Anyone can decode it instantly, so never use it to hide passwords or secrets. To protect data, encrypt it; to shorten it, compress it.
+
+#### Standard vs URL-safe Base64
+
+|  | Standard Base64 | Base64URL |
+| --- | --- | --- |
+| Characters 62 and 63 | + and / | - and _ |
+| Padding | = at the end | Usually left out |
+| Used in | Email attachments, data URLs, most APIs | URLs, file names, JWTs, WebAuthn |
+| Example | Pz4/Pg== | Pz4_Pg |
+
+### FAQ
+
+**How do I convert Base64 to an image?**
+Choose Text → Decode and paste the Base64 (with or without the data:image/…;base64, prefix). The tool recognises the image, shows a preview and lets you download it with the right extension.
+
+**How do I convert an image to Base64?**
+Choose File / image and drop the image. You get a data URL ready for an <img> tag or CSS, or plain Base64 if you switch to “Base64 only”.
+
+**Why does my decoded text look garbled?**
+The Base64 probably holds binary data (an image, a PDF, compressed data) rather than text — the tool then shows the file type instead. If it’s text in an old encoding other than UTF-8, some characters may not show correctly.
+
+**Is Base64 secure?**
+No. It’s an encoding, not encryption: anyone can decode it. Use it to transport data, not to protect it.
+
+**What is the = at the end?**
+Padding, which makes the length a multiple of 4. Base64URL often leaves it out; this decoder works either way.
+
+**Is my data uploaded?**
+No. Encoding and decoding happen entirely in your browser, including for files.
+
+## Markdown Live Previewer
+
+URL: https://justtools.online/developer-tools/markdown-previewer/
+Category: Developer Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-01
+
+Write Markdown with a live preview: GitHub tables, task lists, alerts and highlighted code. Export to HTML or PDF — free, private, runs in your browser.
+
+### At a glance
+
+- Renders **GitHub Flavored Markdown** live: headings, lists, links, images, **tables** (with column alignment), **task lists**, strikethrough and autolinks.
+- **Syntax highlighting** for code blocks in 20+ languages, including JavaScript, TypeScript, Python, Java, Go, Rust, SQL, Bash, JSON and YAML.
+- Supports **GitHub alerts** (> [!NOTE], [!TIP], [!IMPORTANT], [!WARNING], [!CAUTION]), heading anchors and YAML front matter.
+- Toolbar and shortcuts (**Ctrl+B**, **Ctrl+I**, **Ctrl+K**) for formatting, with split, write-only and preview-only views and synced scrolling.
+- Export a **standalone HTML page** (light and dark themes), **print or save as PDF**, download the **.md** file, or copy the HTML — plus an outline and a ready-made table of contents.
+- Raw HTML in your Markdown is sanitised, so scripts can’t run. Your text stays in your browser; the draft is saved on this device only (optional).
+
+### Features
+
+- **Looks like GitHub**: Preview a README exactly as it will appear on GitHub — including alerts, task lists and highlighted code.
+- **Fast formatting**: Toolbar buttons and keyboard shortcuts for bold, links, lists, tables and code blocks — with normal undo.
+- **Outline & TOC**: Jump between sections, and copy a table of contents with working anchor links.
+- **Export anywhere**: A clean HTML file to share or host, a PDF for documents, or the Markdown itself.
+- **Never lose a draft**: Your text is saved in this browser as you type, and restored when you come back.
+- **Private and safe**: No sign-up and no upload. HTML inside your Markdown is sanitised before it’s shown.
+
+### How to preview Markdown
+
+1. **Write or paste** — Type Markdown in the left pane, paste a README, or click **Open** to load a .md file.
+2. **Watch the preview** — The formatted result updates as you type. Switch between **Split**, **Write** and **Preview** views.
+3. **Format quickly** — Use the toolbar or **Ctrl+B**, **Ctrl+I** and **Ctrl+K** for bold, italic and links.
+4. **Export** — Download an **HTML page**, **Print / PDF**, save the **.md** file, or copy the HTML.
+
+### Guide
+
+#### Markdown cheat sheet
+
+| You type | You get |
+| --- | --- |
+| # Heading, ## Subheading | Headings (levels 1–6) |
+| **bold**, _italic_, ~~strike~~ | Bold, italic, strikethrough |
+| [text](https://example.com) | A link |
+| ![alt text](image.png) | An image |
+| - item, 1. item | Bulleted and numbered lists |
+| - [ ] task, - [x] done | Task list with checkboxes |
+| `code`, ``` for blocks | Inline code and code blocks (add a language: ```js) |
+| > quote, > [!NOTE] | Quote, or a GitHub alert box |
+| | a | b |, | --- | :-: | | Table (colons set the alignment) |
+| --- | Horizontal divider |
+
+#### Line breaks in Markdown
+
+In README files and most Markdown documents, a single line break is ignored and lines join into one paragraph — leave an empty line to start a new paragraph, or end a line with two spaces to force a break. GitHub comments and issues are different: every line break shows. Switch on **Line breaks as typed** to preview that behaviour.
+
+### FAQ
+
+**What is Markdown?**
+A simple way to format text with ordinary characters — **bold**, # headings, - lists — that converts to HTML. It’s used for README files, documentation, notes apps, forums and chat apps.
+
+**Does the preview match GitHub?**
+It follows GitHub Flavored Markdown and GitHub’s styles, including tables, task lists, alerts and code highlighting. Very new or GitHub-only features such as Mermaid diagrams, math and @mentions aren’t rendered.
+
+**How do I convert Markdown to PDF?**
+Click Print / PDF and choose “Save as PDF” as the printer. The PDF uses a clean, light document style.
+
+**Is my text saved or uploaded?**
+It isn’t uploaded anywhere. With “Save draft in this browser” on, the text is kept in this browser’s local storage so it survives a refresh; switch it off to clear it.
+
+**Can I use HTML inside Markdown?**
+Yes, common HTML such as <details>, <kbd> and <sup> works. Scripts, forms, iframes and inline styles are removed for safety, as on GitHub.
+
+**Can I open a .md file?**
+Yes. Click Open and choose a .md or .markdown file; it loads straight into the editor.
+
+## JSON to XML Converter
+
+URL: https://justtools.online/developer-tools/json-to-xml/
+Category: Developer Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-05
+
+Convert JSON to XML online: attributes, text, arrays and nested data, with a root element, CDATA and pretty or minified output. Free and private, no upload.
+
+### At a glance
+
+- Keys starting with **@** become attributes and **#text** becomes element text — the same convention as the XML to JSON converter, so data round-trips.
+- Arrays can **repeat the element** (`<tag>a</tag><tag>b</tag>`) or **wrap each item** (`<tags><item>a</item>…</tags>`), and nested arrays always produce valid XML.
+- Data without a single root is wrapped in a **root element** you can name; top-level arrays get one item element per entry.
+- Keys that aren’t valid XML names are fixed (“first name” → `first_name`, “2nd” → `_2nd`) and listed, and characters XML can’t hold are removed and reported.
+- Options for the XML declaration, **CDATA** sections, self-closing empty elements and 2-space, 4-space, tab or minified output.
+- Accepts relaxed JSON (comments, trailing commas, single quotes) and points to the exact line and column of real errors. Big numbers keep every digit.
+- Runs entirely in your browser — the JSON is never uploaded.
+
+### Features
+
+- **Attributes and text**: Write `{"price": {"@currency": "INR", "#text": "799"}}` and get `<price currency="INR">799</price>` — exactly what most XML APIs expect.
+- **Your array style**: Repeat the element for each entry, or wrap entries in item elements — whichever the receiving system wants.
+- **Always valid XML**: Invalid names are fixed, special characters escaped, mixed content kept on one line and empty arrays handled, with a note for every change.
+- **Round-trips**: Switch to XML → JSON at any time: the result converts straight back, so you can edit data as JSON and send it as XML.
+- **Exact numbers**: IDs and amounts like 12345678901234567890 or 1.50 are written exactly as in the JSON, never rounded.
+- **Private**: API payloads and configs stay on your device. No upload, no sign-up.
+
+### How to convert JSON to XML
+
+1. **Paste the JSON** — Paste JSON into the left box, open a .json file, or try the **Sample**.
+2. **Set the options** — Open **Options** to choose the root and item element names, how arrays are written, CDATA and the XML declaration.
+3. **Check the result** — The XML appears as you type, with notes about anything that was renamed, wrapped or removed.
+4. **Copy or download** — Click **Copy**, or **Download** to save an .xml file.
+
+### Guide
+
+#### How JSON maps to XML
+
+| JSON | XML |
+| --- | --- |
+| `{"user": {"name": "Asha"}}` | `<user><name>Asha</name></user>` |
+| `{"user": {"@id": "7"}}` | `<user id="7"/>` |
+| `{"price": {"@currency": "INR", "#text": 799}}` | `<price currency="INR">799</price>` |
+| `{"list": {"tag": ["a", "b"]}}` | `<list><tag>a</tag><tag>b</tag></list>` (or wrapped: `<list><tag><item>a</item><item>b</item></tag></list>`) |
+| `{"note": null}` | `<note/>` |
+| `[1, 2]` | `<root><item>1</item><item>2</item></root>` |
+
+#### Good to know
+
+XML has no data types, so numbers, booleans and null all become text: `true` is written as `<paid>true</paid>`. An empty array can’t be shown with repeated elements, so it is left out (with a note) unless you choose **Wrap items**.
+
+Converting the other way? Use the [XML to JSON converter](https://justtools.online/developer-tools/xml-to-json/). To check or tidy JSON first, try the [JSON Formatter](https://justtools.online/developer-tools/json-formatter/).
+
+### FAQ
+
+**How do I convert JSON to XML?**
+Paste your JSON into the box. The XML appears on the right straight away — copy it or download it as an .xml file.
+
+**How do I make an XML attribute from JSON?**
+Start the key with @. For example `{"book": {"@id": "42", "title": "Gitanjali"}}` becomes `<book id="42"><title>Gitanjali</title></book>`. You can change the prefix under Options.
+
+**How are JSON arrays converted?**
+By default each entry repeats the element: `"tag": ["a","b"]` gives two `<tag>` elements. Choose **Wrap items** to get `<tag><item>a</item><item>b</item></tag>` instead, and set the item element’s name.
+
+**Why was my data wrapped in <root>?**
+An XML document must have exactly one top-level element. If your JSON has several top-level keys, or is an array, it’s wrapped in a root element — you can rename it under Options.
+
+**Can it convert invalid JSON?**
+It accepts common slips — comments, trailing commas, single quotes and unquoted keys — and tells you what it fixed. For real errors it shows the line and column so you can correct them.
+
+**Is my JSON uploaded?**
+No. The conversion runs in your browser, so API responses, keys and customer data never leave your device.
+
+## Cron Expression Generator
+
+URL: https://justtools.online/developer-tools/cron-expression-generator/
+Category: Developer Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-05
+
+Build and explain cron expressions in plain English with next run times. Supports Linux crontab, Quartz, Spring and AWS EventBridge, and converts between them.
+
+### At a glance
+
+- Four formats: **Unix / Linux cron** (crontab, Kubernetes, GitHub Actions), **Quartz** (with seconds and year), **Spring @Scheduled** and **AWS EventBridge**.
+- Explains any expression in **plain English** — e.g. `30 9 * * 1-5` is “At 9:30 AM, Monday through Friday” — in 12- or 24-hour time.
+- Shows the **next 10 run times** in your time zone or UTC, including L, W and # rules, leap years and the Unix “either day” rule.
+- **Converts** a schedule between formats, rewriting day-of-week numbers (Sunday is 0 in Unix and Spring but 1 in Quartz and AWS), `?` and seconds — or explains why it can’t.
+- Errors point to the exact field (“Hour: 24 is out of range (0–23)”), and an expression in the wrong format is recognised and you’re offered a switch.
+- Presets and a simple builder for every few minutes or hours, daily, weekly, monthly and yearly schedules, plus ready-to-paste crontab, GitHub Actions, Kubernetes, Spring and AWS snippets.
+- Warns about schedules that never run (30 February) or skip months, and about day-of-month + day-of-week combinations that run more often than expected.
+
+### Features
+
+- **Plain-English check**: Paste the expression from a crontab, YAML file or code review and read what it actually does before it ships.
+- **Real next runs**: See the next ten dates and times — “in 3 h 15 min” — so a schedule that’s off by a day or an hour is obvious.
+- **Every scheduler**: Unix cron, Quartz, Spring and AWS each have their own rules. Pick the one you use and the syntax is checked for it.
+- **Convert between them**: Moving a job from crontab to Spring or EventBridge? Get the equivalent expression with day numbers and “?” fixed.
+- **Build without memorising**: Choose “Every week”, tick Mon–Fri and pick a time — the expression is written for you.
+- **Share a schedule**: Copy a link that opens the tool with your expression and format, for a ticket or code review.
+
+### How to create a cron expression
+
+1. **Pick the format** — Choose **Unix**, **Quartz**, **Spring** or **AWS** — the one your scheduler uses.
+2. **Build or paste** — Click a preset, use **Build a schedule**, or paste an expression and edit any field.
+3. **Check it** — Read the plain-English description and the **Next runs**; switch between your time zone and UTC.
+4. **Copy it** — Copy the expression or a ready-made snippet for crontab, GitHub Actions, Kubernetes, Spring or AWS.
+
+### Guide
+
+#### Cron syntax at a glance
+
+`*` any value · `,` list (1,15) · `-` range (9-17) · `/` step (*/15) · `?` no value · `L` last · `W` nearest weekday · `#` nth weekday (FRI#3).
+
+| Field | Unix | Quartz / Spring | AWS |
+| --- | --- | --- | --- |
+| Second | — | 0–59 | — |
+| Minute | 0–59 | 0–59 | 0–59 |
+| Hour | 0–23 | 0–23 | 0–23 |
+| Day of month | 1–31 | 1–31, L, W, ? | 1–31, L, W, ? |
+| Month | 1–12 or JAN–DEC | 1–12 or JAN–DEC | 1–12 or JAN–DEC |
+| Day of week | 0–7 (0 and 7 = Sun) | Quartz 1–7 (1 = Sun) · Spring 0–7, L, # | 1–7 (1 = Sun), L, #, ? |
+| Year | — | Quartz only, optional | 1970–2199 |
+
+#### Common cron expressions
+
+| Schedule | Unix cron | Quartz |
+| --- | --- | --- |
+| Every 5 minutes | `*/5 * * * *` | `0 */5 * * * ?` |
+| Every hour | `0 * * * *` | `0 0 * * * ?` |
+| Every day at midnight | `0 0 * * *` | `0 0 0 * * ?` |
+| Weekdays at 9:30 AM | `30 9 * * 1-5` | `0 30 9 ? * MON-FRI` |
+| Every Sunday at 6 PM | `0 18 * * 0` | `0 0 18 ? * SUN` |
+| 1st of every month | `0 0 1 * *` | `0 0 0 1 * ?` |
+| Last day of the month | not possible | `0 0 0 L * ?` |
+
+#### Things that often go wrong
+
+**Time zones:** cron uses the server’s time zone, GitHub Actions always uses UTC, and EventBridge rules run in UTC. Check the next runs in UTC if your job runs at the “wrong” hour.
+
+**Both day fields in Unix cron:** `0 0 1 * 1` runs on the 1st **and** every Monday, not only on Mondays that are the 1st.
+
+**Day numbers:** Monday is 1 in Unix and Spring but 2 in Quartz and AWS. Using names like MON avoids mistakes.
+
+### FAQ
+
+**How do I run a cron job every 5 minutes?**
+Use `*/5 * * * *` in Unix cron. In Quartz it’s `0 */5 * * * ?`, in Spring `0 */5 * * * *` and in AWS `*/5 * * * ? *`.
+
+**What does * * * * * mean?**
+Every minute. The five fields are minute, hour, day of month, month and day of week; * means “every”.
+
+**What is the difference between Unix cron and Quartz cron?**
+Quartz adds a seconds field at the start (and an optional year), numbers days of the week 1–7 starting with Sunday, needs a “?” in either day-of-month or day-of-week, and supports L, W and #. The tool converts between them.
+
+**How do I schedule a job on the last day of the month?**
+Use L in day-of-month in Quartz, Spring or AWS, e.g. `0 0 0 L * ?`. Standard Unix cron has no last-day option; a common workaround is to run daily on days 28–31 and check the date in the script.
+
+**Why does my GitHub Actions schedule run at a different time?**
+GitHub Actions cron is always in UTC (and may start a few minutes late when busy). India is UTC+5:30, so 9:00 AM IST is `30 3 * * *`. Switch Next runs to UTC to check.
+
+**Can cron run every 30 seconds?**
+Not standard Unix cron — its smallest unit is a minute. Quartz and Spring have a seconds field: `*/30 * * * * ?` (Quartz) or `*/30 * * * * *` (Spring).
+
+## CSS to Tailwind Converter
+
+URL: https://justtools.online/developer-tools/css-to-tailwind/
+Category: Developer Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-05
+
+Convert CSS to Tailwind classes online: hover, media queries, dark mode and gradients become variants, colours match the palette. Tailwind v4 and v3, free.
+
+### At a glance
+
+- Outputs **Tailwind v4** classes by default, or **v3** — scales, colour names and syntax differ (for example `p-3.25` and `shadow-sm` in v4 vs `p-[13px]` and `shadow` in v3).
+- `:hover`, `:focus`, `::before`, `:first-child`, `[aria-expanded="true"]`, `@media (min-width: 768px)`, dark mode and `@supports` become **variants** like `hover:`, `before:`, `first:`, `aria-expanded:`, `md:`, `dark:` and `supports-[…]:`.
+- `.card:hover .title` becomes `group-hover:` (adding `group` to `.card`) and `input:checked + label` becomes `peer-checked:`.
+- Colours in hex, rgb(), hsl() or OKLCH are matched to the **Tailwind palette** (v3 hex and v4 colours), with opacity like `bg-black/50`; an option picks the nearest palette colour.
+- Shorthands are merged into Tailwind shortcuts: `px-4`, `truncate`, `size-10`, `line-clamp-3`, gradients as `bg-linear-to-r from-… to-…`.
+- Anything without an exact class becomes an **arbitrary value** (`p-[13px]`, `[-webkit-text-stroke:1px]`), highlighted so you can review it; close-but-not-identical matches are marked.
+- The converter is tested against the real Tailwind v4 compiler, so the classes it writes exist. Runs in your browser — your CSS isn’t uploaded.
+
+### Features
+
+- **Whole stylesheets**: Paste rules, media queries and nested CSS together — classes are grouped by element, with each breakpoint and state in one class list.
+- **Exact, not guessed**: 13px stays 13px. Values are only replaced by a Tailwind step when it is exactly the same; otherwise you get an arbitrary value.
+- **Honest approximations**: Where Tailwind is close but different — like CSS “ease” vs ease-in-out — the class is marked and the difference explained.
+- **Palette matching**: Recognises Tailwind colours from design files, including v4’s OKLCH values, and keeps opacity as /50 modifiers.
+- **See where it came from**: Hover a class, or open “How each class was made”, to see the CSS declaration behind it.
+- **Ready to paste**: Copy the classes, a class="" attribute or a JSX className for each selector, with your project’s prefix if it uses one.
+
+### How to convert CSS to Tailwind
+
+1. **Paste your CSS** — Paste a rule, a whole stylesheet or a few declarations into the CSS box — or try the **Sample**.
+2. **Choose the version** — Pick **Tailwind v4** or **v3**, and set a prefix or nearest-colour matching if you need them.
+3. **Review** — Classes appear for each selector. Amber classes are arbitrary values; underlined ones are close, not identical.
+4. **Copy** — Copy the classes, a class attribute or a JSX className and paste them into your HTML or components.
+
+### Guide
+
+#### Examples
+
+| CSS | Tailwind v4 |
+| --- | --- |
+| `display: flex; align-items: center; gap: 8px` | `flex items-center gap-2` |
+| `padding: 12px 24px` | `py-3 px-6` |
+| `margin: 0 auto; max-width: 768px` | `my-0 mx-auto max-w-3xl` |
+| `color: #1e293b; background: rgba(0,0,0,.5)` | `text-slate-800 bg-black/50` |
+| `border: 1px solid #e5e7eb; border-radius: 8px` | `border border-gray-200 rounded-lg` |
+| `overflow: hidden; text-overflow: ellipsis; white-space: nowrap` | `truncate` |
+| `.btn:hover { background: #1d4ed8 }` | `hover:bg-blue-700` |
+| `@media (min-width: 768px) { .a { padding: 32px } }` | `md:p-8` |
+| `padding: 13px` | `p-3.25` (v4) · `p-[13px]` (v3) |
+
+#### Tips
+
+Keep **@keyframes** and **@font-face** in your CSS (or in your Tailwind theme) — the converter lists them as skipped and you can use `animate-[…]` and `font-[…]` to refer to them.
+
+In Tailwind v4, `dark:` follows the system setting unless you set up class-based dark mode. Tailwind’s preflight already makes borders solid, so `border-solid` is left out.
+
+### FAQ
+
+**How do I convert CSS to Tailwind?**
+Paste your CSS into the box. The tool shows the Tailwind classes for each selector straight away, including hover states and breakpoints — copy them into your HTML.
+
+**Does it support Tailwind v4?**
+Yes — v4 is the default. Switch to v3 for older projects; the classes follow each version’s scales and syntax (v4 `p-4!` vs v3 `!p-4` for important, for example).
+
+**Why are some classes like p-[13px]?**
+They are arbitrary values: Tailwind has no class for exactly that value (in v3) or it’s not on any scale. They work as-is; you can also switch them to the nearest scale value by hand.
+
+**Will hex colours become Tailwind colour names?**
+When they match a Tailwind palette colour exactly — v3 hex values and v4’s colours both count — yes, e.g. #1e293b → slate-800. Turn on **Nearest colours** to use the closest palette colour for the rest.
+
+**Does it convert media queries and :hover?**
+Yes. Min-width queries at 640, 768, 1024, 1280 and 1536px become sm:, md:, lg:, xl: and 2xl:; others become min-[…]: or max-[…]:. :hover, :focus, ::before, :first-child, dark mode and more become variants.
+
+**Is my CSS uploaded?**
+No. The conversion runs entirely in your browser.
+
+## Hash Generator
+
+URL: https://justtools.online/developer-tools/hash-generator/
+Category: Developer Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-05
+
+Generate MD5, SHA-1, SHA-256, SHA-512, SHA-3, BLAKE3, CRC32 and HMAC hashes of text or files, and verify checksums. Free, fast and private — no upload.
+
+### At a glance
+
+- 17 algorithms: **MD5, SHA-1, SHA-224, SHA-256, SHA-384, SHA-512, SHA3-256, SHA3-512, Keccak-256, BLAKE2b, BLAKE3, RIPEMD-160, CRC32, CRC32C, Adler-32, xxHash64** and **XXH3**.
+- **Files of any size** are read in 2 MB pieces and hashed with every chosen algorithm in one pass, with progress and speed shown.
+- **HMAC** with a secret key (text, hex or Base64) for API and webhook signatures, e.g. HMAC-SHA256.
+- **Compare** with a hash you were given — hex, Base64, `sha256=…` or SRI format — or paste a whole **SHA256SUMS** list to check several files by name.
+- **Each line** mode hashes a list one value at a time (with optional trimming and lowercasing, as ad platforms require for emails) and exports a CSV.
+- Output as lowercase hex, uppercase hex or Base64; text input as UTF-8, hex or Base64 bytes.
+- Runs entirely in your browser with WebAssembly — nothing you hash is uploaded. Results are checked against the published test vectors.
+
+### Features
+
+- **Verify downloads**: Drop an ISO, installer or APK and paste the checksum from the download page — the tool tells you instantly whether it matches.
+- **Many algorithms at once**: See MD5, SHA-1, SHA-256 and SHA-512 side by side, or add SHA-3, BLAKE3 and checksums — the file is read only once.
+- **Webhook signatures**: Recreate the HMAC-SHA256 of a payload with your secret to debug Razorpay, Stripe, GitHub or Shopify webhooks.
+- **Hash a list**: Normalise and hash a column of emails or phone numbers line by line, then download value and hash as CSV.
+- **Find the algorithm**: No match? The tool suggests which algorithms produce a hash of that length and adds them with one click.
+- **Private**: Passwords, keys and files never leave your device. No upload, no sign-up and no size limit.
+
+### How to generate a hash
+
+1. **Choose what to hash** — Pick **Text**, **Each line** or **Files**, and select the algorithms you need.
+2. **Add your data** — Type or paste text, or drop one or more files. Turn on **HMAC** and enter a key for a keyed hash.
+3. **Copy the result** — Hashes appear instantly. Choose hex, HEX or Base64 and click the copy button next to any hash.
+4. **Verify (optional)** — Paste the expected hash or checksum list into **Compare with a hash** to see whether it matches.
+
+### Guide
+
+#### Which hash should I use?
+
+| Use | Algorithm |
+| --- | --- |
+| Checking a download, file integrity | SHA-256 (or whatever the publisher lists) |
+| API / webhook signatures | HMAC-SHA256 |
+| Ethereum addresses and signatures | Keccak-256 (not SHA3-256) |
+| Fast deduplication or cache keys | BLAKE3, xxHash64 or XXH3 |
+| ZIP, PNG and gzip checksums | CRC32 |
+| Old systems that only accept it | MD5 or SHA-1 — never for security |
+| Storing passwords | None of these — use bcrypt, scrypt or Argon2 with a salt |
+
+#### Checking a file from the command line
+
+To compare with what this tool shows: on Windows run `certutil -hashfile file.iso SHA256` (or `Get-FileHash file.iso` in PowerShell), on macOS `shasum -a 256 file.iso`, and on Linux `sha256sum file.iso`.
+
+Hashing text in a terminal? `echo "hello" | sha256sum` includes a line break at the end — use `echo -n` (or `printf`) to match the tool, which hashes exactly what is in the box.
+
+### FAQ
+
+**How do I generate a SHA-256 hash?**
+Type or paste your text into the box — the SHA-256 hash appears instantly along with MD5, SHA-1 and SHA-512. For a file, choose **Files** and drop it in.
+
+**How do I verify a file’s checksum?**
+Choose **Files**, drop the file, and paste the checksum from the download page into **Compare with a hash**. A green “Match” means the file is exactly what the publisher released.
+
+**Why doesn’t my hash match?**
+Hashes change with every byte. The usual causes are a trailing space or line break, different text encoding, uppercase vs lowercase input, or the wrong algorithm. The tool warns about trailing spaces and suggests algorithms that match the length of your hash.
+
+**Can I reverse or decrypt a hash?**
+No. Hashes are one-way: you can’t get the original text back. Sites that “decrypt” MD5 only look the hash up in tables of common passwords.
+
+**Is MD5 still safe to use?**
+Not for security — collisions can be made deliberately. It is fine for spotting accidental corruption or where a system requires it. Use SHA-256 or newer for anything security-related.
+
+**Is there a file size limit?**
+No. Files are read in small pieces, so even multi-gigabyte files work; the speed depends on your device.
+
+**Is my data uploaded?**
+No. All hashing happens in your browser with WebAssembly. Your text, files and secret keys never leave your device.
+
+## CSV to Interactive Chart
+
+URL: https://justtools.online/developer-tools/csv-to-chart/
+Category: Developer Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-05
+
+Turn CSV or Excel data into an interactive bar, line, area, pie or scatter chart online. Group and sum rows, hover for values, download PNG or SVG. No upload.
+
+### At a glance
+
+- Seven chart types: **column, bar, line, area, pie, donut and scatter**, with stacked columns, bars and areas.
+- Reads CSV, TSV and cells copied from **Excel or Google Sheets**, and detects number, date and text columns automatically.
+- Understands numbers as people write them: **₹1,23,456**, $1,234.50, 45%, (300) for negatives and 1.234,5 decimal commas; dates in DD/MM/YYYY, MM/DD/YYYY, ISO or “Apr 2025” form.
+- **Combines repeated rows** by sum, average, count, minimum or maximum, sorts largest-first or A–Z, and folds small categories into “Other”.
+- Interactive: **hover or tap** for exact values, click the legend to hide a series, and use the arrow keys to read each point.
+- Download as **PNG** (high resolution) or **SVG**, plus the charted numbers as CSV.
+- Runs entirely in your browser — your data is never uploaded.
+
+### Features
+
+- **Straight from a spreadsheet**: Copy a range in Excel or Google Sheets and paste it — tab-separated cells work just like CSV.
+- **Totals without formulas**: Sales by region, orders per month, answers per option: repeated rows are summed, averaged or counted for you.
+- **Indian number formats**: Lakh-style grouping (1,23,456), rupee signs and percentages are read as numbers, not text.
+- **Ready for slides**: Add a title, pick a colour set and download a sharp PNG or an SVG that scales for print.
+- **Explore the data**: Switch chart types, hide series and show only the top categories to find the story quickly.
+- **Private**: Business figures stay on your device. No upload, no sign-up and no watermark.
+
+### How to make a chart from a CSV file
+
+1. **Add your data** — Paste CSV or spreadsheet cells, or click **Open CSV**. Keep **First row is headings** on if row 1 has column names.
+2. **Pick the columns** — Choose the **Categories / X axis** column and the **Values to plot**.
+3. **Shape the chart** — Choose a chart type; combine repeated rows, sort, or show the top few categories.
+4. **Download** — Add a title if you like and download the chart as **PNG** or **SVG**.
+
+### Guide
+
+#### Which chart should I use?
+
+| To show | Use |
+| --- | --- |
+| Change over time (months, years, dates) | Line or area |
+| Comparing categories (regions, products) | Column, or bar for long names |
+| Parts of a whole (share of sales) | Pie or donut — up to about 8 slices |
+| The relationship between two numbers | Scatter |
+| Totals and how they’re made up | Stacked column or area |
+
+#### Tips
+
+Long lists of categories are hard to read: use **Top 10 + Other**, or a bar chart, which has room for long names. If a column of numbers is treated as text, check for notes or units mixed into the cells.
+
+Need the data in another shape first? The [CSV to JSON converter](https://justtools.online/developer-tools/csv-to-json/) and [JSON to CSV converter](https://justtools.online/developer-tools/json-to-csv/) help.
+
+### FAQ
+
+**How do I make a graph from a CSV file?**
+Paste the CSV or open the file, choose which column goes along the axis and which numbers to plot, and pick a chart type. The chart appears instantly and can be downloaded as PNG or SVG.
+
+**Can I paste data from Excel?**
+Yes. Select the cells in Excel or Google Sheets, copy, and paste them into the data box — the columns are detected automatically.
+
+**How do I total rows for the same category?**
+Set **Combine rows** to Sum (or Average, Count, Min or Max). Rows with the same category are merged into one bar or slice.
+
+**Why is my number column not available?**
+At least 80% of a column’s cells must be numbers. Remove units or notes typed into the cells (like “approx.”), or use Count rows to chart how often each value appears.
+
+**Can I download the chart?**
+Yes, as a high-resolution PNG for documents and slides, or as an SVG that stays sharp at any size. The charted numbers download as CSV too.
+
+**Is my data uploaded?**
+No. The chart is made in your browser, so sales figures, survey results and other data never leave your device.
+
+## JWT Debugger
+
+URL: https://justtools.online/developer-tools/jwt-debugger/
+Category: Developer Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-06
+
+Decode any JWT and verify its signature in your browser: header, claims and expiry explained; HS256, RS256, ES256 and EdDSA with PEM or JWK keys. No upload.
+
+### At a glance
+
+- Decodes the **header and payload** of any JWT, explains standard and common claims (iss, sub, aud, exp, nbf, iat, scope, roles …) and shows times in UTC and your local time.
+- Shows whether the token is **expired, not yet valid or still valid**, with a live countdown.
+- **Verifies the signature** for HS256/384/512, RS256/384/512, PS256/384/512, ES256/384/512 and EdDSA (Ed25519) using your browser’s Web Crypto.
+- Accepts keys as a shared secret (text, Base64, Base64URL or hex), **PEM** public or private keys, PKCS#1, X.509 certificates, a **JWK** or a whole **JWKS**, picking the key by kid.
+- Warns about real security problems: alg “none”, keys or key URLs supplied by the token itself (jwk, jku, x5u), missing expiry, weak or well-known secrets and secrets placed in the payload.
+- Runs entirely in your browser — tokens and keys are never uploaded or logged — and also decodes the header of encrypted JWE tokens.
+
+### Features
+
+- **Claims in plain English**: Every claim labelled — issuer, audience, scopes, roles — with dates converted and the time left until expiry.
+- **Real signature check**: Verifies with Web Crypto, the same cryptography your browser uses for HTTPS, for every common JWS algorithm.
+- **Any key format**: Secrets, PEM, PKCS#1, certificates, JWK or a JWKS from your identity provider — no conversion needed.
+- **Security warnings**: Flags unsigned tokens, embedded keys, long lifetimes and weak secrets before they cause trouble.
+- **Private by design**: Nothing leaves your device, so production tokens are safe to inspect.
+- **Build tokens too**: Switch to Encode & sign to create a test token, then verify it here in one click.
+
+### How to decode and verify a JWT
+
+1. **Paste the token** — Paste the JWT — a “Bearer …” header value works too. The header, payload and claims appear instantly.
+2. **Check the claims** — Read who issued the token, who it’s for and when it **expires**; warnings appear above the claims.
+3. **Add the key** — Enter the **secret** for HS256, or paste the **public key**, certificate or JWKS for RS256, ES256 and EdDSA.
+4. **Read the result** — “Signature verified” means the token is authentic and unchanged; otherwise check the key or the token.
+
+### Guide
+
+#### Anatomy of a JWT
+
+| Part | Contains | Example |
+| --- | --- | --- |
+| Header | The signing algorithm and token type, Base64URL-encoded JSON | {"alg":"RS256","typ":"JWT","kid":"key-1"} |
+| Payload | The claims: who the token is about, for whom, and how long it lasts | {"sub":"42","aud":"api","exp":1767229200} |
+| Signature | Proof that header and payload came from the key holder unchanged | Base64URL bytes of an HMAC, RSA, ECDSA or EdDSA signature |
+
+#### Decoding is not verifying
+
+Anyone can decode a JWT — the header and payload are only Base64URL-encoded, not encrypted. That is why tokens must never carry passwords or other secrets. **Verifying** checks the signature with the right key, which proves who created the token and that nobody changed a single character.
+
+A server should verify the signature, then check **exp**, **nbf**, **iss** and **aud**, and accept only the algorithms it expects. Never trust the alg value or a key that arrives inside the token itself. Public keys for providers such as Auth0, Okta, Microsoft Entra ID, Cognito and Firebase are published at a JWKS URL, usually ending in /.well-known/jwks.json.
+
+### FAQ
+
+**Is it safe to paste a production token here?**
+Yes — decoding and verification run in your browser and nothing is sent to a server. Still, treat tokens like passwords: anyone holding a valid token can use it until it expires.
+
+**Why does it say “Invalid signature”?**
+The key doesn’t match the token, or the token was changed. Common causes: the wrong environment’s secret, a secret stored as Base64 but entered as text (switch the encoding), or a JWKS key with a different kid.
+
+**Where do I find the public key to verify RS256 tokens?**
+Identity providers publish them as a JWK set, usually at https://your-issuer/.well-known/jwks.json (OpenID Connect discovery lists the exact URL). Paste the whole JWKS — the key matching the token’s kid is used.
+
+**Can it decrypt JWE tokens?**
+No. Encrypted tokens (five parts) can only be read with the recipient’s private key; the debugger shows their header and says so.
+
+**Why are exp and iat such large numbers?**
+JWT times are seconds since 1 January 1970 UTC (Unix time). The debugger converts them to dates. Values in milliseconds are a common bug and are flagged.
+
+## JWT Encoder
+
+URL: https://justtools.online/developer-tools/jwt-encoder/
+Category: Developer Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-06
+
+Create and sign JWTs in your browser with HS256, RS256, PS256, ES256 or EdDSA: edit claims, set expiry, generate keys and a JWKS. Keys never leave your device.
+
+### At a glance
+
+- Signs JWTs with **HS256/384/512, RS256/384/512, PS256/384/512, ES256/384/512 and EdDSA (Ed25519)** using your browser’s Web Crypto API.
+- Edits the header and payload as JSON, pointing to the line and column of any mistake; **alg** is kept in step with the algorithm you pick.
+- Adds **iat, exp** (15 minutes to 30 days), **nbf** and a random **jti** in one click.
+- Generates a **secure random secret** of the right length, or an RSA, EC or Ed25519 **key pair** with the public key as PEM, JWK and JWKS (kid = RFC 7638 thumbprint).
+- Signs with keys in PEM (PKCS#8, PKCS#1 or SEC1) or JWK form, and warns when an HMAC secret is too short or a well-known example.
+- One click opens the new token in the JWT Debugger to verify it. Everything runs locally; keys never leave your device.
+
+### Features
+
+- **Every JWS algorithm**: HMAC, RSA, RSA-PSS, ECDSA and EdDSA — tokens your backend libraries accept.
+- **Claim shortcuts**: Issued-at, expiry, not-before and a unique ID added with one click, in seconds since 1970 as the standard requires.
+- **Key generator**: Fresh 2048-bit RSA, P-256/384/521 or Ed25519 key pairs, with the public JWK and JWKS ready for your config.
+- **Strong secrets**: Random HMAC secrets of the full hash length, so tokens can’t be cracked offline.
+- **Verify instantly**: Send the token and key to the debugger to check the signature and claims.
+- **Local only**: No server signs anything — safe for test keys, and nothing is logged.
+
+### How to create a JWT
+
+1. **Pick the algorithm** — Choose **HS256** for a shared secret, or **RS256**, **ES256** or **EdDSA** for a key pair.
+2. **Write the claims** — Edit the payload JSON and use the buttons to add **iat** and an **exp** such as 1 hour.
+3. **Add a key** — Paste your secret or private key, or click **Generate** for a new one.
+4. **Copy the token** — The signed token updates as you type. Copy it, or open it in the debugger to verify.
+
+### Guide
+
+#### Which algorithm should I use?
+
+| Algorithm | Key | Use it when |
+| --- | --- | --- |
+| HS256 | One shared secret (32+ random bytes) | The same service creates and checks the tokens |
+| RS256 | RSA key pair (2048-bit or more) | Others verify with your public key — the most widely supported choice |
+| PS256 | RSA key pair | You want RSA with the more modern PSS padding |
+| ES256 | EC P-256 key pair | Small, fast signatures with public-key verification |
+| EdDSA | Ed25519 key pair | Modern, fast and hard to misuse, where your libraries support it |
+
+#### Good practice for tokens
+
+- Keep access tokens short-lived — minutes to an hour — and use refresh tokens for longer sessions.
+- Always set **iss**, **aud** and **exp**, and have servers check them along with the signature.
+- Put only what the receiver needs in the payload: it is readable by anyone who holds the token.
+- Use a random secret at least as long as the hash (32 bytes for HS256) and never commit it to source control.
+
+### FAQ
+
+**Is it safe to sign tokens with my real keys here?**
+Signing happens entirely in your browser and nothing is sent or stored. For production keys, the safest habit is still to sign on your own servers; this tool is ideal for test and development tokens.
+
+**How long should a JWT secret be?**
+At least as long as the hash: 32 random bytes for HS256, 48 for HS384 and 64 for HS512 (RFC 7518). “Generate secret” creates one of the right length.
+
+**What format should the private key be in?**
+PEM is easiest: “BEGIN PRIVATE KEY” (PKCS#8), “BEGIN RSA PRIVATE KEY” or “BEGIN EC PRIVATE KEY” all work, as does a private JWK. Passphrase-protected keys must be decrypted first.
+
+**Why is exp a number like 1767229200?**
+JWT dates are seconds since 1 January 1970 UTC. The expiry buttons calculate it for you from the current time.
+
+**Can I create a token without a signature?**
+No. Unsigned tokens (alg “none”) can be forged by anyone, and secure libraries reject them, so this tool always signs.
+
+## Markdown to HTML Converter
+
+URL: https://justtools.online/developer-tools/markdown-to-html/
+Category: Developer Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-06
+
+Convert Markdown to clean HTML online: GitHub tables, task lists and highlighted code, as a snippet or full page, minified or not. Batch files, no upload.
+
+### At a glance
+
+- Converts **GitHub Flavored Markdown** — tables with alignment, task lists, strikethrough, autolinks and GitHub alerts — to HTML as you type.
+- Outputs an **HTML snippet**, a **full styled page** (GitHub-like CSS with light and dark themes) or a **plain full page**; title, description and language come from YAML front matter.
+- **Syntax-highlights** code blocks in 20+ languages with highlight.js classes, or emits plain language-* classes for Prism.
+- Options for heading IDs, # anchor links, external links in a new tab, GitHub-style line breaks, front matter and **minified** output.
+- **Removes unsafe HTML** — scripts, event handlers and iframes — with DOMPurify, so the output is safe to publish.
+- Converts **several .md files at once** and downloads them as a .zip. Everything runs in your browser; files are never uploaded.
+
+### Features
+
+- **Clean output**: Semantic HTML without inline styles — headings, lists, tables and code exactly as you wrote them.
+- **Snippet or full page**: Paste a snippet into WordPress, Ghost or an email, or download a standalone styled page.
+- **Highlighted code**: Code blocks come out with highlight.js markup and a matching theme in the styled page.
+- **Safe to publish**: Raw HTML in the Markdown is sanitised, so copied content can’t carry scripts.
+- **Batch conversion**: Drop a folder’s worth of .md files and get every page as .html in one zip.
+- **Live preview**: Switch between the HTML source and the rendered result while you edit.
+
+### How to convert Markdown to HTML
+
+1. **Add your Markdown** — Paste or type it, or click **Open files** (or drop .md files) to convert several at once.
+2. **Choose the output** — Pick **HTML snippet**, **Full page, styled** or **Full page, plain**, and set options such as heading IDs or minify.
+3. **Check it** — Read the highlighted HTML, or switch to **Preview** to see how it looks.
+4. **Copy or download** — Click **Copy HTML**, download the .html file, or download all files as a .zip.
+
+### Guide
+
+#### Markdown and the HTML it becomes
+
+| Markdown | HTML |
+| --- | --- |
+| # Title | <h1 id="title">Title</h1> |
+| **bold** and _italic_ | <strong>bold</strong> and <em>italic</em> |
+| [link](https://example.com) | <a href="https://example.com">link</a> |
+| - item | <ul><li>item</li></ul> |
+| - [x] done | <li><input type="checkbox" checked disabled> done</li> |
+| `code` | <code>code</code> |
+| | a | b | table | <table> with <thead> and <tbody> |
+
+#### Snippet or full page?
+
+Use the **HTML snippet** when the HTML goes inside an existing page — a CMS editor, a blog template, a help centre or an email builder. They already have their own <head> and styles.
+
+Use a **full page** for a standalone file you open, share or host on its own: documentation, release notes or a README turned into a web page. The styled version embeds the CSS, so it looks right without any other files.
+
+### FAQ
+
+**Is my Markdown uploaded?**
+No. The conversion runs in your browser with the marked library, and nothing is sent to a server — so it’s safe for private documentation.
+
+**Does it support GitHub Flavored Markdown?**
+Yes: tables, task lists, strikethrough, autolinks and fenced code blocks, plus GitHub alerts (> [!NOTE], [!TIP], [!WARNING] …) and heading IDs that match GitHub’s.
+
+**Can I keep raw HTML from my Markdown?**
+Yes. Safe HTML such as <details>, <kbd> or <img> is kept. With “Remove unsafe HTML” on, scripts, iframes, forms and inline event handlers are stripped; switch it off only for content you trust.
+
+**How do I style the HTML?**
+Choose “Full page, styled” for a ready-made GitHub-like look, or use the snippet with your own CSS. Code blocks use highlight.js classes, so any highlight.js theme works.
+
+**Can I convert many Markdown files at once?**
+Yes. Open or drop several .md files; switch between them to check each one, then download all as HTML files in a .zip with the same options.
+
+## Pixel-Perfect Screen Ruler
+
+URL: https://justtools.online/developer-tools/screen-ruler/
+Category: Developer Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-08
+
+Free online screen ruler: a real-size cm and inch ruler calibrated with a bank card, plus pixel-perfect measuring of screenshots with zoom and smart edges.
+
+### At a glance
+
+- A **real-size ruler** in **cm/mm, inches or pixels**, drawn pixel-perfect at your screen’s resolution — horizontal or vertical, and full screen for the longest ruler.
+- **Calibrate** once with a **bank, credit or Aadhaar PVC card** (85.60 mm), an A4 or Letter sheet, a real ruler or your screen size. The calibration is saved and **adjusts itself when you zoom the browser**.
+- Two draggable markers measure any length in mm, cm, inches, CSS pixels, device pixels and points.
+- **Measure screenshots pixel by pixel**: zoom up to 6400% with a pixel grid, a magnifier showing the colour under the cursor, and lines that snap to pixel edges.
+- **Smart measure**: click inside a button, box or gap to get its exact width and height. Set the screenshot scale (1×, 2×, 3×) to read sizes as CSS uses them.
+- Paste a screenshot or **capture the screen** directly, then save an annotated PNG — everything stays in your browser.
+
+### Features
+
+- **True to size**: After a 30-second calibration, a centimetre on screen is a real centimetre.
+- **Crisp ticks**: Every mark is drawn on whole device pixels, so lines stay sharp on any display.
+- **Smart measure**: One click finds the edges of a button, card or gap and gives its width and height.
+- **Magnifier and colour**: See the pixels around the cursor and their hex colour while you measure.
+- **Screen facts**: Device pixel ratio, physical resolution, pixels per inch and screen diagonal.
+- **Private**: Screenshots and captures never leave your device.
+
+### How to use the screen ruler
+
+1. **Calibrate** — Open **Calibrate**, hold a bank card against the screen and match the box to it — once per screen.
+2. **Measure with the ruler** — Hold an object against the screen and drag the two markers to its ends.
+3. **Measure a screenshot** — Paste or capture a screenshot, choose **Smart** and click an element — or drag lines and boxes.
+4. **Save** — Copy the list of measurements or save the screenshot with them drawn on.
+
+### Guide
+
+#### Objects to calibrate with
+
+| Object | Size |
+| --- | --- |
+| Bank, credit or debit card, Aadhaar PVC card | 85.60 × 53.98 mm (3.37 × 2.125 in) |
+| A4 sheet | 210 × 297 mm |
+| US Letter sheet | 8.5 × 11 in (215.9 × 279.4 mm) |
+
+#### Pixels, explained
+
+- **CSS pixel**: the unit web pages use. Browsers treat 96 CSS pixels as one inch, but on a real screen that is only a convention.
+- **Device pixel**: one dot of the display. High-resolution screens have 2 or 3 device pixels per CSS pixel.
+- **Device pixel ratio**: device pixels per CSS pixel — it also changes when you zoom the browser.
+- **PPI (pixels per inch)**: how densely the screen packs its device pixels; calibration measures it for you.
+
+### FAQ
+
+**Is this ruler actual size?**
+Yes, once you calibrate it. Browsers assume 96 pixels per inch, but real screens differ, so an uncalibrated on-screen centimetre can be noticeably off. Calibrate once with a bank card and the ruler matches real centimetres and inches.
+
+**What size is a bank card?**
+85.60 × 53.98 mm (3.37 × 2.125 inches) — the ISO/IEC 7810 ID-1 size used by bank, credit and debit cards and the Aadhaar PVC card. That makes a card the easiest thing to calibrate with.
+
+**Can I measure something on my screen, like a window or an image?**
+Yes. Take a screenshot (Win+Shift+S on Windows, Cmd+Shift+4 on a Mac) and paste it into **Measure a screenshot**, or press **Capture the screen**. Then click an element with **Smart**, or drag lines and boxes, to get sizes in pixels.
+
+**Why do my screenshot measurements look twice as big?**
+On high-resolution screens a screenshot has 2 or 3 image pixels for every CSS pixel. Set **Screenshot scale** to 2× or 3× to see the sizes as CSS and design tools use them.
+
+**Does the calibration survive browser zoom?**
+Yes. Zooming changes the device pixel ratio, and the ruler rescales itself to stay true to size. Calibrate again if you move the window to a different monitor.
+
+**Does it work on phones?**
+The ruler and screenshot measuring work on phones and tablets; calibrate with a card first. Capturing the screen directly needs a desktop browser.
+
+## Regex Tester
+
+URL: https://justtools.online/developer-tools/regex-tester/
+Category: Developer Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-08
+
+Free online regex tester: live match highlighting, groups, replace, a plain-English explanation, unit tests and code for Python, PHP, Java, C# and Go.
+
+### At a glance
+
+- Tests **JavaScript (ECMAScript) regular expressions** live as you type, with all six flags: **g, i, m, s, u and y**.
+- Every **match and capture group** — numbered and named — is highlighted and listed with its position.
+- A **plain-English explanation** of each part of the pattern: classes, quantifiers, groups, lookarounds and backreferences.
+- **Replace** with $1, $<name> and $&, **list** matches with a template (handy for pulling data into CSV), and **unit tests** of strings that should and shouldn’t match.
+- **Code** for JavaScript, Python, PHP, Java, C# and Go, with named groups, flags and replacements rewritten for each language.
+- Patterns run in a separate worker and are **stopped after 1.5 seconds**, so a runaway (catastrophic backtracking) pattern can’t freeze the page. **24 ready-made patterns**, including Indian PAN, GSTIN, IFSC, PIN code, mobile and vehicle numbers.
+
+### Features
+
+- **Live highlighting**: Matches light up in your text as you type, alternating colours so neighbours stand apart.
+- **Explained in English**: Each token of the pattern is described, indented by group, so you can read any regex.
+- **Replace and extract**: Preview replacements and turn matches into lists or CSV lines in one step.
+- **Unit tests**: Keep strings that must and mustn’t match beside the pattern and see which fail.
+- **Safe to experiment**: A slow pattern is stopped automatically instead of hanging your browser tab.
+- **Share a link**: The pattern, flags and text travel in the link itself — nothing is stored on a server.
+
+### How to test a regular expression
+
+1. **Write the pattern** — Type it between the slashes and switch on the flags you need — g to find every match.
+2. **Add your text** — Paste the text to search; matches are highlighted and listed with their groups.
+3. **Read the explanation** — Check what each part of the pattern does, and fix anything unexpected.
+4. **Replace, test or copy code** — Use the tabs to preview a replacement, extract matches, run tests or copy code for your language.
+
+### Guide
+
+#### Regex quick reference
+
+| Pattern | Meaning |
+| --- | --- |
+| . | Any character except a line break (any at all with the s flag) |
+| \d  \w  \s | A digit, a word character, whitespace (capitals for the opposite) |
+| [abc]  [^abc]  [a-z] | One of a, b or c · anything else · a range |
+| *  +  ?  {2,5} | 0 or more · 1 or more · optional · 2 to 5 times (add ? for as few as possible) |
+| (…)  (?<name>…)  (?:…) | Capture group · named group · group without capturing |
+| ^  $  \b | Start · end (of a line with the m flag) · word boundary |
+| (?=…)  (?!…)  (?<=…)  (?<!…) | Followed by · not followed by · preceded by · not preceded by |
+| \1  \k<name> | The same text a group matched |
+
+#### Regex for Indian data
+
+| What | Pattern |
+| --- | --- |
+| Mobile number | (?:\+91[\s-]?|0)?[6-9]\d{4}[\s-]?\d{5} |
+| PAN | [A-Z]{5}\d{4}[A-Z] |
+| GSTIN | \d{2}[A-Z]{5}\d{4}[A-Z][1-9A-Z]Z[0-9A-Z] |
+| IFSC | [A-Z]{4}0[A-Z0-9]{6} |
+| PIN code | [1-9]\d{2}\s?\d{3} |
+
+### FAQ
+
+**Which regex flavour does this use?**
+JavaScript (ECMAScript), the engine built into your browser — the same one Node.js uses. The Code tab rewrites the pattern for Python, PHP, Java, C# and Go, and warns when something (such as lookbehind in Go) isn’t supported there.
+
+**Why does my regex find only one match?**
+Without the g (global) flag, a regular expression stops at the first match. Switch on g to find them all.
+
+**What is catastrophic backtracking?**
+Some patterns, usually with nested quantifiers like (a+)+ or (.*)*, can take exponentially long on text that almost matches. This tester runs patterns separately and stops them after 1.5 seconds, then tells you to make the pattern more specific.
+
+**How do I validate a whole value, not just part of it?**
+Anchor the pattern with ^ at the start and $ at the end, e.g. ^[A-Z]{5}\d{4}[A-Z]$ for a PAN. In the Tests tab, “The whole line must match” does this for you.
+
+**Is my text sent anywhere?**
+No. Everything runs in your browser. A shared link carries the pattern, flags and up to 2,000 characters of text inside the link itself.
+
+## Hex to ASCII Converter
+
+URL: https://justtools.online/developer-tools/hex-to-ascii/
+Category: Developer Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-08
+
+Convert hex to ASCII or UTF-8 text and text to hex as you type. Reads 0x, \x and spaced hex, flags bad bytes and shows a hex dump. Free, private, no upload.
+
+### At a glance
+
+- Converts **hex to text** and **text to hex** live, with text read as **UTF-8**, **Latin-1 (ISO-8859-1)** or **7-bit ASCII** — Hindi, ₹ and emoji round-trip in UTF-8.
+- Reads hex however it’s written: `48 65 6C`, `48656c`, `0x48,0x65`, `\x48\x65`, `%48%65`, `48:65:6c` or `48h 65h`.
+- Anything that isn’t a valid byte is listed with its position and skipped, instead of silently breaking the result.
+- Text → hex output can use spaces, commas, new lines or no separator, `0x` or `\x` prefixes, and upper- or lowercase digits.
+- Shows each character’s **code point and bytes**, a classic **hex dump** (offset, bytes, ASCII) and the same bytes in binary, decimal, octal and Base64.
+- Runs entirely in your browser — nothing you paste or open is uploaded.
+
+### Features
+
+- **Any hex format**: Spaces, colons, commas, 0x, \x, URL-style %XX or one long string — paste it as it is.
+- **UTF-8 aware**: Multi-byte characters like नमस्ते, ₹ and 👋 decode correctly, and invalid bytes are pointed out.
+- **Hex dump**: See bytes the way a hex editor shows them — offsets, 16 bytes per line and printable characters.
+- **Character table**: Every character with its Unicode code point and the exact bytes it takes, in hex and decimal.
+- **Files too**: Open any file to see its hex, or download decoded hex back as a file — images and PDFs are recognised.
+- **Decimal and octal**: Switch to decimal byte values (72 101 108…) or octal, both ways.
+
+### How to convert hex to ASCII text
+
+1. **Choose the direction** — Pick **Hex → Text** to decode, or **Text → Hex** to encode.
+2. **Paste your input** — Paste the hex (any format) or type the text. The result appears as you type.
+3. **Check the encoding** — Keep **UTF-8** for modern data; switch to **Latin-1** if accented letters look wrong.
+4. **Copy the result** — Copy it, swap it back to check the round trip, or open **Hex dump** and **Characters** for detail.
+
+### Guide
+
+#### How hex becomes text
+
+Computers store text as bytes, and hexadecimal is a compact way to write a byte: two digits from **00 to FF** (0 to 255). An encoding maps bytes to characters — in ASCII, **48** is “H”, **65** is “e” and **20** is a space, so `48 65 6C 6C 6F` reads “Hello”.
+
+ASCII covers only English letters, digits and symbols (bytes 00–7F). **UTF-8** keeps ASCII as it is and uses 2–4 bytes for everything else: “₹” is `E2 82 B9` and “न” is `E0 A4 A8`. That’s why one Hindi character can turn into six hex digits.
+
+#### Common ASCII values
+
+| Character | Hex | Decimal | Binary |
+| --- | --- | --- | --- |
+| Space | 20 | 32 | 00100000 |
+| 0 | 30 | 48 | 00110000 |
+| A | 41 | 65 | 01000001 |
+| a | 61 | 97 | 01100001 |
+| Line feed (\n) | 0A | 10 | 00001010 |
+| ~ | 7E | 126 | 01111110 |
+
+### FAQ
+
+**How do I convert hex to text?**
+Choose **Hex → Text** and paste the hex. Spaces, 0x prefixes and separators don’t matter — every pair of digits is read as one byte and decoded as UTF-8 text.
+
+**What is the difference between hex to ASCII and hex to UTF-8?**
+For bytes 00–7F they are identical. Bytes above 7F aren’t ASCII at all; UTF-8 reads them as parts of multi-byte characters (Hindi, ₹, emoji), while Latin-1 reads each as one Western European letter such as é.
+
+**Why do I see � in the result?**
+Those bytes aren’t valid text in the chosen encoding. Try **Latin-1**, or the data may not be text at all — the tool recognises common files like PNG and PDF so you can download them.
+
+**Why does it say a value has an odd number of digits?**
+A byte is exactly two hex digits. An unbroken string like `486` can’t be split into whole bytes, so a digit is probably missing or extra.
+
+**Can I convert binary or decimal too?**
+Yes — switch **Bytes as** to Binary, Decimal or Octal. There’s also a dedicated [Binary to Text Converter](https://justtools.online/developer-tools/binary-to-text/).
+
+**Is my data uploaded?**
+No. Conversion happens entirely in your browser, including files you open.
+
+## Binary to Text Converter
+
+URL: https://justtools.online/developer-tools/binary-to-text/
+Category: Developer Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-08
+
+Translate binary code to text and text to binary, live. Handles spaced or joined 8-bit bytes, UTF-8 Hindi and emoji, and flags bad digits. Free and private.
+
+### At a glance
+
+- Translates **binary to text** and **text to binary** as you type, reading 8 bits as one byte.
+- Accepts bytes separated by spaces, commas or new lines, one long run of bits, `0b` prefixes and 7-bit groups such as `1001000`.
+- Text is read as **UTF-8** by default, so Hindi, ₹ and emoji work; **ASCII** and **Latin-1** are one switch away.
+- Digits other than 0 and 1, values above 255 and runs that aren’t a multiple of 8 bits are listed with their position.
+- A character table shows each letter’s bits, hex and decimal values; a hex dump and Base64 are included.
+- Runs entirely in your browser — nothing is uploaded.
+
+### Features
+
+- **Any spacing**: Spaced bytes, one long string of bits or one byte per line — all read the same.
+- **Both directions**: Swap the result back in a click to check a round trip.
+- **Learn the bits**: See which 8 bits make each character, with its code point and decimal value.
+- **Clear mistakes**: A stray 2, a missing bit or a byte over 255 is pointed out instead of producing gibberish.
+- **Output your way**: Spaces, commas, new lines or none, with or without leading zeros and 0b prefixes.
+- **Unicode ready**: UTF-8 turns emoji and Indian scripts into the right multi-byte binary.
+
+### How to convert binary to text
+
+1. **Choose the direction** — Pick **Binary → Text** to decode, or **Text → Binary** to encode.
+2. **Paste or type** — Paste the 0s and 1s, or type the text. The result appears instantly.
+3. **Adjust the format** — For text → binary, choose the separator and whether to keep leading zeros.
+4. **Copy it** — Copy the result, or open **Characters** to see the bits behind each letter.
+
+### Guide
+
+#### How binary code becomes letters
+
+Each 0 or 1 is a **bit**, and 8 bits make a **byte** — a number from 0 to 255. Text encodings give each number a character: in ASCII, `01001000` is 72, which is “H”, and `01101001` is 105, which is “i”. So `01001000 01101001` spells “Hi”.
+
+English letters fit in one byte. Hindi letters, the rupee sign and emoji need 2–4 bytes each in **UTF-8**, so “₹” becomes `11100010 10000010 10111001`.
+
+#### Letters in binary
+
+| Character | Binary | Decimal | Hex |
+| --- | --- | --- | --- |
+| A | 01000001 | 65 | 41 |
+| Z | 01011010 | 90 | 5A |
+| a | 01100001 | 97 | 61 |
+| z | 01111010 | 122 | 7A |
+| 0 | 00110000 | 48 | 30 |
+| Space | 00100000 | 32 | 20 |
+
+### FAQ
+
+**How do I translate binary to English?**
+Choose **Binary → Text** and paste the binary code. Each group of 8 bits is one character; spaces between groups are optional.
+
+**How do I write my name in binary?**
+Choose **Text → Binary** and type your name. Each letter becomes 8 bits — “A” is 01000001 and “a” is 01100001.
+
+**Why does my binary give strange characters?**
+Usually a bit is missing or extra, which shifts every byte after it. The tool flags runs that aren’t a multiple of 8 bits; with spaces between bytes, each byte is read on its own.
+
+**Can it read 7-bit binary?**
+Yes, when the groups are separated — `1001000 1101001` reads as “Hi”. Without spaces, bits are read 8 at a time.
+
+**Does it work with hex?**
+Switch **Bytes as** to Hex, or use the [Hex to ASCII Converter](https://justtools.online/developer-tools/hex-to-ascii/).
+
+**Is anything uploaded?**
+No. Everything is converted in your browser.
+
+## HMAC Generator
+
+URL: https://justtools.online/developer-tools/hmac-generator/
+Category: Developer Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-08
+
+Generate HMAC-SHA256, SHA-512, SHA-1 or MD5 in hex or Base64, and verify GitHub, Stripe, Slack, Shopify and Razorpay webhook signatures. Private, no upload.
+
+### At a glance
+
+- Computes **HMAC (RFC 2104)** with SHA-256, SHA-512, SHA-384, SHA-224, SHA-1, MD5, SHA3-256, SHA3-512, Keccak-256, BLAKE2b and RIPEMD-160 — checked against the RFC 2202 and RFC 4231 test vectors.
+- Shows the result as **hex, uppercase hex, Base64 and Base64URL**, and takes the key and message as text, hex or Base64 — or a file of any size.
+- Verifies webhook signatures exactly as **GitHub, Stripe, Slack, Shopify, Razorpay, Cashfree, Paddle and Standard Webhooks** (Svix, Clerk, Resend) compute them.
+- When a signature doesn’t match, it tests the usual causes — wrong algorithm, a trailing line break, re-formatted JSON, spaces around the secret, a hex key typed as text — and offers the fix.
+- Gives working code for Node.js, Python, PHP, Java, Go, C# and OpenSSL, with constant-time comparison for webhook checks.
+- Keys, secrets and messages stay in your browser and are never saved.
+
+### Features
+
+- **Webhook debugger**: Paste the secret, the signature header and the raw body to see whether the request is genuine.
+- **Explains mismatches**: Finds the one change that makes the signature match — so you know whether to fix the body, the secret or the algorithm.
+- **Replay check**: Shows how old a webhook timestamp is and warns when providers would reject it as too old.
+- **Every format**: Hex, HEX, Base64 and Base64URL side by side; compare with a signature pasted in any of them.
+- **Key advice**: Warns about short or empty keys and generates a strong random key in one click.
+- **Copy-paste code**: The same HMAC in seven languages, and a ready verify function for each webhook provider.
+
+### How to generate an HMAC
+
+1. **Pick the algorithm** — Choose **HMAC-SHA256** unless your API asks for another.
+2. **Enter the secret key** — Type or paste the key, or create a random one. Switch to Hex or Base64 if the key is given that way.
+3. **Enter the message** — Paste the exact text or payload to sign, or choose a file.
+4. **Copy or compare** — Copy the HMAC in the format you need, or paste a signature to check it matches.
+
+### Guide
+
+#### What an HMAC proves
+
+An HMAC is a hash mixed with a secret key. Anyone with the same key and message gets the same value, and without the key it can’t be forged — so it proves a message came from someone who knows the secret **and** wasn’t changed on the way.
+
+That’s why payment gateways and platforms sign webhooks with it: your server recomputes the HMAC of the raw body with the shared secret and accepts the request only if it matches the signature header. Compare with a **constant-time** function (`timingSafeEqual`, `hmac.compare_digest`, `hash_equals`) so the check itself doesn’t leak the signature.
+
+#### How popular webhooks are signed
+
+| Provider | Header | Signed message | Output |
+| --- | --- | --- | --- |
+| GitHub | X-Hub-Signature-256 | body | sha256=hex |
+| Stripe | Stripe-Signature | timestamp.body | t=…,v1=hex |
+| Slack | X-Slack-Signature | v0:timestamp:body | v0=hex |
+| Shopify | X-Shopify-Hmac-Sha256 | body | Base64 |
+| Razorpay | X-Razorpay-Signature | body | hex |
+| Razorpay checkout | razorpay_signature | order_id|payment_id | hex |
+| Cashfree | x-webhook-signature | timestamp + body | Base64 |
+| Standard Webhooks | webhook-signature | id.timestamp.body | v1,Base64 |
+
+### FAQ
+
+**How do I generate HMAC-SHA256?**
+Keep **HMAC-SHA256** selected, enter the secret key and the message. The HMAC appears instantly in hex and Base64 — copy the one your API expects.
+
+**Why doesn’t my webhook signature match?**
+Almost always because the body was changed before hashing — parsed and re-serialised JSON, a trailing newline, or different line breaks. Sign the raw bytes exactly as received. The second most common cause is the wrong secret, such as an API key instead of the webhook secret. This tool checks these for you.
+
+**Is HMAC the same as hashing with a salt?**
+No. HMAC uses the key in a special two-pass construction that stays secure even with hashes like MD5 or SHA-1. Simply hashing key + message is open to length-extension attacks. For passwords, use bcrypt or Argon2 instead — see the [Bcrypt Generator & Checker](https://justtools.online/security-tools/bcrypt-generator/).
+
+**How long should an HMAC key be?**
+At least as long as the hash output — 32 random bytes for HMAC-SHA256. Keys longer than the block size (64 bytes for SHA-256) are hashed first, so they add nothing.
+
+**Hex or Base64 — which should I use?**
+They are the same bytes written differently. Use whatever the other side expects: GitHub, Stripe and Razorpay use hex; Shopify, Cashfree and Standard Webhooks use Base64.
+
+**Are my keys sent anywhere?**
+No. Everything is computed in your browser, and keys, secrets and messages are not saved — only your algorithm and provider choice are remembered.
+

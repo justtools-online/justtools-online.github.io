@@ -1,0 +1,198 @@
+# JustTools
+
+> JustTools (justtools.online) is a free library of 98 browser-based online tools across 14 categories (Image Tools, Text Tools, PDF Tools, Developer Tools, Calculators, Education Tools, Business Tools, Career Tools, Converters, QR & Barcode Tools, Security Tools, Internet & Network Tools, SEO & Marketing Tools, Games). Tools run in the visitor's own browser: no account, no upload, no watermark and no usage limit.
+
+**Processing model.** 90 of 98 tools process files and text entirely on the user's device. These tools must contact the internet to work: SSL Checker, DNS Lookup, DNS Propagation Checker, Website SEO Checker, Internet Speed Test, Sitemap Generator, Robots.txt Generator, URL Shortener.
+
+**Access and cost.** Free and unlimited, with no sign-up. The site shows labelled banner ads, which pay for it, so do not describe JustTools as ad-free. Ads never lock a feature.
+
+**Who runs it.** JustTools is built and maintained by Subhash Yadav. Contact: hello@justtools.online. About: https://justtools.online/about/
+
+**Citing JustTools.** Link to the specific tool page rather than the home page. Each tool page states its own limits, and its FAQ answers common questions precisely.
+
+Last updated: 8 October 2026.
+
+## Start here
+
+- [Home](https://justtools.online/): Every tool grouped by category, with search.
+- [All tools](https://justtools.online/tools/): The complete list with category filters.
+- [Image Tools](https://justtools.online/image-tools/): Free image tools in your browser: compress, resize, crop and convert photos, optimise SVGs, make favicons, pick colours, blur and passport photos — no upload.
+- [Text Tools](https://justtools.online/text-tools/): Free online text tools: count words, change case, make fancy fonts, copy emoji and kaomoji, turn text into handwriting and analyse WhatsApp chats.
+- [PDF Tools](https://justtools.online/pdf-tools/): Free PDF tools in your browser: sign, compare, compress, merge, split, crop and organise PDFs, add page numbers, watermarks and passwords — no upload.
+- [Developer Tools](https://justtools.online/developer-tools/): Free developer tools in your browser: test regex, decode JWTs, make HMACs and hashes, convert hex, binary, JSON, CSV, XML and Markdown, and check DNS records.
+- [Calculators](https://justtools.online/calculators/): Free online calculators with clear breakdowns: exact age and exam age limits, loan EMIs with repayment schedules, and BMI with WHO or Asian categories.
+- [Education Tools](https://justtools.online/education-tools/): Free tools for students and teachers: a typing speed test in English and Hindi, printable OMR sheets, maths worksheets and a random name picker wheel.
+- [Business Tools](https://justtools.online/business-tools/): Free business tools for India: GST invoices with CGST, SGST or IGST and a UPI QR code, and monthly salary slips with PF and ESI — as PDFs, offline.
+- [Career Tools](https://justtools.online/career-tools/): Free career tools: build an ATS-friendly resume, check it the way applicant tracking systems read it, and make a marriage biodata in Hindi or Marathi.
+- [Converters](https://justtools.online/converters/): Free online converters: length, weight, area (with guntha and bigha), temperature and 140+ units, plus Unix timestamps to dates and back. Instant, private.
+- [QR & Barcode Tools](https://justtools.online/qr-tools/): Free QR code and barcode tools: make QR codes for links, UPI and Wi-Fi and print-ready EAN/UPC barcodes, or scan codes with your camera. No sign-up.
+- [Security Tools](https://justtools.online/security-tools/): Free security tools: generate and test strong passwords, make and check bcrypt hashes, check SSL certificates, convert SSH keys and hide messages in images.
+- [Internet & Network Tools](https://justtools.online/network-tools/): Free internet and network tools: test your download and upload speed, ping and jitter, and calculate IPv4 and IPv6 subnets, CIDR blocks and VLSM plans.
+- [SEO & Marketing Tools](https://justtools.online/seo-tools/): Free SEO and marketing tools: audit any page’s SEO and AI visibility, generate sitemaps and robots.txt, tag links with UTM codes and shorten them.
+- [Games](https://justtools.online/games/): Play free games in your browser: Sudoku with hints, 2048 with undo, Minesweeper with no-guess boards, Tic Tac Toe, bingo and Tambola tickets, and a coin flip.
+
+## Image Tools
+
+- [Image Compressor](https://justtools.online/image-tools/image-compressor/): Compress JPG, PNG, WebP and AVIF images online for free. Shrink photos by up to 90% or hit an exact KB target — right in your browser, with no upload.
+- [Image Resizer](https://justtools.online/image-tools/image-resizer/): Resize JPG, PNG and WebP images by pixels, percentage or social media presets. Crop to fill or fit, batch resize and download a ZIP — no upload needed.
+- [WebP Converter](https://justtools.online/image-tools/webp-converter/): Convert PNG, JPG, GIF and HEIC images to WebP in your browser. Lossy or lossless, transparency kept, batch ZIP download — free, private and with no upload.
+- [HEIC to JPG Converter](https://justtools.online/image-tools/heic-to-jpg/): Convert HEIC and HEIF photos from iPhone to JPG, PNG or WebP right in your browser. Batch convert at full resolution — free, private and with no upload.
+- [EXIF Metadata Remover](https://justtools.online/image-tools/exif-metadata-remover/): Remove EXIF metadata from photos: GPS location, camera, date and hidden data in JPG, PNG, WebP and HEIC — with no quality loss and no upload. Free.
+- [Image Blur Tool](https://justtools.online/image-tools/image-blur/): Blur faces, number plates, text or the background in any photo. Blur, pixelate or black out areas, then download it full size — free, private, no upload.
+- [Image Watermark](https://justtools.online/image-tools/image-watermark/): Watermark photos with your name, © text or logo in one go: choose position, size, angle and opacity, or repeat it across the image. Free, no upload.
+- [Passport Size Photo Maker](https://justtools.online/image-tools/passport-photo-maker/): Make passport size photos online: India passport, PAN card, visa, US, UK and more. Face guide, print sheets for 4×6 or A4, and KB limits for forms.
+- [SVG to PNG, JPG & WebP Converter](https://justtools.online/image-tools/svg-to-png/): Convert SVG to PNG, JPG or WebP online at any size — 1x, 2x, 3x or exact pixels — with a transparent or coloured background. Batch convert, free, no upload.
+- [Image Color Picker](https://justtools.online/image-tools/image-color-picker/): Pick colours from any image: get HEX, RGB, HSL and CMYK codes with a zoom loupe, plus the image’s colour palette. Free, private — nothing is uploaded.
+- [Image to Grayscale Converter](https://justtools.online/image-tools/image-to-grayscale/): Convert images to grayscale or black and white online: pick the method, adjust contrast, add sepia, and download in bulk as JPG, PNG or WebP. Free, no upload.
+- [Crop Image](https://justtools.online/image-tools/crop-image/): Crop images online to any size or ratio: 1:1, 16:9, Instagram and YouTube sizes, circle crop, rotate, flip and straighten. Free, private and full quality.
+- [Favicon Generator](https://justtools.online/image-tools/favicon-generator/): Create a favicon from an image, text or emoji: get favicon.ico, SVG, Apple touch and Android icons, the web manifest and HTML code. Free, nothing uploaded.
+- [SVG Optimizer](https://justtools.online/image-tools/svg-optimizer/): Optimise SVG files online with SVGO: smaller icons and logos with a side-by-side preview, batch ZIP download, data URI, CSS and React output. No upload.
+
+## Text Tools
+
+- [Word Counter](https://justtools.online/text-tools/word-counter/): Free online word counter: count words, characters, sentences and paragraphs as you type, with reading time, keyword density, readability and limits.
+- [Text to Handwriting](https://justtools.online/text-tools/text-to-handwriting/): Turn typed text into realistic handwriting on ruled paper. Pick from 7 handwriting styles including Hindi, choose ink and paper, and download PNG or PDF.
+- [WhatsApp Chat Analyzer](https://justtools.online/text-tools/whatsapp-chat-analyzer/): Analyse a WhatsApp chat export: who texts most, busiest days and hours, top emojis and words, reply times. Android and iPhone — never uploaded.
+- [Fancy Font Generator](https://justtools.online/text-tools/fancy-font-generator/): Turn text into stylish fonts to copy and paste: bold, italic, cursive, bubble, gothic and more for Instagram bios, WhatsApp, BGMI names and posts. Free.
+- [Case Converter](https://justtools.online/text-tools/case-converter/): Change text case online: UPPERCASE, lowercase, Title Case, Sentence case, and camelCase, snake_case or kebab-case for code. Smart rules, instant, free.
+- [Emoji & Kaomoji Picker](https://justtools.online/text-tools/emoji-kaomoji-picker/): Search and copy every emoji, 200 kaomoji like ¯\_(ツ)_/¯ and 270+ text symbols with one click. Skin tones, recents and Unicode codes for developers.
+
+## PDF Tools
+
+- [Merge PDF](https://justtools.online/pdf-tools/merge-pdf/): Merge PDF files online for free. Combine PDFs in any order, pick exact pages from each and download one file — processed in your browser with no upload.
+- [Images to PDF](https://justtools.online/pdf-tools/image-to-pdf/): Convert JPG, PNG and other images to one PDF. Reorder and rotate pages, choose A4 or Letter, margins and quality — free, private and with no upload.
+- [PDF Password Remover](https://justtools.online/pdf-tools/pdf-password-remover/): Remove the password from PDFs you can open. Unlock AES and RC4 protected PDFs and lift print and copy restrictions — free, in your browser, no upload.
+- [Compress PDF](https://justtools.online/pdf-tools/compress-pdf/): Compress PDF files in your browser: shrink scans and image-heavy PDFs, or hit a target like 200 KB. Text stays sharp and selectable — free, private, no upload.
+- [Split PDF](https://justtools.online/pdf-tools/split-pdf/): Split a PDF into several files by page ranges, every N pages or one file per page, or extract just the pages you need. Free, private, no upload.
+- [PDF to JPG](https://justtools.online/pdf-tools/pdf-to-jpg/): Convert PDF pages to high-quality JPG or PNG images at up to 300 DPI. Pick the pages, download one image or a ZIP — free, private and no upload.
+- [Rotate PDF](https://justtools.online/pdf-tools/rotate-pdf/): Rotate PDF pages and save them permanently, delete pages you don’t need and drag pages into a new order. See every page, free, with no upload.
+- [Protect PDF](https://justtools.online/pdf-tools/protect-pdf/): Add a password to a PDF with AES-256 encryption, and optionally block printing, copying or editing. Free, runs in your browser — nothing is uploaded.
+- [Redact PDF](https://justtools.online/pdf-tools/redact-pdf/): Redact PDFs for real: black out names, Aadhaar, PAN, phone numbers and more so the hidden text is gone for good. Find-and-mark, free, no upload.
+- [PDF Watermark](https://justtools.online/pdf-tools/pdf-watermark/): Add a text or logo watermark to a PDF: CONFIDENTIAL, DRAFT or “For KYC only” stamps with your own size, angle and opacity. Free, private, no upload.
+- [HTML to PDF](https://justtools.online/pdf-tools/html-to-pdf/): Convert HTML code or an .html file to PDF with real, selectable text and clickable links. Choose A4 or Letter, margins and backgrounds. Free, no upload.
+- [Flatten PDF](https://justtools.online/pdf-tools/flatten-pdf/): Flatten a PDF online: turn filled form fields, signatures, comments and highlights into fixed page content no one can edit. Free, private, no upload.
+- [Compare PDFs](https://justtools.online/pdf-tools/compare-pdf/): Compare two PDFs online and see what changed: added and removed words highlighted, plus a page-by-page visual diff. Free and private — nothing is uploaded.
+- [PDF Page Organizer](https://justtools.online/pdf-tools/pdf-page-organizer/): Rearrange PDF pages online: drag to reorder, rotate, delete, duplicate, add blank pages or pages from other PDFs. Free, private, no upload, with undo.
+- [Add Page Numbers to PDF](https://justtools.online/pdf-tools/add-page-numbers/): Add page numbers to a PDF online: 1, Page 1 of 10, Roman numerals or your own format, in any corner. Skip the cover, number from any page. Free, no upload.
+- [Crop PDF](https://justtools.online/pdf-tools/crop-pdf/): Crop PDF pages online: drag a box or auto-detect white margins, then crop one page, some or all. Free, private, no upload — text stays sharp and selectable.
+- [Sign PDF](https://justtools.online/pdf-tools/sign-pdf/): Sign a PDF online for free: draw, type or upload your signature, add initials and the date, and place them on any page. Private — nothing is uploaded.
+
+## Developer Tools
+
+- [JSON Formatter & Validator](https://justtools.online/developer-tools/json-formatter/): Format, validate, minify and repair JSON online. Get the exact line and column of every error, a collapsible tree view and sorted keys — private, in-browser.
+- [XML to JSON Converter](https://justtools.online/developer-tools/xml-to-json/): Convert XML to JSON and JSON to XML online. Keeps attributes, arrays and leading zeros intact, shows exact error lines and never uploads your data.
+- [DNS Lookup](https://justtools.online/developer-tools/dns-lookup/): Free DNS lookup: check A, AAAA, CNAME, MX, NS, TXT, SOA and CAA records of any domain, see SPF and DMARC, and do reverse DNS for an IP address.
+- [DNS Propagation Checker](https://justtools.online/developer-tools/dns-propagation-checker/): Check DNS propagation worldwide: see the A, CNAME, MX, NS or TXT answer from 7 public DNS networks and 18 ISPs in 15 countries, and track the change.
+- [JSON to CSV Converter](https://justtools.online/developer-tools/json-to-csv/): Convert JSON to CSV for Excel or Google Sheets: nested objects become columns, lists are kept and big numbers stay exact. Also CSV to JSON. No upload.
+- [CSV to JSON Converter](https://justtools.online/developer-tools/csv-to-json/): Convert CSV or data pasted from Excel to JSON: auto-detected delimiter, real numbers and true/false, nested objects from dotted columns. Free, no upload.
+- [UUID Generator](https://justtools.online/developer-tools/uuid-generator/): Generate UUIDs (GUIDs) online: random v4, sortable v7, v1, and name-based v5 and v3 — one or 10,000 at a time. Also decode and validate any UUID.
+- [URL Encoder / Decoder](https://justtools.online/developer-tools/url-encoder-decoder/): Encode or decode URLs and query strings online: %20, + and UTF-8 (Hindi, emoji) done right, errors pinpointed, and URL parameters shown in a table.
+- [Base64 Encoder & Decoder](https://justtools.online/developer-tools/base64-encoder-decoder/): Encode text or files to Base64 and decode Base64 back — UTF-8, URL-safe Base64URL, data URLs for images, file type detection. Free, private, no upload.
+- [Markdown Live Previewer](https://justtools.online/developer-tools/markdown-previewer/): Write Markdown with a live preview: GitHub tables, task lists, alerts and highlighted code. Export to HTML or PDF — free, private, runs in your browser.
+- [JSON to XML Converter](https://justtools.online/developer-tools/json-to-xml/): Convert JSON to XML online: attributes, text, arrays and nested data, with a root element, CDATA and pretty or minified output. Free and private, no upload.
+- [Cron Expression Generator](https://justtools.online/developer-tools/cron-expression-generator/): Build and explain cron expressions in plain English with next run times. Supports Linux crontab, Quartz, Spring and AWS EventBridge, and converts between them.
+- [CSS to Tailwind Converter](https://justtools.online/developer-tools/css-to-tailwind/): Convert CSS to Tailwind classes online: hover, media queries, dark mode and gradients become variants, colours match the palette. Tailwind v4 and v3, free.
+- [Hash Generator](https://justtools.online/developer-tools/hash-generator/): Generate MD5, SHA-1, SHA-256, SHA-512, SHA-3, BLAKE3, CRC32 and HMAC hashes of text or files, and verify checksums. Free, fast and private — no upload.
+- [CSV to Interactive Chart](https://justtools.online/developer-tools/csv-to-chart/): Turn CSV or Excel data into an interactive bar, line, area, pie or scatter chart online. Group and sum rows, hover for values, download PNG or SVG. No upload.
+- [JWT Debugger](https://justtools.online/developer-tools/jwt-debugger/): Decode any JWT and verify its signature in your browser: header, claims and expiry explained; HS256, RS256, ES256 and EdDSA with PEM or JWK keys. No upload.
+- [JWT Encoder](https://justtools.online/developer-tools/jwt-encoder/): Create and sign JWTs in your browser with HS256, RS256, PS256, ES256 or EdDSA: edit claims, set expiry, generate keys and a JWKS. Keys never leave your device.
+- [Markdown to HTML Converter](https://justtools.online/developer-tools/markdown-to-html/): Convert Markdown to clean HTML online: GitHub tables, task lists and highlighted code, as a snippet or full page, minified or not. Batch files, no upload.
+- [Pixel-Perfect Screen Ruler](https://justtools.online/developer-tools/screen-ruler/): Free online screen ruler: a real-size cm and inch ruler calibrated with a bank card, plus pixel-perfect measuring of screenshots with zoom and smart edges.
+- [Regex Tester](https://justtools.online/developer-tools/regex-tester/): Free online regex tester: live match highlighting, groups, replace, a plain-English explanation, unit tests and code for Python, PHP, Java, C# and Go.
+- [Hex to ASCII Converter](https://justtools.online/developer-tools/hex-to-ascii/): Convert hex to ASCII or UTF-8 text and text to hex as you type. Reads 0x, \x and spaced hex, flags bad bytes and shows a hex dump. Free, private, no upload.
+- [Binary to Text Converter](https://justtools.online/developer-tools/binary-to-text/): Translate binary code to text and text to binary, live. Handles spaced or joined 8-bit bytes, UTF-8 Hindi and emoji, and flags bad digits. Free and private.
+- [HMAC Generator](https://justtools.online/developer-tools/hmac-generator/): Generate HMAC-SHA256, SHA-512, SHA-1 or MD5 in hex or Base64, and verify GitHub, Stripe, Slack, Shopify and Razorpay webhook signatures. Private, no upload.
+
+## Calculators
+
+- [EMI Calculator](https://justtools.online/calculators/emi-calculator/): Calculate your loan EMI, total interest and full repayment schedule instantly. See yearly charts, the impact of prepayments and download the schedule.
+- [BMI Calculator](https://justtools.online/calculators/bmi-calculator/): Free BMI calculator: enter height in feet or cm and weight in kg or lb to see your BMI, WHO or Asian (Indian) category and healthy weight range.
+- [Age Calculator](https://justtools.online/calculators/age-calculator/): Calculate your exact age in years, months and days, the next birthday countdown and age on any date. Check exam age limits as on a cut-off date. Free.
+
+## Education Tools
+
+- [Worksheet Generator](https://justtools.online/education-tools/worksheet-generator/): Free maths worksheet generator: printable addition, subtraction, times tables and division sheets with answer keys. Set the difficulty, download a PDF.
+- [Random Name Picker](https://justtools.online/education-tools/random-name-picker/): Pick random names with a spinning wheel: one or several winners, no repeats, and random groups. Fair, private and free — great for classrooms and giveaways.
+- [OMR Sheet Generator](https://justtools.online/education-tools/omr-sheet-generator/): Make printable OMR answer sheets free: up to 300 questions, 4 or 5 options, roll number bubbles, NEET-style sections and an answer key — as a PDF or print.
+- [Typing Speed Test](https://justtools.online/education-tools/typing-speed-test/): Free typing speed test in English and Hindi: check your WPM and accuracy, practise with passages, and take an exam-style test with full and half mistakes.
+
+## Business Tools
+
+- [GST Invoice Generator](https://justtools.online/business-tools/gst-invoice-generator/): Make GST tax invoices in your browser: CGST, SGST or IGST worked out, GSTIN check, HSN summary and a UPI QR code. Download a PDF — free, no sign-up.
+- [Salary Slip Generator](https://justtools.online/business-tools/salary-slip-generator/): Make monthly salary slips as PDF: earnings, PF, ESI, professional tax and TDS worked out, loss of pay and net pay in words. Free, private, no sign-up.
+
+## Career Tools
+
+- [Resume Builder](https://justtools.online/career-tools/resume-builder/): Free resume builder with 4 ATS-friendly templates: fill in your details, see a live preview, and download a PDF or Word file. No sign-up and no watermark.
+- [ATS Resume Checker](https://justtools.online/career-tools/ats-resume-checker/): Free ATS resume checker: see what applicant tracking systems read from your PDF or Word resume, get a score with clear fixes, and match it to any job.
+- [Marriage Biodata Maker](https://justtools.online/career-tools/marriage-biodata-maker/): Make a marriage biodata with photo in English, Hindi or Marathi — rashi, nakshatra, gotra, family details — and download a PDF or JPG for WhatsApp. Free.
+
+## Converters
+
+- [Unit Converter](https://justtools.online/converters/unit-converter/): Convert length, weight, area, volume, temperature, speed, data and 8 more quantities — including guntha, bigha, tola and lakh. Type “5 ft 10 in to cm”.
+- [Unix Timestamp Converter](https://justtools.online/converters/unix-timestamp-converter/): Convert Unix epoch time to a date in any time zone and back. Detects seconds, ms, µs and ns; also Excel, LDAP and WebKit times, and timestamps in logs.
+
+## QR & Barcode Tools
+
+- [QR Code Generator](https://justtools.online/qr-tools/qr-code-generator/): Create free QR codes for links, UPI payments, Wi-Fi, WhatsApp, contacts and more. Add colours and a logo, download PNG or SVG. Codes never expire.
+- [Barcode Generator](https://justtools.online/qr-tools/barcode-generator/): Free barcode generator for EAN-13, UPC-A, Code 128, Code 39, ITF-14, GS1-128 and Data Matrix. Check digits added, exact mm size, PNG, SVG and batch print.
+- [QR Code Scanner](https://justtools.online/qr-tools/qr-code-scanner/): Scan QR codes online with your camera or from a photo or screenshot. Shows links safely, UPI payments, Wi-Fi passwords and contacts. Free, private, no app.
+- [Barcode Scanner](https://justtools.online/qr-tools/barcode-scanner/): Scan barcodes online with your camera or from a photo: EAN-13, UPC, Code 128, Code 39, ISBN, DataMatrix and PDF417. Batch scan to CSV. Free, no app needed.
+
+## Security Tools
+
+- [Password Generator](https://justtools.online/security-tools/password-generator/): Generate strong, random passwords, memorable passphrases and PINs with a cryptographically secure generator. Free, instant and private — nothing is stored.
+- [SSL Checker](https://justtools.online/security-tools/ssl-checker/): Check any website’s SSL certificate: expiry date and days left, issuer, covered domains, revocation and CAA, plus a live HTTPS test from your browser.
+- [Image Steganography Tool](https://justtools.online/security-tools/image-steganography/): Hide a secret message or file inside an image, protected with a password, and reveal hidden messages from PNG images. Free and private — no upload.
+- [Password Strength Checker](https://justtools.online/security-tools/password-strength-checker/): Check how strong a password is: time to crack, common words and patterns it hides, tips to improve it, and a safe data-breach check. Fully private.
+- [PPK to PEM Converter](https://justtools.online/security-tools/ppk-to-pem/): Convert a PuTTY .ppk private key to PEM or OpenSSH format online, with or without a passphrase. Supports PPK v2 and v3, RSA, ECDSA and Ed25519. No upload.
+- [PEM to PPK Converter](https://justtools.online/security-tools/pem-to-ppk/): Convert a PEM or OpenSSH private key (id_rsa, AWS .pem) to a PuTTY .ppk file online — PPK v3 or v2, with an optional passphrase. Free, private, no upload.
+- [Bcrypt Generator & Checker](https://justtools.online/security-tools/bcrypt-generator/): Generate bcrypt hashes with cost 4–16 and $2a/$2b/$2y prefixes, or check a password against a bcrypt hash. Explains each part. Runs in your browser only.
+
+## Internet & Network Tools
+
+- [IP Subnet Calculator](https://justtools.online/network-tools/ip-subnet-calculator/): Free IP subnet calculator for IPv4 and IPv6: network, broadcast, host range, mask and wildcard from any CIDR, plus subnetting, VLSM and route summarisation.
+- [Internet Speed Test](https://justtools.online/network-tools/internet-speed-test/): Free internet speed test: check download and upload speed, ping, jitter and bufferbloat on Wi-Fi, broadband or mobile data — no app, with a data saver mode.
+
+## SEO & Marketing Tools
+
+- [UTM Builder](https://justtools.online/seo-tools/utm-builder/): Build UTM campaign links for Google Analytics 4: presets for WhatsApp, Instagram, email and ads, the GA4 channel each lands in, and a QR code for it.
+- [Website SEO Checker](https://justtools.online/seo-tools/website-seo-checker/): Free website SEO checker: audit any page’s title, meta description, headings, canonical, robots.txt, schema, Open Graph and AI crawler access, with fixes.
+- [Sitemap Generator](https://justtools.online/seo-tools/sitemap-generator/): Free XML sitemap generator: crawl your site or paste URLs, skip noindex, redirected and robots.txt-blocked pages, add lastmod and images, ready for Google.
+- [Robots.txt Generator](https://justtools.online/seo-tools/robots-txt-generator/): Create a robots.txt file free: block admin pages, AI training bots like GPTBot or SEO crawlers, add your sitemap, then test any URL against Google’s rules.
+- [URL Shortener](https://justtools.online/seo-tools/url-shortener/): Free URL shortener: make short links with a custom ending, QR code, password, expiry and click stats — or check where any short link really goes.
+
+## Games
+
+- [Tic Tac Toe](https://justtools.online/games/tic-tac-toe/): Play Tic Tac Toe online free against the computer — Easy, Medium or unbeatable Hard — or with a friend on one device. 3×3 to 6×6 boards. No sign-up.
+- [Bingo Card Generator](https://justtools.online/games/bingo-card-generator/): Make printable bingo cards, Tambola (Housie) tickets or word bingo — unique and numbered — then call the game on screen with voice and check winners.
+- [Coin Flip](https://justtools.online/games/coin-flip/): Flip a coin online: a fair 50/50 heads or tails toss with a 3D coin. Flip up to 10 coins, play best of 3, use custom sides and see your stats. Free.
+- [Sudoku](https://justtools.online/games/sudoku/): Play free Sudoku online: easy to expert puzzles with one solution, notes, hints that explain the logic, a daily puzzle, printable PDFs and a solver.
+- [Minesweeper](https://justtools.online/games/minesweeper/): Play Minesweeper free online: Beginner, Intermediate, Expert or custom boards, a safe first click, no-guess boards that never need luck, hints and best times.
+- [2048 Game](https://justtools.online/games/2048-game/): Play 2048 free online: swipe or use the arrow keys to join tiles. Undo, AI hints, an auto-play AI, 3×3 to 6×6 boards and your best score saved. No sign-up.
+
+## Full text
+
+- [llms-full.txt](https://justtools.online/llms-full.txt): Every tool's facts, features, how-to steps, guide and complete FAQ.
+- [Image Tools — full text](https://justtools.online/llms/image-tools.txt): 14 tools.
+- [Text Tools — full text](https://justtools.online/llms/text-tools.txt): 6 tools.
+- [PDF Tools — full text](https://justtools.online/llms/pdf-tools.txt): 17 tools.
+- [Developer Tools — full text](https://justtools.online/llms/developer-tools.txt): 23 tools.
+- [Calculators — full text](https://justtools.online/llms/calculators.txt): 3 tools.
+- [Education Tools — full text](https://justtools.online/llms/education-tools.txt): 4 tools.
+- [Business Tools — full text](https://justtools.online/llms/business-tools.txt): 2 tools.
+- [Career Tools — full text](https://justtools.online/llms/career-tools.txt): 3 tools.
+- [Converters — full text](https://justtools.online/llms/converters.txt): 2 tools.
+- [QR & Barcode Tools — full text](https://justtools.online/llms/qr-tools.txt): 4 tools.
+- [Security Tools — full text](https://justtools.online/llms/security-tools.txt): 7 tools.
+- [Internet & Network Tools — full text](https://justtools.online/llms/network-tools.txt): 2 tools.
+- [SEO & Marketing Tools — full text](https://justtools.online/llms/seo-tools.txt): 5 tools.
+- [Games — full text](https://justtools.online/llms/games.txt): 6 tools.
+
+## Optional
+
+- [About](https://justtools.online/about/): Who builds JustTools and how the tools work.
+- [Contact](https://justtools.online/contact/): Report a bug or request a tool.
+- [Privacy Policy](https://justtools.online/privacy-policy/): What is and is not collected, including advertising and analytics.
+- [Terms of Use](https://justtools.online/terms/): Terms, including use by AI systems.
+- [Sitemap](https://justtools.online/sitemap.xml): Every URL.

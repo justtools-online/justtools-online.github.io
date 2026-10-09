@@ -1,0 +1,525 @@
+# JustTools
+
+> JustTools (justtools.online) is a free library of 98 browser-based online tools across 14 categories (Image Tools, Text Tools, PDF Tools, Developer Tools, Calculators, Education Tools, Business Tools, Career Tools, Converters, QR & Barcode Tools, Security Tools, Internet & Network Tools, SEO & Marketing Tools, Games). Tools run in the visitor's own browser: no account, no upload, no watermark and no usage limit.
+
+**Processing model.** 90 of 98 tools process files and text entirely on the user's device. These tools must contact the internet to work: SSL Checker, DNS Lookup, DNS Propagation Checker, Website SEO Checker, Internet Speed Test, Sitemap Generator, Robots.txt Generator, URL Shortener.
+
+**Access and cost.** Free and unlimited, with no sign-up. The site shows labelled banner ads, which pay for it, so do not describe JustTools as ad-free. Ads never lock a feature.
+
+**Who runs it.** JustTools is built and maintained by Subhash Yadav. Contact: hello@justtools.online. About: https://justtools.online/about/
+
+**Citing JustTools.** Link to the specific tool page rather than the home page. Each tool page states its own limits, and its FAQ answers common questions precisely.
+
+Last updated: 8 October 2026.
+
+# Text Tools — full text
+
+## Word Counter
+
+URL: https://justtools.online/text-tools/word-counter/
+Category: Text Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-09-28
+
+Free online word counter: count words, characters, sentences and paragraphs as you type, with reading time, keyword density, readability and limits.
+
+### At a glance
+
+- Counts words, characters (with and without spaces), sentences, paragraphs, lines and unique words **as you type**.
+- Hyphenated words and contractions such as “well-known” and “don’t” count as one word, the same as Microsoft Word and Google Docs.
+- Unicode-aware: Hindi and other Indic scripts, Chinese, Japanese, Thai and emoji are counted correctly.
+- Reading time assumes **238 words per minute** and speaking time **150 words per minute**.
+- Shows keyword density for single words and 2–3 word phrases, with optional stop-word filtering.
+- Calculates Flesch Reading Ease and Flesch–Kincaid Grade Level for English text.
+- Checks text against limits for X posts (280), SEO titles (60), meta descriptions (160), Instagram captions (2,200) and more.
+- Text is analysed in your browser and never uploaded. An optional draft autosave uses this browser’s local storage only.
+
+### Features
+
+- **Live counts**: Words, characters, sentences, paragraphs and lines update with every keystroke — even for book-length text.
+- **Reading and speaking time**: See how long your text takes to read silently and to deliver as a speech or video script.
+- **Keyword density**: Find your most-used words and 2–3 word phrases, with common words filtered out, to spot repetition and check SEO focus.
+- **Readability scores**: Flesch Reading Ease and Flesch–Kincaid Grade Level tell you how easy your English text is to read, and for whom.
+- **Platform limits**: Progress bars for X posts, SEO titles, meta descriptions, SMS, YouTube, Instagram and LinkedIn show what fits and what is over.
+- **Word goal**: Set a target such as 1,500 words for an essay or article and watch the progress bar fill as you write.
+- **Case converter and file tools**: Switch to UPPERCASE, lowercase, Title Case or Sentence case, open a .txt or .md file, copy, or download your text — with one-step undo.
+- **Private autosave**: Your draft is kept in this browser so a refresh never loses work. Turn it off with one switch; nothing is sent anywhere either way.
+
+### How to count words in your text
+
+1. **Add your text** — Type in the box, paste text from any document, or click **Open file** to load a .txt or .md file.
+2. **Read the live counts** — Words, characters, sentences, paragraphs, reading time and speaking time update instantly at the top.
+3. **Dig deeper** — Check **Details** for averages and page estimates, then use the tabs for keyword density, character limits and readability.
+4. **Set a goal or export** — Enter a word goal to track progress, change the case if needed, then copy or download the finished text.
+
+### Guide
+
+#### How words and characters are counted
+
+A **word** is any run of characters between spaces that contains at least one letter or number. That means “well-known”, “don’t”, “COVID-19” and “2026” each count as one word, while a stray dash or ampersand does not — the same rules Microsoft Word and Google Docs use, so your count matches what an editor or teacher will see.
+
+Languages written without spaces between words — Chinese, Japanese and Thai — are split into words with the Unicode word-segmentation rules built into your browser. Hindi, Marathi, Bengali and other Indic scripts, which do use spaces, are counted like English.
+
+**Characters** are counted the way you see them: an emoji with a skin tone, a flag, or a Devanagari conjunct is one character, even though it is stored as several code points. The Details panel also shows the size in bytes (UTF-8), which matters for databases and some SMS gateways.
+
+**Paragraphs** are counted as non-empty lines, as in Microsoft Word. **Sentences** end at a full stop, question mark, exclamation mark or the Devanagari danda (।).
+
+#### How many pages is 1,000 words?
+
+With a 12-point font such as Times New Roman or Arial and 1-inch margins, a single-spaced page holds about 500 words and a double-spaced page about 250. Headings, short paragraphs and larger fonts reduce that.
+
+| Words | Single-spaced pages | Double-spaced pages | Reading time |
+| --- | --- | --- | --- |
+| 250 | 0.5 | 1 | about 1 minute |
+| 500 | 1 | 2 | about 2 minutes |
+| 1,000 | 2 | 4 | about 4 minutes |
+| 1,500 | 3 | 6 | about 6 minutes |
+| 2,000 | 4 | 8 | about 8 minutes |
+| 5,000 | 10 | 20 | about 21 minutes |
+
+#### How reading time and speaking time are calculated
+
+Reading time uses **238 words per minute**, the average silent reading speed for adults reading non-fiction English found in a 2019 review of 190 studies (Brysbaert). Speaking time uses **150 words per minute**, a comfortable pace for presentations, podcasts and video voice-overs.
+
+Technical material is read more slowly and fiction faster, so treat both figures as estimates. For a timed speech, rehearse aloud once and adjust.
+
+#### Character limits cheat sheet
+
+| Where | Limit | Notes |
+| --- | --- | --- |
+| X (Twitter) post | 280 characters | Standard accounts; every link counts as 23 |
+| SEO title tag | ~60 characters | Google truncates by pixel width, roughly 50–60 characters |
+| Meta description | ~160 characters | Longer text is usually cut off in results |
+| SMS message | 160 characters | Drops to 70 when the text contains emoji or non-Latin letters |
+| YouTube title | 100 characters | About 70 are visible in search results |
+| Instagram caption | 2,200 characters | Only the first lines show before “more” |
+| LinkedIn post | 3,000 characters | Only the first few lines show before “see more” |
+
+#### Understanding readability scores
+
+The **Flesch Reading Ease** score rates text from about 0 to 100 using average sentence length and average syllables per word: the higher the score, the easier the text. The **Flesch–Kincaid Grade Level** turns the same inputs into a US school grade.
+
+| Score | Difficulty | Typical reader |
+| --- | --- | --- |
+| 90–100 | Very easy | 5th grade (age 10–11) |
+| 70–89 | Easy to fairly easy | 6th–7th grade |
+| 60–69 | Plain English | 8th–9th grade (age 13–15) |
+| 50–59 | Fairly difficult | 10th–12th grade |
+| 30–49 | Difficult | College level |
+| 0–29 | Very difficult | College graduate |
+
+#### Keyword density and SEO
+
+Keyword density is how often a word or phrase appears as a share of all words. Search engines do not reward a particular percentage, and repeating a phrase unnaturally can hurt. Use the table to spot accidental repetition and to confirm your main topic is clearly present — then write for readers first.
+
+### FAQ
+
+**Is this word counter free and private?**
+Yes. It is free with no sign-up and no length limit, and your text is analysed entirely in your browser. Nothing you type or paste is uploaded or stored on a server.
+
+**Does it count hyphenated words and contractions as one word?**
+Yes. “Well-known”, “mother-in-law” and “don’t” each count as one word, matching Microsoft Word and Google Docs.
+
+**Are spaces counted as characters?**
+The main **Characters** figure includes spaces and line breaks. **Characters (no spaces)** in the Details panel excludes all whitespace.
+
+**How is reading time calculated?**
+Reading time is the word count divided by 238 words per minute, the average adult silent reading speed. Speaking time uses 150 words per minute.
+
+**How many words are on one page?**
+About 500 words single-spaced or 250 double-spaced, with a 12-point font and 1-inch margins. The Details panel shows both page estimates for your text.
+
+**Does it work with Hindi and other languages?**
+Yes. Counting is Unicode-aware, so Hindi, Marathi, Tamil and other Indic scripts, Chinese, Japanese, Arabic and emoji are handled correctly. Readability scores are English-only because the Flesch formulas are.
+
+**What is a good Flesch Reading Ease score?**
+For most websites and general readers, 60–70 (plain English) is a good target. Scores above 80 read very easily; below 50 suits specialist or academic audiences.
+
+**What is the ideal keyword density for SEO?**
+There is no ideal percentage. Mention your main topic naturally where it helps the reader, and use the density table to catch repetition rather than to hit a number.
+
+**Is my text saved?**
+Only if **Save draft in this browser** is on (the default). The draft stays in this browser’s local storage on your device and is never sent anywhere. Turn the switch off to delete it.
+
+**How many characters are allowed in a tweet or a meta description?**
+An X (Twitter) post allows 280 characters for standard accounts, and a meta description is best kept to about 160. The **Character limits** tab checks both, plus SEO titles, SMS, YouTube, Instagram and LinkedIn.
+
+## Text to Handwriting
+
+URL: https://justtools.online/text-tools/text-to-handwriting/
+Category: Text Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-09-29
+
+Turn typed text into realistic handwriting on ruled paper. Pick from 7 handwriting styles including Hindi, choose ink and paper, and download PNG or PDF.
+
+### At a glance
+
+- Seven handwriting styles — cursive, neat, rounded, casual, quick, print and a **Hindi + English** style (Kalam) that writes Devanagari.
+- Paper options: ruled notebook, plain, grid and old paper, with an optional red margin line.
+- Blue, black, blue-black, red and green ink, or any custom colour.
+- Each letter gets a slightly different size, angle and position, so pages don’t look machine-made; **Rewrite** gives a fresh variation.
+- Adjustable writing size, line gap, word spacing and letter spacing, plus an optional scanned look.
+- Long text flows onto as many A4 pages as needed; download a multi-page PDF or PNG images (1240 × 1754 px, 150 DPI).
+- Runs in your browser: your text is never uploaded, and the fonts are open-licensed.
+
+### Features
+
+- **Realistic, not robotic**: Letters vary a little in size, slant, spacing and ink darkness, and every line drifts slightly — just like real writing. Turn **Natural variation** down for tidier pages or up for a hurried look.
+- **Hindi handwriting**: The **Hindi + English** style writes Devanagari with proper conjuncts and matras, so you can mix Hindi and English on the same page.
+- **Notebook-style paper**: Ruled lines, a red margin, grid paper or an aged-paper look. Writing sits neatly on the ruled lines at any size.
+- **Multi-page PDF**: Long answers automatically continue onto new pages. Download everything as one A4 PDF or as PNG images.
+- **Scanned look**: Add a slight tilt, uneven lighting and grain so the page looks photographed or scanned.
+- **Private and free**: No sign-up, no watermark and no upload. A draft of your text is kept only in this browser so a refresh doesn’t lose it.
+
+### How to convert text to handwriting
+
+1. **Add your text** — Type or paste your notes, answer or letter into **Your text**.
+2. **Pick a handwriting style** — Choose one of seven styles. For Hindi, choose **Hindi + English**.
+3. **Choose ink and paper** — Select an ink colour and ruled, plain, grid or old paper. Adjust the size and spacing until it looks right.
+4. **Download** — Check each page in the preview, then download a PDF or PNG images.
+
+### Guide
+
+#### Tips for the most realistic handwriting
+
+- **Keep variation moderate.** Around 4–6 looks natural; 0 looks like a font, 10 looks rushed.
+- **Match size to the line gap.** Letters should fill roughly two-thirds of the space between ruled lines.
+- **Use blue or blue-black ink** on ruled paper for the classic notebook look.
+- **Add the scanned look** if the page will be shared as a photo, and press **Rewrite** until you like the result.
+- **Break long paragraphs** into shorter ones — real handwritten pages have more white space than typed ones.
+
+#### Great uses for handwritten pages
+
+If a teacher or exam asks for handwritten work, they usually mean written by you. Check the rules before submitting a generated page.
+
+- Personal notes, study sheets and journals that feel more personal than print.
+- Handwritten-style letters, cards and invitations.
+- Mock-ups and designs for posters, social posts and presentations.
+- Practice sheets that show what neat handwriting looks like.
+
+#### Writing in Hindi and other scripts
+
+Choose **Hindi + English** to write Devanagari — Hindi, Marathi, Nepali and Sanskrit — alongside English on the same page. Hindi words are drawn whole, so conjuncts such as क्ष and matras stay correctly joined; English letters still get individual variation.
+
+### FAQ
+
+**Is this text to handwriting converter free?**
+Yes. It is free with no sign-up, no watermark and no page limit.
+
+**Can I write in Hindi?**
+Yes. Pick the **Hindi + English** handwriting style. It supports Devanagari, so Hindi, Marathi and Nepali text is written correctly, and you can mix it with English.
+
+**How do I download my handwritten pages?**
+Click **PDF** for a single A4 PDF with every page, or **PNG** for images. With more than one page, the PNGs come in a ZIP file.
+
+**Why does every letter look slightly different?**
+That is the natural variation that makes the page look handwritten. Lower **Natural variation** for neater writing, or press **Rewrite** to get a new version.
+
+**What size are the pages?**
+A4 portrait. PNG images are 1240 × 1754 pixels (150 DPI), which prints clearly on A4 paper; the PDF uses exact A4 page size.
+
+**Is my text uploaded or saved?**
+No text is uploaded — everything is drawn in your browser. A draft is kept in this browser’s local storage so a refresh doesn’t lose your work; press **Clear** to remove it.
+
+**Can I use the handwritten pages for school assignments?**
+The tool makes realistic pages, but teachers who ask for handwritten work usually expect your own writing. Check your school’s rules first.
+
+**Which fonts are used?**
+Open-licensed handwriting fonts from Google Fonts: Homemade Apple, Caveat, Indie Flower, Shadows Into Light, Nothing You Could Do, Patrick Hand and Kalam. They are served from this website, not from Google.
+
+## WhatsApp Chat Analyzer
+
+URL: https://justtools.online/text-tools/whatsapp-chat-analyzer/
+Category: Text Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-09-30
+
+Analyse a WhatsApp chat export: who texts most, busiest days and hours, top emojis and words, reply times. Android and iPhone — never uploaded.
+
+### At a glance
+
+- Reads the chat you export from WhatsApp — the **.txt** file, or the **.zip** from an iPhone — in 12- or 24-hour and day/month or month/day date formats.
+- Counts messages, words, media, emojis, links and deleted messages, in total and for each participant, in one-to-one and group chats.
+- Finds the **busiest day**, **longest streak**, longest silence and most active hour and weekday, with charts and a weekly heatmap.
+- Shows who **starts conversations** (the first message after 6+ hours of silence) and each person’s **median reply time**.
+- Top emojis (skin tones and flags counted correctly), most used words without common English and Hinglish filler, and the most shared websites.
+- System messages — joins, group changes and the encryption notice — are left out of every count.
+- Runs entirely in your browser: the chat is never uploaded, stored or seen by anyone.
+
+### Features
+
+- **Private by design**: Chats are personal. The analysis runs on your device, so no server, no account and no one else ever sees your messages.
+- **Who talks the most**: Each person’s share of messages, words, media and emojis, plus who starts conversations and who replies fastest.
+- **When you chat**: Messages per day or month, by hour and by weekday, and a heatmap of your weekly rhythm.
+- **Emojis and words**: Your favourite emojis and most used words, with filler like “the”, “hai” and “ok” filtered out.
+- **Android and iPhone**: Understands both export formats, 12- and 24-hour clocks and different date orders — and opens an iPhone .zip without unzipping.
+- **Shareable summary**: Copy a short summary of the highlights to post in the group.
+
+### How to analyse a WhatsApp chat
+
+1. **Export the chat** — In WhatsApp, open the chat and choose **Export chat → Without media** (Android: ⋮ → More; iPhone: tap the chat name).
+2. **Open the file here** — Drop the .txt file — or the .zip from an iPhone — onto the box, or click to choose it.
+3. **Read your stats** — See totals, each participant’s numbers, activity charts, top emojis and words, and highlights.
+4. **Share the summary** — Tap **Copy summary** to paste the highlights anywhere, or open another chat.
+
+### Guide
+
+#### How to export a WhatsApp chat
+
+- **Android:** open the chat → tap **⋮** → **More** → **Export chat** → **Without media**, then save the .txt file.
+- **iPhone:** open the chat → tap the contact or group name → **Export Chat** → **Without Media**, then **Save to Files**. Open the .zip here as it is.
+- “Without media” is faster and smaller. Photos, videos and voice notes are still counted from the placeholders in the text.
+- WhatsApp may limit very long chats in an export; the analysis covers everything in the file.
+
+#### What the numbers mean
+
+| Measure | How it’s worked out |
+| --- | --- |
+| Messages | Every message sent by a person. System messages are not counted. |
+| Words | Words in text messages; media placeholders and deleted messages don’t count. |
+| Conversation starts | Messages sent after at least 6 hours of silence in the chat. |
+| Reply time | The median time a person takes to reply to someone else, within a conversation. |
+| Active days | Days with at least one message, out of every day from the first message to the last. |
+| Longest streak | The most consecutive days with at least one message. |
+
+### FAQ
+
+**Is it safe to upload my WhatsApp chat?**
+Nothing is uploaded. The file is read by your own browser and analysed on your device, so your messages never reach a server — not even ours.
+
+**Does it work for group chats?**
+Yes. Groups of any size are supported. The table shows the 12 most active people first, and you can expand it to see everyone.
+
+**Which file should I choose?**
+The file WhatsApp creates when you use **Export chat**: a .txt on Android, or a .zip on iPhone. There’s no need to unzip it.
+
+**Why does it say “media (type not recorded)”?**
+Android exports without media replace every attachment with “<Media omitted>”, so the type can’t be known. iPhone exports say whether it was an image, video, audio or sticker.
+
+**The dates look wrong. What should I do?**
+Some exports could be day/month or month/day. The analyzer works it out from the order of the messages; if it can’t be sure, a switch appears at the top so you can pick the right one.
+
+**Does it work with Hindi and other languages?**
+Yes. Messages in any language — Hindi, Hinglish, Tamil or anything else — are counted and analysed. If WhatsApp itself is set to another language, a few labels like “media omitted” may be counted as ordinary messages.
+
+**How is reply time calculated?**
+Each time someone replies to a different person within the same conversation, the gap is recorded. The table shows the median, so one late reply doesn’t skew it.
+
+## Fancy Font Generator
+
+URL: https://justtools.online/text-tools/fancy-font-generator/
+Category: Text Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-01
+
+Turn text into stylish fonts to copy and paste: bold, italic, cursive, bubble, gothic and more for Instagram bios, WhatsApp, BGMI names and posts. Free.
+
+### At a glance
+
+- Converts your text into **28 styles**, including bold, italic, cursive (script), gothic (fraktur), double-struck, monospace, bubble, squares, small caps, upside down, strikethrough and glitch text.
+- The “fonts” are really **Unicode characters**, so they stay styled wherever you paste them — Instagram and Facebook bios, WhatsApp, X, YouTube, Discord and game names.
+- Letters that Unicode keeps elsewhere (like cursive ℬ, ℰ, ℋ) are filled in correctly, so no letter turns into a box.
+- Also makes **decorated names** such as ꧁༺ 𝓝𝓪𝓶𝓮 ༻꧂ for profiles and gaming IDs.
+- Pastes back to normal: the tool can turn fancy text into plain letters again.
+- Hindi and other scripts pass through unchanged — the styles apply to English letters and digits.
+
+### Features
+
+- **Tap to copy**: Every style is shown with your own text. Tap one and it’s copied — ready to paste.
+- **Works everywhere**: Unlike real fonts, these characters travel with the text into apps, bios, captions and comments.
+- **Names and bios**: Decorated styles for Instagram bios, Free Fire and BGMI names, and WhatsApp statuses.
+- **Strikethrough & underline**: Cross out or underline text in places that don’t support formatting.
+- **Back to normal**: Paste stylised text to recover the plain letters for editing or searching.
+- **Private**: Everything happens as you type, in your browser.
+
+### How to make fancy text
+
+1. **Type your text** — Enter a name, bio or message in the box.
+2. **Browse the styles** — Scroll the list or filter by **Bold**, **Cursive & gothic**, **Bubble & boxes** and more.
+3. **Copy** — Tap a style to copy it.
+4. **Paste** — Paste it into your Instagram bio, WhatsApp, a game name field or a post.
+
+### Guide
+
+#### Where fancy text works
+
+| Place | Works? | Tip |
+| --- | --- | --- |
+| Instagram bio, name and captions | Yes | Bios allow 150 characters; each fancy letter counts as one |
+| WhatsApp messages and About | Yes | For plain bold or italic, WhatsApp also has *bold* and _italic_ |
+| Facebook, X, Threads, YouTube comments | Yes | Keep it short — long styled posts are hard to read |
+| Game names (BGMI, Free Fire) | Mostly | Games limit name length and some symbols; check the preview |
+| Usernames and @handles | No | Handles only allow plain letters, numbers, . and _ |
+
+#### A note on accessibility
+
+Screen readers used by blind and low-vision people read these characters as mathematical symbols (“mathematical bold capital H…”) or skip them. Use fancy text for a name or a few decorative words, and keep important information — prices, dates, links, instructions — in normal text.
+
+Search engines and in-app search also see different characters, so a name written in 𝓬𝓾𝓻𝓼𝓲𝓿𝓮 may not be found by people typing it normally.
+
+### FAQ
+
+**How does a fancy font generator work?**
+It swaps each letter for a look-alike character from Unicode — the universal character set every phone and computer uses. For example, 𝐀 is “mathematical bold capital A”. Because they’re characters rather than a font, the style stays when you paste the text.
+
+**Why do some letters show as boxes?**
+The device you’re viewing on doesn’t have a font with that character — usually older phones. Bold, italic, cursive and bubble text work on almost all current devices; newer symbols may not.
+
+**Can I use fancy text in my Instagram bio?**
+Yes. Copy a style and paste it into Edit profile → Bio or Name. Each styled letter counts as one of the 150 bio characters.
+
+**Can I make stylish names for BGMI or Free Fire?**
+Yes — try the decorated styles. Games limit name length and may reject some symbols, so keep it short and check how it looks in the game.
+
+**Does it work with Hindi?**
+Unicode only has styled versions of the English alphabet and digits, so Hindi text stays as it is. You can mix both — the English parts get styled.
+
+**How do I turn fancy text back to normal?**
+Paste it into “Turn fancy text back into normal text” at the bottom of the tool, and copy the plain version.
+
+## Case Converter
+
+URL: https://justtools.online/text-tools/case-converter/
+Category: Text Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-01
+
+Change text case online: UPPERCASE, lowercase, Title Case, Sentence case, and camelCase, snake_case or kebab-case for code. Smart rules, instant, free.
+
+### At a glance
+
+- Seven text cases: **Sentence case, lower case, UPPER CASE, Title Case, Capitalized Case, aLtErNaTiNg** and **iNVERSE**.
+- Eight programming cases: **camelCase, PascalCase, snake_case, CONSTANT_CASE, kebab-case, Train-Case, dot.case** and **path/case** — one name per line.
+- **Title Case** keeps articles and short words lowercase (“The Lord of the Rings”), but capitalises the first and last word and the word after a colon.
+- **Sentence case** capitalises the start of every sentence and the word “I”, and fixes text typed with Caps Lock on.
+- Keeps **acronyms and brand names** like NASA, GST and iPhone as written (can be switched off), and handles hyphens (Well-Known) and apostrophes (Don’t).
+- Splits programming names smartly: XMLHttpRequest becomes xml_http_request. Counts characters, words, sentences and lines as you type.
+
+### Features
+
+- **Fix Caps Lock text**: Paste text that was typed in capitals and turn it into normal sentences in one click.
+- **Proper headlines**: Title Case that follows style-guide rules — for blog titles, YouTube titles, headings and book names.
+- **For developers**: Convert variable, column, CSS class and URL names between camelCase, snake_case, kebab-case and more.
+- **Line by line**: Paste a list of names and convert them all at once — each line stays a separate name.
+- **Live counts**: See the number of characters, words, sentences and lines while you work.
+- **Private**: Your text is converted in your browser and never sent anywhere.
+
+### How to change text case
+
+1. **Paste your text** — Type or paste text into the box, or try the **Sample**.
+2. **Pick a case** — Click **UPPER CASE**, **Title Case**, **Sentence case**, **snake_case** or any other.
+3. **Check the result** — The converted text appears below straight away.
+4. **Copy** — Click **Copy**, download it as a .txt file, or **Replace my text** to keep working on it.
+
+### Guide
+
+#### Which case to use
+
+| Case | Example | Used for |
+| --- | --- | --- |
+| Sentence case | Tips for your first job interview | Most headings on the web, emails, UI text |
+| Title Case | Tips for Your First Job Interview | Book, film and article titles, formal headings |
+| UPPER CASE | SALE ENDS TODAY | Short labels and warnings (reads as shouting in messages) |
+| camelCase | firstJobInterview | JavaScript and Java variables |
+| snake_case | first_job_interview | Python, database columns, file names |
+| kebab-case | first-job-interview | URLs, CSS classes, file names |
+| CONSTANT_CASE | MAX_RETRY_COUNT | Constants and environment variables |
+
+#### Title Case rules used here
+
+Every word is capitalised except articles (a, an, the), short conjunctions (and, but, or, nor, for, so, yet) and short prepositions (as, at, by, in, of, off, on, per, to, up, via) — unless they are the first or last word, or come right after a colon. This matches the common ground of the Chicago and AP style guides for most headlines.
+
+Hyphenated words get a capital on each part (Well-Known), words after apostrophes stay lowercase (Don’t, India’s), and words already written as acronyms or brands (NASA, iPhone) are left alone.
+
+### FAQ
+
+**How do I convert uppercase to lowercase?**
+Paste your text and click “lower case” — or “Sentence case” to also capitalise the start of each sentence, which is usually what you want for text typed with Caps Lock on.
+
+**What is the difference between Title Case and Capitalized Case?**
+Capitalized Case capitalises every word. Title Case follows style-guide rules and keeps small words like “of”, “the” and “and” lowercase, as in “The Lord of the Rings”.
+
+**Does it work with Hindi?**
+Hindi and most Indian scripts don’t have upper and lower case, so they stay unchanged. English words mixed in are converted.
+
+**Can I convert a list of variable names?**
+Yes. Put one name per line and choose a programming case. userAccountId, user-account-id and User Account ID all become user_account_id in snake_case.
+
+**Why wasn’t NASA changed to Nasa?**
+Words already written in capitals or mixed case are treated as acronyms and brand names and kept as written. Turn off “Keep acronyms and brand names” to change them too. Text written entirely in capitals is always converted.
+
+**Is my text saved?**
+No. The conversion runs in your browser and nothing is stored or sent.
+
+## Emoji & Kaomoji Picker
+
+URL: https://justtools.online/text-tools/emoji-kaomoji-picker/
+Category: Text Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-07
+
+Search and copy every emoji, 200 kaomoji like ¯\_(ツ)_/¯ and 270+ text symbols with one click. Skin tones, recents and Unicode codes for developers.
+
+### At a glance
+
+- **Every emoji** up to Emoji 17, with names and keywords from the Unicode CLDR — search “party”, “india” or a shortcode like :joy:.
+- **200 kaomoji** (Japanese text faces) in 19 moods — happy, love, shrug ¯\_(ツ)_/¯, table flip, cats, bears and more.
+- **270+ text symbols**: arrows, stars, hearts, check marks, maths, currency (₹ € £), fractions, superscripts, keyboard keys and chess.
+- Click to copy, or switch on **Collect into text** to build a message from several picks. Recently used items and your skin tone are remembered on this device.
+- For developers: each emoji’s **code points**, HTML entity, CSS, JavaScript and Python escapes, URL encoding and UTF-8 bytes.
+- Emoji your device can’t draw yet are hidden automatically, so you only see emoji that will show up.
+
+### Features
+
+- **Smart search**: Names, keywords and GitHub-style shortcodes — find 😂 by typing “laugh”, “joy” or :joy:.
+- **Skin tones**: Pick a tone once and every hand and person emoji uses it.
+- **Kaomoji for every mood**: From (◕‿◕) to (╯°□°）╯︵ ┻━┻, grouped and searchable.
+- **Symbols that work anywhere**: Text symbols paste into names, bios, documents and code without images.
+- **Compose messages**: Collect several emoji and symbols, then copy them all at once.
+- **Unicode details**: Code points and escapes ready to paste into HTML, CSS, JavaScript or Python.
+
+### How to copy an emoji or kaomoji
+
+1. **Choose a tab** — Pick **Emoji**, **Kaomoji** or **Symbols**.
+2. **Search or browse** — Type a word like “heart” or “shrug”, or jump to a category.
+3. **Click to copy** — Click any item — it is copied to your clipboard. Paste it anywhere with Ctrl+V (or long-press on a phone).
+
+### Guide
+
+#### Popular kaomoji
+
+| Kaomoji | Meaning |
+| --- | --- |
+| ¯\_(ツ)_/¯ | Shrug — “whatever” or “I don’t know” |
+| (╯°□°）╯︵ ┻━┻ | Table flip — frustration |
+| ┬─┬ノ( º _ ºノ) | Putting the table back — calming down |
+| ( ͡° ͜ʖ ͡°) | Lenny face — cheeky or suggestive |
+| ಠ_ಠ | Look of disapproval |
+| ʕ•ᴥ•ʔ | Bear |
+| (づ｡◕‿‿◕｡)づ | Sending a hug |
+| m(_ _)m | A deep bow — thanks or sorry |
+
+#### Emoji in HTML and code
+
+Emoji are ordinary Unicode characters, so you can paste them straight into UTF-8 web pages, documents and source code. Where you need plain ASCII, use the **HTML entity** (😀 is `&#x1F600;`), the **CSS escape** (`\1F600`, for `content`), or the **JavaScript escape** (`\u{1F600}`) shown for every emoji in the details panel.
+
+Some emoji are sequences of several code points — skin tones, flags and family emoji join characters with modifiers or a zero-width joiner — which is why their codes list more than one value.
+
+### FAQ
+
+**How do I copy and paste an emoji?**
+Click it — it is copied straight away. Then paste with Ctrl+V on a computer, or long-press and choose Paste on a phone.
+
+**What is a kaomoji?**
+A kaomoji is a Japanese-style face made from text characters, read the right way up — like (^_^) or ¯\_(ツ)_/¯. They work anywhere text does, without emoji support.
+
+**Why do some emoji look different on another phone?**
+Each system — Apple, Google, Samsung, Microsoft — draws emoji in its own style. The character is the same; only the picture differs. Very new emoji may show as a box on older systems.
+
+**Why do flags look like letters on Windows?**
+Windows doesn’t include flag emoji, so it shows the two letters that make up the flag (like IN for India). They still copy correctly and appear as flags on phones and Macs.
+
+**Is anything I type sent anywhere?**
+No. Search, copying and your recent items all stay in your browser.
+

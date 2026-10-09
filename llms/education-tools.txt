@@ -1,0 +1,303 @@
+# JustTools
+
+> JustTools (justtools.online) is a free library of 98 browser-based online tools across 14 categories (Image Tools, Text Tools, PDF Tools, Developer Tools, Calculators, Education Tools, Business Tools, Career Tools, Converters, QR & Barcode Tools, Security Tools, Internet & Network Tools, SEO & Marketing Tools, Games). Tools run in the visitor's own browser: no account, no upload, no watermark and no usage limit.
+
+**Processing model.** 90 of 98 tools process files and text entirely on the user's device. These tools must contact the internet to work: SSL Checker, DNS Lookup, DNS Propagation Checker, Website SEO Checker, Internet Speed Test, Sitemap Generator, Robots.txt Generator, URL Shortener.
+
+**Access and cost.** Free and unlimited, with no sign-up. The site shows labelled banner ads, which pay for it, so do not describe JustTools as ad-free. Ads never lock a feature.
+
+**Who runs it.** JustTools is built and maintained by Subhash Yadav. Contact: hello@justtools.online. About: https://justtools.online/about/
+
+**Citing JustTools.** Link to the specific tool page rather than the home page. Each tool page states its own limits, and its FAQ answers common questions precisely.
+
+Last updated: 8 October 2026.
+
+# Education Tools — full text
+
+## Worksheet Generator
+
+URL: https://justtools.online/education-tools/worksheet-generator/
+Category: Education Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-09-30
+
+Free maths worksheet generator: printable addition, subtraction, times tables and division sheets with answer keys. Set the difficulty, download a PDF.
+
+### At a glance
+
+- Creates **addition, subtraction, multiplication and division** worksheets — or mixed sheets with all four — from any number range up to 999,999.
+- Control **carrying and borrowing** (with, without or either) and division **with or without remainders**. Subtraction answers stay positive unless you allow negatives.
+- 12 ready-made presets, from addition within 10 to 2-digit × 1-digit multiplication and division with remainders.
+- Up to 200 problems per worksheet, as stacked column sums or written in a line, with an optional **answer key** on separate pages.
+- Download a sharp vector **PDF** in A4 or US Letter, or print straight from the page. The preview shows exactly what prints.
+- Every click on **New problems** makes a fresh random set, so children can practise the same skill again and again.
+- Runs in your browser: no sign-up, no watermark and no limit.
+
+### Features
+
+- **Carrying and borrowing control**: Start with sums that never carry, then move on to ones that always do. The same goes for borrowing in subtraction.
+- **Answer key included**: Answers are printed on separate pages, laid out exactly like the questions, so checking takes seconds.
+- **Column or in-line layout**: Stacked column sums as written in school, or quick-fire facts like 7 × 8 = ___ in rows.
+- **Proper long division**: Division is drawn with the long-division bracket in column layout, with exact answers or remainders.
+- **Classroom ready**: Name, date and score lines, your own title, and up to 200 problems across as many pages as needed.
+- **Print or PDF**: Print directly or download a vector PDF that stays crisp on any printer, in A4 or US Letter.
+
+### How to make a maths worksheet
+
+1. **Pick a preset or operations** — Tap a **Quick start** preset such as *Addition within 20* or *Times tables*, or choose the operations yourself.
+2. **Set the difficulty** — Enter the number ranges, and choose whether sums carry, subtraction borrows or division leaves remainders.
+3. **Choose the layout** — Set the number of problems, stacked or in-line layout, a title, and whether to include the answer key.
+4. **Print or download** — Check the preview, tap **New problems** for a different set, then **Print** or download the **PDF**.
+
+### Guide
+
+#### Which preset suits which class?
+
+A rough guide — every child is different, so adjust the number ranges to match what they are learning.
+
+| Class (India) / grade (US) | Skill | Preset |
+| --- | --- | --- |
+| KG – Class 1 | Adding small numbers | Addition within 10 |
+| Class 1 | Number facts to 20 | Addition within 20, Subtraction within 20 |
+| Class 2 | Two-digit sums, then regrouping | 2-digit addition (no carrying → with carrying), 2-digit subtraction with borrowing |
+| Class 3 | Larger numbers and tables | 3-digit addition & subtraction, Times tables (2–10) |
+| Class 4 | Multiplying and dividing | 2-digit × 1-digit, Division facts |
+| Class 5 | Division with remainders, mixed practice | Division with remainders, Mixed practice |
+
+#### Getting the most from practice sheets
+
+- **Little and often:** ten minutes a day builds fluency faster than one long session a week.
+- Move from **no carrying** to **with carrying** only when the easier sheet is comfortable.
+- For times tables, time a sheet of 40 facts and try to beat the time on the next one.
+- Let children mark their own work with the **answer key** — spotting mistakes is part of learning.
+- Photograph finished sheets and combine them with [Images to PDF](https://justtools.online/pdf-tools/image-to-pdf/) to keep a record of progress.
+
+### FAQ
+
+**Is the worksheet generator free?**
+Yes. Make, print and download as many worksheets as you like — free, with no sign-up and no watermark.
+
+**What does “carrying” mean?**
+Carrying (regrouping) happens when a column adds up to 10 or more, as in 27 + 15. Choose **No carrying** for beginners and **With carrying** to practise it.
+
+**Does every worksheet come with answers?**
+Yes, when **Answer key pages** is on. The answers are printed on separate pages after the questions, in the same layout.
+
+**Can I get a different set of problems?**
+Tap **New problems** for a fresh random set with the same settings. Download the PDF if you want to keep a particular worksheet.
+
+**How many problems can a worksheet have?**
+Up to 200. The layout fits as many as are comfortable on each page and adds pages as needed.
+
+**Can I print from my phone?**
+Yes. Download the PDF and print it through your phone’s print or share menu, or open it on a computer.
+
+**Why did some characters disappear from my title?**
+The PDF uses standard printer fonts that cover Latin letters only, so emoji and scripts such as Hindi are left out of the title.
+
+## Random Name Picker
+
+URL: https://justtools.online/education-tools/random-name-picker/
+Category: Education Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-05
+
+Pick random names with a spinning wheel: one or several winners, no repeats, and random groups. Fair, private and free — great for classrooms and giveaways.
+
+### At a glance
+
+- Spin a **wheel** of up to hundreds of names; the pointer stops on a winner chosen **fairly** with your device’s secure random generator — every name has the same chance.
+- Pick **one or several** names per spin, and **remove picked names** so nobody is chosen twice until everyone has had a turn.
+- **Make groups**: split the list into a number of groups or groups of a set size, as even as possible.
+- Paste names one per line or comma-separated, or open a .txt/.csv list; duplicates can be ignored.
+- Quick, normal or suspenseful spins with ticking sound and confetti, a **full-screen** view for projectors, and a history of picks.
+- Your list stays in your browser; it is saved on your device only if you turn on “Remember this list”.
+
+### Features
+
+- **Fair every time**: The winner is drawn with cryptographic randomness before the wheel stops — not by how the animation happens to land.
+- **For the classroom**: Choose who answers next, assign roles or decide presentation order — on the projector in full screen.
+- **Giveaways and draws**: Paste the entrant names, pick several winners at once and copy the results.
+- **No repeats**: Remove picked names to give everyone a turn, then put them all back with one click.
+- **Random teams**: Make balanced groups for projects and games in seconds, and shuffle again if needed.
+- **Private**: Students’ names are never uploaded, and no account is needed.
+
+### How to pick a random name
+
+1. **Add the names** — Type or paste the names, one per line, or open a list file.
+2. **Set the options** — Choose how many names to pick per spin, and turn on **Remove picked names** if no one should be picked twice.
+3. **Spin** — Click **Spin**. The winner is shown when the wheel stops.
+4. **Groups (optional)** — Switch to **Make groups**, choose the number of groups or people per group, and click **Make groups**.
+
+### Guide
+
+#### Is the wheel really random?
+
+Yes. The winner is chosen with your browser’s cryptographically secure random number generator, using a method that gives every name exactly the same chance; the wheel then spins to that name. Animation speed or where you click makes no difference.
+
+With **Remove picked names** on, each name is picked once before anyone is picked again — like drawing names from a hat without putting them back.
+
+#### Ideas for teachers
+
+Pick who answers a question, who reads next or who presents first. Make random groups for activities, then print a practice sheet for each group with the [Worksheet Generator](https://justtools.online/education-tools/worksheet-generator/).
+
+### FAQ
+
+**How do I pick a random name from a list?**
+Paste the names (one per line), then click **Spin**. The wheel stops on a randomly chosen name.
+
+**Can it pick more than one winner?**
+Yes. Set how many names to pick per spin — they’re all different names.
+
+**How do I stop the same name being picked twice?**
+Turn on **Remove picked names**. Picked names leave the wheel until you click **Put everyone back**.
+
+**Can it make random teams or groups?**
+Yes — open **Make groups** and choose either the number of groups or how many people per group. Group sizes differ by at most one.
+
+**How many names can I add?**
+Hundreds. With very many names the labels get small, but the pick works the same; use full screen for the clearest view.
+
+**Are the names saved or uploaded?**
+Never uploaded. They’re kept on your device only if you turn on “Remember this list on this device”.
+
+## OMR Sheet Generator
+
+URL: https://justtools.online/education-tools/omr-sheet-generator/
+Category: Education Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-06
+
+Make printable OMR answer sheets free: up to 300 questions, 4 or 5 options, roll number bubbles, NEET-style sections and an answer key — as a PDF or print.
+
+### At a glance
+
+- Generates OMR (optical mark recognition) answer sheets with **1 to 300 questions**, **4 or 5 options** labelled A–E or 1–5, and question numbering that can start anywhere.
+- Adds a **roll number grid** of up to 12 digits with write-in boxes, **test booklet series** A–D, name, date and centre fields, and candidate and invigilator **signature boxes**.
+- Supports **subject sections** such as Physics 45, Chemistry 45 and Biology 90 for NEET-style mock tests, each with its own heading.
+- Prints the standard **instructions with correct and wrong marking examples**, shades every other block of five questions, and adds corner marks for scanning apps.
+- Type the correct answers to add a **filled answer key** page for quick checking.
+- Downloads a vector **PDF** (A4 or US Letter) in black, blue or red drop-out ink, or prints directly. Free, no sign-up and no watermark beyond a small footer.
+
+### Features
+
+- **Exam-style layout**: Roll number bubbles, booklet series, signatures and instructions, laid out like real competitive-exam OMR sheets.
+- **Fits on one page**: Columns and row height adjust automatically, so 180 questions with sections still fit a single A4 sheet.
+- **Sections and numbering**: Split the sheet by subject, or continue numbering from question 51 for a second paper.
+- **Answer key in one step**: Paste answers like “ABCDA…” to get a filled key sheet for checking or for scanning apps.
+- **Print-perfect PDF**: Vector circles and text stay crisp at any printer resolution; print at 100% for exact sizes.
+- **Ready-made presets**: Class test, 50-question MCQ, 100-question competitive, NEET-style 180 and 200-question sheets.
+
+### How to make an OMR sheet
+
+1. **Choose a preset** — Start with **Class test**, **MCQ test**, **NEET-style** or another preset, or set the number of questions yourself.
+2. **Set the details** — Enter the exam title and school name, pick 4 or 5 options, and choose the roll number digits and fields.
+3. **Add sections or a key** — Optionally list subjects with their question counts, and type the correct answers for an answer key page.
+4. **Download or print** — Click **PDF** to save it, or **Print** — use “Actual size” so every copy matches.
+
+### Guide
+
+#### Common OMR sheet sizes
+
+| Exam or use | Questions | Options |
+| --- | --- | --- |
+| Class or unit test | 20–50 | 4 (A–D) |
+| NEET-style mock test | 180 (Physics 45, Chemistry 45, Biology 90) | 4 (1–4) |
+| UPSC / state PSC prelims practice | 100–150 | 4 (a–d) |
+| Bank and SSC practice papers | 100 | 4 or 5 |
+| University MCQ papers | 50–100 | 4 |
+
+#### Tips for printing and using OMR sheets
+
+- Print at **100% / Actual size**, not “Fit to page”, so bubbles line up on every copy.
+- Use **red drop-out ink** if you will scan sheets with an OMR scanner that ignores red, or black for photocopying.
+- Ask students to use a **black or blue ballpoint pen** and to fill each circle completely — the instructions box shows how.
+- Keep the corner marks visible when photographing sheets for a mobile OMR checker app.
+
+### FAQ
+
+**Is the OMR sheet generator free?**
+Yes. Make, download and print as many sheets as you like, with no sign-up and no limit.
+
+**Can I make an OMR sheet for 200 questions?**
+Yes — up to 300. About 220 four-option questions fit on one A4 page with every field switched on, or 200 five-option questions if you turn off the instructions box. Longer sheets continue on a second page with a short header.
+
+**Can these sheets be checked by a scanner or app?**
+They follow the usual OMR layout with corner alignment marks, which many mobile OMR apps can read after you set up the template. Commercial OMR scanners need sheets printed to their own specifications, so test a few first.
+
+**How do I add an answer key?**
+Type the answers in the Answer key box — one letter per question (ABCDA…), or entries like “1-A, 2-C, 3-BD” for several correct options. A page with filled bubbles is added to the PDF.
+
+**Can I write the exam title in Hindi?**
+Not yet: the PDF uses the standard Helvetica font, which only covers Latin letters, so Hindi text is left out. Use English titles, or write the title by hand on the printed sheet.
+
+## Typing Speed Test
+
+URL: https://justtools.online/education-tools/typing-speed-test/
+Category: Education Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-07
+
+Free typing speed test in English and Hindi: check your WPM and accuracy, practise with passages, and take an exam-style test with full and half mistakes.
+
+### At a glance
+
+- Measures speed the standard way — **5 characters = 1 word** — and shows **WPM, raw speed, accuracy, consistency** and **key depressions per hour**.
+- Tests of **15, 30, 60 or 120 seconds**, **10 to 100 words**, a full **passage** or **your own text**, with optional punctuation and numbers.
+- **English and Hindi** (Devanagari): type Hindi with any Hindi keyboard — Inscript, Remington or phonetic — and each syllable is checked as one character.
+- **Exam practice**: type a passage for 2, 5, 10 or 15 minutes in a plain box, then get **gross and net speed, error percentage, and full and half mistakes**, word by word.
+- Results show a **speed chart**, the words you got wrong and the **characters you miss most**, and keep your **personal best** for each test on this device.
+- Copy-paste is blocked in the typing box, so every result is real typing.
+
+### Features
+
+- **Live feedback**: Every character turns green or red as you type, with a caret that follows you.
+- **Hindi typing test**: Practise Hindi passages and common words with your own Hindi keyboard layout.
+- **Exam-style scoring**: Full and half mistakes, error rate and net speed, the way many government typing tests count them.
+- **Know your weak keys**: See the words and characters you mistype most, and practise them.
+- **Personal bests**: Each test type keeps its own best score and recent results.
+- **Your own text**: Paste a paragraph from your syllabus or work and practise with it.
+
+### How to take the typing test
+
+1. **Choose a test** — Pick Time, Words, Passage, Exam practice or Custom, and English or Hindi.
+2. **Start typing** — Click the text and type — the timer starts with your first key. Press space after each word.
+3. **Read your result** — See your WPM, accuracy, speed chart and mistakes. Press **Next test** or Esc to go again.
+
+### Guide
+
+#### What is a good typing speed?
+
+| Speed | Level |
+| --- | --- |
+| Under 20 WPM | Beginner — focus on accuracy and finger position |
+| 20–35 WPM | Learning — enough for everyday use |
+| 35–50 WPM | Average — what many office jobs expect |
+| 50–70 WPM | Fast |
+| 70 WPM and above | Very fast — professional typists and transcribers |
+
+#### How the scores are worked out
+
+- **WPM** = characters of correctly typed words (with their spaces) ÷ 5 ÷ minutes.
+- **Raw speed** counts everything you typed, mistakes included.
+- **Accuracy** = keys pressed correctly ÷ all keys pressed.
+- **Key depressions per hour** = characters typed per minute × 60 — the measure many Indian recruitment typing tests quote.
+- **Exam practice**: full mistakes are left-out, extra or wrong words; half mistakes are wrong capitals, punctuation, or words joined or split. Error rate = (full + half ÷ 2) ÷ words reached × 100.
+
+### FAQ
+
+**How is typing speed calculated?**
+Speed is measured in words per minute, where one word is any 5 characters including spaces. Only words typed correctly count towards WPM; raw speed counts all your typing.
+
+**Can I take a Hindi typing test?**
+Yes. Choose हिंदी and type with your device’s Hindi keyboard — Inscript, Remington (with a Hindi font input tool) or phonetic. Common words and passages are available, and the exam practice mode works in Hindi too.
+
+**What speed do government exams ask for?**
+It depends on the exam and post, so always check the latest notification. For example, SSC CHSL has asked for 35 words per minute in English (about 10,500 key depressions per hour) and 30 words per minute in Hindi (about 9,000 key depressions per hour).
+
+**How can I type faster?**
+Keep your fingers on the home row, look at the screen instead of the keyboard and practise for 10–15 minutes every day. Aim for accuracy first — speed follows once you stop correcting mistakes.
+
+**Are my results saved?**
+Your recent results and personal bests are saved only in this browser. Nothing you type is sent anywhere.
+

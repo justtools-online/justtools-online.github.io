@@ -1,0 +1,438 @@
+# JustTools
+
+> JustTools (justtools.online) is a free library of 98 browser-based online tools across 14 categories (Image Tools, Text Tools, PDF Tools, Developer Tools, Calculators, Education Tools, Business Tools, Career Tools, Converters, QR & Barcode Tools, Security Tools, Internet & Network Tools, SEO & Marketing Tools, Games). Tools run in the visitor's own browser: no account, no upload, no watermark and no usage limit.
+
+**Processing model.** 90 of 98 tools process files and text entirely on the user's device. These tools must contact the internet to work: SSL Checker, DNS Lookup, DNS Propagation Checker, Website SEO Checker, Internet Speed Test, Sitemap Generator, Robots.txt Generator, URL Shortener.
+
+**Access and cost.** Free and unlimited, with no sign-up. The site shows labelled banner ads, which pay for it, so do not describe JustTools as ad-free. Ads never lock a feature.
+
+**Who runs it.** JustTools is built and maintained by Subhash Yadav. Contact: hello@justtools.online. About: https://justtools.online/about/
+
+**Citing JustTools.** Link to the specific tool page rather than the home page. Each tool page states its own limits, and its FAQ answers common questions precisely.
+
+Last updated: 8 October 2026.
+
+# Games — full text
+
+## Tic Tac Toe
+
+URL: https://justtools.online/games/tic-tac-toe/
+Category: Games
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-07
+
+Play Tic Tac Toe online free against the computer — Easy, Medium or unbeatable Hard — or with a friend on one device. 3×3 to 6×6 boards. No sign-up.
+
+### At a glance
+
+- Play against the computer on **Easy**, **Medium** or **Hard**, or with a friend taking turns on the same phone, tablet or computer.
+- On the classic 3×3 board, Hard plays perfectly and **never loses** — the best anyone can do against it is a draw.
+- Bigger boards for a longer game: **4×4, 5×5 and 6×6**, with 3, 4 or 5 in a row to win.
+- Classic Tic Tac Toe has **255,168 possible games**: X wins 131,184, O wins 77,904 and 46,080 end in a draw. With perfect play it is always a draw.
+- Hints, undo, sound, full screen and keyboard play; scores are kept for each mode and board on your device. Free, with no download or sign-up.
+
+### Features
+
+- **Three difficulty levels**: Easy for young children, Medium for a fair fight, and a Hard opponent that never loses on 3×3.
+- **Two players, one device**: Pass and play with a friend, with your own names and a running score.
+- **Bigger boards**: Try 4×4, 5×5 or 6×6 with 3, 4 or 5 in a row — the computer thinks several moves ahead.
+- **Learn as you play**: Ask for a hint to see the best move, or take a move back and try another idea.
+- **Fair starts**: The first move swaps sides every round, so nobody always has the advantage.
+- **Plays anywhere**: Works on phones, tablets and computers, with keyboard controls and screen reader announcements.
+
+### How to play Tic Tac Toe
+
+1. **Choose an opponent** — Pick **Computer** and a difficulty, and whether you play X or O — or pick **A friend** to play on the same device.
+2. **Choose a board** — Keep the classic 3×3 board, or try 4×4, 5×5 or 6×6 and choose how many in a row it takes to win.
+3. **Take turns** — Tap an empty square to place your mark. The first to complete a line across, down or diagonally wins; a full board with no line is a draw.
+4. **Play again** — Press **Play again** for the next round — the score keeps adding up. Use **Hint** or **Undo** while you learn.
+
+### Guide
+
+#### The rules
+
+Two players take turns placing their mark — X or O — in an empty square of a 3×3 grid. The first player to get three of their marks in a row, column or diagonal wins. If all nine squares fill up with no line, the game is a draw.
+
+The game is also called **noughts and crosses** in Britain and **zero kata** in India. On bigger boards the idea is the same, but you need the number in a row shown under the board.
+
+#### How to never lose at 3×3
+
+- No first move wins by force: with best play from both sides, every opening ends in a draw.
+- If your opponent starts in a **corner**, take the **centre** — every other reply loses against perfect play.
+- If they start in the **centre**, take a **corner**. Answering on an edge loses.
+- If they start on an **edge**, take the centre, a corner next to their mark, or the edge opposite it.
+- On every turn, first look for a winning move, then block any two-in-a-row of theirs.
+- Win with a **fork**: a move that makes two lines of two at once, so your opponent can only block one.
+
+#### Tic Tac Toe by the numbers
+
+| Classic 3×3 | Count |
+| --- | --- |
+| Possible games (until someone wins or the board fills) | 255,168 |
+| … won by X (who moves first) | 131,184 |
+| … won by O | 77,904 |
+| … drawn | 46,080 |
+| Positions that can occur in a game | 5,478 |
+| Different positions, counting rotations and mirror images once | 765 |
+| Result with perfect play | Draw |
+
+### FAQ
+
+**Can you beat the computer on Hard?**
+Not on the 3×3 board: Hard plays perfectly, so the best possible result is a draw. On bigger boards it looks several moves ahead in about a second per move, so strong players can still win.
+
+**How do I play with a friend?**
+Choose **A friend** under Play against, add your names if you like, and take turns on the same phone or computer. Playing over the internet on two devices isn’t available.
+
+**Who goes first?**
+X moves first in a normal game. With **Take turns going first** switched on (the default), the first move swaps between the players every round, which keeps things fair.
+
+**Is Tic Tac Toe always a draw?**
+With perfect play by both players, yes — the classic 3×3 game always ends in a draw. Games are won when someone misses a block or falls for a fork.
+
+**Is it free, and does it need the internet?**
+It’s free with no download or sign-up. Once the page has loaded, the game runs entirely in your browser, so it keeps working if your connection drops.
+
+**Are my scores saved?**
+Yes, in this browser only, with a separate score for each mode, difficulty and board size. **Reset score** clears the one you are playing.
+
+## Bingo Card Generator
+
+URL: https://justtools.online/games/bingo-card-generator/
+Category: Games
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-07
+
+Make printable bingo cards, Tambola (Housie) tickets or word bingo — unique and numbered — then call the game on screen with voice and check winners.
+
+### At a glance
+
+- Three games: **75-ball bingo** (B 1–15, I 16–30, N 31–45, G 46–60, O 61–75), **90-ball Tambola / Housie** and **word bingo** with your own words.
+- Tambola tickets follow the real rules — 3 rows × 9 columns, 15 numbers, 5 in each row — and every **strip of 6 tickets uses each number from 1 to 90 exactly once**.
+- Up to **300 unique, numbered cards** as a print-ready PDF (A4 or US Letter, 1, 2 or 4 cards per page), with an optional **caller’s board** to cross off.
+- A **built-in caller** draws numbers in a fair random order, **reads them aloud** (with traditional calls like “Two little ducks — 22”), can call automatically and keeps a board of called numbers.
+- **Check any card** by its number: lines, four corners and full house for bingo; early five, top, middle and bottom lines and full house for Tambola — plus a list of every card that has won.
+- Free, with no sign-up; cards and the game in progress are kept only in this browser.
+
+### Features
+
+- **Real Tambola tickets**: Proper strips of six, so a full set of tickets covers every number once — just like printed books.
+- **Your own words**: Baby shower, classroom vocabulary, office buzzwords — 3×3, 4×4 or 5×5 cards from any list.
+- **Caller included**: No bag of balls needed: draw, display and announce each number from a laptop or phone.
+- **Instant prize checks**: Type a card number to confirm a claim in seconds, with every marked square shown.
+- **Print-ready**: Crisp vector PDFs with your title and colours, numbered so every card is unique and traceable.
+- **Fair**: Cards and calls come from your browser’s cryptographic random generator.
+
+### How to make bingo cards and call a game
+
+1. **Choose the game** — Pick 75-ball bingo, Tambola / Housie, or word bingo and type your words.
+2. **Set up the cards** — Choose how many cards, a title, colours and how many to print on each page.
+3. **Print** — Press **Download PDF** and print the cards (and the caller’s board if you like).
+4. **Play** — Open **Call numbers** and press **Call next** (or Space). When someone shouts, check their card number under **Check a card**.
+
+### Guide
+
+#### Tambola (Housie) prizes
+
+| Prize | How to win |
+| --- | --- |
+| Early five | The first five numbers marked anywhere on the ticket |
+| Top line | Every number in the first row |
+| Middle line | Every number in the second row |
+| Bottom line | Every number in the third row |
+| Full house | All 15 numbers on the ticket |
+
+#### Ideas for word bingo
+
+- **Classroom**: vocabulary words, spelling lists, maths answers (call the question, mark the answer), country capitals.
+- **Baby shower**: gifts you expect — bib, rattle, onesie, blanket — marked as they are unwrapped.
+- **Office or online meetings**: “buzzword bingo” with phrases like “circle back” and “you’re on mute”.
+- **Road trips and festivals**: things to spot — a cow, a red car, a temple, a toll booth.
+
+### FAQ
+
+**Are all the bingo cards different?**
+Yes. Every card in a set is checked against the others, so no two are alike. Each has its own number for checking claims.
+
+**How do Tambola tickets work?**
+Each ticket has 3 rows and 9 columns with 15 numbers — 5 in each row. The first column holds 1–9, the next 10–19 and so on up to 80–90. Six tickets make a strip that uses every number from 1 to 90 once.
+
+**Can it call the numbers for me?**
+Yes. Open **Call numbers** and press **Call next** — or switch on automatic calling. Each number is shown large and read aloud by your device’s voice, with traditional Tambola calls if you like.
+
+**How do I check if a card has won?**
+Under **Check a card**, type the number printed on the card. You will see the card with every called number marked and which prizes it has won.
+
+**How many words do I need for word bingo?**
+24 for a 5×5 card with a free centre (25 without), 16 for 4×4, and 8 for 3×3 with a free centre. Use more words than that so the cards differ more.
+
+**Is it free to print?**
+Yes — free, with no sign-up and no watermark, for as many cards as you need.
+
+## Coin Flip
+
+URL: https://justtools.online/games/coin-flip/
+Category: Games
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-07
+
+Flip a coin online: a fair 50/50 heads or tails toss with a 3D coin. Flip up to 10 coins, play best of 3, use custom sides and see your stats. Free.
+
+### At a glance
+
+- Every toss is a **fair 50/50** result from your browser’s cryptographic random number generator.
+- A realistic **3D coin** in gold, silver or rupee style — with Heads/Tails, Yes/No, **Bat/Bowl for a cricket toss**, or your own two words or pictures.
+- Flip **up to 10 coins** at once, or play a **best of 3, 5 or 7** series.
+- **Statistics**: heads and tails counts and percentages, the current and longest streak, and quick runs of 10, 100 or 1,000 flips.
+- Streaks are more common than people expect: in 100 flips there is a **54.6% chance** of six or more heads in a row somewhere.
+
+### Features
+
+- **Truly random**: Not a pattern or a timer — each result uses the same randomness that protects passwords and encryption.
+- **Settle it fairly**: Best-of series for bigger decisions, so one lucky toss doesn’t decide everything.
+- **Your own choices**: Put names, foods or photos on the two sides and let the coin choose.
+- **See probability at work**: Run 1,000 flips in a click and watch the split settle near 50%.
+- **Feels real**: A spinning 3D coin, a clink when it lands and a buzz on phones.
+- **Works anywhere**: Phones, tablets and computers — press Space to flip on a keyboard.
+
+### How to flip a coin online
+
+1. **Choose the sides** — Keep Heads/Tails, pick Yes/No or Bat/Bowl, or type your own two options.
+2. **Flip** — Press **Flip the coin** (or Space). The coin spins and lands on a random side.
+3. **Read the result** — The result appears under the coin and is added to your statistics.
+
+### Guide
+
+#### Chances of streaks
+
+| Event | Chance |
+| --- | --- |
+| Heads on one flip | 1 in 2 (50%) |
+| Heads three times in a row | 1 in 8 (12.5%) |
+| Heads five times in a row | 1 in 32 (3.1%) |
+| Heads ten times in a row | 1 in 1,024 (0.1%) |
+| Three heads in a row somewhere in 10 flips | 50.8% |
+| Six heads in a row somewhere in 100 flips | 54.6% |
+
+#### Is the next flip “due”?
+
+No. A fair coin has no memory: after five heads in a row, the next flip is still exactly 50/50. Believing otherwise is called the **gambler’s fallacy**. What does happen is that over thousands of flips the *percentage* of heads drifts towards 50% — try the 1,000-flip button to see it.
+
+### FAQ
+
+**Is this coin flip really random?**
+Yes. Each result comes from your browser’s cryptographic random number generator (crypto.getRandomValues), so heads and tails are equally likely and no flip depends on the one before.
+
+**Can I use it for a cricket toss?**
+Yes. Choose **Bat / Bowl** and let the coin decide — or keep Heads/Tails and have the captains call it.
+
+**Is a real coin toss 50/50?**
+Almost. A 2023 study by Bartoš and colleagues, with 350,757 real flips, found coins land on the side they started on slightly more often — about 50.8% of the time. This virtual coin has no starting side, so it is exactly 50/50.
+
+**Can I flip more than one coin?**
+Yes, up to 10 at once — the result shows how many landed heads and tails. For quick experiments, add 10, 100 or 1,000 flips to the statistics.
+
+**What does best of 3 mean?**
+The first side to win two flips wins (three for best of 5, four for best of 7). It makes a decision feel fairer than a single toss.
+
+## Sudoku
+
+URL: https://justtools.online/games/sudoku/
+Category: Games
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-07
+
+Play free Sudoku online: easy to expert puzzles with one solution, notes, hints that explain the logic, a daily puzzle, printable PDFs and a solver.
+
+### At a glance
+
+- Four levels — **Easy, Medium, Hard and Expert** — graded by the techniques a person needs, from simple singles to **pairs, pointing pairs, X-Wing and XY-Wing**.
+- Every puzzle is newly made, has **exactly one solution** and can be solved by **logic alone**, without guessing.
+- **Hints explain the next step** — which digit goes where and why — and point out a wrong digit first if you have one.
+- Pencil **notes**, automatic notes, undo, mistake highlighting, a timer with pause, and your **best time** for each level.
+- A new **daily puzzle** that is the same for everyone, with a streak counter.
+- **Print** 1 to 48 puzzles as a PDF (1, 2, 4 or 6 a page, A4 or US Letter) with answer pages, or **solve** a puzzle from a newspaper or app.
+
+### Features
+
+- **Always solvable by logic**: One solution and no guessing — each puzzle is checked by a solver that thinks like a person.
+- **Hints that teach**: See the technique behind each hint, from hidden singles to X-Wings.
+- **Pencil notes**: Jot candidates by hand, fill them in automatically, and they tidy themselves as you place digits.
+- **Daily puzzle**: A fresh medium puzzle every day — the same for everyone — and a streak to keep up.
+- **Print and play**: Make a PDF of new puzzles with answers for travel, classrooms or the newspaper habit.
+- **Your game is kept**: Close the tab and carry on later; the game is saved in this browser.
+
+### How to play Sudoku
+
+1. **Know the rule** — Fill every row, every column and every 3×3 box with the digits 1 to 9, each exactly once.
+2. **Pick a cell** — Tap a cell (or use the arrow keys) and tap a number — or type it.
+3. **Use notes** — Switch on **Notes** to pencil in the digits a cell could be, or press **Auto notes**.
+4. **Get unstuck** — Press **Hint** to see the next logical step and why it works.
+
+### Guide
+
+#### Sudoku techniques, from easy to expert
+
+| Technique | Level | What it means |
+| --- | --- | --- |
+| Naked single | Easy | A cell where only one digit is still possible. |
+| Hidden single | Easy | A digit that fits in only one cell of a row, column or box. |
+| Pointing pair / box-line | Hard | A digit locked into one line of a box (or one box of a line) can be removed elsewhere. |
+| Naked / hidden pair and triple | Hard | Two or three cells that share the same two or three digits rule those digits out of the rest of the unit. |
+| X-Wing | Expert | A digit limited to the same two columns in two rows can be removed from the rest of those columns. |
+| XY-Wing | Expert | Three two-digit cells that force a digit out of any cell that sees both ends. |
+
+### FAQ
+
+**Is this Sudoku free?**
+Yes — unlimited puzzles, hints, the daily puzzle and printable PDFs, with no sign-up.
+
+**Does every puzzle have one solution?**
+Yes. Each puzzle is checked by a solver to have exactly one solution, and a second, human-style solver makes sure it can be finished by logic alone.
+
+**What makes a Sudoku hard?**
+Not the number of clues but the techniques needed. Easy and medium puzzles need only singles; hard ones need pairs or pointing pairs; expert ones need an X-Wing or XY-Wing.
+
+**Can I solve a Sudoku from the newspaper?**
+Yes. Open **Solve my puzzle**, type or paste the clues, and see the solution, whether it has exactly one solution and how hard it is — or play it here with hints.
+
+**Is my game saved?**
+Yes, in this browser: the game in progress, your settings and your best times. Nothing is uploaded.
+
+## Minesweeper
+
+URL: https://justtools.online/games/minesweeper/
+Category: Games
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-08
+
+Play Minesweeper free online: Beginner, Intermediate, Expert or custom boards, a safe first click, no-guess boards that never need luck, hints and best times.
+
+### At a glance
+
+- Three classic levels — **Beginner** (9×9, 10 mines), **Intermediate** (16×16, 40) and **Expert** (30×16, 99) — plus custom boards up to 40×30.
+- The **first click is always safe** and opens a clearing; mines are placed only after it.
+- **No-guess boards**: each board is checked by a logic solver so it can be cleared without a single 50/50 guess.
+- **Hints** show the next safe cell or certain mine and explain why — and point out a wrong flag first.
+- Right-click or long-press to flag, click a number to open around it (**chording**), question marks optional, full keyboard control.
+- Tracks wins, **best times** and **3BV/s** for each level in your browser; your game is saved if you close the tab.
+
+### Features
+
+- **Never a forced guess**: No-guess mode builds boards a careful player can always solve by logic.
+- **Hints that teach**: Learn patterns like 1-2-1 from hints that name the numbers involved.
+- **Made for phones**: Tap to dig, long-press or switch to flag mode, and Expert turns tall to fit the screen.
+- **Chording**: Click a satisfied number to open all its other neighbours at once.
+- **Replay a board**: Hit a mine? Replay the same board from the same start.
+- **Speedrun stats**: Best time and 3BV per second for each level, like the competitive players use.
+
+### How to play Minesweeper
+
+1. **Click any cell** — The first click is always safe and opens an area of the board.
+2. **Read the numbers** — A number shows how many mines touch that cell, including diagonally.
+3. **Flag the mines** — Right-click (or long-press) a cell you know is a mine to put a flag on it.
+4. **Clear the rest** — Open every cell that isn’t a mine to win. Click a number whose mines are all flagged to open around it.
+
+### Guide
+
+#### Minesweeper patterns worth knowing
+
+| Pattern | What it tells you |
+| --- | --- |
+| A 1 with one hidden neighbour | That neighbour is a mine. |
+| A number with all its mines flagged | Every other neighbour is safe — click the number to open them. |
+| 1-1 along a wall | The cell beyond the second 1 is safe. |
+| 1-2-1 along a wall | The mines are under the 1s; the cell under the 2 is safe. |
+| 1-2-2-1 along a wall | The mines are under the two 2s. |
+
+#### What is 3BV?
+
+3BV (Bechtel’s Board Benchmark Value) is the smallest number of clicks that can clear a board: one click per open area plus one per number not on the edge of an open area. Dividing it by your time gives **3BV/s**, the fairest way to compare speed across boards.
+
+### FAQ
+
+**Is the first click always safe?**
+Yes. Mines are placed after your first click, away from it and its neighbours, so you always start with an open area.
+
+**What are no-guess boards?**
+Boards that a logic solver has cleared from your first click without guessing. With the option on, losing always means a mistake — never bad luck.
+
+**How do I flag a mine on a phone?**
+Long-press the cell, or switch the **Tap to** control to 🚩 Flag and tap.
+
+**What does clicking a number do?**
+If that number already has as many flags around it as its value, clicking it opens all its other neighbours. If a flag is wrong, you’ll set off a mine.
+
+**Do hints count against my best time?**
+Games where you used a hint still count as wins, but not for your best time or 3BV/s.
+
+**Is my game saved?**
+Yes, in this browser — the game in progress, your settings and your statistics. Nothing is uploaded.
+
+## 2048 Game
+
+URL: https://justtools.online/games/2048-game/
+Category: Games
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-08
+
+Play 2048 free online: swipe or use the arrow keys to join tiles. Undo, AI hints, an auto-play AI, 3×3 to 6×6 boards and your best score saved. No sign-up.
+
+### At a glance
+
+- The classic **2048** rules: slide all tiles up, down, left or right; two equal tiles that meet join into one, and a new 2 (or sometimes 4) appears after each move.
+- Play with **swipes** on a phone or the **arrow keys / W A S D** on a keyboard, with smooth sliding and merging animations.
+- **Undo** up to 50 moves, and a **hint** from an expectimax AI that usually reaches 2048 on its own.
+- **Let the AI play** to watch the strategy — games where it plays don’t count towards your best score.
+- Boards from **3×3 to 6×6**, with the goal scaled to the size (256 on 3×3, 2048 on 4×4, 4096 on 5×5, 8192 on 6×6).
+- Your game, best score and top tile for each size are saved in your browser.
+
+### Features
+
+- **Undo**: Took a wrong turn? Step back up to 50 moves.
+- **AI hints**: Ask for the best move from an AI that looks a few tiles ahead.
+- **Watch the AI**: Let it play and see how keeping the big tile in a corner works.
+- **Four board sizes**: A quick 3×3, the classic 4×4, or roomy 5×5 and 6×6 boards.
+- **Keep going**: Reached the goal? Carry on for 4096 and beyond.
+- **Saved as you play**: Close the tab and carry on later on this device.
+
+### How to play 2048
+
+1. **Slide the tiles** — Swipe, or press an arrow key, to move every tile as far as it can go.
+2. **Join equal numbers** — Two tiles with the same number merge into their sum: 2 + 2 = 4, 4 + 4 = 8…
+3. **Plan ahead** — Keep your biggest tile in a corner and build the row next to it in order.
+4. **Reach 2048** — Make a 2048 tile to win — or keep going for a higher score. The game ends when no move is left.
+
+### Guide
+
+#### Strategy that works
+
+- **Pick a corner** for your biggest tile and keep it there — mostly use two directions (say left and down) and a third only when needed.
+- **Keep the edge row in order**, largest to smallest away from the corner, so tiles can chain into each other.
+- **Avoid the fourth direction**: pressing it pulls the big tile out of its corner and lets a small tile land behind it.
+- **Think about where the new tile will appear** — leave space on the side away from your corner.
+
+#### Scoring
+
+Each merge adds the new tile’s value to your score: joining two 8s gives 16 points. Reaching 2048 usually means a score of about 20,000.
+
+### FAQ
+
+**Is 2048 free to play here?**
+Yes — unlimited games with undo, hints and every board size, with no sign-up or download.
+
+**How do I play on a phone?**
+Swipe up, down, left or right on the board. The page won’t scroll while you swipe on it.
+
+**What happens after 2048?**
+Choose **Keep going** to continue for 4096, 8192 and beyond, or start a new game.
+
+**How does the AI hint work?**
+It tries each move and averages over where the next tile could appear, a few moves ahead (expectimax), favouring boards with empty cells, merges and tiles in order.
+
+**Does undo affect my best score?**
+No — undo is part of this version of the game. Only games where the AI played for you are left out of your best score.
+
+**Is my game saved?**
+Yes, in this browser, along with your best score and top tile for each board size.
+

@@ -1,0 +1,183 @@
+# JustTools
+
+> JustTools (justtools.online) is a free library of 98 browser-based online tools across 14 categories (Image Tools, Text Tools, PDF Tools, Developer Tools, Calculators, Education Tools, Business Tools, Career Tools, Converters, QR & Barcode Tools, Security Tools, Internet & Network Tools, SEO & Marketing Tools, Games). Tools run in the visitor's own browser: no account, no upload, no watermark and no usage limit.
+
+**Processing model.** 90 of 98 tools process files and text entirely on the user's device. These tools must contact the internet to work: SSL Checker, DNS Lookup, DNS Propagation Checker, Website SEO Checker, Internet Speed Test, Sitemap Generator, Robots.txt Generator, URL Shortener.
+
+**Access and cost.** Free and unlimited, with no sign-up. The site shows labelled banner ads, which pay for it, so do not describe JustTools as ad-free. Ads never lock a feature.
+
+**Who runs it.** JustTools is built and maintained by Subhash Yadav. Contact: hello@justtools.online. About: https://justtools.online/about/
+
+**Citing JustTools.** Link to the specific tool page rather than the home page. Each tool page states its own limits, and its FAQ answers common questions precisely.
+
+Last updated: 8 October 2026.
+
+# Internet & Network Tools — full text
+
+## IP Subnet Calculator
+
+URL: https://justtools.online/network-tools/ip-subnet-calculator/
+Category: Internet & Network Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-06
+
+Free IP subnet calculator for IPv4 and IPv6: network, broadcast, host range, mask and wildcard from any CIDR, plus subnetting, VLSM and route summarisation.
+
+### At a glance
+
+- Works out the **network address, broadcast address, first and last usable host**, total and usable addresses, **subnet mask, wildcard mask** and binary form of any IPv4 or IPv6 block.
+- Accepts CIDR (192.168.1.10/24), an address with a mask (10.0.0.1 255.255.240.0), a Cisco wildcard mask, or IPv6 in any notation, and writes IPv6 the RFC 5952 way.
+- Names the address type — **private (RFC 1918), CGNAT (100.64.0.0/10)**, loopback, link-local, multicast, documentation, unique local or global unicast — and the classful class.
+- **Splits** a network into equal subnets by count, hosts or prefix, plans **VLSM** (largest subnet first) and **summarises** lists of networks or ranges into the fewest CIDR blocks.
+- Handles the edge cases exams ask about: /31 point-to-point links (RFC 3021), /32 hosts, /0, and IPv6 counts too big for ordinary numbers.
+- Gives the reverse DNS zone (in-addr.arpa / ip6.arpa), checks whether an address is inside the network, and exports subnet tables as CSV. Everything is calculated in your browser.
+
+### Features
+
+- **Every subnet value**: Network, broadcast, host range, mask, wildcard, hex, binary and reverse DNS — copy them all in one click.
+- **IPv4 and IPv6**: One calculator for both, with BigInt maths so even a /32 IPv6 allocation is counted exactly.
+- **Subnetting made easy**: Split a network by the number of subnets or hosts you need, and see every resulting subnet in a table.
+- **VLSM planner**: List your LANs and how many devices each has; get the smallest fitting subnet for each, with room to grow shown.
+- **Route summarisation**: Merge networks, single addresses and ranges into the fewest CIDR blocks, or find the one supernet that covers them.
+- **Exam-ready**: Binary view with network bits highlighted, class and the /31 and /32 rules — handy for CCNA and university networking.
+
+### How to calculate a subnet
+
+1. **Enter an address** — Type an IP with its prefix, such as **192.168.1.10/24**, or pick the subnet mask from the list.
+2. **Read the results** — See the **network address**, **broadcast address**, usable host range and number of hosts instantly.
+3. **Split or plan** — Switch to **Split network** to divide it into subnets, or **VLSM** to size subnets for each LAN.
+4. **Export** — Copy the details or download the subnet table as CSV for your documentation.
+
+### Guide
+
+#### IPv4 subnet mask cheat sheet
+
+| Prefix | Subnet mask | Wildcard | Addresses | Usable hosts |
+| --- | --- | --- | --- | --- |
+| /8 | 255.0.0.0 | 0.255.255.255 | 16,777,216 | 16,777,214 |
+| /16 | 255.255.0.0 | 0.0.255.255 | 65,536 | 65,534 |
+| /20 | 255.255.240.0 | 0.0.15.255 | 4,096 | 4,094 |
+| /21 | 255.255.248.0 | 0.0.7.255 | 2,048 | 2,046 |
+| /22 | 255.255.252.0 | 0.0.3.255 | 1,024 | 1,022 |
+| /23 | 255.255.254.0 | 0.0.1.255 | 512 | 510 |
+| /24 | 255.255.255.0 | 0.0.0.255 | 256 | 254 |
+| /25 | 255.255.255.128 | 0.0.0.127 | 128 | 126 |
+| /26 | 255.255.255.192 | 0.0.0.63 | 64 | 62 |
+| /27 | 255.255.255.224 | 0.0.0.31 | 32 | 30 |
+| /28 | 255.255.255.240 | 0.0.0.15 | 16 | 14 |
+| /29 | 255.255.255.248 | 0.0.0.7 | 8 | 6 |
+| /30 | 255.255.255.252 | 0.0.0.3 | 4 | 2 |
+| /31 | 255.255.255.254 | 0.0.0.1 | 2 | 2 (point-to-point) |
+| /32 | 255.255.255.255 | 0.0.0.0 | 1 | 1 (single host) |
+
+#### Private and special IPv4 ranges
+
+| Range | Use |
+| --- | --- |
+| 10.0.0.0/8 | Private network (RFC 1918) — large companies and data centres |
+| 172.16.0.0/12 | Private network (RFC 1918) — 172.16.0.0 to 172.31.255.255 |
+| 192.168.0.0/16 | Private network (RFC 1918) — home and office routers |
+| 100.64.0.0/10 | Carrier-grade NAT — ISPs, especially mobile data, share public IPs |
+| 169.254.0.0/16 | Link-local — self-assigned when DHCP fails |
+| 127.0.0.0/8 | Loopback — the computer itself (localhost) |
+
+#### How subnetting works
+
+An IPv4 address has 32 bits. The prefix length — the number after the slash — says how many of them identify the network; the rest number the hosts inside it. A /24 leaves 8 host bits, so 2⁸ = 256 addresses. The first is the **network address** and the last the **broadcast address**, so 254 are usable for devices.
+
+Every extra prefix bit halves the block: a /24 splits into two /25s, four /26s or eight /27s. **VLSM** (variable-length subnet masking) uses different sizes inside one network — a /25 for 100 office PCs, a /30 for a router link — to avoid wasting addresses. IPv6 LANs simply use /64 each; sites usually get a /48 or /56.
+
+### FAQ
+
+**How many usable hosts does a /24 have?**
+254. A /24 has 256 addresses, but the first (network) and last (broadcast) can’t be given to devices. In general, usable hosts = 2^(32 − prefix) − 2, except /31 and /32.
+
+**What is a wildcard mask?**
+The inverse of the subnet mask: 0 bits must match and 1 bits can be anything. For 255.255.255.0 it is 0.0.0.255. Cisco access lists and OSPF network statements use wildcard masks.
+
+**How do I find the network and broadcast address?**
+The network address is the IP with all host bits set to 0 (a bitwise AND with the mask); the broadcast address has all host bits set to 1. For 192.168.1.10/24 they are 192.168.1.0 and 192.168.1.255.
+
+**Can a /31 be used?**
+Yes, on point-to-point links between two routers. RFC 3021 lets both addresses be used because a link with two ends needs no broadcast address.
+
+**What subnet size should I use for an IPv6 LAN?**
+A /64. Stateless address autoconfiguration (SLAAC) needs it, and a /64 still holds 18 quintillion addresses. Give each site a /48 or /56 to split into /64s.
+
+**What is VLSM?**
+Variable-length subnet masking: dividing one network into subnets of different sizes to match each LAN’s needs. Allocate the largest subnet first so every block stays aligned — the VLSM tab does this for you.
+
+## Internet Speed Test
+
+URL: https://justtools.online/network-tools/internet-speed-test/
+Category: Internet & Network Tools
+Processing: Contacts an external service to work (see the page).
+Last updated: 2026-10-06
+
+Free internet speed test: check download and upload speed, ping, jitter and bufferbloat on Wi-Fi, broadband or mobile data — no app, with a data saver mode.
+
+### At a glance
+
+- Measures **download and upload speed** in Mbps, **ping** (latency) and **jitter**, plus **loaded latency** — how much ping rises while the line is busy (bufferbloat).
+- Tests against **Cloudflare’s global network** (speed.cloudflare.com), usually from a data centre in or near your city; the page shows which one.
+- Leaves out connection set-up and server processing time, and reports the 90th-percentile speed of many transfers — the line’s real capacity rather than its slow start.
+- File sizes grow only while transfers stay quick, and **Data saver** caps a run at about 39 MB for mobile data.
+- Rates the connection for 4K streaming, video calls, online gaming, browsing and uploads, and shows which data centre answered, your country and your IP address.
+- Keeps your last 20 results in this browser only. No app or account is needed, and JustTools never sees your results.
+
+### Features
+
+- **All the numbers that matter**: Download, upload, ping, jitter and loaded latency — not just one big number.
+- **Live gauge**: Watch the speed as it is measured, from a quick ping to the full download and upload runs.
+- **Bufferbloat grade**: See whether calls and games will lag while someone else downloads, graded A+ to F.
+- **Mobile-data friendly**: Data saver mode keeps a test under about 39 MB, and you can stop at any moment.
+- **What it’s good for**: Plain ratings for streaming, video calls, gaming, browsing and uploading files.
+- **Your history**: Compare Wi-Fi with cable, or morning with evening — recent results stay in your browser.
+
+### How to test your internet speed
+
+1. **Close heavy apps** — Pause downloads, streaming and cloud backups on all devices so they don’t share the line during the test.
+2. **Press Start** — Choose **Full test**, or **Data saver** on mobile data, and press **Start**. Ping is measured first.
+3. **Wait for both runs** — Download and then upload are measured, which takes 15–30 seconds on most connections.
+4. **Read the results** — Compare download and upload with your plan, check the ratings, and copy the results to share with your provider.
+
+### Guide
+
+#### What the results mean
+
+| Result | What it measures | Good value |
+| --- | --- | --- |
+| Download | How fast data reaches you — streaming, browsing, downloads | 25 Mbps+ for 4K; 100 Mbps+ for busy homes |
+| Upload | How fast you send data — video calls, uploads, cloud backup | 5 Mbps+ for HD calls; 20 Mbps+ for creators |
+| Ping | Round-trip time to the server, in milliseconds | Under 30 ms great, under 100 ms fine |
+| Jitter | How much ping varies from one moment to the next | Under 10 ms for gaming, under 30 ms for calls |
+| Loaded latency | Ping while the line is busy downloading or uploading | Within 30 ms of the idle ping (grade A) |
+
+#### Why your speed may be lower than your plan
+
+- **Wi-Fi**: walls, distance and older routers or phones cut speed. Test with a cable, or close to the router on 5 GHz, to see what the line delivers.
+- **Other devices**: TVs, updates and backups on the same connection share the bandwidth during the test.
+- **Peak hours**: evenings are busiest, especially on mobile networks and shared fibre.
+- **VPNs and proxies** add distance and encryption overhead.
+- **Very fast plans**: above roughly 1 Gbps, the browser and device can become the limit rather than the line.
+
+### FAQ
+
+**How accurate is this speed test?**
+It uses the same method as Cloudflare’s own test: precise browser timings, server time removed, and the 90th-percentile speed of many transfers. Results from different test sites differ a little because they use different servers and methods.
+
+**How much data does a speed test use?**
+It depends on your speed: a full test uses up to a few hundred MB on a very fast line, less on slower ones. Data saver mode uses at most about 39 MB — the page shows the exact amount after each test.
+
+**What is a good ping for gaming?**
+Under 30 ms is excellent and under 60 ms is good for most online games; jitter should stay below about 10–20 ms. Above 100 ms you will notice lag in fast-paced games.
+
+**What is the difference between Mbps and MB/s?**
+Speeds are quoted in megabits per second (Mbps); file sizes in megabytes. One byte is 8 bits, so 100 Mbps downloads about 12.5 MB per second.
+
+**Is the speed test private?**
+The test connects your browser to Cloudflare’s speed test servers, which see your IP address like any website does. JustTools doesn’t receive or store your results; your history stays in your browser.
+
+**Why is upload slower than download?**
+Most home and mobile plans are asymmetric — designed to receive more than they send. Fibre plans are often symmetric, so similar upload and download speeds are normal there.
+

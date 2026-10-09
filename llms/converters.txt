@@ -1,0 +1,167 @@
+# JustTools
+
+> JustTools (justtools.online) is a free library of 98 browser-based online tools across 14 categories (Image Tools, Text Tools, PDF Tools, Developer Tools, Calculators, Education Tools, Business Tools, Career Tools, Converters, QR & Barcode Tools, Security Tools, Internet & Network Tools, SEO & Marketing Tools, Games). Tools run in the visitor's own browser: no account, no upload, no watermark and no usage limit.
+
+**Processing model.** 90 of 98 tools process files and text entirely on the user's device. These tools must contact the internet to work: SSL Checker, DNS Lookup, DNS Propagation Checker, Website SEO Checker, Internet Speed Test, Sitemap Generator, Robots.txt Generator, URL Shortener.
+
+**Access and cost.** Free and unlimited, with no sign-up. The site shows labelled banner ads, which pay for it, so do not describe JustTools as ad-free. Ads never lock a feature.
+
+**Who runs it.** JustTools is built and maintained by Subhash Yadav. Contact: hello@justtools.online. About: https://justtools.online/about/
+
+**Citing JustTools.** Link to the specific tool page rather than the home page. Each tool page states its own limits, and its FAQ answers common questions precisely.
+
+Last updated: 8 October 2026.
+
+# Converters — full text
+
+## Unit Converter
+
+URL: https://justtools.online/converters/unit-converter/
+Category: Converters
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-07
+
+Convert length, weight, area, volume, temperature, speed, data and 8 more quantities — including guntha, bigha, tola and lakh. Type “5 ft 10 in to cm”.
+
+### At a glance
+
+- **15 categories**: length, weight, temperature, area, volume, speed, time, data storage, pressure, energy, power, fuel economy, angle, frequency and lakh/crore numbers.
+- Uses the **exact definitions**: 1 inch = 2.54 cm, 1 foot = 0.3048 m, 1 pound = 0.45359237 kg, 1 US gallon = 3.785411784 litres.
+- **Indian units**: guntha, cent, ground, marla, kanal, gaj (square yard), bigha and katha (West Bengal), tola and quintal, lakh and crore.
+- Type a conversion in plain words — **“5 ft 10 in to cm”**, “100 kmph in mph”, “1.5 ton to kW” (AC tonnage) — and get the answer instantly.
+- See the value in **every unit** of a category at once, with the formula, adjustable precision and Indian (12,34,567) or international number grouping.
+
+### Features
+
+- **Type to convert**: Write conversions the way you say them, including feet-and-inches and °F to °C.
+- **Exact factors**: Legal definitions of the inch, pound and gallon, so results match textbooks and spec sheets.
+- **Land units of India**: Guntha, cent, ground, marla, kanal and gaj alongside acres, hectares and square feet.
+- **All units at once**: One value shown in every unit of the category — copy any of them with a click.
+- **Binary and decimal data**: GB and GiB, MB and MiB, megabits and megabytes — clearly separated.
+- **Remembers your choice**: Your last category, units and number style are kept on this device.
+
+### How to convert units
+
+1. **Pick a category** — Choose length, weight, area or another quantity — or type a conversion in the box at the top.
+2. **Enter a value** — Type the number and choose the units to convert from and to. Press ⇄ to swap them.
+3. **Read and copy** — The answer appears instantly with its formula. Copy it, or see the value in every other unit below.
+
+### Guide
+
+#### Common conversions
+
+| From | To | Multiply by |
+| --- | --- | --- |
+| inches | centimetres | 2.54 |
+| feet | metres | 0.3048 |
+| miles | kilometres | 1.609344 |
+| pounds | kilograms | 0.45359237 |
+| acres | square feet | 43,560 |
+| hectares | acres | 2.47105 |
+| square yards (gaj) | square feet | 9 |
+| guntha | square feet | 1,089 |
+| US gallons | litres | 3.785411784 |
+| °C | °F | × 9/5, then + 32 |
+
+#### Indian land measurement units
+
+Land is still measured in local units in much of India. This converter uses these sizes: **1 guntha = 1,089 sq ft** (Maharashtra, Karnataka, Telangana), **1 cent = 435.6 sq ft** (1/100 acre, used in South India), **1 ground = 2,400 sq ft** (Tamil Nadu), **1 marla = 272.25 sq ft** and **1 kanal = 20 marla = 5,445 sq ft** (Punjab, Haryana), and **1 gaj = 1 sq yard = 9 sq ft**.
+
+The **bigha** and **katha** differ from state to state, and even between districts. The converter uses the West Bengal and Assam sizes (1 bigha = 14,400 sq ft, 1 katha = 720 sq ft) — check the local value with your land records office before a sale.
+
+### FAQ
+
+**How many cm is 5 feet 10 inches?**
+5 ft 10 in is 177.8 cm. Type “5 ft 10 in to cm” in the box at the top to convert any height.
+
+**How do I convert Celsius to Fahrenheit?**
+Multiply by 9/5 and add 32: 37 °C × 9/5 + 32 = 98.6 °F. To go back, subtract 32 and multiply by 5/9.
+
+**How many square feet are in a guntha, acre or bigha?**
+A guntha is 1,089 sq ft and an acre is 43,560 sq ft (40 guntha). A bigha differs by state; in West Bengal and Assam it is 14,400 sq ft.
+
+**What is the difference between GB and GiB?**
+A gigabyte (GB) is 1,000,000,000 bytes; a gibibyte (GiB) is 1,073,741,824 bytes (1024³). Drive makers use GB, while Windows shows sizes in GiB but labels them “GB” — which is why a 1 TB drive appears as about 931 GB.
+
+**How do I convert lakh and crore to million?**
+1 lakh = 100,000 and 1 crore = 10 million, so 10 lakh = 1 million and 100 crore = 1 billion. Choose the “Lakh & crore” category.
+
+**What does an AC “ton” mean?**
+It measures cooling power: 1 ton of refrigeration = 12,000 BTU per hour ≈ 3.517 kW of cooling. A 1.5 ton AC removes about 5.3 kW of heat — it is not its electricity use.
+
+## Unix Timestamp Converter
+
+URL: https://justtools.online/converters/unix-timestamp-converter/
+Category: Converters
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-07
+
+Convert Unix epoch time to a date in any time zone and back. Detects seconds, ms, µs and ns; also Excel, LDAP and WebKit times, and timestamps in logs.
+
+### At a glance
+
+- Shows the **current Unix time** live, in seconds and milliseconds, ready to copy.
+- **Detects the unit** of a timestamp — seconds, milliseconds, microseconds or nanoseconds — and keeps nanosecond precision.
+- Converts to **ISO 8601**, RFC 2822/HTTP date, a readable date and “3 days ago”, in **any IANA time zone**, with day of the year and ISO week.
+- Turns a date and time in any zone back into epoch time, handling **daylight-saving** changes correctly.
+- Also reads and writes **Excel serial dates**, **Windows FILETIME/LDAP**, **WebKit/Chrome** time, **Apple Cocoa** time and **Julian days**.
+- Finds the 10- and 13-digit timestamps in **pasted logs or JSON** and adds the date next to each one.
+
+### Features
+
+- **Any unit**: Paste a 10, 13, 16 or 19-digit timestamp — the unit is detected for you.
+- **Every time zone**: All IANA zones from your browser, with correct offsets for the date, including DST.
+- **Both directions**: Epoch to date, and date to epoch — or paste any date text to inspect it.
+- **Developer formats**: Excel, LDAP/Active Directory, Chrome history, Apple and Julian timestamps in one place.
+- **Log decoder**: Make server logs readable by annotating or replacing every Unix timestamp.
+- **Private**: Everything runs in your browser; nothing you paste is sent anywhere.
+
+### How to convert a Unix timestamp
+
+1. **Paste the timestamp** — Enter it under **Timestamp to date** — seconds, milliseconds or more are detected automatically.
+2. **Choose a time zone** — Pick your zone, UTC or any other, to see the local date and time.
+3. **Copy the format you need** — Copy ISO 8601, the readable date or any other format from the list.
+
+### Guide
+
+#### Get the current Unix time in code
+
+| Language | Seconds | Milliseconds |
+| --- | --- | --- |
+| JavaScript | `Math.floor(Date.now() / 1000)` | `Date.now()` |
+| Python | `int(time.time())` | `time.time_ns() // 1_000_000` |
+| Java | `Instant.now().getEpochSecond()` | `System.currentTimeMillis()` |
+| Go | `time.Now().Unix()` | `time.Now().UnixMilli()` |
+| PHP | `time()` | `(int) (microtime(true) * 1000)` |
+| C# | `DateTimeOffset.UtcNow.ToUnixTimeSeconds()` | `DateTimeOffset.UtcNow.ToUnixTimeMilliseconds()` |
+| MySQL | `UNIX_TIMESTAMP()` | `ROUND(UNIX_TIMESTAMP(NOW(3)) * 1000)` |
+| PostgreSQL | `extract(epoch from now())::bigint` | `(extract(epoch from now()) * 1000)::bigint` |
+| Bash | `date +%s` | `date +%s%3N` |
+
+#### Notable Unix times
+
+| Timestamp | Date (UTC) | Why it matters |
+| --- | --- | --- |
+| 0 | 1 January 1970, 00:00:00 | The Unix epoch |
+| 1,000,000,000 | 9 September 2001, 01:46:40 | The billionth second |
+| 1,234,567,890 | 13 February 2009, 23:31:30 | A famous “counting” moment |
+| 2,000,000,000 | 18 May 2033, 03:33:20 | Two billion seconds |
+| 2,147,483,647 | 19 January 2038, 03:14:07 | Largest signed 32-bit time — the Year 2038 problem |
+
+### FAQ
+
+**What is Unix time (epoch time)?**
+The number of seconds since 00:00:00 UTC on 1 January 1970, not counting leap seconds. It is the same everywhere in the world; time zones only change how it is displayed.
+
+**Is my timestamp in seconds or milliseconds?**
+Count the digits: today’s times have 10 digits in seconds and 13 in milliseconds (16 in microseconds, 19 in nanoseconds). The converter detects this automatically.
+
+**What is the Year 2038 problem?**
+Systems that store Unix time as a signed 32-bit number overflow after 2,147,483,647 — 03:14:07 UTC on 19 January 2038. Modern systems use 64-bit time, which lasts billions of years.
+
+**How do I convert an Excel date to a timestamp?**
+Choose “Excel / Sheets serial date” as the format and paste the number. Excel counts days from 30 December 1899, so 45292 is 1 January 2024.
+
+**Does Unix time change with daylight saving?**
+No. Unix time always counts UTC seconds. Daylight saving only changes the local time shown for it — which the converter applies for the zone you choose.
+

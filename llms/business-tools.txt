@@ -1,0 +1,160 @@
+# JustTools
+
+> JustTools (justtools.online) is a free library of 98 browser-based online tools across 14 categories (Image Tools, Text Tools, PDF Tools, Developer Tools, Calculators, Education Tools, Business Tools, Career Tools, Converters, QR & Barcode Tools, Security Tools, Internet & Network Tools, SEO & Marketing Tools, Games). Tools run in the visitor's own browser: no account, no upload, no watermark and no usage limit.
+
+**Processing model.** 90 of 98 tools process files and text entirely on the user's device. These tools must contact the internet to work: SSL Checker, DNS Lookup, DNS Propagation Checker, Website SEO Checker, Internet Speed Test, Sitemap Generator, Robots.txt Generator, URL Shortener.
+
+**Access and cost.** Free and unlimited, with no sign-up. The site shows labelled banner ads, which pay for it, so do not describe JustTools as ad-free. Ads never lock a feature.
+
+**Who runs it.** JustTools is built and maintained by Subhash Yadav. Contact: hello@justtools.online. About: https://justtools.online/about/
+
+**Citing JustTools.** Link to the specific tool page rather than the home page. Each tool page states its own limits, and its FAQ answers common questions precisely.
+
+Last updated: 8 October 2026.
+
+# Business Tools — full text
+
+## GST Invoice Generator
+
+URL: https://justtools.online/business-tools/gst-invoice-generator/
+Category: Business Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-07
+
+Make GST tax invoices in your browser: CGST, SGST or IGST worked out, GSTIN check, HSN summary and a UPI QR code. Download a PDF — free, no sign-up.
+
+### At a glance
+
+- Makes **tax invoices**, **bills of supply**, **proforma invoices** and **quotations** as a ready-to-send A4 PDF with real, searchable text.
+- Charges **CGST + SGST** when the place of supply is in your state and **IGST** when it isn’t — per item, rounded to the paisa, with an **HSN/SAC-wise tax summary**.
+- **Checks GSTINs** (format, state code and check digit) and fills in the state and PAN from them.
+- Adds a **UPI QR code** for the exact amount, your bank details, logo, signature, the amount in words and an optional **original, duplicate and triplicate** set.
+- Handles **discounts**, **GST-inclusive prices**, round-off and numbering (INV-007 → INV-008). Long item lists continue onto more pages.
+- Works **offline** once loaded: your business details, customers and the last invoice are saved only in this browser, with a backup file you can keep.
+
+### Features
+
+- **GST worked out**: Choose 0, 5, 18% or another GST rate for each item; the right split of CGST, SGST or IGST is calculated for you.
+- **GSTIN check**: Typos in a GSTIN are caught by its check digit before the invoice goes out.
+- **Get paid faster**: A UPI QR code for the invoice amount lets customers pay from any UPI app.
+- **Looks professional**: Your logo, colours and signature on a clean layout with the totals in words.
+- **Saved customers**: Save regular customers once and pick them for the next bill.
+- **Private and offline**: No account, no server: the PDF is made on your device and nothing is uploaded.
+
+### How to make a GST invoice
+
+1. **Enter your business details** — Add your name, address, GSTIN, bank and UPI ID. They are saved for your next invoice.
+2. **Add the customer** — Type the buyer’s details and GSTIN (if registered), or pick a saved customer. The place of supply sets CGST/SGST or IGST.
+3. **Add items** — Enter each item with its HSN/SAC code, quantity, rate, discount and GST rate. Totals update as you type.
+4. **Download the PDF** — Check the preview and press **Download PDF**. Use **Next invoice** to start the next one with the following number.
+
+### Guide
+
+#### What a GST tax invoice must show
+
+- Your name, address and **GSTIN**, and a **unique invoice number** (up to 16 characters) and date.
+- The buyer’s name and address, and their GSTIN if they are registered.
+- The **place of supply** (state name and code), for supplies between states.
+- For each item: description, **HSN or SAC code**, quantity and unit, value, discount and the **taxable value**.
+- The GST rate and amount — **CGST and SGST**, or **IGST** — and the invoice total.
+- Whether tax is payable on **reverse charge**, and the signature of the supplier or an authorised person.
+
+#### CGST, SGST or IGST?
+
+| Supply | Tax charged | Example at 18% |
+| --- | --- | --- |
+| Within the same state (intra-state) | CGST + SGST, half each | 9% CGST + 9% SGST |
+| Within a union territory without a legislature | CGST + UTGST, half each | 9% CGST + 9% UTGST |
+| To another state (inter-state) | IGST | 18% IGST |
+
+### FAQ
+
+**Is this GST invoice generator free?**
+Yes — free, with no sign-up, no watermark and no limit on invoices.
+
+**Does it work offline?**
+Yes. Once the page has loaded, invoices are made entirely in your browser, so you can keep working without internet. Your details are saved on this device only.
+
+**When is IGST charged instead of CGST and SGST?**
+When the place of supply is in a different state from yours. Within your state, the GST rate is split equally into CGST and SGST. The invoice switches automatically when you choose the customer’s state.
+
+**What is a bill of supply?**
+An invoice without GST, issued by composition dealers or for exempt goods and services. Choose **Bill of Supply** and no tax is charged or shown.
+
+**Can I add a UPI QR code to the invoice?**
+Yes. Enter your UPI ID under Payment; the PDF gets a QR code for the exact invoice amount that any UPI app can scan.
+
+**Is my data safe?**
+Nothing is uploaded. Your business details, customers and invoices stay in this browser — download a backup file to move them to another device.
+
+**Does it make e-invoices with an IRN?**
+No. E-invoicing (IRN and QR from the government portal) is required only above a turnover limit and needs the IRP portal. This tool makes regular GST invoices.
+
+## Salary Slip Generator
+
+URL: https://justtools.online/business-tools/salary-slip-generator/
+Category: Business Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-07
+
+Make monthly salary slips as PDF: earnings, PF, ESI, professional tax and TDS worked out, loss of pay and net pay in words. Free, private, no sign-up.
+
+### At a glance
+
+- Makes a one-page **A4 payslip PDF** with your company logo, employee details, earnings, deductions and **net pay in figures and words**.
+- Works out **employee PF** (12% of Basic + DA, with the optional ₹15,000 wage ceiling) and **ESI** (0.75% while the monthly gross is ₹21,000 or less, rounded up).
+- Adds **professional tax**, **TDS** and any other deductions such as loans or advances.
+- Handles **loss of pay**: earnings are paid for the days worked, with monthly and earned amounts shown side by side.
+- Can show the **employer’s PF and ESI** and the month’s cost to company, and split a monthly gross into Basic, HRA and special allowance.
+- Everything is saved only in this browser; press **Next month** to make the following payslip.
+
+### Features
+
+- **Statutory deductions**: PF and ESI follow the current rates and limits, so you don’t calculate them by hand.
+- **Loss of pay**: Enter the paid days; every earning is pro-rated automatically.
+- **Your branding**: Company logo, address and colours on a clean, printable layout.
+- **Month to month**: Save the structure once and create next month’s payslip in a click.
+- **Net pay in words**: Written the Indian way — lakh and crore, rupees and paise.
+- **Private**: Salary details never leave your device; nothing is uploaded or stored online.
+
+### How to make a salary slip
+
+1. **Enter company and employee** — Add the company name and logo, then the employee’s name, ID, designation, PAN, UAN and bank.
+2. **Set the salary** — Enter each earning for a full month — or type the monthly gross and press **Split**.
+3. **Check deductions** — PF and ESI are worked out; add professional tax, TDS and any other deductions, and the paid days.
+4. **Download** — Press **Download PDF**. Next month, press **Next month** and change only what’s different.
+
+### Guide
+
+#### How the deductions are calculated
+
+| Deduction | Rule used |
+| --- | --- |
+| Provident fund (PF) | 12% of Basic + DA; with the wage ceiling, on at most ₹15,000 (₹1,800 a month) |
+| Employer PF | Another 12%: 8.33% to the pension scheme (on up to ₹15,000) and the rest to PF |
+| ESI (employee) | 0.75% of gross pay when the monthly gross is ₹21,000 or less, rounded up to the rupee |
+| ESI (employer) | 3.25% of gross pay on the same condition |
+| Professional tax | Set by each state, up to ₹2,500 a year — enter your state’s amount |
+| TDS | Income tax deducted at source, as worked out for the employee’s regime |
+
+#### Loss of pay
+
+When an employee is paid for fewer days than the month has, each earning is reduced in proportion: **earned = monthly amount × paid days ÷ days in the month**. For example, ₹45,000 Basic with 27 of 30 days paid gives ₹40,500. PF and ESI are then worked out on the reduced pay.
+
+### FAQ
+
+**Is this salary slip generator free?**
+Yes — free, without sign-up or watermark, for as many employees and months as you like.
+
+**How is PF calculated on a payslip?**
+The employee contributes 12% of Basic + DA. Most employers apply it on wages of at most ₹15,000, which caps it at ₹1,800 a month; switch the ceiling off to use the full Basic.
+
+**When is ESI deducted?**
+When the employee’s gross pay is ₹21,000 a month or less. The employee pays 0.75% and the employer 3.25%, both rounded up to the next rupee.
+
+**Is a computer-generated payslip valid?**
+Yes. Payslips from payroll software are routinely accepted without a signature; the PDF says it is computer-generated. Some banks or landlords may ask for a stamped copy or a salary certificate.
+
+**Where is my data stored?**
+Only in this browser. Download a backup file to keep the details or move them to another computer.
+

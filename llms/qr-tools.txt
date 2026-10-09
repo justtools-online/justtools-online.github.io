@@ -1,0 +1,341 @@
+# JustTools
+
+> JustTools (justtools.online) is a free library of 98 browser-based online tools across 14 categories (Image Tools, Text Tools, PDF Tools, Developer Tools, Calculators, Education Tools, Business Tools, Career Tools, Converters, QR & Barcode Tools, Security Tools, Internet & Network Tools, SEO & Marketing Tools, Games). Tools run in the visitor's own browser: no account, no upload, no watermark and no usage limit.
+
+**Processing model.** 90 of 98 tools process files and text entirely on the user's device. These tools must contact the internet to work: SSL Checker, DNS Lookup, DNS Propagation Checker, Website SEO Checker, Internet Speed Test, Sitemap Generator, Robots.txt Generator, URL Shortener.
+
+**Access and cost.** Free and unlimited, with no sign-up. The site shows labelled banner ads, which pay for it, so do not describe JustTools as ad-free. Ads never lock a feature.
+
+**Who runs it.** JustTools is built and maintained by Subhash Yadav. Contact: hello@justtools.online. About: https://justtools.online/about/
+
+**Citing JustTools.** Link to the specific tool page rather than the home page. Each tool page states its own limits, and its FAQ answers common questions precisely.
+
+Last updated: 8 October 2026.
+
+# QR & Barcode Tools — full text
+
+## QR Code Generator
+
+URL: https://justtools.online/qr-tools/qr-code-generator/
+Category: QR & Barcode Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-09-29
+
+Create free QR codes for links, UPI payments, Wi-Fi, WhatsApp, contacts and more. Add colours and a logo, download PNG or SVG. Codes never expire.
+
+### At a glance
+
+- Creates **static** QR codes: the content is stored in the code itself, so it never expires, needs no account and cannot be switched off.
+- Nine types: link, text, **UPI payment**, Wi-Fi, WhatsApp, contact card (vCard), email, phone call and SMS.
+- UPI codes use the standard `upi://pay` format that Google Pay, PhonePe, Paytm, BHIM and every other UPI app can scan, with an optional fixed amount.
+- Custom colours, three dot styles, three corner styles and an optional centre logo.
+- Downloads as **PNG** (512, 1024 or 2048 px) or scalable **SVG** for print, or copies the image to the clipboard.
+- Supports all four error-correction levels (L 7%, M 15%, Q 25%, H 30%); adding a logo switches to H automatically.
+- Generated in your browser — nothing you enter is sent anywhere, and scans are never tracked.
+
+### Features
+
+- **Never expires**: Many “free” QR sites create codes that redirect through their servers and stop working after a trial. These codes contain your content directly and work forever.
+- **UPI payment QR**: Enter a UPI ID, payee name and optional amount to get a code customers can pay with any UPI app — ideal for shops, stalls and invoices.
+- **Wi-Fi in one scan**: Guests point their camera at the code and join your network without typing the password. Works with modern iPhone and Android cameras.
+- **Your brand, your colours**: Pick dot and corner colours, choose square, rounded or dot styles, and put your logo in the middle. A contrast check warns you before a code becomes hard to scan.
+- **Print-ready files**: Download a sharp PNG up to 2048 px, or an SVG that stays crisp at any size — from business cards to banners.
+- **Private by design**: Codes are generated on your device. There is no redirect link, so nobody can see who scans your code or when.
+
+### How to create a QR code
+
+1. **Choose what the code opens** — Pick **Link**, **UPI payment**, **Wi-Fi**, **WhatsApp**, **Contact** or another type.
+2. **Fill in the details** — Type your link, UPI ID, network name or contact details. The preview updates as you type.
+3. **Style it (optional)** — Change the colours and dot or corner style, and add your logo. Keep dark dots on a light background.
+4. **Test and download** — Scan the preview with your phone, then download PNG or SVG, or copy the image.
+
+### Guide
+
+#### Static vs dynamic QR codes
+
+A **static** QR code — the kind this tool makes — stores your link or text directly in its pattern. It works forever, needs no account and does not depend on any company staying in business. The trade-off: to change the destination you print a new code.
+
+A **dynamic** QR code stores a short redirect link owned by a QR service. You can change where it points and see scan statistics, but it usually needs a paid plan, and the code stops working if the subscription lapses or the service shuts down. For menus, packaging, business cards and payment codes, static is the safer choice.
+
+#### How to make a UPI payment QR code
+
+Choose **UPI payment**, enter the UPI ID (VPA) that should receive the money — for example `yourshop@okhdfcbank` — and the name customers should see. Add an amount for a fixed bill, or leave it empty so the payer types the amount. A note such as an order number appears in the payment description.
+
+Before printing, scan the code with your own UPI app and check that the payee name is correct. Never share a code that pays into someone else’s account.
+
+#### Tips for QR codes that always scan
+
+- **Keep contrast high:** dark dots on a light background. Light-on-dark codes fail in some scanner apps.
+- **Keep the quiet zone:** leave the white border around the code; scanners use it to find the edges.
+- **Print big enough:** at least 2 × 2 cm (0.8 in). A good rule is one unit of code size for every ten units of scanning distance.
+- **Shorter content, simpler code:** long text makes the pattern denser and harder to scan from a distance.
+- **Test before you print:** scan with at least two different phones, including an older one.
+- **Use SVG for print:** it scales to any size without blurring.
+
+#### Error correction levels explained
+
+Error correction lets a code still scan when part of it is dirty, damaged or covered by a logo. More correction means a denser pattern.
+
+| Level | Can recover | Best for |
+| --- | --- | --- |
+| L | about 7% | Screens and clean indoor use |
+| M | about 15% | Most printed codes (default) |
+| Q | about 25% | Packaging and outdoor signs |
+| H | about 30% | Codes with a logo, or harsh conditions |
+
+### FAQ
+
+**Are these QR codes really free forever?**
+Yes. They are static codes with your content inside them, so there is nothing to renew and nothing that can expire. There is no sign-up, no watermark and no scan limit.
+
+**Can I create a QR code for UPI payments?**
+Yes. Choose **UPI payment**, enter your UPI ID and name, and optionally an amount. The code works with Google Pay, PhonePe, Paytm, BHIM and any other UPI app.
+
+**Will a logo stop my QR code from working?**
+Not if it stays small. Adding a logo switches error correction to H (30%), which lets scanners read the code even with the centre covered. Keep the logo size moderate and always test by scanning.
+
+**PNG or SVG — which should I download?**
+Use PNG for websites, WhatsApp and documents. Use SVG for printing, because it stays perfectly sharp at any size.
+
+**Can I track how many people scan my code?**
+No — and that is deliberate. Tracking requires a dynamic code that redirects through a third-party server. These codes go straight to your content, so scans stay private.
+
+**How do I share my Wi-Fi with a QR code?**
+Choose **Wi-Fi**, enter the network name and password, and pick the security type (WPA for almost all routers). Guests scan it with their phone camera to join.
+
+**Can I edit a QR code after printing it?**
+No. A static code cannot change after it is printed. If your link might change, point the code at a page you control, such as your website’s home page.
+
+**Is my information sent anywhere?**
+No. The code is generated in your browser. UPI IDs, Wi-Fi passwords and contact details never leave your device.
+
+## Barcode Generator
+
+URL: https://justtools.online/qr-tools/barcode-generator/
+Category: QR & Barcode Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-09-29
+
+Free barcode generator for EAN-13, UPC-A, Code 128, Code 39, ITF-14, GS1-128 and Data Matrix. Check digits added, exact mm size, PNG, SVG and batch print.
+
+### At a glance
+
+- Creates 11 barcode types: **Code 128, EAN-13, EAN-8, UPC-A, UPC-E, Code 39, ITF-14, Codabar, GS1-128, Data Matrix and PDF417**.
+- The GS1 **check digit** for EAN-13, EAN-8, UPC-A, UPC-E and ITF-14 is calculated automatically; a check digit you type is verified.
+- Sizes are real-world: set the narrowest bar (X-dimension) and the bar height in **millimetres**, and the SVG and printout keep that exact size.
+- Downloads **SVG** (vector, sized in mm) or **PNG** at 150, 300 or 600 DPI with the resolution written into the file, or copies the image to the clipboard.
+- **Batch mode** turns up to 200 values — pasted from Excel or Google Sheets — into barcodes, downloaded as a ZIP or printed on one sheet.
+- Barcodes are drawn with Barcode Writer in Pure PostScript (bwip-js), a widely used open-source barcode engine.
+- Runs entirely in your browser: nothing you enter is uploaded.
+
+### Features
+
+- **Check digits done for you**: Type 12 digits for an EAN-13 and the 13th is calculated. Type all 13 and a wrong check digit is caught before it reaches a printed label.
+- **Exact print size**: Choose the bar width in millimetres (0.33 mm is the retail standard) and the height you need. What you set is what prints.
+- **Batch from a spreadsheet**: Paste a column of SKUs, product numbers or serials and get every barcode at once, as a ZIP of PNG or SVG files or a print-ready sheet.
+- **Print-ready files**: SVG stays sharp at any size in Illustrator, CorelDRAW, Canva and label software; PNG carries its DPI so Word places it at the right size.
+- **Scanner-safe checks**: Warnings appear for low contrast, light-on-dark codes and red bars, which laser scanners cannot see.
+- **Private and unlimited**: No account, no watermark and no limit. Product numbers and serials never leave your device.
+
+### How to create a barcode
+
+1. **Choose the barcode type** — Pick **EAN-13** or **UPC-A** for retail products, **Code 128** for labels and inventory, **ITF-14** for cartons, or a 2D code such as **Data Matrix**.
+2. **Enter your data** — Type the number or text. For EAN and UPC codes, leave out the check digit and it is added for you. For many barcodes, switch to **Many (batch)** and paste one value per line.
+3. **Set the size and colours** — Adjust the bar width and height in millimetres, and keep dark bars on a light background.
+4. **Download or print** — Download **SVG** for print and design work or **PNG** for documents, or print directly at true size. Scan a test print before printing labels in bulk.
+
+### Guide
+
+#### Which barcode type should I use?
+
+| Type | What it encodes | Typical use |
+| --- | --- | --- |
+| Code 128 | Letters, digits and symbols | Shipping labels, inventory, asset tags, tickets |
+| EAN-13 | 12 digits + check digit | Retail products worldwide; books (ISBN, starting 978/979) |
+| EAN-8 | 7 digits + check digit | Small retail packs |
+| UPC-A | 11 digits + check digit | Retail products in the US and Canada |
+| UPC-E | Compressed 6-digit UPC | Small items sold in the US and Canada |
+| Code 39 | A–Z, 0–9 and - . $ / + % space | Industry, defence and older systems |
+| ITF-14 | 13 digits + check digit (GTIN-14) | Outer shipping cartons |
+| Codabar | Digits and - $ : / . + | Libraries, blood banks, couriers |
+| GS1-128 | GS1 data such as GTIN, batch and expiry | Pallet and logistics labels, pharma |
+| Data Matrix | Any text, in a small square | Small parts, electronics, medicines |
+| PDF417 | Large amounts of text | ID cards, boarding passes, permits |
+
+#### Getting a real EAN or UPC number for your product
+
+Barcodes on products sold in shops and on most marketplaces must use a number licensed from **GS1** — in India, from GS1 India. The number identifies your company and product worldwide, so it can’t simply be made up.
+
+This generator draws any number to the standard, and is ideal once you have your GS1 numbers, or for internal barcodes where you choose the numbering: stock-keeping units, shelf labels, library books, files, assets and event tickets. For those, **Code 128** is usually the best choice.
+
+#### Tips for barcodes that scan first time
+
+- Print at **100% scale** — turn off “Fit to page” — so the bar width stays as you set it.
+- Keep the **quiet zone** (the blank margin) on both sides; text or edges too close to the bars stop scanners.
+- Use **dark bars on a light background**. Red, orange and yellow bars are invisible to red-light laser scanners.
+- On a **203 DPI thermal printer** each dot is 0.125 mm, so bar widths of 0.25, 0.375 or 0.5 mm print cleanly; on 300 DPI printers use multiples of about 0.085 mm.
+- Don’t shrink retail codes below 80% of standard size (a 0.26 mm bar), and avoid cutting their height.
+- Scan a test print with a phone scanner app or your till scanner before printing hundreds of labels.
+
+### FAQ
+
+**Is this barcode generator free?**
+Yes. Every barcode type, the batch mode and all downloads are free, with no watermark, sign-up or limit.
+
+**How do I get a barcode for my product?**
+Register with GS1 (GS1 India in India) to get your company’s product numbers, then enter each number here as an EAN-13 to create the barcode artwork.
+
+**Is the check digit added automatically?**
+Yes, for EAN-13, EAN-8, UPC-A, UPC-E and ITF-14. Enter the number without its last digit and the check digit is calculated; if you enter it yourself, it is verified.
+
+**Should I download PNG or SVG?**
+Use **SVG** for printing, packaging and design software: it is vector, stays sharp at any size and keeps the exact size in millimetres. Use **PNG** for Word, spreadsheets and websites; choose 300 or 600 DPI for print.
+
+**Can I create many barcodes at once?**
+Yes. Switch to **Many (batch)**, paste up to 200 values (one per line, for example a column from Excel) and download them as a ZIP of PNG or SVG files, or print them all on one sheet.
+
+**What is the difference between a barcode and a QR code?**
+A barcode stores a short number or code in a row of bars and is read by retail and warehouse scanners. A QR code is 2D, holds much more, and is made for phone cameras — use the [QR Code Generator](https://justtools.online/qr-tools/qr-code-generator/) for links, UPI payments and Wi-Fi.
+
+**Can I print barcodes on labels?**
+Yes. Print sends the barcodes at true size, as many copies as you choose. For pre-cut label sheets or thermal label printers, download SVG or PNG and place them with your label software or Word’s labels feature.
+
+**Is my data private?**
+Yes. Barcodes are generated in your browser, so product numbers and serials are never uploaded or stored.
+
+## QR Code Scanner
+
+URL: https://justtools.online/qr-tools/qr-code-scanner/
+Category: QR & Barcode Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-05
+
+Scan QR codes online with your camera or from a photo or screenshot. Shows links safely, UPI payments, Wi-Fi passwords and contacts. Free, private, no app.
+
+### At a glance
+
+- Scans with your **camera** (phone or laptop) or from an **image or screenshot** — drop a file or paste with Ctrl+V; several codes in one image are all read.
+- Shows what a code does before you act: **links** with warnings (http, IP addresses, look-alike domains, shorteners, app downloads), **UPI** payee and amount, **Wi-Fi** name and password, **contacts**, events, email, SMS and locations.
+- Saves contacts (.vcf) and events (.ics), copies Wi-Fi passwords and UPI IDs, and opens links only when you click.
+- Reads QR codes, Micro QR and rMQR, including inverted (light-on-dark) and rotated codes.
+- Keeps a list of everything scanned this session, which you can copy or download as CSV.
+- Decoding uses ZXing in WebAssembly on your device — camera frames and images are never uploaded or recorded.
+
+### Features
+
+- **Scan on a laptop**: Got a QR code in an email, PDF or screenshot? Paste or drop the image — no phone needed.
+- **Check before you pay**: UPI codes show the payee’s name, UPI ID and amount, with a reminder that you never scan a code to receive money.
+- **Safer links**: See the real website first, with warnings for unencrypted pages, shorteners, look-alike addresses and app downloads.
+- **Wi-Fi in a tap**: Read the network name and password from a Wi-Fi QR code and copy the password.
+- **Many codes at once**: Keep scanning to read a stack of codes, then copy them all or export a CSV.
+- **Private**: Nothing is uploaded or recorded. The camera turns off when you stop or leave the page.
+
+### How to scan a QR code online
+
+1. **Choose the source** — Use **Camera**, or **Image or screenshot** for a picture on your device.
+2. **Scan** — Click **Start camera** and allow access, then hold the code inside the frame — or drop/paste the image.
+3. **Check what it contains** — Read the link, payment or details shown, including any warnings.
+4. **Use it** — Open the link, copy the text, save the contact or event — only when you choose.
+
+### Guide
+
+#### Staying safe with QR codes
+
+A QR code is just text, so anyone can print one — scammers stick fake codes over real ones on parking meters, posters and shop counters. Always check the website address before entering passwords or card details, and be careful with links from shorteners or bare IP addresses.
+
+For **UPI** payments, check that the name your UPI app shows matches who you want to pay. You never need to scan a QR code or enter your UPI PIN to **receive** money — that’s a common fraud.
+
+#### If a code won’t scan
+
+Move closer so the code fills most of the frame, hold steady, and add light — on phones, tap **Light** for the torch. For images, use a sharp, straight photo or a screenshot rather than a photo of a screen.
+
+Need to make a code instead? Use the [QR Code Generator](https://justtools.online/qr-tools/qr-code-generator/). For product barcodes, use the [Barcode Scanner](https://justtools.online/qr-tools/barcode-scanner/).
+
+### FAQ
+
+**How do I scan a QR code on my laptop?**
+Open this page, click **Start camera** and hold the code up to your webcam — or take a screenshot of the code and paste it with Ctrl+V.
+
+**Can I scan a QR code from an image or screenshot?**
+Yes. Choose **Image or screenshot**, then drop the file or paste it. Every code in the image is read.
+
+**Is it safe to scan unknown QR codes?**
+Scanning here is safe — nothing opens until you click. The scanner shows the real destination and warns about common tricks, but always check the address before entering passwords or paying.
+
+**Why isn’t the camera working?**
+Your browser may have blocked camera access for this site — allow it in the site settings — or another app may be using the camera. You can always scan a photo instead.
+
+**Are the camera images saved or uploaded?**
+No. Frames are decoded on your device and discarded immediately; nothing is recorded or sent anywhere.
+
+**Does it read UPI and Wi-Fi QR codes?**
+Yes. UPI codes show the payee, UPI ID and amount; Wi-Fi codes show the network name, security type and password.
+
+## Barcode Scanner
+
+URL: https://justtools.online/qr-tools/barcode-scanner/
+Category: QR & Barcode Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-05
+
+Scan barcodes online with your camera or from a photo: EAN-13, UPC, Code 128, Code 39, ISBN, DataMatrix and PDF417. Batch scan to CSV. Free, no app needed.
+
+### At a glance
+
+- Reads **1D barcodes** — EAN-13, EAN-8, UPC-A, UPC-E, ISBN, Code 128, Code 39, Code 93, Codabar, ITF and GS1 DataBar — and **2D codes**: DataMatrix, PDF417, Aztec, MaxiCode and QR.
+- Scans with your **camera** or from an **image or screenshot** (drop or paste); several barcodes in one picture are all read.
+- For product codes, checks the **check digit**, converts UPC-E ↔ UPC-A and ISBN-13 → ISBN-10, and names the **GS1 prefix** (e.g. 890 = GS1 India).
+- Decodes **GS1 data** in DataMatrix and Code 128 labels — GTIN, batch, expiry date, serial number, weight — as found on medicines and shipping cartons.
+- **Keep scanning** mode reads item after item, counts repeats and exports a **CSV** for stock-taking.
+- Decoding uses ZXing in WebAssembly on your device — nothing is uploaded or recorded.
+
+### Features
+
+- **Stock-taking**: Scan shelf after shelf with Keep scanning on; repeats are counted, and the list downloads as CSV for Excel.
+- **Check a product code**: See whether the check digit is right and which GS1 office issued the number — and look the product up.
+- **Medicine and logistics labels**: Read GS1 DataMatrix codes on medicine packs to see the GTIN, batch number and expiry date.
+- **Books**: Scan a book’s barcode for its ISBN-13 and ISBN-10 and find it on Open Library.
+- **From photos**: No camera handy? Drop a photo or paste a screenshot of the barcode.
+- **Private**: Nothing is uploaded or recorded. The camera turns off when you stop or leave the page.
+
+### How to scan a barcode online
+
+1. **Pick the codes** — Leave **All codes**, or choose **Products (EAN/UPC)** for faster scanning of retail barcodes.
+2. **Scan** — Click **Start camera**, allow access and hold the barcode across the frame — or switch to **Image or screenshot**.
+3. **Read the result** — See the number, type, check-digit result and any product or GS1 details.
+4. **Scan more** — Turn on **Keep scanning** to scan item after item, then download the list as CSV.
+
+### Guide
+
+#### What the GS1 prefix tells you
+
+The first digits of an EAN-13 show which national GS1 office gave the company its barcode numbers — 890 for GS1 India, 400–440 for Germany, 690–699 for China. They **don’t** prove where the product was made: a company registered in India can make goods anywhere, and vice versa.
+
+Codes starting with 20–29 are shops’ own numbers (loose produce, weighed items), and 978/979 are books.
+
+#### Tips for a quick scan
+
+Hold the barcode across the frame, not too close, so the lines are sharp; add light or tap **Light** on phones. Shiny or curved packs scan better at a slight angle.
+
+Need to print barcodes? Use the [Barcode Generator](https://justtools.online/qr-tools/barcode-generator/). For QR codes, the [QR Code Scanner](https://justtools.online/qr-tools/qr-code-scanner/) shows links and payments in detail.
+
+### FAQ
+
+**How do I scan a barcode online?**
+Click **Start camera**, allow camera access and hold the barcode in the frame. Or choose **Image or screenshot** and drop a picture of it.
+
+**Which barcode types can it read?**
+EAN-13, EAN-8, UPC-A, UPC-E, ISBN, Code 128, Code 39, Code 93, Codabar, ITF, GS1 DataBar, DataMatrix, PDF417, Aztec, MaxiCode and QR codes.
+
+**Can I scan many barcodes and export them to Excel?**
+Yes. Turn on **Keep scanning**, scan each item, then click **CSV**. Scanning the same barcode again increases its count.
+
+**Does 890 at the start mean “Made in India”?**
+No. It means the company got its barcode numbers from GS1 India. The country of manufacture is printed separately on the pack.
+
+**Can it read the barcode on medicine strips?**
+Yes — GS1 DataMatrix codes on medicines are decoded into the product number (GTIN), batch, expiry date and serial number.
+
+**Is anything uploaded?**
+No. Barcodes are decoded on your device; camera frames and images are never stored or sent anywhere.
+

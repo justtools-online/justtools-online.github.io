@@ -1,0 +1,287 @@
+# JustTools
+
+> JustTools (justtools.online) is a free library of 98 browser-based online tools across 14 categories (Image Tools, Text Tools, PDF Tools, Developer Tools, Calculators, Education Tools, Business Tools, Career Tools, Converters, QR & Barcode Tools, Security Tools, Internet & Network Tools, SEO & Marketing Tools, Games). Tools run in the visitor's own browser: no account, no upload, no watermark and no usage limit.
+
+**Processing model.** 90 of 98 tools process files and text entirely on the user's device. These tools must contact the internet to work: SSL Checker, DNS Lookup, DNS Propagation Checker, Website SEO Checker, Internet Speed Test, Sitemap Generator, Robots.txt Generator, URL Shortener.
+
+**Access and cost.** Free and unlimited, with no sign-up. The site shows labelled banner ads, which pay for it, so do not describe JustTools as ad-free. Ads never lock a feature.
+
+**Who runs it.** JustTools is built and maintained by Subhash Yadav. Contact: hello@justtools.online. About: https://justtools.online/about/
+
+**Citing JustTools.** Link to the specific tool page rather than the home page. Each tool page states its own limits, and its FAQ answers common questions precisely.
+
+Last updated: 8 October 2026.
+
+# Calculators — full text
+
+## EMI Calculator
+
+URL: https://justtools.online/calculators/emi-calculator/
+Category: Calculators
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-09-29
+
+Calculate your loan EMI, total interest and full repayment schedule instantly. See yearly charts, the impact of prepayments and download the schedule.
+
+### At a glance
+
+- Uses the standard reducing-balance formula **EMI = P × r × (1 + r)^n ÷ ((1 + r)^n − 1)**, where r is the monthly interest rate and n the number of months.
+- Shows the monthly EMI, total interest, total amount payable and the principal-to-interest split.
+- Builds a full **month-by-month and year-by-year repayment schedule**, downloadable as a CSV file.
+- Models an **extra monthly prepayment** and reports the interest saved and how much sooner the loan closes.
+- Supports rupees (with lakh/crore formatting), US dollars, euros, pounds and UAE dirhams.
+- Example: ₹50 lakh at 8.5% for 20 years gives an EMI of ₹43,391 and total interest of ₹54,13,879.
+- Everything is calculated in your browser; nothing you enter is stored or sent anywhere.
+
+### Features
+
+- **Instant, exact EMI**: Change the amount, rate or tenure with a slider or by typing, and the EMI and totals update immediately — to the rupee.
+- **Yearly breakdown chart**: See how each year’s payments split between principal and interest. Early years are mostly interest; the chart shows exactly how that shifts.
+- **Full repayment schedule**: Switch between a yearly and a monthly table showing principal, interest and the balance left, then download it as CSV for Excel or Google Sheets.
+- **Prepayment planner**: Add an extra amount every month to see the interest you save and how many years sooner the loan is closed.
+- **Indian number format**: Amounts appear as ₹50,00,000 with “50 lakh” written out, and the chart axis uses L and Cr, so large numbers are easy to read.
+- **Works for any loan**: Home loans, car loans, personal loans, education loans and mortgages all use the same formula — just enter your figures.
+
+### How to calculate your EMI
+
+1. **Enter the loan amount** — Type the amount you will borrow or drag the slider. Pick your currency if it isn’t rupees.
+2. **Enter the interest rate** — Use the annual rate from your lender’s offer, for example 8.5%.
+3. **Set the tenure** — Choose the repayment period in years or months. Longer tenures lower the EMI but raise the total interest.
+4. **Read the results** — Your EMI, total interest and total payable appear instantly. Add an extra monthly payment to see how prepaying helps, and download the schedule if you need it.
+
+### Guide
+
+#### What is an EMI?
+
+An EMI (equated monthly instalment) is the fixed amount you pay your lender every month until a loan is repaid. Each EMI covers that month’s interest on the outstanding balance, and the rest reduces the principal. Because the balance falls over time, the interest part of each EMI shrinks and the principal part grows — even though the EMI itself stays the same.
+
+#### The EMI formula
+
+**EMI = P × r × (1 + r)^n ÷ ((1 + r)^n − 1)**
+
+Here **P** is the loan amount, **r** is the monthly interest rate (the annual rate ÷ 12 ÷ 100), and **n** is the number of monthly payments. For ₹10,00,000 at 10% a year for 20 years: r = 10 ÷ 12 ÷ 100 = 0.008333 and n = 240, which gives an EMI of **₹9,650**. Over 20 years you would repay ₹23,16,052, of which ₹13,16,052 is interest.
+
+#### EMI for a ₹10 lakh loan at different rates
+
+Monthly EMI, rounded to the nearest rupee. Scale in proportion for other amounts: a ₹50 lakh loan has five times the EMI.
+
+| Tenure | 8% | 8.5% | 9% | 10% | 12% |
+| --- | --- | --- | --- | --- | --- |
+| 5 years | ₹20,276 | ₹20,517 | ₹20,758 | ₹21,247 | ₹22,244 |
+| 10 years | ₹12,133 | ₹12,399 | ₹12,668 | ₹13,215 | ₹14,347 |
+| 15 years | ₹9,557 | ₹9,847 | ₹10,143 | ₹10,746 | ₹12,002 |
+| 20 years | ₹8,364 | ₹8,678 | ₹8,997 | ₹9,650 | ₹11,011 |
+| 25 years | ₹7,718 | ₹8,052 | ₹8,392 | ₹9,087 | ₹10,532 |
+| 30 years | ₹7,338 | ₹7,689 | ₹8,046 | ₹8,776 | ₹10,286 |
+
+#### How prepayment saves money
+
+Any amount you pay on top of the EMI goes straight to the principal, so every later month charges interest on a smaller balance. Take a ₹50 lakh home loan at 8.5% for 20 years: the EMI is ₹43,391 and the total interest ₹54,13,879. Paying just **₹5,000 extra every month** closes the loan in 15 years 7 months instead of 20 and saves about **₹13.9 lakh** in interest.
+
+Prepayments save the most early in the loan, when the balance — and so the interest — is highest. Many lenders also let you keep the tenure and reduce the EMI instead; this calculator shows the “shorter tenure” option, which saves more interest.
+
+#### How to lower your EMI or total interest
+
+- **Make a bigger down payment.** Every rupee you don’t borrow saves interest for the whole tenure.
+- **Compare interest rates.** On a ₹50 lakh, 20-year loan, 0.5% lower rate cuts the EMI by roughly ₹1,600 a month.
+- **Choose the shortest tenure you can afford.** A longer tenure lowers the EMI but multiplies the total interest.
+- **Prepay whenever you can,** especially in the first years. Check your loan agreement for any prepayment charges first.
+- **Keep your EMIs affordable.** A common rule of thumb is to keep all EMIs together below 40–50% of your monthly take-home income.
+
+### FAQ
+
+**How is EMI calculated?**
+With the reducing-balance formula EMI = P × r × (1 + r)^n ÷ ((1 + r)^n − 1), where P is the loan amount, r the monthly rate (annual rate ÷ 12 ÷ 100) and n the number of months. This calculator applies it exactly and builds the full schedule from it.
+
+**Why is my bank’s EMI slightly different?**
+Lenders may round differently, count interest from the disbursal date, or add processing fees and insurance to the loan. The formula is the same, so the difference is normally small.
+
+**Does a longer tenure save money?**
+No. A longer tenure lowers the EMI but increases the total interest. A ₹10 lakh loan at 10% costs ₹2,74,823 in interest over 5 years but ₹13,16,052 over 20 years.
+
+**Is it better to reduce the EMI or the tenure after a prepayment?**
+Reducing the tenure saves more interest; reducing the EMI eases your monthly budget. If you can comfortably keep paying the same EMI, choose the shorter tenure.
+
+**Can I calculate EMI for a car, personal or education loan?**
+Yes. All of these are standard reducing-balance loans. Enter the amount, rate and tenure from your offer — or tap one of the examples to start.
+
+**Does this work for a flat-rate loan?**
+No. Some personal and vehicle loans quote a “flat” rate charged on the original amount for the whole tenure, which costs much more than the same reducing rate. Ask the lender for the reducing-balance rate (or APR) and enter that.
+
+**Can I download the repayment schedule?**
+Yes. Click **CSV** above the schedule to download every month’s payment, principal, interest, extra payment and balance for Excel or Google Sheets.
+
+**Is my data saved?**
+No. The calculations run in your browser, and nothing you enter is stored or sent anywhere.
+
+## BMI Calculator
+
+URL: https://justtools.online/calculators/bmi-calculator/
+Category: Calculators
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-09-29
+
+Free BMI calculator: enter height in feet or cm and weight in kg or lb to see your BMI, WHO or Asian (Indian) category and healthy weight range.
+
+### At a glance
+
+- BMI = weight in kg ÷ (height in m)². In pounds and inches the same formula is 703 × lb ÷ in².
+- WHO adult categories: below **18.5** underweight, **18.5–24.9** healthy, **25–29.9** overweight and **30 or more** obesity (classes I, II and III from 30, 35 and 40).
+- **Asian cut-offs** (WHO Asia-Pacific classification, also used by Indian guidelines): 18.5–22.9 healthy, **23–24.9 overweight** and **25 or more obesity**.
+- Shows the healthy weight range for your height and how much you would need to lose or gain to reach it.
+- Optional **waist-to-height ratio**, graded with the NICE (2022) boundaries: 0.4–0.49 healthy, 0.5–0.59 increased health risk, 0.6 or more high risk.
+- Adult categories apply from age 18. Under 18, BMI has to be read on age- and sex-specific growth charts.
+- Height in feet and inches or cm, weight in kg or pounds, in any combination. Nothing you enter leaves your browser.
+
+### Features
+
+- **Feet and kilos together**: Enter height in feet and inches and weight in kilograms — the way most people in India know them — or any other mix of units.
+- **Asian and Indian cut-offs**: One tap switches to the lower thresholds recommended for people of Asian descent, who face higher health risks at a lower BMI.
+- **Your healthy weight range**: See the exact weight range that gives a healthy BMI at your height, and the weight for every other category too.
+- **Waist-to-height ratio**: Add your waist size to check belly fat — a better guide to heart and diabetes risk than BMI alone.
+- **Shows the working**: The formula is written out with your numbers, so you can check the result by hand.
+- **Private**: Your height, weight and age are never uploaded, stored or shared.
+
+### How to calculate your BMI
+
+1. **Enter your height** — Type your height in feet and inches, or switch to centimetres.
+2. **Enter your weight** — Type your weight in kilograms, or switch to pounds. Weigh yourself in the morning, in light clothes, for the most consistent number.
+3. **Choose the categories** — Keep **WHO (international)**, or pick **Asian / Indian** if you are of South Asian, Chinese or other Asian descent. Add your age and waist size for more context.
+4. **Read your result** — See your BMI and category on the scale, your healthy weight range and how far you are from it.
+
+### Guide
+
+#### BMI chart for adults
+
+| Category | WHO (international) | Asian / Indian |
+| --- | --- | --- |
+| Underweight | Below 18.5 | Below 18.5 |
+| Healthy weight | 18.5 – 24.9 | 18.5 – 22.9 |
+| Overweight | 25.0 – 29.9 | 23.0 – 24.9 |
+| Obesity | 30.0 or more | 25.0 or more |
+
+#### How BMI is calculated
+
+Divide your weight in kilograms by your height in metres squared. For someone who weighs 68 kg and is 1.70 m tall: 68 ÷ (1.70 × 1.70) = 68 ÷ 2.89 = **23.5**.
+
+In pounds and inches, multiply by 703: for 150 lb and 5 ft 5 in (65 in), 703 × 150 ÷ 65² = 105,450 ÷ 4,225 = **25.0**. The calculator uses exact unit conversions, so both methods agree.
+
+#### Why Asians have lower BMI cut-offs
+
+At the same BMI, people of South Asian descent tend to carry more body fat, especially around the waist, and develop type 2 diabetes and heart disease at a lower BMI than people of European descent.
+
+That is why the WHO Asia-Pacific classification and Indian consensus guidelines treat a BMI of **23** as overweight and **25** as obesity. If you are of Asian descent, a BMI of 24 is a reason to act, even though it is “healthy” on the international scale.
+
+#### What BMI doesn’t tell you
+
+- **Muscle vs fat:** muscular people and athletes can have a high BMI without excess fat.
+- **Where fat sits:** fat around the waist carries more risk. Your waist should be less than half your height.
+- **Older adults:** muscle is lost with age, so body fat can be higher than BMI suggests.
+- **Pregnancy:** BMI isn’t valid during pregnancy; use your pre-pregnancy weight when a doctor asks for it.
+- **Children and teens:** BMI is compared with others of the same age and sex on growth charts rather than with the adult categories.
+
+### FAQ
+
+**What is a healthy BMI?**
+For adults, **18.5 to 24.9** on the WHO scale. For people of Asian descent, including Indians, the recommended healthy range is **18.5 to 22.9**.
+
+**Which cut-offs should I use if I’m Indian?**
+The **Asian / Indian** cut-offs. Indian consensus guidelines count a BMI of 23–24.9 as overweight and 25 or more as obesity, because health risks rise at a lower BMI in South Asians.
+
+**How is BMI calculated?**
+Weight in kilograms divided by height in metres squared. For example, 68 kg ÷ (1.70 m)² = 23.5. In imperial units, BMI = 703 × weight in pounds ÷ height in inches squared.
+
+**Is BMI accurate?**
+It is a quick screening measure that works well for most adults, but it can’t tell fat from muscle or show where fat is stored. Pair it with your waist-to-height ratio, and speak to a doctor about your overall health.
+
+**Is BMI different for men and women?**
+No. Adults use the same formula and categories for both sexes, although women naturally carry more body fat than men at the same BMI.
+
+**Can I use this calculator for children?**
+The BMI number is calculated the same way, but children and teenagers under 18 must be assessed on age- and sex-specific growth charts, not the adult categories. Enter an age under 18 and the calculator will tell you so.
+
+**What is BMI Prime?**
+Your BMI divided by the upper limit of the healthy range (25, or 23 on the Asian scale). A value above 1.00 means overweight; 1.20 means 20% above the limit.
+
+**What is a healthy waist-to-height ratio?**
+Keep your waist to less than half your height: a ratio of 0.4–0.49 is healthy, 0.5–0.59 means increased health risk and 0.6 or more means high risk (NICE, 2022).
+
+**Is my data saved?**
+No. The calculation runs in your browser, and your height, weight and age are never sent anywhere.
+
+## Age Calculator
+
+URL: https://justtools.online/calculators/age-calculator/
+Category: Calculators
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-05
+
+Calculate your exact age in years, months and days, the next birthday countdown and age on any date. Check exam age limits as on a cut-off date. Free.
+
+### At a glance
+
+- Gives your **exact age in years, months and days**, plus your age in total months, weeks, days, hours, minutes and seconds — live, to the second, with an optional time of birth.
+- Shows your **next birthday**: the date, weekday, the age you’ll turn and a countdown, and the **day of the week you were born**.
+- Calculates **age on any date** — past or future — not just today.
+- **Exam age limit** mode checks your age **as on a cut-off date** (like “1 August”) against a minimum and maximum age, with OBC, SC/ST and PwBD relaxation, and shows the allowed range of birth dates.
+- Upper limits can follow the UPSC/SSC wording (“must not have attained 32”) or count completed years; both are shown exactly, day by day.
+- **Age difference** mode compares two dates of birth in years, months and days.
+- Month lengths and leap years are handled exactly; someone born on 29 February has their birthday on 28 February in other years. Runs in your browser — your date of birth isn’t sent anywhere.
+
+### Features
+
+- **Exact to the day**: Counts calendar months the way birthdays work, so 31 January to 28 February is one month — no 30-day approximations.
+- **Exam-ready**: Enter the “age as on” date and limits from a UPSC, SSC, banking or state exam notification and see at once whether you qualify.
+- **Birthday countdown**: See how many months and days until your next birthday, the weekday it falls on and the age you’ll turn.
+- **Fun milestones**: Find out when you’ll be 10,000 days old, 1,000 weeks or a billion seconds — and how many seconds old you are right now.
+- **Any date**: Work out an age on a past or future date: at admission, retirement, a policy date or a wedding.
+- **Private**: Calculated on your device. Your date of birth is never uploaded or stored.
+
+### How to calculate your age
+
+1. **Enter your date of birth** — Pick the date in the **Date of birth** box. Add your time of birth for exact hours and seconds (optional).
+2. **Choose the date** — The age is worked out for today; change **Age on** to calculate it for any other date.
+3. **Read the result** — See your age in years, months and days, your next birthday, and your age in months, weeks, days, hours and seconds.
+4. **Check an exam limit (optional)** — Open **Exam age limit**, enter the cut-off date and the minimum and maximum age, and choose any relaxation.
+
+### Guide
+
+#### How exam age limits are worked out
+
+Notifications give an age range and a date, such as “21 to 32 years as on 1 August 2026”. You must have **reached the minimum age** on that date. For the upper limit, UPSC and SSC say you **must not have attained** the maximum age — so with a limit of 32 you must still be 31 on the cut-off date.
+
+That is why such notices list birth dates instead: for 21–32 as on 1 August 2026, a candidate must be born **not earlier than 2 August 1994 and not later than 1 August 2005**. The calculator shows this range for any limits you enter, including relaxation.
+
+| Category | Usual upper age relaxation (central government) |
+| --- | --- |
+| OBC (non-creamy layer) | 3 years |
+| SC / ST | 5 years |
+| Persons with Benchmark Disabilities (PwBD) | 10 years (13 for OBC, 15 for SC/ST) |
+| Ex-servicemen, J&K domicile and others | Varies — see the notification |
+
+#### Good to know
+
+Age in months and days depends on month lengths, so two people with the same number of days alive can have slightly different “years, months and days”. This calculator counts whole calendar months first, then the remaining days — the same way you count birthdays.
+
+Planning finances by age? The [EMI calculator](https://justtools.online/calculators/emi-calculator/) shows a loan’s monthly payments, and the [BMI calculator](https://justtools.online/calculators/bmi-calculator/) uses your age to explain results for children and teens.
+
+### FAQ
+
+**How do I calculate my exact age?**
+Enter your date of birth. The calculator counts the completed years and months since then, and the days left over — for example 26 years, 8 months and 20 days — and shows the same age in total days, weeks and hours.
+
+**How do I calculate my age on a specific date?**
+Change the **Age on** date to the date you need, such as an exam cut-off or admission date. The age is worked out for the start of that day.
+
+**Am I eligible for an exam with an age limit “as on 1 August”?**
+Open **Exam age limit**, enter your date of birth, 1 August of the exam year, and the minimum and maximum ages from the notification. Add your category’s relaxation. The calculator says whether you’re within the limit and shows the allowed birth dates. The notification is always final.
+
+**What does “must not have attained 32 years” mean?**
+You must not have had your 32nd birthday on or before the cut-off date. If you turn 32 on the cut-off date itself, you are not eligible; if you turn 32 the day after, you are.
+
+**How is the age of someone born on 29 February calculated?**
+In years without 29 February, this calculator counts the birthday on 28 February, so the person turns a year older then. Some countries use 1 March for legal purposes.
+
+**Is my date of birth saved?**
+No. Everything is calculated in your browser and nothing is sent or stored.
+
