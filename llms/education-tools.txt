@@ -1,0 +1,972 @@
+# JustTools
+
+> JustTools (justtools.online) is a free library of 142 browser-based online tools across 16 categories (Image Tools, Text Tools, PDF Tools, Developer Tools, CSS Tools, Calculators, Education Tools, Business Tools, Career Tools, Converters, QR & Barcode Tools, Security Tools, Internet & Network Tools, Device Tests, SEO & Marketing Tools, Games). Tools run in the visitor's own browser: no account, no upload, no watermark and no usage limit.
+
+**Processing model.** 130 of 142 tools process files and text entirely on the user's device. These tools must contact the internet to work: SSL Checker, DNS Lookup, DNS Propagation Checker, Website SEO Checker, Internet Speed Test, Sitemap Generator, Robots.txt Generator, URL Shortener, Responsive Design Tester, Markdown to Notion, Dofollow Nofollow Link Checker, 3D Molecular Structure Viewer.
+
+**Access and cost.** Free and unlimited, with no sign-up. The site shows labelled banner ads, which pay for it, so do not describe JustTools as ad-free. Ads never lock a feature.
+
+**Who runs it.** JustTools is built and maintained by Subhash Yadav. Contact: hello@justtools.online. About: https://justtools.online/about/
+
+**Citing JustTools.** Link to the specific tool page rather than the home page. Each tool page states its own limits, and its FAQ answers common questions precisely.
+
+Last updated: 16 October 2026.
+
+# Education Tools — full text
+
+## Worksheet Generator
+
+URL: https://justtools.online/education-tools/worksheet-generator/
+Category: Education Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-09-30
+
+Free maths worksheet generator: printable addition, subtraction, times tables and division sheets with answer keys. Set the difficulty, download a PDF.
+
+### At a glance
+
+- Creates **addition, subtraction, multiplication and division** worksheets — or mixed sheets with all four — from any number range up to 999,999.
+- Control **carrying and borrowing** (with, without or either) and division **with or without remainders**. Subtraction answers stay positive unless you allow negatives.
+- 12 ready-made presets, from addition within 10 to 2-digit × 1-digit multiplication and division with remainders.
+- Up to 200 problems per worksheet, as stacked column sums or written in a line, with an optional **answer key** on separate pages.
+- Download a sharp vector **PDF** in A4 or US Letter, or print straight from the page. The preview shows exactly what prints.
+- Every click on **New problems** makes a fresh random set, so children can practise the same skill again and again.
+- Runs in your browser: no sign-up, no watermark and no limit.
+
+### Features
+
+- **Carrying and borrowing control**: Start with sums that never carry, then move on to ones that always do. The same goes for borrowing in subtraction.
+- **Answer key included**: Answers are printed on separate pages, laid out exactly like the questions, so checking takes seconds.
+- **Column or in-line layout**: Stacked column sums as written in school, or quick-fire facts like 7 × 8 = ___ in rows.
+- **Proper long division**: Division is drawn with the long-division bracket in column layout, with exact answers or remainders.
+- **Classroom ready**: Name, date and score lines, your own title, and up to 200 problems across as many pages as needed.
+- **Print or PDF**: Print directly or download a vector PDF that stays crisp on any printer, in A4 or US Letter.
+
+### How to make a maths worksheet
+
+1. **Pick a preset or operations** — Tap a **Quick start** preset such as *Addition within 20* or *Times tables*, or choose the operations yourself.
+2. **Set the difficulty** — Enter the number ranges, and choose whether sums carry, subtraction borrows or division leaves remainders.
+3. **Choose the layout** — Set the number of problems, stacked or in-line layout, a title, and whether to include the answer key.
+4. **Print or download** — Check the preview, tap **New problems** for a different set, then **Print** or download the **PDF**.
+
+### Guide
+
+#### Which preset suits which class?
+
+A rough guide — every child is different, so adjust the number ranges to match what they are learning.
+
+| Class (India) / grade (US) | Skill | Preset |
+| --- | --- | --- |
+| KG – Class 1 | Adding small numbers | Addition within 10 |
+| Class 1 | Number facts to 20 | Addition within 20, Subtraction within 20 |
+| Class 2 | Two-digit sums, then regrouping | 2-digit addition (no carrying → with carrying), 2-digit subtraction with borrowing |
+| Class 3 | Larger numbers and tables | 3-digit addition & subtraction, Times tables (2–10) |
+| Class 4 | Multiplying and dividing | 2-digit × 1-digit, Division facts |
+| Class 5 | Division with remainders, mixed practice | Division with remainders, Mixed practice |
+
+#### Getting the most from practice sheets
+
+- **Little and often:** ten minutes a day builds fluency faster than one long session a week.
+- Move from **no carrying** to **with carrying** only when the easier sheet is comfortable.
+- For times tables, time a sheet of 40 facts and try to beat the time on the next one.
+- Let children mark their own work with the **answer key** — spotting mistakes is part of learning.
+- Photograph finished sheets and combine them with [Images to PDF](https://justtools.online/pdf-tools/image-to-pdf/) to keep a record of progress.
+
+### FAQ
+
+**Is the worksheet generator free?**
+Yes. Make, print and download as many worksheets as you like — free, with no sign-up and no watermark.
+
+**What does “carrying” mean?**
+Carrying (regrouping) happens when a column adds up to 10 or more, as in 27 + 15. Choose **No carrying** for beginners and **With carrying** to practise it.
+
+**Does every worksheet come with answers?**
+Yes, when **Answer key pages** is on. The answers are printed on separate pages after the questions, in the same layout.
+
+**Can I get a different set of problems?**
+Tap **New problems** for a fresh random set with the same settings. Download the PDF if you want to keep a particular worksheet.
+
+**How many problems can a worksheet have?**
+Up to 200. The layout fits as many as are comfortable on each page and adds pages as needed.
+
+**Can I print from my phone?**
+Yes. Download the PDF and print it through your phone’s print or share menu, or open it on a computer.
+
+**Why did some characters disappear from my title?**
+The PDF uses standard printer fonts that cover Latin letters only, so emoji and scripts such as Hindi are left out of the title.
+
+## Random Name Picker
+
+URL: https://justtools.online/education-tools/random-name-picker/
+Category: Education Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-05
+
+Pick random names with a spinning wheel: one or several winners, no repeats, and random groups. Fair, private and free — great for classrooms and giveaways.
+
+### At a glance
+
+- Spin a **wheel** of up to hundreds of names; the pointer stops on a winner chosen **fairly** with your device’s secure random generator — every name has the same chance.
+- Pick **one or several** names per spin, and **remove picked names** so nobody is chosen twice until everyone has had a turn.
+- **Make groups**: split the list into a number of groups or groups of a set size, as even as possible.
+- Paste names one per line or comma-separated, or open a .txt/.csv list; duplicates can be ignored.
+- Quick, normal or suspenseful spins with ticking sound and confetti, a **full-screen** view for projectors, and a history of picks.
+- Your list stays in your browser; it is saved on your device only if you turn on “Remember this list”.
+
+### Features
+
+- **Fair every time**: The winner is drawn with cryptographic randomness before the wheel stops — not by how the animation happens to land.
+- **For the classroom**: Choose who answers next, assign roles or decide presentation order — on the projector in full screen.
+- **Giveaways and draws**: Paste the entrant names, pick several winners at once and copy the results.
+- **No repeats**: Remove picked names to give everyone a turn, then put them all back with one click.
+- **Random teams**: Make balanced groups for projects and games in seconds, and shuffle again if needed.
+- **Private**: Students’ names are never uploaded, and no account is needed.
+
+### How to pick a random name
+
+1. **Add the names** — Type or paste the names, one per line, or open a list file.
+2. **Set the options** — Choose how many names to pick per spin, and turn on **Remove picked names** if no one should be picked twice.
+3. **Spin** — Click **Spin**. The winner is shown when the wheel stops.
+4. **Groups (optional)** — Switch to **Make groups**, choose the number of groups or people per group, and click **Make groups**.
+
+### Guide
+
+#### Is the wheel really random?
+
+Yes. The winner is chosen with your browser’s cryptographically secure random number generator, using a method that gives every name exactly the same chance; the wheel then spins to that name. Animation speed or where you click makes no difference.
+
+With **Remove picked names** on, each name is picked once before anyone is picked again — like drawing names from a hat without putting them back.
+
+#### Ideas for teachers
+
+Pick who answers a question, who reads next or who presents first. Make random groups for activities, then print a practice sheet for each group with the [Worksheet Generator](https://justtools.online/education-tools/worksheet-generator/).
+
+### FAQ
+
+**How do I pick a random name from a list?**
+Paste the names (one per line), then click **Spin**. The wheel stops on a randomly chosen name.
+
+**Can it pick more than one winner?**
+Yes. Set how many names to pick per spin — they’re all different names.
+
+**How do I stop the same name being picked twice?**
+Turn on **Remove picked names**. Picked names leave the wheel until you click **Put everyone back**.
+
+**Can it make random teams or groups?**
+Yes — open **Make groups** and choose either the number of groups or how many people per group. Group sizes differ by at most one.
+
+**How many names can I add?**
+Hundreds. With very many names the labels get small, but the pick works the same; use full screen for the clearest view.
+
+**Are the names saved or uploaded?**
+Never uploaded. They’re kept on your device only if you turn on “Remember this list on this device”.
+
+## OMR Sheet Generator
+
+URL: https://justtools.online/education-tools/omr-sheet-generator/
+Category: Education Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-06
+
+Make printable OMR answer sheets free: up to 300 questions, 4 or 5 options, roll number bubbles, NEET-style sections and an answer key — as a PDF or print.
+
+### At a glance
+
+- Generates OMR (optical mark recognition) answer sheets with **1 to 300 questions**, **4 or 5 options** labelled A–E or 1–5, and question numbering that can start anywhere.
+- Adds a **roll number grid** of up to 12 digits with write-in boxes, **test booklet series** A–D, name, date and centre fields, and candidate and invigilator **signature boxes**.
+- Supports **subject sections** such as Physics 45, Chemistry 45 and Biology 90 for NEET-style mock tests, each with its own heading.
+- Prints the standard **instructions with correct and wrong marking examples**, shades every other block of five questions, and adds corner marks for scanning apps.
+- Type the correct answers to add a **filled answer key** page for quick checking.
+- Downloads a vector **PDF** (A4 or US Letter) in black, blue or red drop-out ink, or prints directly. Free, no sign-up and no watermark beyond a small footer.
+
+### Features
+
+- **Exam-style layout**: Roll number bubbles, booklet series, signatures and instructions, laid out like real competitive-exam OMR sheets.
+- **Fits on one page**: Columns and row height adjust automatically, so 180 questions with sections still fit a single A4 sheet.
+- **Sections and numbering**: Split the sheet by subject, or continue numbering from question 51 for a second paper.
+- **Answer key in one step**: Paste answers like “ABCDA…” to get a filled key sheet for checking or for scanning apps.
+- **Print-perfect PDF**: Vector circles and text stay crisp at any printer resolution; print at 100% for exact sizes.
+- **Ready-made presets**: Class test, 50-question MCQ, 100-question competitive, NEET-style 180 and 200-question sheets.
+
+### How to make an OMR sheet
+
+1. **Choose a preset** — Start with **Class test**, **MCQ test**, **NEET-style** or another preset, or set the number of questions yourself.
+2. **Set the details** — Enter the exam title and school name, pick 4 or 5 options, and choose the roll number digits and fields.
+3. **Add sections or a key** — Optionally list subjects with their question counts, and type the correct answers for an answer key page.
+4. **Download or print** — Click **PDF** to save it, or **Print** — use “Actual size” so every copy matches.
+
+### Guide
+
+#### Common OMR sheet sizes
+
+| Exam or use | Questions | Options |
+| --- | --- | --- |
+| Class or unit test | 20–50 | 4 (A–D) |
+| NEET-style mock test | 180 (Physics 45, Chemistry 45, Biology 90) | 4 (1–4) |
+| UPSC / state PSC prelims practice | 100–150 | 4 (a–d) |
+| Bank and SSC practice papers | 100 | 4 or 5 |
+| University MCQ papers | 50–100 | 4 |
+
+#### Tips for printing and using OMR sheets
+
+- Print at **100% / Actual size**, not “Fit to page”, so bubbles line up on every copy.
+- Use **red drop-out ink** if you will scan sheets with an OMR scanner that ignores red, or black for photocopying.
+- Ask students to use a **black or blue ballpoint pen** and to fill each circle completely — the instructions box shows how.
+- Keep the corner marks visible when photographing sheets for a mobile OMR checker app.
+
+### FAQ
+
+**Is the OMR sheet generator free?**
+Yes. Make, download and print as many sheets as you like, with no sign-up and no limit.
+
+**Can I make an OMR sheet for 200 questions?**
+Yes — up to 300. About 220 four-option questions fit on one A4 page with every field switched on, or 200 five-option questions if you turn off the instructions box. Longer sheets continue on a second page with a short header.
+
+**Can these sheets be checked by a scanner or app?**
+They follow the usual OMR layout with corner alignment marks, which many mobile OMR apps can read after you set up the template. Commercial OMR scanners need sheets printed to their own specifications, so test a few first.
+
+**How do I add an answer key?**
+Type the answers in the Answer key box — one letter per question (ABCDA…), or entries like “1-A, 2-C, 3-BD” for several correct options. A page with filled bubbles is added to the PDF.
+
+**Can I write the exam title in Hindi?**
+Not yet: the PDF uses the standard Helvetica font, which only covers Latin letters, so Hindi text is left out. Use English titles, or write the title by hand on the printed sheet.
+
+## Typing Speed Test
+
+URL: https://justtools.online/education-tools/typing-speed-test/
+Category: Education Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-07
+
+Free typing speed test in English and Hindi: check your WPM and accuracy, practise with passages, and take an exam-style test with full and half mistakes.
+
+### At a glance
+
+- Measures speed the standard way — **5 characters = 1 word** — and shows **WPM, raw speed, accuracy, consistency** and **key depressions per hour**.
+- Tests of **15, 30, 60 or 120 seconds**, **10 to 100 words**, a full **passage** or **your own text**, with optional punctuation and numbers.
+- **English and Hindi** (Devanagari): type Hindi with any Hindi keyboard — Inscript, Remington or phonetic — and each syllable is checked as one character.
+- **Exam practice**: type a passage for 2, 5, 10 or 15 minutes in a plain box, then get **gross and net speed, error percentage, and full and half mistakes**, word by word.
+- Results show a **speed chart**, the words you got wrong and the **characters you miss most**, and keep your **personal best** for each test on this device.
+- Copy-paste is blocked in the typing box, so every result is real typing.
+
+### Features
+
+- **Live feedback**: Every character turns green or red as you type, with a caret that follows you.
+- **Hindi typing test**: Practise Hindi passages and common words with your own Hindi keyboard layout.
+- **Exam-style scoring**: Full and half mistakes, error rate and net speed, the way many government typing tests count them.
+- **Know your weak keys**: See the words and characters you mistype most, and practise them.
+- **Personal bests**: Each test type keeps its own best score and recent results.
+- **Your own text**: Paste a paragraph from your syllabus or work and practise with it.
+
+### How to take the typing test
+
+1. **Choose a test** — Pick Time, Words, Passage, Exam practice or Custom, and English or Hindi.
+2. **Start typing** — Click the text and type — the timer starts with your first key. Press space after each word.
+3. **Read your result** — See your WPM, accuracy, speed chart and mistakes. Press **Next test** or Esc to go again.
+
+### Guide
+
+#### What is a good typing speed?
+
+| Speed | Level |
+| --- | --- |
+| Under 20 WPM | Beginner — focus on accuracy and finger position |
+| 20–35 WPM | Learning — enough for everyday use |
+| 35–50 WPM | Average — what many office jobs expect |
+| 50–70 WPM | Fast |
+| 70 WPM and above | Very fast — professional typists and transcribers |
+
+#### How the scores are worked out
+
+- **WPM** = characters of correctly typed words (with their spaces) ÷ 5 ÷ minutes.
+- **Raw speed** counts everything you typed, mistakes included.
+- **Accuracy** = keys pressed correctly ÷ all keys pressed.
+- **Key depressions per hour** = characters typed per minute × 60 — the measure many Indian recruitment typing tests quote.
+- **Exam practice**: full mistakes are left-out, extra or wrong words; half mistakes are wrong capitals, punctuation, or words joined or split. Error rate = (full + half ÷ 2) ÷ words reached × 100.
+
+### FAQ
+
+**How is typing speed calculated?**
+Speed is measured in words per minute, where one word is any 5 characters including spaces. Only words typed correctly count towards WPM; raw speed counts all your typing.
+
+**Can I take a Hindi typing test?**
+Yes. Choose हिंदी and type with your device’s Hindi keyboard — Inscript, Remington (with a Hindi font input tool) or phonetic. Common words and passages are available, and the exam practice mode works in Hindi too.
+
+**What speed do government exams ask for?**
+It depends on the exam and post, so always check the latest notification. For example, SSC CHSL has asked for 35 words per minute in English (about 10,500 key depressions per hour) and 30 words per minute in Hindi (about 9,000 key depressions per hour).
+
+**How can I type faster?**
+Keep your fingers on the home row, look at the screen instead of the keyboard and practise for 10–15 minutes every day. Aim for accuracy first — speed follows once you stop correcting mistakes.
+
+**Are my results saved?**
+Your recent results and personal bests are saved only in this browser. Nothing you type is sent anywhere.
+
+## Exam Seating Arrangement Planner
+
+URL: https://justtools.online/education-tools/exam-seating-arrangement/
+Category: Education Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-13
+
+Plan exam seating free: mix classes so no two from the same group sit together, then print seating charts, attendance sheets, notices and desk slips.
+
+### At a glance
+
+- Makes an **exam seating plan** for any number of classes and rooms: enter roll-number ranges or paste a list, describe each room as rows of desks, and the plan appears at once.
+- **Mixes the groups** so that students of the same class, section or subject do not sit side by side, front–back or — with four or more groups — diagonally.
+- A room of 6 rows of 5 double desks seats **60 students**: two sections of 30 fill it as a checkerboard, with no two classmates next to each other.
+- Reads ranges such as **1-40, 45, 50-60** or **23CS001-23CS060**, and lists with names pasted from a spreadsheet.
+- Prints **seating charts** (one page per room), **attendance sheets** with a signature column, a **notice-board list** of which roll numbers go to which room, and **desk slips** — and exports CSV.
+- Handles broken or unused seats, 1 to 4 seats per desk, spare seats used as gaps, shuffled order, and up to 6,000 students in 60 rooms.
+- Runs in your browser: student names are never uploaded, and the plan is saved on your device only.
+
+### Features
+
+- **No classmates as neighbours**: Desk-mates first, then side, front–back and diagonal neighbours are taken from different groups.
+- **Roll numbers or full lists**: Type a range like 1-40, or paste roll numbers and names straight from Excel or Google Sheets.
+- **Rooms as they really are**: Rows, desks across and seats per desk for each room — and tap any seat that cannot be used.
+- **Four printouts**: Room charts for the door, attendance sheets for invigilators, a notice for students and labels for desks.
+- **Find any student**: Search a roll number or name to see the room and seat, highlighted on the chart.
+- **Private by design**: Nothing is sent to a server. The plan stays in your browser until you clear it.
+
+### How to make an exam seating arrangement
+
+1. **Add your students** — Create one group for each class, section or subject in the session. Type roll-number ranges such as **1-40**, or choose **Paste a list** for roll numbers with names.
+2. **Add your rooms** — For each room enter the rows of desks, the desks across and the seats on each desk. The number of seats is shown as you type.
+3. **Choose how to mix** — Keep **Side by side and front–back** for a checkerboard, or pick another rule. Choose whether seats are numbered down each column or along each row.
+4. **Check the plan** — Read the message above the chart: it says whether everyone has a seat and whether any classmates still sit together. Tap **Mark seats not in use** for broken desks.
+5. **Print** — Print the seating charts, attendance sheets, notice-board list and desk slips, or download the plan as CSV.
+
+### Guide
+
+#### How the seats are filled
+
+Seats are numbered along a path — down each column of seats, or along each row — and filled in that order. At every seat the planner takes the next student from the group that clashes least with the neighbours already seated, and prefers the group with the most students still waiting, so the groups run out together.
+
+Clashes are ranked: two classmates **on the same desk** are avoided first, then **side by side across an aisle**, then **front and back**, then **diagonally**. Within a group, students keep the order you entered, so roll numbers still run in sequence along the path and are easy to find.
+
+A second pass swaps seats where that removes a clash that was left over. If a clash cannot be avoided — for example when one class is more than half the room — the planner tells you how many pairs remain instead of hiding them.
+
+#### Which rule to choose
+
+| Rule | Who is kept apart | Groups needed | Result |
+| --- | --- | --- | --- |
+| Side by side only | Desk-mates and side neighbours | 2 | Each column is one class — easy for handing out papers |
+| Side by side and front–back | The four nearest seats | 2 | A checkerboard; the usual choice |
+| All around, diagonals too | All eight surrounding seats | 4 | The strictest plan, for high-stakes exams |
+| Don’t mix | Nobody | 1 | One class after another |
+
+#### How many students fit in a room
+
+Seats = rows × desks across × seats per desk. Take away any seats you mark as not in use.
+
+| Rows | Desks across | Seats per desk | Seats |
+| --- | --- | --- | --- |
+| 5 | 4 | 2 | 40 |
+| 6 | 5 | 2 | 60 |
+| 8 | 5 | 2 | 80 |
+| 10 | 6 | 2 | 120 |
+| 6 | 5 | 1 | 30 |
+| 6 | 4 | 3 | 72 |
+
+#### What to print
+
+- **Seating charts** — the room seen from above, with every roll number in its seat. One page per room, for the door and the invigilator. Wide rooms print in landscape.
+- **Attendance sheets** — seat, roll number, name, group and a signature box for each student, room by room.
+- **Notice-board list** — for each class, which roll numbers go to which room, so students find their room at a glance.
+- **Desk slips** — a label for each seat with the roll number, room and seat number, to cut out and stick on desks.
+
+#### Tips for a fair seating plan
+
+- Seat at least two classes or subjects in every session; a single class can only be spaced out, not mixed.
+- For a clean checkerboard no group should be more than half the seats in use. If one is, add a room so that spare seats can act as gaps.
+- Keep a few spare seats in every room for late changes, and mark broken desks before printing.
+- Use **Shuffled** order for class tests where friends would otherwise sit in roll-number order near each other.
+- Print the notice-board list the day before, and the charts and attendance sheets on the day.
+
+### FAQ
+
+**How do I make a seating arrangement for an exam?**
+Add a group for each class with its roll numbers, add each room with its rows and desks, and the plan is made automatically. Then print the charts for the doors, the attendance sheets for invigilators and the notice-board list for students.
+
+**How do I make sure no two students of the same class sit together?**
+Seat two or more classes in the same room and keep the rule on **Side by side and front–back**. The planner alternates the classes like a checkerboard. It works fully when no class is more than half of the seats used; otherwise it shows how many pairs could not be separated.
+
+**Can I use only roll numbers, without names?**
+Yes. Type ranges such as **1-40, 45, 50-60** — prefixes and leading zeros are kept, so **23CS001-23CS060** works too. Names are optional and only appear if you paste a list.
+
+**Can I paste students from Excel or Google Sheets?**
+Yes. Choose **Paste a list** and paste two columns: roll number, then name. One student per line; a tab or a comma between the two is understood.
+
+**How are seat numbers given?**
+In the order seats are filled: down each column from the front, or along each row, starting at the front left. Switch on **Zig-zag** to make every other column or row run the other way.
+
+**What if a desk is broken or a seat must stay empty?**
+Switch on **Mark seats not in use** and tap the seat on the chart. It is taken out of the count and the plan rearranges itself. Tap it again to bring it back.
+
+**What happens if there are more students than seats?**
+Everyone who fits is seated, and the message above the chart tells you how many students of each group have no seat, so you know how many more seats to add.
+
+**Is the student list uploaded anywhere?**
+No. The plan is made in your browser and saved only in your browser’s local storage, so it is there when you return. **Clear all** removes it.
+
+## Chemical Equation Balancer
+
+URL: https://justtools.online/education-tools/chemical-equation-balancer/
+Category: Education Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-14
+
+Balance any chemical equation online, redox and ionic included. See the atom count on each side, molar masses, the limiting reactant and the reaction type.
+
+### At a glance
+
+- Balances chemical equations with the **smallest whole-number coefficients**, worked out exactly — never by trial and error or rounding.
+- Handles brackets (`Ca3(PO4)2`), hydrates (`CuSO4.5H2O`), complex ions (`[Fe(CN)6]^4-`), states of matter and reversible arrows.
+- Balances **ionic equations and half-reactions** by charge as well as atoms: `MnO4- + Fe2+ + H+ → Mn2+ + Fe3+ + H2O` becomes 1, 5, 8 → 1, 5, 4.
+- Shows a check table — atoms of each element, total charge and mass on both sides — so you can see the equation is balanced.
+- Gives the **molar mass** of every substance from IUPAC standard atomic weights, and works out the grams and moles of everything from one amount you enter.
+- Finds the **limiting reactant** and how much of the others is left over when you enter amounts for two or more reactants.
+- Names the reaction type where the pattern settles it: synthesis, decomposition, combustion, single or double displacement, neutralisation.
+- When an equation cannot be balanced, it says why: an element on one side only, a substance on the wrong side, or charges that cannot match.
+
+### Features
+
+- **Exact, every time**: The coefficients come from solving the element and charge equations in fractions, so even long redox equations with coefficients in the hundreds are right.
+- **Type it the way you write it**: H2SO4, Fe^3+, SO4^2-, e-, CuSO4.5H2O — or paste H₂SO₄ and Fe³⁺ straight from a document. Any arrow works: ->, =, → or ⇌.
+- **Proof on the page**: Every element is counted on the left and the right, with the charge and the mass, so you can show your working.
+- **Stoichiometry built in**: Enter grams or moles of one substance to get all the others; enter two reactants to find the limiting one and the excess.
+- **Helpful when it fails**: A wrong capital letter, a missing product or an unbalanced charge gets a plain explanation instead of “error”.
+- **Private and free**: Everything is calculated in your browser. No sign-up, no limits.
+
+### How to balance a chemical equation
+
+1. **Type the equation** — Write the reactants, an arrow and the products, with + between substances: `C3H8 + O2 -> CO2 + H2O`. Leave the coefficients out.
+2. **Use capitals and digits** — Element symbols need their capital letters (`Co` is cobalt, `CO` is carbon monoxide). Type subscripts as plain digits and charges after `^`: `Fe^3+`.
+3. **Read the result** — The balanced equation appears as you type, with the reaction type and a table that counts each element on both sides.
+4. **Work out amounts** — In the amounts table, type the grams or moles of one substance to see how much of each other substance reacts or forms.
+
+### Guide
+
+#### How to type formulas
+
+| To write | Type | Example |
+| --- | --- | --- |
+| A subscript | the digit after the symbol | `H2O`, `C6H12O6` |
+| A group in brackets | ( ) or [ ] with a digit after | `Ca(OH)2`, `Al2(SO4)3`, `K4[Fe(CN)6]` |
+| Water of crystallisation | a dot or * | `CuSO4.5H2O` |
+| A charge | ^ then the charge | `Fe^3+`, `SO4^2-`, `NH4^+` |
+| An electron | e- | `Fe^3+ + e- -> Fe^2+` |
+| A state | (s), (l), (g) or (aq) after the formula | `NaCl(aq)` |
+| The arrow | -> or = (⇌ or <-> for reversible) | `N2 + H2 <-> NH3` |
+
+#### Worked examples
+
+| You type | Balanced |
+| --- | --- |
+| `H2 + O2 -> H2O` | 2 H₂ + O₂ → 2 H₂O |
+| `Fe + O2 -> Fe2O3` | 4 Fe + 3 O₂ → 2 Fe₂O₃ |
+| `C3H8 + O2 -> CO2 + H2O` | C₃H₈ + 5 O₂ → 3 CO₂ + 4 H₂O |
+| `Al + H2SO4 -> Al2(SO4)3 + H2` | 2 Al + 3 H₂SO₄ → Al₂(SO₄)₃ + 3 H₂ |
+| `KMnO4 + HCl -> KCl + MnCl2 + H2O + Cl2` | 2 KMnO₄ + 16 HCl → 2 KCl + 2 MnCl₂ + 8 H₂O + 5 Cl₂ |
+| `Cr2O7^2- + H+ + e- -> Cr^3+ + H2O` | Cr₂O₇²⁻ + 14 H⁺ + 6 e⁻ → 2 Cr³⁺ + 7 H₂O |
+
+#### How the balancing works
+
+A balanced equation has the same number of atoms of every element on both sides, and the same total charge. Each element gives one equation in the unknown coefficients: for hydrogen in H₂ + O₂ → H₂O, twice the coefficient of H₂ must equal twice the coefficient of H₂O.
+
+The tool solves all of those equations together, exactly, and scales the answer to the smallest whole numbers. If there is no solution, the equation cannot be balanced as written — usually a formula is wrong or a substance is missing. If there is more than one independent solution, the equation is really two reactions written as one (for example C + O₂ → CO + CO₂), and the tool tells you so.
+
+#### Digits before a + or − sign
+
+Plain text cannot tell a charge from a subscript: `Fe3+` should be Fe³⁺ but `I3-` is I₃⁻. The tool reads a digit before the sign as the charge on a single atom (`Fe3+`, `Cu2+`, `O2-`) and as a subscript in anything larger (`MnO4-`, `NH4+`); two digits are split (`SO42-` is SO₄²⁻). If that reading cannot be balanced it tries the other, and it always shows how each ion was read. Write `Fe^3+` or `I3^-` to leave no doubt.
+
+### FAQ
+
+**Why does it say an element appears on only one side?**
+Atoms cannot appear or vanish in a reaction, so every element must be on both sides. Check for a missing product or reactant, and for typing slips such as `CL` for `Cl` or `NA` for `Na`.
+
+**Can it balance redox equations?**
+Yes. Molecular redox equations such as `KMnO4 + HCl -> KCl + MnCl2 + H2O + Cl2` are balanced directly. For ionic ones, include the H⁺ or OH⁻ and H₂O that take part, for example `MnO4- + Fe2+ + H+ -> Mn2+ + Fe3+ + H2O`; charges are balanced along with the atoms. Half-reactions with `e-` work too.
+
+**What does “more than one balanced form” mean?**
+Some equations combine two reactions that can happen in any proportion, such as `C + O2 -> CO + CO2`. They have endless valid sets of coefficients. The tool shows one small set and says so; split the equation into its separate reactions for a definite answer.
+
+**How is the limiting reactant found?**
+Each amount you enter is divided by that substance’s coefficient. The smallest result belongs to the limiting reactant — the one that runs out first — and it sets how much product forms. The table shows what is left of the other reactants.
+
+**Which atomic weights are used?**
+The abridged standard atomic weights from IUPAC’s Commission on Isotopic Abundances and Atomic Weights (H 1.0080, C 12.011, O 15.999, and so on). Elements with no stable isotope use the mass number of their most stable isotope, and the tool notes that the result is approximate.
+
+**Do I need to type the coefficients?**
+No — leave them out. If you do type them, the tool tells you whether your version was already balanced, and replaces them if not.
+
+**Does it show the steps?**
+It shows the check that matters for marks: the count of each element, the charge and the mass on both sides. The coefficients themselves come from solving all the element equations at once, which is how the algebraic method taught in class works.
+
+## Electron Configuration Builder
+
+URL: https://justtools.online/education-tools/electron-configuration/
+Category: Education Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-14
+
+Electron configuration of any element or ion: full and noble-gas form, orbital diagram, valence and unpaired electrons. Or build it yourself and check.
+
+### At a glance
+
+- Gives the ground-state **electron configuration of all 118 elements**, in full (1s² 2s² 2p⁶ …) and in noble-gas shorthand ([Ar] 3d⁶ 4s²).
+- Handles **ions from 4− to 8+**: electrons leave the outermost shell first, so Fe²⁺ is [Ar] 3d⁶, not [Ar] 3d⁴ 4s².
+- Includes the **20 elements that break the filling order**, such as chromium ([Ar] 3d⁵ 4s¹) and copper ([Ar] 3d¹⁰ 4s¹), and shows what the rule would have predicted.
+- Checked against the **NIST Atomic Spectra Database** for every atom from hydrogen to hassium and every positive ion of those elements up to 8+.
+- Draws the **orbital diagram** with Hund’s rule, and can fill it one electron at a time.
+- Lists electrons per shell, valence electrons, unpaired electrons, whether the atom is paramagnetic or diamagnetic, its block, period and group, and the **quantum numbers of the last electron**.
+- **Practice mode**: fill the boxes yourself and get told which rule — Aufbau, Pauli or Hund — the first mistake breaks.
+- Free, with nothing to install; works on a phone.
+
+### Features
+
+- **Atoms and ions**: Type Fe, iron, 26 or Fe3+, or click the periodic table and step the charge up and down.
+- **Both ways of writing it**: By shell ([Ar] 3d⁶ 4s²), as most textbooks and data tables print it, or in filling order ([Ar] 4s² 3d⁶), as many classes teach it.
+- **Exceptions explained**: For chromium, copper, silver, gold and the rest, the measured configuration is shown next to the predicted one, so you see exactly what differs.
+- **A diagram you can build**: Click orbitals to add and pair electrons. The check points to the first subshell that is wrong and explains the rule behind it.
+- **Answers the follow-up questions**: How many valence electrons? How many unpaired? Paramagnetic? What are n, l, mℓ and ms of the last electron? They are all on the page.
+- **Backed by measured data**: Configurations follow NIST’s published ground states, not just a rule — including the awkward 1+ ions of vanadium, cobalt and nickel.
+
+### How to find an electron configuration
+
+1. **Choose the element** — Type a symbol, name or atomic number, or click the element in the periodic table.
+2. **Set the charge** — For an ion, type it (Fe3+, Cl-) or use the − and + buttons beside the symbol.
+3. **Read the configuration** — The noble-gas form and the full form appear with copy buttons. Switch the order between “by shell” and “as they fill” to match your course.
+4. **Study the diagram** — The orbital diagram shows paired and unpaired electrons. Drag the slider to watch the orbitals fill one electron at a time.
+5. **Practise** — Choose **Practice**, fill the boxes for the element shown and press **Check**.
+
+### Guide
+
+#### The three rules
+
+- **Aufbau principle** — electrons fill the lowest-energy subshell that has room, in the order 1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p, 5s, 4d, 5p, 6s, 4f, 5d, 6p, 7s, 5f, 6d, 7p.
+- **Pauli exclusion principle** — an orbital holds at most two electrons, with opposite spins. That makes the capacities s = 2, p = 6, d = 10, f = 14.
+- **Hund’s rule** — within a subshell, every orbital gets one electron before any orbital gets a second.
+
+#### Examples
+
+| Atom or ion | Configuration | Unpaired electrons |
+| --- | --- | --- |
+| Carbon, C | [He] 2s² 2p² | 2 |
+| Sodium, Na | [Ne] 3s¹ | 1 |
+| Chlorine, Cl | [Ne] 3s² 3p⁵ | 1 |
+| Iron, Fe | [Ar] 3d⁶ 4s² | 4 |
+| Chromium, Cr | [Ar] 3d⁵ 4s¹ (exception) | 6 |
+| Copper, Cu | [Ar] 3d¹⁰ 4s¹ (exception) | 1 |
+| Fe²⁺ | [Ar] 3d⁶ | 4 |
+| Fe³⁺ | [Ar] 3d⁵ | 5 |
+| Cu²⁺ | [Ar] 3d⁹ | 1 |
+| Cl⁻ | [Ar] | 0 |
+
+#### Elements that break the filling order
+
+Twenty elements have a ground state the filling order does not predict: Cr, Cu, Nb, Mo, Ru, Rh, Pd, Ag, La, Ce, Gd, Pt, Au, Ac, Th, Pa, U, Np, Cm and Lr. In most of them an electron moves from the s subshell into d, because a half-filled or filled d subshell is slightly more stable — chromium is 3d⁵ 4s¹ rather than 3d⁴ 4s², and copper 3d¹⁰ 4s¹ rather than 3d⁹ 4s².
+
+These cannot be worked out from the rule; they are measured. The tool shows the measured configuration and, beside it, what the rule alone would give.
+
+#### Why ions lose 4s before 3d
+
+In a neutral atom 4s fills before 3d. Once 3d holds electrons, though, it lies lower in energy than 4s, so when a transition metal becomes a positive ion the 4s electrons leave first. Iron, [Ar] 3d⁶ 4s², becomes Fe²⁺ = [Ar] 3d⁶ and Fe³⁺ = [Ar] 3d⁵. Writing Fe²⁺ as [Ar] 3d⁴ 4s² — the configuration of a neutral atom with 24 electrons — is the commonest mistake, and Practice mode points it out.
+
+### FAQ
+
+**What is the electron configuration of iron?**
+Iron (atomic number 26) is 1s² 2s² 2p⁶ 3s² 3p⁶ 3d⁶ 4s², or [Ar] 3d⁶ 4s² in short. It has 4 unpaired electrons. Fe²⁺ is [Ar] 3d⁶ and Fe³⁺ is [Ar] 3d⁵.
+
+**Should 4s or 3d be written first?**
+Both are accepted. Writing by shell — [Ar] 3d⁶ 4s² — is the convention of NIST and most reference tables. Writing in filling order — [Ar] 4s² 3d⁶ — is common in school courses. Use the switch under the result to match your textbook.
+
+**How many valence electrons does an element have?**
+For main-group elements (groups 1, 2 and 13–18) it is the number of s and p electrons in the outermost shell, and the tool shows it. For transition metals and the f-block the word has no single definition, because inner d or f electrons also take part in bonding, so the tool shows the outer-shell count and says so.
+
+**What are the quantum numbers of the last electron?**
+They describe the final electron added: n is its shell, l its subshell (0 = s, 1 = p, 2 = d, 3 = f), mℓ its orbital and ms its spin. The tool numbers orbitals from −l to +l and puts spin-up electrons in first, the convention most textbooks use; a few courses number them the other way round.
+
+**Why is my answer for Cr or Cu marked wrong in Practice?**
+Chromium and copper are exceptions: their ground states are 3d⁵ 4s¹ and 3d¹⁰ 4s¹. If you enter what the filling order predicts, the check tells you that it is the predicted configuration and what the real one is.
+
+**How reliable are the configurations of the heaviest elements?**
+From hydrogen to hassium (element 108) they are the ground states listed by NIST. For meitnerium to oganesson only a few atoms have ever been made, so the configurations are predictions from the filling order, and the tool labels them as such.
+
+**Which ions can it show?**
+Charges from 4− to 8+, which covers the ions met in chemistry. Positive ions follow NIST’s measured ground states; for negative ions the extra electrons are placed by the filling order.
+
+## Half-Life Calculator
+
+URL: https://justtools.online/education-tools/half-life-calculator/
+Category: Education Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-14
+
+Free half-life calculator: find the amount left, starting amount, time or half-life with the working shown, plus carbon-14 dating and activity for 67 isotopes.
+
+### At a glance
+
+- Solves **N = N₀ × (½)^(t ÷ T½)** for any one of the four: the amount left, the starting amount, the time or the half-life — and accepts a decay constant λ or a mean life τ instead of the half-life.
+- Shows **the working step by step**, a decay curve with a mark at every half-life, and a table of the amount after each of the first ten half-lives.
+- Half-lives of **67 isotopes** — carbon-14, iodine-131, technetium-99m, uranium-238 and more — with their uncertainties, from **NUBASE2020**, the international evaluation published by the IAEA. Carbon-14’s half-life there is 5,700 ± 30 years.
+- Carbon-14 dating gives both the **conventional radiocarbon age** that laboratories report (with Libby’s half-life of 5,568 years, by international convention) and the age with the real half-life.
+- Converts between **mass, activity, atoms and moles** for any of the isotopes, with atomic masses from AME2020: one gram of radium-226 is 0.989 curie.
+- Works with numbers far beyond a calculator’s range by keeping their logarithms, so it can tell you that 10⁻⁶⁷⁴⁵¹ of a sample is left rather than 0.
+
+### Features
+
+- **Solve for anything**: Choose what to find and fill in the rest. Units can differ: give the time in days and the half-life in hours, and the tool converts.
+- **Working you can copy**: Every answer comes with the formula, the numbers put into it and each step to the result — the way a teacher would want it written.
+- **Real isotope data**: Pick an isotope and its half-life, uncertainty, decay mode, daughter and everyday use appear, all from the current international evaluation.
+- **Carbon dating done properly**: See the radiocarbon age a laboratory would report and the age with the true half-life, and why the two differ.
+- **Activity and mass**: How many becquerels is a microgram of iodine-131? How many atoms in 1 GBq of technetium-99m? Convert in either direction, with specific activity.
+- **Free and private**: Everything is worked out in your browser. No sign-up, and your last inputs are remembered on this device only.
+
+### How to calculate half-life problems
+
+1. **Choose what to find** — Pick **Amount left**, **Starting amount**, **Time** or **Half-life**.
+2. **Pick an isotope (optional)** — Choose one from the list, such as **C-14** or **I-131**, to fill in its half-life — or type your own.
+3. **Enter the other values** — Use the same unit for both amounts (grams, atoms, becquerels or %). The time and half-life can use different units.
+4. **Read the answer and the working** — The answer appears at once, with the fraction left, half-lives passed, decay constant and mean life, then the working step by step.
+5. **Check with the curve and table** — The decay curve marks your point, and the table lists the amount after each half-life.
+
+### Guide
+
+#### The half-life formulas
+
+| To find | Formula |
+| --- | --- |
+| Amount left | `N = N₀ × (½)^(t ÷ T½)` |
+| Starting amount | `N₀ = N × 2^(t ÷ T½)` |
+| Time passed | `t = T½ × log₂(N₀ ÷ N)` |
+| Half-life | `T½ = t × ln 2 ÷ ln(N₀ ÷ N)` |
+| Decay constant | `λ = ln 2 ÷ T½ ≈ 0.693 ÷ T½` |
+| Mean life | `τ = 1 ÷ λ = T½ ÷ ln 2 ≈ 1.443 × T½` |
+| Activity | `A = λ × N` |
+
+#### A worked example
+
+Iodine-131 has a half-life of 8.0249 days. How much of a 400 MBq dose is left after 24 days? The time is 24 ÷ 8.0249 = 2.991 half-lives, so the amount left is 400 × (½)^2.991 = 50.3 MBq — just over an eighth, because three half-lives would take 24.07 days.
+
+And how long until only 1 % is left? t = 8.0249 × log₂(100) = 8.0249 × 6.644 = 53.3 days. A rule of thumb follows from this: after 7 half-lives less than 1 % remains, and after 10 less than 0.1 %.
+
+#### Half-lives of common isotopes
+
+| Isotope | Half-life (NUBASE2020) | Known for |
+| --- | --- | --- |
+| Fluorine-18 | 109.734 minutes | PET scans |
+| Technetium-99m | 6.0066 hours | medical imaging |
+| Iodine-131 | 8.0249 days | thyroid treatment |
+| Radon-222 | 3.8215 days | radon in homes |
+| Cobalt-60 | 5.2714 years | radiotherapy |
+| Caesium-137 | 30.04 years | fallout |
+| Carbon-14 | 5,700 years | radiocarbon dating |
+| Uranium-238 | 4.463 billion years | dating the oldest rocks |
+
+### FAQ
+
+**What is a half-life?**
+The time it takes for half of the atoms in a radioactive sample to decay. It never changes: whether you start with a gram or a tonne, and whatever has already decayed, half of what is left decays in each half-life.
+
+**How do I calculate the half-life from two measurements?**
+Use `T½ = t × ln 2 ÷ ln(N₀ ÷ N)`. For example, if a count rate falls from 800 to 100 in 15 hours, N₀ ÷ N = 8 = 2³, so three half-lives passed and the half-life is 5 hours. Choose **Half-life** in the calculator to get the working.
+
+**What is the difference between half-life, decay constant and mean life?**
+They describe the same thing. The decay constant λ is the chance per unit time that one atom decays; the half-life is ln 2 ÷ λ; the mean life — the average time an atom survives — is 1 ÷ λ, about 1.443 half-lives. The calculator accepts any of the three.
+
+**Why do radiocarbon labs use 5,568 years instead of 5,700?**
+Radiocarbon dating began with Willard Libby’s value of 5,568 years. To keep every published result comparable, laboratories still report conventional radiocarbon ages with it (an international convention since 1977) and then convert them to calendar years with a calibration curve such as IntCal20, which also corrects for the true half-life and the changing amount of carbon-14 in the air.
+
+**Does a sample ever decay completely?**
+In theory the amount only halves, so it never reaches zero; in practice a sample is effectively gone after about 50 half-lives, when fewer than one atom in a thousand million million is left. With a small number of atoms, the last ones decay at random times.
+
+**Can I use this for medicines, caffeine or other exponential decay?**
+Yes — the formula is the same for anything that halves at a steady rate, such as how a drug is cleared from the body. Leave the isotope empty and type the half-life. Medicine half-lives vary from person to person, so ask a doctor or pharmacist about your own dose.
+
+**Where do the half-lives come from?**
+From NUBASE2020 (Kondev and others, Chinese Physics C, 2021), the evaluation of nuclear properties published by the IAEA’s Atomic Mass Data Center. It uses 1 year = 365.2422 days, and so does this calculator.
+
+## Radioactive Decay Simulator
+
+URL: https://justtools.online/education-tools/radioactive-decay-simulator/
+Category: Education Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-14
+
+Free radioactive decay simulator: watch up to 10,000 atoms decay at random, compare with the half-life curve, explore decay chains and do the dice experiment.
+
+### At a glance
+
+- Simulates **100 to 10,000 atoms**. Each atom draws the exact moment it decays from the exponential distribution, so the result does not depend on the frame rate or the speed you choose.
+- Pick any of **67 isotopes** with their NUBASE2020 half-lives — from polonium-214 (164 microseconds) to uranium-238 (4.463 billion years) — and set how much time one second on screen stands for.
+- Shows the counted atoms against the **expected curve** with a ±1 standard deviation band, and **measures the half-life** back from the run.
+- Three real **decay chains**: strontium-90 → yttrium-90 (secular equilibrium), tellurium-132 → iodine-132 (transient equilibrium) and radon-222 with its short-lived products; or make your own parent and daughter. Expected numbers come from the Bateman equations.
+- A **dice and coins** mode recreates the classroom experiment: remove every die that shows a six and the half-life is 3.8 throws; with coins it is exactly one toss.
+- Optional **Geiger counter clicks**, an activity view, a log scale and a CSV download of every count for your own graphs.
+
+### Features
+
+- **Randomness you can see**: No atom knows when it will decay, yet thousands of them halve on schedule. The flashing squares and the wobbling line show both at once.
+- **Exact, not stepped**: Decay times are drawn for each atom, so a fast or slow speed, or a slow computer, never changes the physics.
+- **Decay chains and equilibrium**: See a daughter isotope build up until it decays as fast as it is made — the idea behind radon in homes and medical isotope generators.
+- **The classroom experiment**: Run the dice, coin or 20-sided-dice experiment with up to 1,000 objects, throw by throw, with the table a worksheet asks for.
+- **Real data**: Half-lives, decay modes and daughters come from NUBASE2020, the international evaluation published by the IAEA.
+- **Data to take away**: Download every count as a CSV file and plot it in a spreadsheet, or fit the half-life yourself.
+
+### How to use the radioactive decay simulator
+
+1. **Choose what to simulate** — Pick **An isotope**, **A decay chain**, or **Dice or coins** for the classroom version.
+2. **Choose the isotope and atoms** — Select an isotope such as **Ba-137m** or **I-131**, and the number of atoms — more atoms give a smoother curve.
+3. **Start the clock** — Press **Start**. Each square changes colour when its atom decays; set the **Speed** to show more or less time per second.
+4. **Compare with theory** — Watch the counted line against the dashed expected curve. Switch the chart to **Activity** or a **Log scale** — on a log scale decay is a straight line.
+5. **Measure and download** — Read the half-life measured from your run, then download the numbers as a CSV file.
+
+### Guide
+
+#### Why decay is random but predictable
+
+A radioactive nucleus has a fixed chance of decaying in any second, the decay constant λ, and nothing — not its age, temperature or neighbours — changes it. Which atom goes next is pure chance. But with many atoms the law of large numbers takes over: in each half-life about half of those left decay, and the count follows N = N₀ × (½)^(t ÷ T½).
+
+The smaller the sample, the larger the wobble. The typical difference from the expected number is √(N₀ × p × (1 − p)), where p is the fraction expected to be left — about 16 atoms out of 1,000 after one half-life, but only 1.6 % of the sample instead of 5 % with ten times fewer atoms.
+
+#### The decay chains
+
+| Chain | What it shows |
+| --- | --- |
+| Strontium-90 (28.91 years) → yttrium-90 (64.05 hours) → zirconium-90 | secular equilibrium: after about a month the two activities are equal |
+| Tellurium-132 (3.204 days) → iodine-132 (2.295 hours) → xenon-132 | transient equilibrium: iodine-132 settles 3 % above its parent’s activity and falls with it |
+| Radon-222 (3.8215 days) → polonium-218 → lead-214 → bismuth-214 → polonium-214 → lead-210 | the short-lived products of radon reach equilibrium in about three hours |
+| Your own parent and daughter | try a daughter that lives longer than its parent: then no equilibrium forms |
+
+#### Dice and coins as atoms
+
+The half-life in throws is ln 2 ÷ −ln(1 − p), where p is the chance of removal in one throw.
+
+| Object | Removed when | Chance per throw | Half-life |
+| --- | --- | --- | --- |
+| Coin | it lands heads | 1 in 2 | 1 throw |
+| Six-sided die | it shows a six | 1 in 6 | 3.80 throws |
+| 20-sided die | it shows a 20 | 1 in 20 | 13.5 throws |
+
+### FAQ
+
+**Can you predict when a single atom will decay?**
+No. Only the chance is known: an atom of iodine-131 has a 50 % chance of decaying within the next 8.0249 days, however long it has already existed. That is why the squares change colour in no pattern at all.
+
+**Why does my simulation not match the curve exactly?**
+Because decay is random. The count wanders around the expected curve, usually staying within the shaded ±1 standard deviation band. Use more atoms and the wander becomes smaller compared with the sample.
+
+**What is secular equilibrium?**
+When a long-lived parent decays into a much shorter-lived daughter, the daughter builds up until it decays as fast as it is made. From then on both have the same activity. Choose the strontium-90 chain and the **Activity** view to see it.
+
+**How does the dice experiment model radioactive decay?**
+Each die is an atom and each throw a tick of time. Every die has the same 1-in-6 chance of being removed, whatever happened before, just as every atom has the same chance of decaying. The number left falls exponentially, halving every 3.8 throws.
+
+**Is the simulation accurate for real isotopes?**
+Yes. Each atom’s decay time is drawn from the exponential distribution with the isotope’s NUBASE2020 half-life, and the decay chains are checked against the Bateman equations. The only simplification is that branches below 0.03 % in the radon chain are left out.
+
+**Can I use the results for homework?**
+Yes. Download the CSV and plot the counts against time, or ln(counts) against time to get a straight line whose slope is −λ. The tool shows its own estimate of the half-life so you can check yours.
+
+## 3D Molecular Structure Viewer
+
+URL: https://justtools.online/education-tools/3d-molecule-viewer/
+Category: Education Tools
+Processing: Contacts an external service to work (see the page).
+Last updated: 2026-10-14
+
+Free 3D molecule viewer: look up any compound or protein by name, SMILES or PDB ID, or open PDB, SDF and XYZ files. Measure bond lengths and angles.
+
+### At a glance
+
+- Finds any compound in **PubChem** by name, SMILES string or CID and shows its 3D shape, and any entry of the **Protein Data Bank** by its four-character ID.
+- Opens **PDB, mmCIF, SDF/MOL, MOL2, XYZ, PQR and GRO** files on your device — dropped, chosen or pasted — without uploading them.
+- Shows molecules as **ball and stick, sticks, space-filling or wire**, and proteins and DNA as a **cartoon** with their ligands, coloured by element (CPK), chain, helix and sheet, or rainbow.
+- **Measures** distances in ångströms, bond angles and torsion angles between any atoms you click.
+- 36 molecules built in — from water and methane to caffeine, ATP and cholesterol — and **12 VSEPR shapes** with their lone pairs, from linear CO₂ to square planar XeF₄.
+- Lists the formula in Hill order, the molar mass from IUPAC (CIAAW) atomic weights, and for proteins the chains, residues, ligands, method and resolution. Drawn with **3Dmol.js** (WebGL).
+
+### Features
+
+- **Search like a chemist**: Type “aspirin”, a SMILES string such as CC(=O)Oc1ccccc1C(=O)O, a PubChem CID such as 2244, or a PDB ID such as 1CRN — the box works out which it is.
+- **Your files stay yours**: Structure files you open are read in your browser and never uploaded. Only searches go to PubChem or the Protein Data Bank.
+- **Measure the geometry**: Click two atoms for a bond length, three for an angle, four for a torsion. The values are drawn into the 3D view and listed beside it.
+- **VSEPR you can turn around**: Twelve shapes from linear to octahedral, with lone pairs shown as purple clouds — real molecules where PubChem has them, ideal geometry otherwise.
+- **Proteins and DNA**: Cartoons of helices and sheets, ligands in ball and stick, optional water and a molecular surface, with chains, residues, method and resolution listed.
+- **Ready for slides and worksheets**: Save a picture with a white, black or page background, download the structure as its original file or as XYZ, and copy a link that opens the same molecule.
+
+### How to view a molecule in 3D
+
+1. **Find the molecule** — Type a name, SMILES, PubChem CID or PDB ID and press **Show** — or choose one from the library, or **Open file**.
+2. **Turn and zoom** — Drag to turn it, scroll or pinch to zoom, or use the buttons under the view. **Spin** sets it turning on its own.
+3. **Change the style** — Choose **Ball and stick**, **Sticks**, **Space-filling** or **Wire** — or **Cartoon** for proteins — and switch hydrogens and labels on or off.
+4. **Measure** — Pick **Distance**, **Angle** or **Torsion** and click the atoms in the view.
+5. **Save or share** — Use **Picture** for a PNG, download the file, or **Copy link** to send the same molecule to someone else.
+
+### Guide
+
+#### Ways to show a molecule
+
+| Style | What it shows | Good for |
+| --- | --- | --- |
+| Ball and stick | atoms as small balls, bonds as sticks | seeing bonds and angles |
+| Sticks | bonds only, coloured by atom | crowded molecules |
+| Space-filling | atoms at their van der Waals size | the real shape and bulk of a molecule |
+| Wire | thin lines for bonds | very large structures |
+| Cartoon | the protein backbone as helices, sheets and loops | proteins and DNA |
+
+#### What the colours mean
+
+Atoms are coloured with the CPK convention, in the shades used by Jmol and most viewers:
+
+| Element | Colour | Element | Colour |
+| --- | --- | --- | --- |
+| Hydrogen | white | Sulfur | yellow |
+| Carbon | grey | Phosphorus | orange |
+| Nitrogen | blue | Fluorine and chlorine | green |
+| Oxygen | red | Bromine | dark red |
+
+#### VSEPR shapes in the library
+
+| Shape | Example | Electron pairs (bonding + lone) | Angles |
+| --- | --- | --- | --- |
+| Linear | CO₂, XeF₂ | 2 + 0, or 2 + 3 | 180° |
+| Trigonal planar | BF₃ | 3 + 0 | 120° |
+| Tetrahedral | CH₄ | 4 + 0 | 109.5° |
+| Trigonal pyramidal | NH₃ | 3 + 1 | about 107° |
+| Bent | H₂O | 2 + 2 | about 104.5° |
+| Trigonal bipyramidal | PCl₅ | 5 + 0 | 90° and 120° |
+| Seesaw | SF₄ | 4 + 1 | ideally 90°, 120°, 180° |
+| T-shaped | ClF₃ | 3 + 2 | ideally 90° |
+| Octahedral | SF₆ | 6 + 0 | 90° |
+| Square pyramidal | BrF₅ | 5 + 1 | ideally 90° |
+| Square planar | XeF₄ | 4 + 2 | 90° |
+
+### FAQ
+
+**Which file formats can I open?**
+PDB (.pdb, .ent), mmCIF (.cif), SDF and MOL (.sdf, .mol, V2000 and V3000), MOL2, XYZ, PQR and GROMACS (.gro). You can also paste the text of a file. Files are read in your browser and never uploaded.
+
+**Where do the 3D shapes of small molecules come from?**
+From PubChem, which computes a low-energy 3D conformer for most small organic compounds. It is a calculated shape, not a measured one. PubChem has no 3D shape for compounds that are too large, too flexible or contain elements its method does not cover (such as most metals); for those the viewer shows the flat 2D drawing and says so.
+
+**Why are there no hydrogen atoms in my protein?**
+X-ray crystallography rarely sees hydrogen atoms, so most PDB entries leave them out. The formula and molar mass then count only the atoms in the file, and the viewer tells you so.
+
+**How do I measure a bond angle?**
+Choose **Angle** under Measure and click three atoms, with the middle atom second. For a bond length choose **Distance** and click two atoms; for a torsion choose **Torsion** and click four atoms along the chain.
+
+**What do the purple clouds mean?**
+They are lone pairs: pairs of electrons on the central atom that are not in a bond. VSEPR theory says they push the bonds apart, which is why water is bent and ammonia is a pyramid. Switch them off with **Lone pairs**.
+
+**Can I use the pictures in my slides or homework?**
+Yes. Use **Picture** to save a PNG. Structures from the Protein Data Bank are free to use (CC0); mention the PDB ID. PubChem asks you to cite it as the source of its data.
+
+**Does it work on a phone?**
+Yes. Drag with one finger to turn the molecule and pinch to zoom. Very large proteins can be slow on older phones — the Wire or Cartoon styles are the lightest.
+
+**What is sent over the internet?**
+Only what you search for: names, SMILES and CIDs go to PubChem (run by the US National Library of Medicine), PDB IDs to the RCSB Protein Data Bank. The built-in molecules and the files you open do not leave your device.
+
+## Graph Paper Generator
+
+URL: https://justtools.online/education-tools/graph-paper-generator/
+Category: Education Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-15
+
+Free printable graph paper: square, dot, isometric, hexagon, polar, log, coordinate plane and lined paper in A4 or Letter. Download a true-size PDF.
+
+### At a glance
+
+- Ten kinds of paper: **square grid, dot grid, isometric, hexagon, polar, semi-log, log-log, coordinate plane, lined and handwriting**.
+- Any cell size, with presets for **1 mm, 2 mm, 5 mm, 1 cm** and **1/10, 1/8, 1/5, 1/4 and 1/2 inch** squares, and a heavier line every 2, 4, 5 or 10 squares.
+- Grids are made of **whole squares**, centred on the page – and of whole heavy-line blocks when those are on – so the edges are neat.
+- **Coordinate planes** with numbered axes and arrows, one to six per page, in all four quadrants or the first only – ready for maths worksheets.
+- A4, US Letter, Legal, A3, Tabloid or A5, portrait or landscape, in blue, green, grey, orange-red, black or your own colours, with an optional **Name and date** line or title.
+- Downloads as a **vector PDF** of up to 100 pages that asks printers for actual size, so a 5 mm square prints as 5 mm – or as SVG or a 300 dpi PNG, or prints straight from the page.
+- Made in your browser: free for home and classroom use, with no sign-up and no watermark.
+
+### Features
+
+- **The right paper for the job**: From millimetre paper for physics practicals to dot grids for bullet journals, isometric paper for 3D sketches and log paper for science graphs.
+- **True size, every time**: Everything is drawn in millimetres as vector lines, and the PDF tells the printer not to scale it – check any square with a ruler.
+- **Worksheets in seconds**: Coordinate planes with numbered axes, two to six to a page, plus a name and date line for the class.
+- **Light lines that print well**: Soft blue or green lines that guide without shouting, with heavier lines every centimetre or inch – or black when you need contrast.
+- **See it at actual size**: Switch the preview to actual size to check the spacing before printing.
+- **Saved for next time**: Your paper type, sizes and colours are remembered in this browser.
+
+### How to print graph paper
+
+1. **Pick the paper** — Choose square grid, dot grid, isometric, hexagon, polar, log, coordinate plane, lined or handwriting paper.
+2. **Set the spacing** — Choose a square size such as 5 mm, 1 cm or 1/4 inch, and how often a heavier line appears.
+3. **Choose the page** — Set the paper size, orientation, margin, line colour and weight, and add a name and date line or a title if you like.
+4. **Download or print** — Set the number of pages and press **Download PDF**, or **Print** straight away.
+5. **Print at actual size** — In the print dialog keep the scale at **100%** or **Actual size** – not “Fit to page”.
+
+### Guide
+
+#### Common graph paper sizes
+
+| Squares | Also called | Typical use |
+| --- | --- | --- |
+| 1 mm, heavy every 1 cm | millimetre or metric graph paper | technical drawing, physics and chemistry graphs |
+| 2 mm | fine metric grid | data plots, sewing and craft patterns |
+| 5 mm | maths squares | school maths in much of Europe and Asia, notes, sketching |
+| 1 cm | centimetre squares | primary maths, area and fractions, large charts |
+| 1/4 inch | 4 squares per inch, “quad ruled” | US school maths and science |
+| 1/5 inch | 5 squares per inch | engineering and computation pads |
+| 1/10 inch | 10 squares per inch | precise data plots |
+
+#### Ruled and handwriting paper
+
+Handwriting paper has a solid top line, a dashed middle line and a solid baseline in each row, with room below for letters that hang down – the large size suits children who are learning to form letters.
+
+| Ruling | Line spacing | Typical use |
+| --- | --- | --- |
+| Narrow | 1/4 in (6.35 mm) | small handwriting, more lines per page |
+| College ruled | 9/32 in (7.1 mm) | US college and high-school notebooks |
+| A4 standard | 8 mm | exercise books in the UK, Europe and India |
+| Wide ruled | 11/32 in (8.7 mm) | younger students, larger handwriting |
+
+#### Which paper for what
+
+- **Dot grid** – bullet journals, lettering and sketches where full lines would be too busy. 5 mm is the usual journal spacing.
+- **Isometric** – drawings of 3D shapes, cubes and buildings: the lines run at 30° to the horizontal, so the three edges of a cube can be drawn along them.
+- **Hexagon** – board-game and fantasy maps, organic chemistry rings, quilting and tiling patterns.
+- **Polar** – plotting angles and directions, radar charts and polar equations, with rings for distance and rays every 5–30°.
+- **Semi-log** – quantities that grow or decay exponentially (bacteria, interest, radioactive decay) plot as straight lines.
+- **Log-log** – power laws such as y = x² or Kepler’s third law plot as straight lines.
+- **Coordinate plane** – plotting points, lines and shapes in algebra and geometry classes.
+
+#### Printing at true size
+
+Printers can scale a page without asking: “Fit to page” or “Shrink to printable area” makes every square a few percent too small. The PDF asks PDF readers to print at actual size, but check the print dialog says **100%** or **Actual size**, then measure ten squares with a ruler.
+
+Most printers cannot print in the outer 3–5 mm of the sheet, so keep a margin of at least that – the default is 10 mm.
+
+### FAQ
+
+**How do I print graph paper at the right size?**
+Download the PDF and print it with the scale at **100%** or **Actual size** – not “Fit to page”. The PDF is drawn in exact millimetres and asks the printer not to scale it. Measure ten squares to check: ten 5 mm squares should be 5 cm.
+
+**Is the graph paper free to use in class?**
+Yes. Print as many copies as you need for home, school or work. There is no sign-up, no watermark and no limit.
+
+**What size squares does normal graph paper have?**
+It depends on where you are: 5 mm squares are common in Europe and India, 1/4 inch squares (four per inch) in the United States, and 1 mm millimetre paper with heavier lines every centimetre for technical work. All are presets here, or type any size.
+
+**What is isometric graph paper?**
+Paper with lines at 30° to the horizontal (and usually upright lines too), forming equilateral triangles. It makes it easy to draw 3D objects such as cubes, because their edges follow the grid. Choose **Dots** for isometric dot paper.
+
+**What is semi-log paper used for?**
+One axis is logarithmic and the other is ordinary. Anything that grows or shrinks by the same factor in equal times – population, compound interest, radioactive decay – plots as a straight line on it. Log-log paper makes power laws straight.
+
+**Can I print a coordinate plane worksheet?**
+Yes. Choose **Coordinate plane**, pick one to six planes per page, all four quadrants or the first, and how far the axes run. Turn on **Name & date** for a worksheet heading.
+
+**Can I change the line colour?**
+Choose blue, green, grey, orange-red or black, or **Custom** for any colour for the lines and the heavier lines. Light colours are easier on the eyes and stay in the background of what you draw.
+

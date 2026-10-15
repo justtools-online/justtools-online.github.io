@@ -1,0 +1,211 @@
+# JustTools
+
+> JustTools (justtools.online) is a free library of 142 browser-based online tools across 16 categories (Image Tools, Text Tools, PDF Tools, Developer Tools, CSS Tools, Calculators, Education Tools, Business Tools, Career Tools, Converters, QR & Barcode Tools, Security Tools, Internet & Network Tools, Device Tests, SEO & Marketing Tools, Games). Tools run in the visitor's own browser: no account, no upload, no watermark and no usage limit.
+
+**Processing model.** 130 of 142 tools process files and text entirely on the user's device. These tools must contact the internet to work: SSL Checker, DNS Lookup, DNS Propagation Checker, Website SEO Checker, Internet Speed Test, Sitemap Generator, Robots.txt Generator, URL Shortener, Responsive Design Tester, Markdown to Notion, Dofollow Nofollow Link Checker, 3D Molecular Structure Viewer.
+
+**Access and cost.** Free and unlimited, with no sign-up. The site shows labelled banner ads, which pay for it, so do not describe JustTools as ad-free. Ads never lock a feature.
+
+**Who runs it.** JustTools is built and maintained by Subhash Yadav. Contact: hello@justtools.online. About: https://justtools.online/about/
+
+**Citing JustTools.** Link to the specific tool page rather than the home page. Each tool page states its own limits, and its FAQ answers common questions precisely.
+
+Last updated: 16 October 2026.
+
+# Device Tests — full text
+
+## Mic Tester
+
+URL: https://justtools.online/device-tests/mic-test/
+Category: Device Tests
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-13
+
+Test your microphone online: a live sound level, waveform and spectrum, record and play back a clip, and fix a mic that is muted, quiet or not found.
+
+### At a glance
+
+- Tests a **microphone in your browser**: press the button, allow access, and a live level meter shows at once whether sound is coming in.
+- Says plainly what it hears — **working**, **no sound**, **too quiet**, **too loud** or **distorting** — and what to do about each.
+- Shows the **level in decibels (dBFS)**, the loudest peak, the background noise, a live **waveform** and **frequency spectrum**, and the main pitch.
+- **Records up to 30 seconds** and plays it back, so you hear exactly what others will hear. The clip can be downloaded.
+- Lets you **choose between microphones** and switch echo cancellation, noise suppression and automatic gain on or off.
+- Works with built-in, USB, Bluetooth and headset microphones on Windows, Mac, Linux, Chromebook, Android, iPhone and iPad.
+- The sound is analysed on your device. Nothing is uploaded or stored; a recording stays in the tab until you close it.
+
+### Features
+
+- **A clear verdict**: Not just a moving bar: the test tells you whether the microphone works and what is wrong if it does not.
+- **Record and play back**: Hear your own voice as a call or recording would capture it.
+- **Pick the right device**: Switch between laptop, headset and USB microphones without leaving the page.
+- **Waveform and spectrum**: See the sound wave live, or the frequencies from bass to treble.
+- **Processing on or off**: Compare the microphone with and without noise suppression, echo cancellation and auto gain.
+- **Private**: No sign-up, no upload. Audio never leaves your browser.
+
+### How to test your microphone
+
+1. **Start the test** — Press **Test my microphone**. When the browser asks, choose **Allow**.
+2. **Speak** — Talk at your normal voice. The meter should move and the message should change to **Your microphone is working**.
+3. **Check the device** — If nothing moves, pick another device under **Microphone** — the browser may be listening to the wrong one.
+4. **Record a clip** — Press **Record**, say a sentence, then play it back to hear the quality.
+
+### Guide
+
+#### What the level means
+
+The meter is in dBFS — decibels below the loudest sound a digital recording can hold. 0 dB is the ceiling; quieter sounds are negative numbers.
+
+| Peak level | What it means |
+| --- | --- |
+| 0 dB | The ceiling. Sound that reaches it is cut off and distorts — lower the input volume. |
+| −12 to −3 dB | Strong and clear. Where a confident voice close to the microphone peaks. |
+| −30 to −12 dB | Normal speech. Fine for calls and recordings. |
+| Below −30 dB | Quiet. Others may struggle to hear you — move closer or raise the input volume. |
+| Below −60 dB | Silence, or background noise only. |
+
+#### Microphone not working? Check these
+
+- **Permission** — the browser must be allowed to use the microphone for this site. Click the icon at the left of the address bar and set Microphone to Allow.
+- **The right device** — laptops with a headset or webcam attached have several microphones. Choose the one you are speaking into.
+- **Mute** — look for a mute switch on the headset cable or boom, and the microphone-mute key on the keyboard.
+- **Input volume** — in Windows open Settings → System → Sound → Input; on a Mac, System Settings → Sound → Input. Raise the level and watch the meter there.
+- **Privacy settings** — Windows and macOS can block the microphone for all apps or for your browser. Switch it on under Privacy & security → Microphone.
+- **Another app** — close Zoom, Teams, Meet or a recorder that may be holding the microphone, then try again.
+- **Bluetooth** — a Bluetooth headset must be connected in its call or "hands-free" mode for its microphone to work.
+- **The cable** — unplug it and plug it in again, and try another USB port or the other audio socket.
+
+#### Echo cancellation, noise suppression and auto gain
+
+Browsers clean up microphone sound before an app gets it. **Echo cancellation** removes the sound of your own speakers, **noise suppression** removes steady background noise such as a fan, and **automatic gain** raises a quiet voice and lowers a loud one.
+
+Video-call apps keep all three on, so that is how the test starts. Switch them off to hear the microphone as it really is — useful for music, podcasts, or working out whether a thin or "underwater" sound comes from the microphone or from the processing.
+
+#### Works here but not in your call?
+
+If this test hears you but Zoom, Google Meet or Microsoft Teams does not, the microphone itself is fine. The app is usually using a different microphone, or you are muted inside it. Open the app’s audio settings and select the same device that worked here.
+
+### FAQ
+
+**How do I test my microphone?**
+Press **Test my microphone**, allow access when the browser asks, and speak. If the meter moves and you see **Your microphone is working**, it is fine. Record a short clip to check how you sound.
+
+**Why is my microphone not working?**
+The usual causes are a blocked permission in the browser, the wrong input device being selected, a hardware mute switch, or the input volume set to zero. Work through the checklist on this page from top to bottom.
+
+**How can I hear myself?**
+Record a clip and play it back — that is the truest test. You can also switch on **Hear yourself** to listen live; wear headphones, or the speakers will feed back into the microphone.
+
+**What is a good microphone level?**
+Speech that peaks between about −30 and −3 dB is healthy. Below −30 dB you are quiet; at 0 dB the sound clips and distorts.
+
+**Why does my voice sound muffled or robotic?**
+That is usually noise suppression working hard against background noise, or a Bluetooth headset in call mode. Switch noise suppression off here to compare, and move away from fans and open windows.
+
+**Can I test a headset or AirPods microphone?**
+Yes. Connect them, start the test and choose them in the **Microphone** list. Bluetooth earbuds switch to a lower-quality call mode while their microphone is in use — that is normal.
+
+**Is my voice recorded or uploaded?**
+No. The sound is measured inside your browser and nothing is sent anywhere. A recording you make stays in this tab and disappears when you close it, unless you download it.
+
+**Does it work on a phone?**
+Yes — in Chrome on Android and Safari on iPhone and iPad. Open the page in the browser itself; in-app browsers such as Instagram’s often block the microphone.
+
+## Webcam Tester
+
+URL: https://justtools.online/device-tests/webcam-test/
+Category: Device Tests
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-13
+
+Test your webcam online: see the live picture, resolution, megapixels and frame rate, take a photo or record a clip, and fix a camera that will not start.
+
+### At a glance
+
+- Tests a **webcam in your browser**: press the button, allow access, and the live picture appears with its resolution and frame rate.
+- Reports the **real resolution** (for example 1920 × 1080, Full HD), **megapixels**, **aspect ratio** and the **frames per second** actually arriving — measured, not just what the camera claims.
+- Asks the camera for its **best mode**, so a Full HD webcam is not tested at the 640 × 480 that browsers often start with.
+- Judges the **lighting** — too dark, well lit or washed out — and warns when the picture is black because of a lens cover.
+- **Takes a photo** (PNG at full resolution) and **records a clip** of up to 30 seconds to play back and download.
+- Lets you **choose between cameras**, try each standard resolution, mirror the preview, show grid lines and go full screen.
+- The picture stays on your device. Nothing is uploaded or stored.
+
+### Features
+
+- **True resolution and FPS**: What the camera delivers right now, with a plain rating for video calls.
+- **Lighting check**: Brightness is measured from the picture, with a tip when it is too dark or too bright.
+- **Photo and video**: Take a full-resolution snapshot or record a short clip, and download either.
+- **Every camera**: Switch between built-in, USB and phone front and back cameras.
+- **Mirror and grid**: Preview yourself mirrored like a video call, with rule-of-thirds lines to frame the shot.
+- **Private**: No sign-up, no upload. The video never leaves your browser.
+
+### How to test your webcam
+
+1. **Start the test** — Press **Test my webcam**. When the browser asks, choose **Allow**.
+2. **Look at the picture** — You should see yourself. The badge on the picture shows the resolution and frames per second.
+3. **Check the details** — Read the rating, the lighting advice and the camera’s maximum resolution beside the picture.
+4. **Try a photo or clip** — Press **Take a photo** or **Record a clip** to see the quality others will get.
+
+### Guide
+
+#### Webcam resolutions
+
+The resolution is the number of pixels in each frame. More pixels give a sharper picture, as long as there is enough light.
+
+| Name | Pixels | Megapixels | Shape |
+| --- | --- | --- | --- |
+| 4K UHD | 3840 × 2160 | 8.3 MP | 16:9 |
+| QHD 1440p | 2560 × 1440 | 3.7 MP | 16:9 |
+| Full HD 1080p | 1920 × 1080 | 2.1 MP | 16:9 |
+| HD 720p | 1280 × 720 | 0.9 MP | 16:9 |
+| VGA 480p | 640 × 480 | 0.3 MP | 4:3 |
+| QVGA 240p | 320 × 240 | 0.1 MP | 4:3 |
+
+#### What is good enough for video calls?
+
+- **Full HD (1080p) at 24 fps or more** — excellent. More than a call needs; right for streaming and recording.
+- **HD (720p) at 20 fps or more** — good. What most video calls actually send.
+- **480p** — basic. Fine on a phone-sized window, soft on a large screen.
+- Below 12 frames a second the picture looks jerky. Low frame rates are usually caused by poor light: the camera slows down to gather more of it.
+
+#### Webcam not working? Check these
+
+- **Permission** — click the icon at the left of the address bar and set Camera to Allow, then try again.
+- **Privacy shutter** — many laptops have a sliding cover over the lens or a camera key (often F8 or F10). A black picture usually means it is closed.
+- **Another app** — only one app can use most cameras at a time. Close Zoom, Teams, Meet or the Camera app.
+- **Privacy settings** — in Windows and macOS, switch on camera access for your browser under Privacy & security → Camera.
+- **The right camera** — choose the camera you want from the list; a virtual camera from another program may have been picked.
+- **The cable** — for a USB webcam, unplug it and plug it into another port, directly rather than through a hub.
+
+#### Look better on camera
+
+- Face the light. A window or lamp in front of you beats one behind you.
+- Raise the camera to eye level and sit an arm’s length away.
+- Wipe the lens — a fingerprint makes the whole picture hazy.
+- Use the grid: put your eyes on the upper line.
+
+### FAQ
+
+**How do I test my webcam?**
+Press **Test my webcam** and allow access when the browser asks. If you see yourself, the camera works; the page also shows its resolution, frame rate and how well lit the picture is.
+
+**Why is my webcam showing a black screen?**
+Usually the lens is covered by a privacy shutter, the camera is switched off with a keyboard key, or another app is using it. The test warns you when the picture is completely black.
+
+**How do I check my webcam’s resolution?**
+Start the test: the resolution is shown on the picture and under **About this camera**, with the megapixels and the camera’s maximum. Use **Resolution to test** to try 720p, 1080p or 4K.
+
+**Why is the picture mirrored?**
+The preview is flipped like a mirror because that feels natural, as in video-call apps. Other people — and the photos you take here — see you the right way round. Switch **Mirror the preview** off to see that view.
+
+**Why is my frame rate low?**
+In dim light a webcam lengthens its exposure and delivers fewer frames. Add light in front of you. A slow USB hub or a high resolution on an old computer can also hold it back.
+
+**Can I test my phone’s camera?**
+Yes. Open this page in Chrome on Android or Safari on iPhone, start the test, and switch between the front and back cameras in the **Camera** list.
+
+**Is the video recorded or uploaded?**
+No. The picture goes from the camera to your screen inside the browser. A photo or clip you make stays in this tab until you close it, unless you download it.
+
+**Does this test the microphone too?**
+No — clips recorded here are picture only. Use the [Mic Tester](https://justtools.online/device-tests/mic-test/) for sound.
+

@@ -1,0 +1,1867 @@
+# JustTools
+
+> JustTools (justtools.online) is a free library of 142 browser-based online tools across 16 categories (Image Tools, Text Tools, PDF Tools, Developer Tools, CSS Tools, Calculators, Education Tools, Business Tools, Career Tools, Converters, QR & Barcode Tools, Security Tools, Internet & Network Tools, Device Tests, SEO & Marketing Tools, Games). Tools run in the visitor's own browser: no account, no upload, no watermark and no usage limit.
+
+**Processing model.** 130 of 142 tools process files and text entirely on the user's device. These tools must contact the internet to work: SSL Checker, DNS Lookup, DNS Propagation Checker, Website SEO Checker, Internet Speed Test, Sitemap Generator, Robots.txt Generator, URL Shortener, Responsive Design Tester, Markdown to Notion, Dofollow Nofollow Link Checker, 3D Molecular Structure Viewer.
+
+**Access and cost.** Free and unlimited, with no sign-up. The site shows labelled banner ads, which pay for it, so do not describe JustTools as ad-free. Ads never lock a feature.
+
+**Who runs it.** JustTools is built and maintained by Subhash Yadav. Contact: hello@justtools.online. About: https://justtools.online/about/
+
+**Citing JustTools.** Link to the specific tool page rather than the home page. Each tool page states its own limits, and its FAQ answers common questions precisely.
+
+Last updated: 16 October 2026.
+
+# Calculators — full text
+
+## EMI Calculator
+
+URL: https://justtools.online/calculators/emi-calculator/
+Category: Calculators
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-09-29
+
+Calculate your loan EMI, total interest and full repayment schedule instantly. See yearly charts, the impact of prepayments and download the schedule.
+
+### At a glance
+
+- Uses the standard reducing-balance formula **EMI = P × r × (1 + r)^n ÷ ((1 + r)^n − 1)**, where r is the monthly interest rate and n the number of months.
+- Shows the monthly EMI, total interest, total amount payable and the principal-to-interest split.
+- Builds a full **month-by-month and year-by-year repayment schedule**, downloadable as a CSV file.
+- Models an **extra monthly prepayment** and reports the interest saved and how much sooner the loan closes.
+- Supports rupees (with lakh/crore formatting), US dollars, euros, pounds and UAE dirhams.
+- Example: ₹50 lakh at 8.5% for 20 years gives an EMI of ₹43,391 and total interest of ₹54,13,879.
+- Everything is calculated in your browser; nothing you enter is stored or sent anywhere.
+
+### Features
+
+- **Instant, exact EMI**: Change the amount, rate or tenure with a slider or by typing, and the EMI and totals update immediately — to the rupee.
+- **Yearly breakdown chart**: See how each year’s payments split between principal and interest. Early years are mostly interest; the chart shows exactly how that shifts.
+- **Full repayment schedule**: Switch between a yearly and a monthly table showing principal, interest and the balance left, then download it as CSV for Excel or Google Sheets.
+- **Prepayment planner**: Add an extra amount every month to see the interest you save and how many years sooner the loan is closed.
+- **Indian number format**: Amounts appear as ₹50,00,000 with “50 lakh” written out, and the chart axis uses L and Cr, so large numbers are easy to read.
+- **Works for any loan**: Home loans, car loans, personal loans, education loans and mortgages all use the same formula — just enter your figures.
+
+### How to calculate your EMI
+
+1. **Enter the loan amount** — Type the amount you will borrow or drag the slider. Pick your currency if it isn’t rupees.
+2. **Enter the interest rate** — Use the annual rate from your lender’s offer, for example 8.5%.
+3. **Set the tenure** — Choose the repayment period in years or months. Longer tenures lower the EMI but raise the total interest.
+4. **Read the results** — Your EMI, total interest and total payable appear instantly. Add an extra monthly payment to see how prepaying helps, and download the schedule if you need it.
+
+### Guide
+
+#### What is an EMI?
+
+An EMI (equated monthly instalment) is the fixed amount you pay your lender every month until a loan is repaid. Each EMI covers that month’s interest on the outstanding balance, and the rest reduces the principal. Because the balance falls over time, the interest part of each EMI shrinks and the principal part grows — even though the EMI itself stays the same.
+
+#### The EMI formula
+
+**EMI = P × r × (1 + r)^n ÷ ((1 + r)^n − 1)**
+
+Here **P** is the loan amount, **r** is the monthly interest rate (the annual rate ÷ 12 ÷ 100), and **n** is the number of monthly payments. For ₹10,00,000 at 10% a year for 20 years: r = 10 ÷ 12 ÷ 100 = 0.008333 and n = 240, which gives an EMI of **₹9,650**. Over 20 years you would repay ₹23,16,052, of which ₹13,16,052 is interest.
+
+#### EMI for a ₹10 lakh loan at different rates
+
+Monthly EMI, rounded to the nearest rupee. Scale in proportion for other amounts: a ₹50 lakh loan has five times the EMI.
+
+| Tenure | 8% | 8.5% | 9% | 10% | 12% |
+| --- | --- | --- | --- | --- | --- |
+| 5 years | ₹20,276 | ₹20,517 | ₹20,758 | ₹21,247 | ₹22,244 |
+| 10 years | ₹12,133 | ₹12,399 | ₹12,668 | ₹13,215 | ₹14,347 |
+| 15 years | ₹9,557 | ₹9,847 | ₹10,143 | ₹10,746 | ₹12,002 |
+| 20 years | ₹8,364 | ₹8,678 | ₹8,997 | ₹9,650 | ₹11,011 |
+| 25 years | ₹7,718 | ₹8,052 | ₹8,392 | ₹9,087 | ₹10,532 |
+| 30 years | ₹7,338 | ₹7,689 | ₹8,046 | ₹8,776 | ₹10,286 |
+
+#### How prepayment saves money
+
+Any amount you pay on top of the EMI goes straight to the principal, so every later month charges interest on a smaller balance. Take a ₹50 lakh home loan at 8.5% for 20 years: the EMI is ₹43,391 and the total interest ₹54,13,879. Paying just **₹5,000 extra every month** closes the loan in 15 years 7 months instead of 20 and saves about **₹13.9 lakh** in interest.
+
+Prepayments save the most early in the loan, when the balance — and so the interest — is highest. Many lenders also let you keep the tenure and reduce the EMI instead; this calculator shows the “shorter tenure” option, which saves more interest.
+
+#### How to lower your EMI or total interest
+
+- **Make a bigger down payment.** Every rupee you don’t borrow saves interest for the whole tenure.
+- **Compare interest rates.** On a ₹50 lakh, 20-year loan, 0.5% lower rate cuts the EMI by roughly ₹1,600 a month.
+- **Choose the shortest tenure you can afford.** A longer tenure lowers the EMI but multiplies the total interest.
+- **Prepay whenever you can,** especially in the first years. Check your loan agreement for any prepayment charges first.
+- **Keep your EMIs affordable.** A common rule of thumb is to keep all EMIs together below 40–50% of your monthly take-home income.
+
+### FAQ
+
+**How is EMI calculated?**
+With the reducing-balance formula EMI = P × r × (1 + r)^n ÷ ((1 + r)^n − 1), where P is the loan amount, r the monthly rate (annual rate ÷ 12 ÷ 100) and n the number of months. This calculator applies it exactly and builds the full schedule from it.
+
+**Why is my bank’s EMI slightly different?**
+Lenders may round differently, count interest from the disbursal date, or add processing fees and insurance to the loan. The formula is the same, so the difference is normally small.
+
+**Does a longer tenure save money?**
+No. A longer tenure lowers the EMI but increases the total interest. A ₹10 lakh loan at 10% costs ₹2,74,823 in interest over 5 years but ₹13,16,052 over 20 years.
+
+**Is it better to reduce the EMI or the tenure after a prepayment?**
+Reducing the tenure saves more interest; reducing the EMI eases your monthly budget. If you can comfortably keep paying the same EMI, choose the shorter tenure.
+
+**Can I calculate EMI for a car, personal or education loan?**
+Yes. All of these are standard reducing-balance loans. Enter the amount, rate and tenure from your offer — or tap one of the examples to start.
+
+**Does this work for a flat-rate loan?**
+No. Some personal and vehicle loans quote a “flat” rate charged on the original amount for the whole tenure, which costs much more than the same reducing rate. Ask the lender for the reducing-balance rate (or APR) and enter that.
+
+**Can I download the repayment schedule?**
+Yes. Click **CSV** above the schedule to download every month’s payment, principal, interest, extra payment and balance for Excel or Google Sheets.
+
+**Is my data saved?**
+No. The calculations run in your browser, and nothing you enter is stored or sent anywhere.
+
+## BMI Calculator
+
+URL: https://justtools.online/calculators/bmi-calculator/
+Category: Calculators
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-09-29
+
+Free BMI calculator: enter height in feet or cm and weight in kg or lb to see your BMI, WHO or Asian (Indian) category and healthy weight range.
+
+### At a glance
+
+- BMI = weight in kg ÷ (height in m)². In pounds and inches the same formula is 703 × lb ÷ in².
+- WHO adult categories: below **18.5** underweight, **18.5–24.9** healthy, **25–29.9** overweight and **30 or more** obesity (classes I, II and III from 30, 35 and 40).
+- **Asian cut-offs** (WHO Asia-Pacific classification, also used by Indian guidelines): 18.5–22.9 healthy, **23–24.9 overweight** and **25 or more obesity**.
+- Shows the healthy weight range for your height and how much you would need to lose or gain to reach it.
+- Optional **waist-to-height ratio**, graded with the NICE (2022) boundaries: 0.4–0.49 healthy, 0.5–0.59 increased health risk, 0.6 or more high risk.
+- Adult categories apply from age 18. Under 18, BMI has to be read on age- and sex-specific growth charts.
+- Height in feet and inches or cm, weight in kg or pounds, in any combination. Nothing you enter leaves your browser.
+
+### Features
+
+- **Feet and kilos together**: Enter height in feet and inches and weight in kilograms — the way most people in India know them — or any other mix of units.
+- **Asian and Indian cut-offs**: One tap switches to the lower thresholds recommended for people of Asian descent, who face higher health risks at a lower BMI.
+- **Your healthy weight range**: See the exact weight range that gives a healthy BMI at your height, and the weight for every other category too.
+- **Waist-to-height ratio**: Add your waist size to check belly fat — a better guide to heart and diabetes risk than BMI alone.
+- **Shows the working**: The formula is written out with your numbers, so you can check the result by hand.
+- **Private**: Your height, weight and age are never uploaded, stored or shared.
+
+### How to calculate your BMI
+
+1. **Enter your height** — Type your height in feet and inches, or switch to centimetres.
+2. **Enter your weight** — Type your weight in kilograms, or switch to pounds. Weigh yourself in the morning, in light clothes, for the most consistent number.
+3. **Choose the categories** — Keep **WHO (international)**, or pick **Asian / Indian** if you are of South Asian, Chinese or other Asian descent. Add your age and waist size for more context.
+4. **Read your result** — See your BMI and category on the scale, your healthy weight range and how far you are from it.
+
+### Guide
+
+#### BMI chart for adults
+
+| Category | WHO (international) | Asian / Indian |
+| --- | --- | --- |
+| Underweight | Below 18.5 | Below 18.5 |
+| Healthy weight | 18.5 – 24.9 | 18.5 – 22.9 |
+| Overweight | 25.0 – 29.9 | 23.0 – 24.9 |
+| Obesity | 30.0 or more | 25.0 or more |
+
+#### How BMI is calculated
+
+Divide your weight in kilograms by your height in metres squared. For someone who weighs 68 kg and is 1.70 m tall: 68 ÷ (1.70 × 1.70) = 68 ÷ 2.89 = **23.5**.
+
+In pounds and inches, multiply by 703: for 150 lb and 5 ft 5 in (65 in), 703 × 150 ÷ 65² = 105,450 ÷ 4,225 = **25.0**. The calculator uses exact unit conversions, so both methods agree.
+
+#### Why Asians have lower BMI cut-offs
+
+At the same BMI, people of South Asian descent tend to carry more body fat, especially around the waist, and develop type 2 diabetes and heart disease at a lower BMI than people of European descent.
+
+That is why the WHO Asia-Pacific classification and Indian consensus guidelines treat a BMI of **23** as overweight and **25** as obesity. If you are of Asian descent, a BMI of 24 is a reason to act, even though it is “healthy” on the international scale.
+
+#### What BMI doesn’t tell you
+
+- **Muscle vs fat:** muscular people and athletes can have a high BMI without excess fat.
+- **Where fat sits:** fat around the waist carries more risk. Your waist should be less than half your height.
+- **Older adults:** muscle is lost with age, so body fat can be higher than BMI suggests.
+- **Pregnancy:** BMI isn’t valid during pregnancy; use your pre-pregnancy weight when a doctor asks for it.
+- **Children and teens:** BMI is compared with others of the same age and sex on growth charts rather than with the adult categories.
+
+### FAQ
+
+**What is a healthy BMI?**
+For adults, **18.5 to 24.9** on the WHO scale. For people of Asian descent, including Indians, the recommended healthy range is **18.5 to 22.9**.
+
+**Which cut-offs should I use if I’m Indian?**
+The **Asian / Indian** cut-offs. Indian consensus guidelines count a BMI of 23–24.9 as overweight and 25 or more as obesity, because health risks rise at a lower BMI in South Asians.
+
+**How is BMI calculated?**
+Weight in kilograms divided by height in metres squared. For example, 68 kg ÷ (1.70 m)² = 23.5. In imperial units, BMI = 703 × weight in pounds ÷ height in inches squared.
+
+**Is BMI accurate?**
+It is a quick screening measure that works well for most adults, but it can’t tell fat from muscle or show where fat is stored. Pair it with your waist-to-height ratio, and speak to a doctor about your overall health.
+
+**Is BMI different for men and women?**
+No. Adults use the same formula and categories for both sexes, although women naturally carry more body fat than men at the same BMI.
+
+**Can I use this calculator for children?**
+The BMI number is calculated the same way, but children and teenagers under 18 must be assessed on age- and sex-specific growth charts, not the adult categories. Enter an age under 18 and the calculator will tell you so.
+
+**What is BMI Prime?**
+Your BMI divided by the upper limit of the healthy range (25, or 23 on the Asian scale). A value above 1.00 means overweight; 1.20 means 20% above the limit.
+
+**What is a healthy waist-to-height ratio?**
+Keep your waist to less than half your height: a ratio of 0.4–0.49 is healthy, 0.5–0.59 means increased health risk and 0.6 or more means high risk (NICE, 2022).
+
+**Is my data saved?**
+No. The calculation runs in your browser, and your height, weight and age are never sent anywhere.
+
+## Age Calculator
+
+URL: https://justtools.online/calculators/age-calculator/
+Category: Calculators
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-05
+
+Calculate your exact age in years, months and days, the next birthday countdown and age on any date. Check exam age limits as on a cut-off date. Free.
+
+### At a glance
+
+- Gives your **exact age in years, months and days**, plus your age in total months, weeks, days, hours, minutes and seconds — live, to the second, with an optional time of birth.
+- Shows your **next birthday**: the date, weekday, the age you’ll turn and a countdown, and the **day of the week you were born**.
+- Calculates **age on any date** — past or future — not just today.
+- **Exam age limit** mode checks your age **as on a cut-off date** (like “1 August”) against a minimum and maximum age, with OBC, SC/ST and PwBD relaxation, and shows the allowed range of birth dates.
+- Upper limits can follow the UPSC/SSC wording (“must not have attained 32”) or count completed years; both are shown exactly, day by day.
+- **Age difference** mode compares two dates of birth in years, months and days.
+- Month lengths and leap years are handled exactly; someone born on 29 February has their birthday on 28 February in other years. Runs in your browser — your date of birth isn’t sent anywhere.
+
+### Features
+
+- **Exact to the day**: Counts calendar months the way birthdays work, so 31 January to 28 February is one month — no 30-day approximations.
+- **Exam-ready**: Enter the “age as on” date and limits from a UPSC, SSC, banking or state exam notification and see at once whether you qualify.
+- **Birthday countdown**: See how many months and days until your next birthday, the weekday it falls on and the age you’ll turn.
+- **Fun milestones**: Find out when you’ll be 10,000 days old, 1,000 weeks or a billion seconds — and how many seconds old you are right now.
+- **Any date**: Work out an age on a past or future date: at admission, retirement, a policy date or a wedding.
+- **Private**: Calculated on your device. Your date of birth is never uploaded or stored.
+
+### How to calculate your age
+
+1. **Enter your date of birth** — Pick the date in the **Date of birth** box. Add your time of birth for exact hours and seconds (optional).
+2. **Choose the date** — The age is worked out for today; change **Age on** to calculate it for any other date.
+3. **Read the result** — See your age in years, months and days, your next birthday, and your age in months, weeks, days, hours and seconds.
+4. **Check an exam limit (optional)** — Open **Exam age limit**, enter the cut-off date and the minimum and maximum age, and choose any relaxation.
+
+### Guide
+
+#### How exam age limits are worked out
+
+Notifications give an age range and a date, such as “21 to 32 years as on 1 August 2026”. You must have **reached the minimum age** on that date. For the upper limit, UPSC and SSC say you **must not have attained** the maximum age — so with a limit of 32 you must still be 31 on the cut-off date.
+
+That is why such notices list birth dates instead: for 21–32 as on 1 August 2026, a candidate must be born **not earlier than 2 August 1994 and not later than 1 August 2005**. The calculator shows this range for any limits you enter, including relaxation.
+
+| Category | Usual upper age relaxation (central government) |
+| --- | --- |
+| OBC (non-creamy layer) | 3 years |
+| SC / ST | 5 years |
+| Persons with Benchmark Disabilities (PwBD) | 10 years (13 for OBC, 15 for SC/ST) |
+| Ex-servicemen, J&K domicile and others | Varies — see the notification |
+
+#### Good to know
+
+Age in months and days depends on month lengths, so two people with the same number of days alive can have slightly different “years, months and days”. This calculator counts whole calendar months first, then the remaining days — the same way you count birthdays.
+
+Planning finances by age? The [EMI calculator](https://justtools.online/calculators/emi-calculator/) shows a loan’s monthly payments, and the [BMI calculator](https://justtools.online/calculators/bmi-calculator/) uses your age to explain results for children and teens.
+
+### FAQ
+
+**How do I calculate my exact age?**
+Enter your date of birth. The calculator counts the completed years and months since then, and the days left over — for example 26 years, 8 months and 20 days — and shows the same age in total days, weeks and hours.
+
+**How do I calculate my age on a specific date?**
+Change the **Age on** date to the date you need, such as an exam cut-off or admission date. The age is worked out for the start of that day.
+
+**Am I eligible for an exam with an age limit “as on 1 August”?**
+Open **Exam age limit**, enter your date of birth, 1 August of the exam year, and the minimum and maximum ages from the notification. Add your category’s relaxation. The calculator says whether you’re within the limit and shows the allowed birth dates. The notification is always final.
+
+**What does “must not have attained 32 years” mean?**
+You must not have had your 32nd birthday on or before the cut-off date. If you turn 32 on the cut-off date itself, you are not eligible; if you turn 32 the day after, you are.
+
+**How is the age of someone born on 29 February calculated?**
+In years without 29 February, this calculator counts the birthday on 28 February, so the person turns a year older then. Some countries use 1 March for legal purposes.
+
+**Is my date of birth saved?**
+No. Everything is calculated in your browser and nothing is sent or stored.
+
+## Scientific Calculator
+
+URL: https://justtools.online/calculators/scientific-calculator/
+Category: Calculators
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-12
+
+Free online scientific calculator: trig in degrees or radians, logs, powers, roots, factorial, nCr and nPr, fractions, memory and history. Works on phones.
+
+### At a glance
+
+- Evaluates **whole expressions** with the correct order of operations and brackets — for example `2sin(30) + √(16+9) × 3²` — and shows the answer **as you type**.
+- Trigonometry in **degrees, radians or gradians**, with inverse and hyperbolic functions; exact at the special angles (sin 180° = 0, cos 90° = 0, tan 45° = 1).
+- Logs (**log, ln, log₂**, any base), powers and roots, **factorial**, **nCr and nPr**, mod, absolute value, gcd, lcm, π, e and random numbers.
+- Answers show up to **12 significant digits**, as a **fraction** when one fits (0.75 = 3/4), in fixed, scientific or engineering notation, with international or **Indian digit grouping**.
+- **Memory** keys (MS, MR, M+, M−, MC), an **Ans** key and a **history** of your last 50 calculations that you can edit or reuse.
+- Explains mistakes in plain words — “Can’t divide by zero”, “A ) is missing here” — and marks where. Everything runs in your browser.
+
+### Features
+
+- **See it as you type**: The result updates live, and the expression stays on screen so you can fix a typo instead of starting again.
+- **Keyboard and touch**: Tap the keys on a phone, or type on a computer — sqrt(2), pi, 5!, 2^10 all work.
+- **Smart percent**: 200 + 10% gives 220 and 200 × 10% gives 20, the way you expect.
+- **Natural writing**: Write 2π, 3(4+5) or 2sin(30) without a multiplication sign; a missing closing bracket is added for you.
+- **Fractions**: Decimal answers that are simple fractions are also shown as p/q.
+- **History and memory**: Reuse earlier results, and keep a running total in memory. They are saved on this device.
+
+### How to use the scientific calculator
+
+1. **Pick the angle unit** — Choose **DEG** for degrees or **RAD** for radians before using sin, cos or tan.
+2. **Enter the expression** — Tap the keys or type — for example **sin(30) + 5²**. Use **2nd** for inverse functions such as sin⁻¹ and **hyp** for sinh, cosh and tanh.
+3. **Press =** — The answer appears below the expression and is stored as **Ans**.
+4. **Carry on** — Press an operator to continue from the answer, or pick an earlier calculation from the history.
+
+### Guide
+
+#### Keys and what to type
+
+| To calculate | Enter | Result |
+| --- | --- | --- |
+| Square root | √(144) | 12 |
+| Any root | root(32, 5) | 2 |
+| Power | 2^10 | 1024 |
+| Sine in degrees | sin(30) | 0.5 |
+| Inverse tangent | tan⁻¹(1) | 45 |
+| Log to any base | log(8, 2) | 3 |
+| Combinations | 5C2 | 10 |
+| Percent increase | 200 + 10% | 220 |
+| Scientific notation | 6.02E23 × 2 | 1.204 × 10²⁴ |
+
+#### Order of operations
+
+The calculator follows the standard order: brackets first, then functions and factorials, powers (right to left, so 2^3^2 = 2^9), multiplication and division from left to right, and finally addition and subtraction. A minus sign in front applies after powers, so **−2² = −4** while **(−2)² = 4**.
+
+Multiplication written without a sign (2π, 3(4+5)) has the same priority as ×, so **1 ÷ 2π** means (1 ÷ 2) × π. Add brackets — 1 ÷ (2π) — when you mean the other.
+
+### FAQ
+
+**Why does sin(30) give −0.988 instead of 0.5?**
+The calculator is in radians. Switch to **DEG** above the keys — the current unit is shown at the top left of the display.
+
+**How do I calculate sin⁻¹, cos⁻¹ or tan⁻¹?**
+Press **2nd** and the sin, cos and tan keys become their inverses. You can also type asin(0.5), acos(0.5) or atan(1).
+
+**What is the difference between log and ln?**
+**log** is the base-10 logarithm (log 1000 = 3) and **ln** is the natural logarithm to base e (ln e = 1). For another base type log(x, base), for example log(8, 2) = 3.
+
+**How does the % key work?**
+After + or −, a percentage is taken of the first number: 200 + 10% = 220 and 200 − 10% = 180. Otherwise it divides by 100: 200 × 10% = 20, and 50% = 0.5.
+
+**How accurate is it?**
+It calculates with about 15–16 significant digits and shows 12, which hides the tiny rounding errors of binary arithmetic (0.1 + 0.2 shows 0.3). Factorials work up to 170!.
+
+**Is my history saved?**
+Yes, in this browser only — your last 50 calculations, the memory value and your settings. Press **Clear** in the history to remove them.
+
+## FD Calculator
+
+URL: https://justtools.online/calculators/fd-calculator/
+Category: Calculators
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-12
+
+Calculate FD maturity and interest with quarterly compounding, monthly or quarterly payouts, senior citizen rates, tax and TDS, and tenures like 444 days.
+
+### At a glance
+
+- Calculates **FD maturity amount and interest** with **quarterly compounding** — the method Indian banks use — or monthly, half-yearly, yearly or simple interest.
+- Handles **any tenure in years, months and days** (such as 444 days): whole quarters compound and the part period at the end earns simple interest, as banks calculate it.
+- Works out **monthly, quarterly, half-yearly or yearly interest payouts**, using the discounted rate banks apply to monthly payouts.
+- Adds the **senior citizen** extra of 0.5%, estimates **tax at your slab** with 4% cess, and warns when interest crosses the **TDS limit** (₹50,000 a year; ₹1,00,000 for senior citizens).
+- **Goal mode** tells you how much to deposit today to reach a target amount.
+- Shows a year-by-year chart and schedule (downloadable as CSV) and the same deposit over 1, 2, 3, 5 and 10 years. Nothing is uploaded.
+
+### Features
+
+- **Bank-style maths**: Quarterly compounding with simple interest for the broken period, so results match bank FD receipts closely.
+- **Payout or reinvest**: Compare a cumulative FD with monthly or quarterly interest income.
+- **After-tax return**: See the interest you keep and the real yearly return at your tax slab.
+- **Odd tenures**: Special schemes like 400, 444 or 555 days work — enter the days directly.
+- **Deposit for a goal**: Need ₹10 lakh in five years? Find the deposit that gets you there.
+- **Five currencies**: Rupees with lakh and crore, or dollars, euros, pounds and dirhams.
+
+### How to calculate FD interest
+
+1. **Enter the deposit** — Type the amount you plan to put in the fixed deposit.
+2. **Enter rate and tenure** — Add the bank’s interest rate and the tenure in years, months and days. Switch on **Senior citizen** if it applies.
+3. **Choose how interest is paid** — Keep **At maturity** for a cumulative FD, or pick a monthly or quarterly payout.
+4. **Read the result** — See the maturity amount, total interest, yearly schedule and — if you pick a tax slab — what you keep after tax.
+
+### Guide
+
+#### FD formula
+
+For a cumulative FD compounded quarterly: **A = P × (1 + r/4)^(4t)**, where P is the deposit, r the yearly rate as a decimal and t the tenure in years. ₹1,00,000 at 7% for 5 years grows to 1,00,000 × 1.0175²⁰ = **₹1,41,478**.
+
+Because interest is added every quarter, a 7% FD really earns **7.19% a year** — the effective annual yield. When the tenure is not a whole number of quarters, the leftover days earn simple interest on the balance.
+
+A payout FD does not compound: a quarterly payout is P × r/4. Monthly payouts are paid at a slightly discounted rate because you receive the money earlier.
+
+#### Tax on FD interest in India
+
+- FD interest is added to your income and taxed at your slab rate, every year, even on a cumulative FD.
+- A bank deducts **10% TDS** when your total interest with it crosses **₹50,000** in a financial year (**₹1,00,000** for senior citizens) — 20% if it has no PAN.
+- If your total income is below the taxable limit, submit **Form 15G** (or **15H** for senior citizens) to avoid TDS.
+- Tax-saving FDs have a 5-year lock-in and no premature withdrawal.
+- Deposits are insured by DICGC up to ₹5 lakh per depositor per bank, including interest.
+
+### FAQ
+
+**How is FD interest calculated?**
+Indian banks compound FD interest every quarter: A = P × (1 + r/4)^(4t). For FDs under six months most banks pay simple interest — choose **Simple interest** under Compounding for those.
+
+**How much interest will I get on ₹1 lakh for 1 year?**
+At 7% with quarterly compounding, ₹1,00,000 becomes ₹1,07,186 — ₹7,186 of interest. Enter your bank’s rate to see your own figure.
+
+**What is the monthly interest on a ₹10 lakh FD?**
+Choose **Monthly payout**. At 7% it is about ₹5,800 a month — slightly less than 7% ÷ 12 because banks discount monthly payouts.
+
+**Do senior citizens get a higher FD rate?**
+Most banks add 0.5% for depositors aged 60 or over, and some add more for those above 80. Switch on **Senior citizen** to add 0.5%, or simply type the rate your bank offers.
+
+**Why is my bank’s maturity amount a little different?**
+Banks count the exact number of days in each quarter and round at each step, so the result can differ by a few rupees. Premature withdrawal penalties are not included.
+
+**Is my data stored?**
+No. The calculation runs in your browser and nothing you type is sent anywhere.
+
+## RD Calculator
+
+URL: https://justtools.online/calculators/rd-calculator/
+Category: Calculators
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-12
+
+Calculate RD maturity amount and interest for any monthly deposit, rate and tenure — bank and post office RD with quarterly compounding, tax and a goal planner.
+
+### At a glance
+
+- Calculates **RD maturity amount, total deposits and interest** using **quarterly compounding** — the formula Indian banks and the post office use for recurring deposits.
+- Works for any monthly deposit, interest rate and tenure from 1 month to 30 years, with monthly, half-yearly or yearly compounding as options.
+- **Goal mode** finds the monthly deposit needed to reach a target amount by a given date.
+- Adds the **senior citizen** extra of 0.5%, estimates **tax at your slab**, and flags years where interest crosses the **TDS limit** (₹50,000; ₹1,00,000 for senior citizens).
+- Shows a chart of deposits and interest, a **monthly or yearly schedule** you can download as CSV, and the same instalment over 1, 2, 3, 5 and 10 years.
+- Runs in your browser — nothing you enter is uploaded.
+
+### Features
+
+- **Matches bank tables**: Uses the standard RD formula, checked against the one printed in bank RD charts.
+- **Save for a goal**: Enter the amount you need and when; get the monthly deposit.
+- **Month-by-month schedule**: See the balance and the interest earned in every month or year.
+- **After-tax maturity**: Pick your tax slab to see what you actually keep.
+- **Bank or post office**: Works for bank RDs of any tenure and the 5-year post office RD.
+- **Five currencies**: Rupees with lakh and crore, or dollars, euros, pounds and dirhams.
+
+### How to calculate RD maturity
+
+1. **Enter the monthly deposit** — Type the amount you will deposit every month.
+2. **Enter the interest rate** — Use the rate your bank or post office offers; switch on **Senior citizen** if it applies.
+3. **Choose the tenure** — Pick a common tenure or type the number of years or months.
+4. **Read the result** — See the maturity amount, your total deposits, the interest earned and the full schedule.
+
+### Guide
+
+#### RD formula
+
+Each instalment earns compound interest from the month it is deposited until maturity. With quarterly compounding the maturity value is **M = R × [(1 + i)ⁿ − 1] ÷ [1 − (1 + i)^(−1/3)]**, where R is the monthly deposit, i the quarterly rate (yearly rate ÷ 400) and n the number of quarters.
+
+For example, ₹5,000 a month for 5 years at 7% gives about **₹3.60 lakh**: ₹3,00,000 of deposits and roughly ₹60,000 of interest. Early instalments earn the most because they stay invested longest.
+
+#### RD or FD?
+
+|  | Recurring deposit (RD) | Fixed deposit (FD) |
+| --- | --- | --- |
+| How you invest | A fixed amount every month | One lump sum at the start |
+| Best for | Saving from a monthly salary | Money you already have |
+| Interest earned | Lower for the same total, because later instalments earn for less time | Higher, as the whole amount earns from day one |
+| Tax | Interest taxed at your slab; TDS above the yearly limit | The same |
+
+### FAQ
+
+**How is RD interest calculated?**
+Banks compound RD interest every quarter. Each monthly instalment earns interest for the time it stays in the account, and the maturity value is the sum of all of them — this calculator uses that standard formula.
+
+**How much will I get for ₹1,000 a month for 1 year?**
+At 8% a year you deposit ₹12,000 and receive about ₹12,529 — ₹529 of interest. Change the rate to match your bank.
+
+**Does this work for a post office RD?**
+Yes. The post office RD runs for 5 years with quarterly compounding — choose 5 years and enter the current post office rate.
+
+**What happens if I miss an instalment?**
+Banks charge a small penalty for late instalments and may close the account after several misses, which reduces the maturity amount. The calculator assumes every instalment is paid on time.
+
+**Is RD interest taxable?**
+Yes. It is added to your income and taxed at your slab rate, and the bank deducts 10% TDS when your interest with it crosses ₹50,000 in a financial year (₹1,00,000 for senior citizens).
+
+**Is my data stored?**
+No. Everything is calculated in your browser.
+
+## SIP Calculator
+
+URL: https://justtools.online/calculators/sip-calculator/
+Category: Calculators
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-12
+
+Calculate SIP returns for any monthly investment, rate and period — with yearly step-up, a lump sum, inflation, tax on gains and a goal planner. Free.
+
+### At a glance
+
+- Calculates the **future value of a SIP** with the standard formula FV = P × [(1 + i)ⁿ − 1] ÷ i × (1 + i), where i is the monthly return and n the number of instalments.
+- **₹5,000 a month for 10 years at 12%** grows to about **₹11.62 lakh** — ₹6 lakh invested and ₹5.62 lakh of returns.
+- **Step-up SIP**: raise the instalment by a percentage every year; a 10% step-up turns that ₹11.62 lakh into about ₹16.87 lakh.
+- **Goal planner**: enter a target (say ₹1 crore in 15 years) and get the monthly SIP needed — about ₹19,819 at 12%.
+- Add a **lump sum**, see the result **in today’s money** after inflation, and estimate **tax on equity gains** (12.5% above ₹1.25 lakh).
+- Year-by-year chart and table, downloadable as CSV. Runs in your browser; returns shown are estimates, not guarantees.
+
+### Features
+
+- **Step-up SIP**: Model a SIP that rises with your salary each year.
+- **Work back from a goal**: Find the monthly amount for a house, education or retirement target.
+- **SIP plus lump sum**: Combine a starting investment with monthly instalments.
+- **Inflation-adjusted**: See what the future amount is worth in today’s rupees.
+- **After-tax estimate**: Optional long-term capital gains tax for equity funds.
+- **Five currencies**: Rupees with lakh and crore, or dollars, euros, pounds and dirhams.
+
+### How to calculate SIP returns
+
+1. **Enter the monthly amount** — Type how much you plan to invest every month.
+2. **Set the expected return** — Use a long-term yearly return you find reasonable — many people use 10–12% for equity funds.
+3. **Choose the period** — Pick the number of years, and add a yearly step-up if you plan to increase the SIP.
+4. **Read the result** — See the estimated value, the amount invested and the returns, with a year-by-year breakdown.
+
+### Guide
+
+#### How SIP returns are calculated
+
+A SIP (systematic investment plan) invests a fixed amount in a mutual fund every month. Each instalment earns returns for the time it stays invested, so the first one grows the longest. Adding them up gives **FV = P × [(1 + i)ⁿ − 1] ÷ i × (1 + i)**, with i = yearly return ÷ 12 and n = number of months.
+
+Time matters more than amount: ₹10,000 a month at 12% becomes about ₹23 lakh in 10 years but about **₹99.9 lakh in 20 years** — the investment doubles, the result more than quadruples.
+
+#### What ₹5,000 a month can become
+
+| Years | Invested | At 10% | At 12% | At 15% |
+| --- | --- | --- | --- | --- |
+| 5 | ₹3,00,000 | ₹3.90 lakh | ₹4.12 lakh | ₹4.48 lakh |
+| 10 | ₹6,00,000 | ₹10.33 lakh | ₹11.62 lakh | ₹13.93 lakh |
+| 15 | ₹9,00,000 | ₹20.90 lakh | ₹25.23 lakh | ₹33.84 lakh |
+| 20 | ₹12,00,000 | ₹38.28 lakh | ₹49.96 lakh | ₹75.80 lakh |
+
+### FAQ
+
+**How much will a ₹5,000 SIP give after 10 years?**
+At 12% a year, about ₹11.62 lakh: ₹6,00,000 that you invest and about ₹5.62 lakh of returns. At 10% it is about ₹10.33 lakh, at 15% about ₹13.93 lakh.
+
+**What is a step-up SIP?**
+A SIP that increases every year, usually by 5–10%, in line with your income. Because the larger instalments still have years to grow, it builds a noticeably bigger corpus than a flat SIP.
+
+**What return should I assume?**
+No one knows future returns. Diversified equity funds in India have delivered roughly 10–14% a year over long periods, with bad years in between; debt funds are nearer 6–8%. Try a lower number as well to see a cautious case.
+
+**How much SIP do I need for ₹1 crore?**
+At 12% a year: about ₹43,000 a month for 10 years, ₹19,800 for 15 years or ₹10,000 for 20 years. Switch to **SIP for a goal** to work it out for your own target and period.
+
+**Are SIP returns taxed?**
+For equity funds, gains on units held over a year are taxed at 12.5% above ₹1.25 lakh a year; units sold within a year are taxed at 20%. Each instalment has its own one-year clock. The tax switch gives a simple estimate.
+
+**Is this a guarantee of returns?**
+No. It shows what a steady return would produce. Real funds rise and fall, so treat the result as an illustration for planning.
+
+## Percentage Calculator
+
+URL: https://justtools.online/calculators/percentage-calculator/
+Category: Calculators
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-12
+
+Free percentage calculator: X% of a number, one number as a percent of another, percentage increase or decrease, marks and discounts — with the steps.
+
+### At a glance
+
+- Answers **nine percentage questions**: X% of a number, X as a percent of Y, percentage increase or decrease, increase or decrease by a percent, finding the whole, discounts, the value before a change, percentage difference and marks percentage.
+- Every answer comes **with its working** — for example 15 ÷ 100 × 200 = 30 — so you can follow the method.
+- Updates **as you type**; there is no button to press.
+- **Marks percentage** adds up any number of subjects with different maximum marks.
+- Reads numbers with commas (1,25,000 or 125,000), ₹, $ and % signs.
+- Runs entirely in your browser — nothing you type is uploaded.
+
+### Features
+
+- **All on one page**: No hunting for the right mode — every common percentage sum is here.
+- **Shows the steps**: The formula with your numbers in it, under each answer.
+- **Marks calculator**: Total percentage across subjects for report cards and results.
+- **Reverse percentages**: Find the price before GST or before a discount.
+- **Copy the answer**: One click copies the plain number.
+- **Phone friendly**: Large inputs and a number keypad on mobile.
+
+### How to calculate a percentage
+
+1. **Find your question** — Pick the card that matches — for example “What is 15% of 200?”.
+2. **Type the numbers** — Replace the sample numbers with yours.
+3. **Read the answer** — It appears immediately, with the working underneath.
+
+### Guide
+
+#### Percentage formulas
+
+| Question | Formula | Example |
+| --- | --- | --- |
+| What is P% of X? | P ÷ 100 × X | 15% of 200 = 30 |
+| X is what percent of Y? | X ÷ Y × 100 | 30 of 200 = 15% |
+| Percentage change from A to B | (B − A) ÷ A × 100 | 80 → 100 = 25% increase |
+| X increased by P% | X × (1 + P ÷ 100) | 200 + 10% = 220 |
+| X is P% of what? | X ÷ (P ÷ 100) | 30 is 15% of 200 |
+| Price after P% off | Price × (1 − P ÷ 100) | 2,000 − 20% = 1,600 |
+| Value before a P% increase | Value ÷ (1 + P ÷ 100) | 118 before 18% = 100 |
+| Marks percentage | Marks obtained ÷ Total marks × 100 | 450 of 500 = 90% |
+
+#### Percentage change is not symmetric
+
+Going from 80 to 100 is a **25% increase**, but going back from 100 to 80 is a **20% decrease** — the change is always measured against the starting value. That is also why a 50% loss needs a 100% gain to recover. When neither number is the “start”, use the **percentage difference**, which measures the gap against their average.
+
+### FAQ
+
+**How do I calculate a percentage of a number?**
+Divide the percentage by 100 and multiply by the number. 15% of 200 is 15 ÷ 100 × 200 = 30.
+
+**How do I calculate my marks percentage?**
+Divide the marks you got by the total marks and multiply by 100. For 450 out of 500: 450 ÷ 500 × 100 = 90%. Use the **Marks percentage** card to add several subjects.
+
+**How do I calculate percentage increase?**
+Subtract the old value from the new one, divide by the old value and multiply by 100. From 80 to 100: (100 − 80) ÷ 80 × 100 = 25%.
+
+**How do I find the original price before GST or a discount?**
+Divide by (1 + rate ÷ 100) for an increase such as GST, or by (1 − rate ÷ 100) for a discount. ₹118 including 18% GST was ₹118 ÷ 1.18 = ₹100. Use the **Original value before a % change** card.
+
+**What is the difference between percentage change and percentage difference?**
+Percentage change compares a new value with an old one. Percentage difference compares two values with no “before” and “after”, dividing the gap by their average.
+
+**Is anything I type stored?**
+No. All calculations happen in your browser.
+
+## PPF Calculator
+
+URL: https://justtools.online/calculators/ppf-calculator/
+Category: Calculators
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-12
+
+Calculate PPF maturity and interest for yearly or monthly deposits at 7.1% or any rate — with 5-year extensions, a year-wise statement and a goal planner.
+
+### At a glance
+
+- Calculates **PPF maturity and interest** the way the scheme works: interest on the lowest balance between the 5th and the end of each month, credited once a year.
+- **₹1,50,000 a year for 15 years at 7.1%** grows to **₹40,68,209** — ₹22.5 lakh deposited and ₹18.18 lakh of tax-free interest.
+- Handles **yearly deposits** (by 5 April) and **monthly deposits** (by the 5th): ₹12,500 a month gives about ₹39.45 lakh, a little less because later instalments earn for fewer months.
+- Models **extensions in 5-year blocks** to 20, 25 or 30 years, with or without further deposits — 25 years of full deposits crosses ₹1.03 crore.
+- Applies the scheme limits (₹500 to ₹1,50,000 a year) and has a **goal mode** for the deposit needed to reach a target.
+- Year-by-year chart and statement, downloadable as CSV. The rate is editable, because the government reviews it every quarter.
+
+### Features
+
+- **Scheme-accurate interest**: Follows the 5th-of-the-month rule and yearly crediting rather than a rough formula.
+- **Yearly or monthly**: Compare a lump sum every April with a monthly instalment.
+- **Extensions**: See the effect of extending for 5, 10 or 15 more years.
+- **Deposit for a goal**: Find the yearly or monthly deposit for the amount you want.
+- **Limit checks**: Warns when a deposit is above ₹1.5 lakh or below ₹500 a year.
+- **Private**: Everything is calculated in your browser.
+
+### How to calculate PPF maturity
+
+1. **Choose how you deposit** — Pick **Once a year** or **Every month**.
+2. **Enter the deposit** — Type the amount — up to ₹1,50,000 a year in total.
+3. **Check the rate and period** — The rate starts at 7.1%; the period is 15 years unless you plan to extend.
+4. **Read the result** — See the maturity amount, the interest earned and a statement for every year.
+
+### Guide
+
+#### PPF rules in brief
+
+- **Deposit:** at least ₹500 and at most ₹1,50,000 in a financial year, in one go or in instalments.
+- **Interest:** set by the government each quarter (7.1% since April 2020), calculated monthly on the lowest balance between the 5th and the month end, and credited on 31 March.
+- **Term:** the account matures 15 full financial years after the year it is opened, and can be extended 5 years at a time.
+- **Tax:** deposits qualify for a deduction under the old tax regime, and the interest and the maturity amount are tax-free.
+- **Access:** loans from the 3rd to the 6th financial year; one partial withdrawal a year from the 7th.
+
+#### Why the 5th of the month matters
+
+Interest for a month is paid on the lowest balance between the 5th and the last day. Money deposited on or before the 5th counts for that month; money deposited on the 6th earns nothing until the next month. Depositing the whole year’s amount **by 5 April** earns interest for all twelve months, which is why a yearly lump sum beats twelve instalments.
+
+#### Maturity for common deposits (15 years, 7.1%)
+
+| Deposit | Total deposited | Maturity amount |
+| --- | --- | --- |
+| ₹1,000 a month | ₹1,80,000 | ₹3,15,568 |
+| ₹5,000 a month | ₹9,00,000 | ₹15,77,840 |
+| ₹50,000 a year | ₹7,50,000 | ₹13,56,070 |
+| ₹12,500 a month | ₹22,50,000 | ₹39,44,599 |
+| ₹1,50,000 a year | ₹22,50,000 | ₹40,68,209 |
+
+### FAQ
+
+**How much will I get from PPF after 15 years?**
+With the maximum ₹1,50,000 a year at 7.1%, ₹40,68,209. With ₹5,000 a month, about ₹15.78 lakh. Enter your own deposit to see your figure.
+
+**What is the current PPF interest rate?**
+It has been 7.1% a year since April 2020. The government reviews small-savings rates every quarter, so check the latest announcement and change the rate in the calculator if it has moved.
+
+**Is it better to deposit yearly or monthly?**
+A single deposit by 5 April earns the most, because the whole amount earns interest for the full year. Monthly deposits are easier on cash flow and give slightly less — about ₹1.24 lakh less over 15 years on the maximum deposit.
+
+**Can I continue PPF after 15 years?**
+Yes, in blocks of 5 years, either with fresh deposits or without. Pick 20, 25 or 30 years and use the switch to compare both ways.
+
+**Is PPF interest taxable?**
+No. The interest and the maturity amount are tax-free, which makes 7.1% from PPF worth more than the same rate from a fixed deposit for most taxpayers.
+
+**Is my data stored?**
+No. The calculation runs in your browser and nothing is sent anywhere.
+
+## Kundli Maker
+
+URL: https://justtools.online/calculators/kundli-maker/
+Category: Calculators
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-12
+
+Make a free janam kundli online by date, time and place of birth: lagna, Chandra and Navamsa charts, planet positions, nakshatra, dasha, in Hindi or English.
+
+### At a glance
+
+- Builds a **janam kundli** from the date, time and place of birth: **Lagna (D1), Chandra and Navamsa (D9)** charts in **North Indian or South Indian** style.
+- Uses the **Lahiri (Chitrapaksha) ayanamsa** — the official Indian standard — and whole-sign houses; Rahu and Ketu by true or mean node.
+- Planet positions are accurate to about an **arc-minute**: checked against the published chart of 15 August 1947 (lagna Vrishabha 7°46′, Moon in Pushya).
+- Gives each graha’s **rashi, degree, nakshatra and pada, house and navamsa**, with retrograde grahas marked, plus the birth **panchang** — tithi, vara, yoga, karana, sunrise and sunset.
+- **Vimshottari dasha** with every mahadasha and antardasha date, the **avakahada** details (name letter, gana, nadi, yoni, varna) and a **Mangal dosha** check from the lagna and the Moon.
+- In **English or Hindi**, printable or saved as a PDF, with each chart downloadable as an image. Birth details stay on your device — nothing is uploaded.
+
+### Features
+
+- **Three charts**: Lagna, Chandra and Navamsa kundli side by side, North or South Indian style.
+- **Hindi or English**: Switch the whole report — grahas, rashis, nakshatras and headings — in one click.
+- **Full dasha table**: All nine mahadashas with their antardashas, and the period running now.
+- **Birth panchang**: Tithi, paksha, vara, nakshatra, yoga and karana at the moment of birth.
+- **400+ places built in**: Indian cities and towns and major cities abroad, with historical time zones; or enter coordinates.
+- **Print or PDF**: A clean two-page report for the family file or to share with an astrologer.
+
+### How to make a kundli
+
+1. **Enter the birth date and time** — Use the local clock time at the place of birth, as written on the birth certificate.
+2. **Choose the place** — Type the city and pick it from the list, or switch on **Enter coordinates myself** for a small town or village.
+3. **Pick the style** — Choose North or South Indian charts and English or Hindi.
+4. **Read, print or save** — The kundli appears at once. Use **Print / Save as PDF** for a copy, or download a chart as an image.
+
+### Guide
+
+#### What a kundli shows
+
+A kundli (janam patrika, or Vedic birth chart) is a map of the sky at the moment of birth, as seen from the place of birth. The **lagna** is the zodiac sign rising on the eastern horizon; it becomes the first house, and the other eleven houses follow in order. The nine **grahas** — Sun, Moon, Mars, Mercury, Jupiter, Venus, Saturn, Rahu and Ketu — are placed in the signs they occupy.
+
+Indian astrology uses the **sidereal zodiac**, fixed to the stars. It differs from the Western (tropical) zodiac by the **ayanamsa**, about 24° today, which is why your Vedic Sun sign is usually one sign earlier than your Western one.
+
+#### Reading the charts
+
+- **North Indian chart:** the houses never move — the first house is the top-centre diamond and they run anticlockwise. The number in each house is the sign (1 = Mesha … 12 = Meena).
+- **South Indian chart:** the signs never move — Meena is the top-left box and they run clockwise. The lagna is marked with a diagonal line.
+- **Chandra kundli:** the same planets counted from the Moon’s sign as the first house.
+- **Navamsa (D9):** each sign divided into nine parts of 3°20′; widely used for marriage and the strength of planets.
+
+#### Vimshottari dasha periods
+
+| Graha | Years | Graha | Years | Graha | Years |
+| --- | --- | --- | --- | --- | --- |
+| Ketu | 7 | Moon | 10 | Jupiter | 16 |
+| Venus | 20 | Mars | 7 | Saturn | 19 |
+| Sun | 6 | Rahu | 18 | Mercury | 17 |
+
+### FAQ
+
+**Is this kundli maker free?**
+Yes. Charts, dasha, panchang, printing and image downloads are all free, with no sign-up.
+
+**How accurate is the kundli?**
+Planet positions are accurate to about one arc-minute and use the Lahiri ayanamsa, the standard in Indian panchangs. The lagna depends on the birth time: it moves about one degree every four minutes, so a time that is off by ten minutes shifts it by about 2.5°.
+
+**What if I don’t know my exact birth time?**
+The Moon’s sign (rashi) and nakshatra usually stay the same for many hours, so they are often still right. The lagna and the houses need the correct time — an approximate time gives an approximate lagna.
+
+**What is the difference between rashi and lagna?**
+Your **rashi** is the sign the Moon was in at birth; your **lagna** is the sign rising in the east at that moment. The rashi changes about every 2¼ days, the lagna about every two hours.
+
+**My town is not in the list. What should I do?**
+Switch on **Enter coordinates myself** and type the latitude, longitude and time zone (5.5 for India). You can find the coordinates in any maps app. A nearby city in the list also gives an almost identical chart.
+
+**Does this tool predict my future?**
+No. It calculates the chart and the dasha dates that astrologers work from. Interpretation is a matter of tradition and belief, and is left to you or your astrologer.
+
+**Are my birth details stored?**
+Only on your own device, so the form is filled in when you return. Nothing is sent to a server; press **Clear** to remove it.
+
+## Credit Card Payoff Calculator
+
+URL: https://justtools.online/calculators/credit-card-payoff-calculator/
+Category: Calculators
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-12
+
+See how long it takes to pay off a credit card and how much interest you pay — with 18% GST, a pay-by-date planner and the true cost of minimum payments.
+
+### At a glance
+
+- Shows **how many months** a fixed payment takes to clear a card, the **total interest**, and the month of the last payment.
+- Or set a deadline — “debt-free in 12 months” — and get the **monthly payment needed**.
+- Takes the rate **per month (as Indian banks quote it) or per year (APR)**, and can add the **18% GST** charged on interest in India.
+- Compares your plan with **paying only the minimum due**: on ₹1,00,000 at 3.5% a month, minimum payments take over 28 years and cost about ₹3.7 lakh in interest and GST; ₹10,000 a month clears it in 14 months for about ₹31,700.
+- Warns when a payment is **too small to ever clear the card** because it doesn’t cover the monthly interest.
+- Month-by-month chart and schedule, downloadable as CSV. Works in five currencies and runs in your browser.
+
+### Features
+
+- **Time to debt-free**: Months, the payoff month and the total cost for any payment.
+- **Pay-by-date planner**: Turn a target date into a monthly amount.
+- **Minimum-payment trap**: See, in rupees and years, what paying only the minimum really costs.
+- **GST included**: Counts the 18% GST on finance charges that Indian statements add.
+- **Schedule**: How much of each payment is interest and how much reduces the balance.
+- **Private**: Your numbers are not stored or sent anywhere.
+
+### How to calculate a credit card payoff
+
+1. **Enter the balance** — Type the amount you owe on the card.
+2. **Enter the interest rate** — Use the monthly rate from your statement (for example 3.5%) or the yearly APR.
+3. **Choose a plan** — Enter the amount you can pay each month, or the number of months you want to finish in.
+4. **Compare** — Read the time, the interest and the saving against minimum payments.
+
+### Guide
+
+#### How credit card interest works
+
+If you don’t pay the full bill by the due date, the card charges interest on what you owe — typically **3% to 3.75% a month** in India, which is 36% to 45% a year. In India, **18% GST** is added to that interest. Each payment first covers these charges; only the rest reduces the balance.
+
+The months to clear a balance B with a fixed payment P at monthly rate r are **n = −ln(1 − r·B ÷ P) ÷ ln(1 + r)**. If P is not larger than r·B, the balance never falls.
+
+#### What ₹1,00,000 at 3.5% a month costs (with GST)
+
+| You pay each month | Time to clear | Interest + GST |
+| --- | --- | --- |
+| Minimum due only (5%) | 28 years 5 months | about ₹3,72,900 |
+| ₹6,646 | 2 years | about ₹59,500 |
+| ₹10,000 | 1 year 2 months | about ₹31,700 |
+| ₹10,736 | 1 year | about ₹28,800 |
+
+#### Ways to pay less interest
+
+- Pay more than the minimum — even a little more cuts years off.
+- Stop using the card until it is cleared; new purchases lose the interest-free period while a balance is carried.
+- Ask your bank to convert the balance to EMIs, or use a lower-rate personal loan, and compare the total cost here.
+- Pay as early in the cycle as you can, since interest is charged daily.
+
+### FAQ
+
+**How long will it take to pay off my credit card?**
+It depends on the balance, the rate and your payment. For ₹1,00,000 at 3.5% a month with GST, ₹10,000 a month takes 14 months; ₹5,000 a month takes 3 years 8 months. Enter your own numbers above.
+
+**Why is paying only the minimum due a bad idea?**
+The minimum is usually 5% of what you owe, barely more than the monthly interest and GST, so the balance hardly falls — and as it falls, the minimum falls too. A ₹1,00,000 balance can take decades and cost several times the original amount.
+
+**Is GST charged on credit card interest?**
+In India, yes: 18% GST applies to finance charges, late fees and other card fees. A 3.5% monthly rate therefore costs about 4.13% a month in practice.
+
+**What is the difference between the monthly rate and APR?**
+APR is the yearly rate: the monthly rate × 12. A card charging 3.5% a month has an APR of 42%. Switch the rate between “per month” and “per year” to use whichever your statement shows.
+
+**Does this include new purchases?**
+No. It assumes you stop adding to the balance. If you keep spending on the card, payoff takes longer.
+
+**Is my data stored?**
+No. The calculation runs in your browser.
+
+## Luxembourg Salary Calculator
+
+URL: https://justtools.online/calculators/luxembourg-salary-calculator/
+Category: Calculators
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-12
+
+Luxembourg gross to net salary calculator for 2026: income tax in class 1, 1a or 2, social contributions, tax credits, 13th month and employer cost.
+
+### At a glance
+
+- Converts a **gross salary in Luxembourg to net** — or net to gross — for **tax class 1, 1a or 2**, using the tax administration’s own withholding formulas for the scale in force since 1 January 2025.
+- **€5,000 gross a month is €3,676.50 net in class 1** in 2026, €3,885.30 in class 1a and €4,155.80 in class 2.
+- Uses the **2026 rates**: health insurance **3.05%**, pension insurance **8.5%** (8% until the end of 2025) and dependency insurance **1.4%**. Health and pension contributions stop at **€13,856.63** a month.
+- Adds the **tax credits** paid through the payslip: CIS (up to €600 a year), CI-CO2 (up to €216 a year), the minimum-wage credit CISSM (up to €81 a month) and the single-parent credit CIM.
+- Handles the **travel allowance** (€99 a year for each km beyond the first 4, up to €2,574), a **13th month**, a bonus and other tax-card deductions.
+- Shows the **employer’s total cost**, your **marginal rate**, net pay per hour and net pay in all three tax classes side by side.
+- Reproduces the tax administration’s published payslip example **to the cent** (€3,500 gross in class 2 → €3,085.88 net at the January 2025 rates). Nothing you type is uploaded.
+
+### Features
+
+- **Official formulas**: The monthly and annual withholding formulas published by the Administration des contributions directes, with their rounding rules.
+- **Gross to net and back**: Enter a monthly or yearly gross — or the net you want — and get the other figure.
+- **Every line of the payslip**: Health, pension and dependency insurance, tax, each tax credit and the net, per month and per year.
+- **13th month and bonus**: See how much of a 13th month or bonus you actually keep once the year is settled.
+- **Three tax classes compared**: A table of net pay in class 1, 1a and 2 from the minimum wage to €15,000 a month.
+- **Employer cost**: Employer contributions for health, pension, accident insurance, health at work and the Mutualité.
+
+### How to calculate your net salary in Luxembourg
+
+1. **Enter your gross salary** — Type the monthly gross from your contract, or switch to **Yearly** for an annual figure. Choose **Net to gross** to start from the net you want.
+2. **Pick your tax class** — Class 1 if you are single, 1a if you are a single parent, widowed or 64 or over, class 2 if you are married and taxed jointly. It is printed on your tax card.
+3. **Add your situation** — Switch on the **13th month**, enter the distance from home to work, and open **More options** for a bonus, other deductions or part-time hours.
+4. **Read the payslip** — See the net per month and per year, every deduction and credit, your marginal rate and what the job costs your employer.
+
+### Guide
+
+#### How net salary is calculated in Luxembourg
+
+Three things come off a gross salary: **social contributions**, **income tax** withheld by the employer, and **dependency insurance**. Tax credits are then added back. Take **€5,000 gross a month in class 1**:
+
+Health insurance is 3.05% (€152.50) and pension insurance 8.5% (€425.00). Both are deductible, so tax is worked out on 5,000 − 152.50 − 425.00 = €4,422.50, rounded down to **€4,420**. The class 1 formula for that bracket is 38% × 4,420 − 1,006.85 = €672.70, plus the 7% employment-fund surcharge: **€719.70**.
+
+Dependency insurance is 1.4% of the gross above a quarter of the minimum wage: 1.4% × (5,000 − 692.83) = €60.30. Finally the CIS (€25.00) and CI-CO2 (€9.00) tax credits are added. **Net: 5,000 − 152.50 − 425.00 − 719.70 − 60.30 + 34.00 = €3,676.50.**
+
+#### Net salary in Luxembourg by tax class (2026)
+
+Monthly net for a full-time employee with no travel allowance, at the rates in force from 1 June 2026.
+
+| Gross a month | Class 1 | Class 1a | Class 2 |
+| --- | --- | --- | --- |
+| €2,771.33 (minimum wage) | €2,418.14 | €2,553.94 | €2,557.54 |
+| €3,000 | €2,579.60 | €2,728.10 | €2,739.40 |
+| €4,000 | €3,134.40 | €3,336.00 | €3,423.20 |
+| €5,000 | €3,676.50 | €3,885.30 | €4,155.80 |
+| €6,000 | €4,159.10 | €4,366.10 | €4,846.90 |
+| €8,000 | €5,147.90 | €5,354.80 | €6,123.30 |
+| €10,000 | €6,150.30 | €6,357.20 | €7,238.50 |
+
+#### Social contributions in 2026
+
+| Contribution | Employee | Employer | Notes |
+| --- | --- | --- | --- |
+| Health insurance | 3.05% | 3.05% | 2.8% on a 13th month or bonus; up to €13,856.63 a month |
+| Pension insurance | 8.5% | 8.5% | Up to €13,856.63 a month; 8% until 31 December 2025 |
+| Dependency insurance | 1.4% | — | On gross above €692.83 a month, no ceiling, not tax-deductible |
+| Accident insurance | — | 0.65% | Multiplied by the company’s bonus-malus factor |
+| Health at work | — | 0.14% |  |
+| Mutualité des employeurs | — | 0.23% – 2.66% | Four classes, by the company’s sick-leave record |
+
+#### Tax classes 1, 1a and 2
+
+- **Class 1** — single people without a child in the household.
+- **Class 1a** — single parents with a child in the household, widowed people, and anyone aged 64 or over on 1 January. Tax starts at a higher salary than in class 1, then rises faster.
+- **Class 2** — married couples taxed jointly, and for three years after being widowed, divorced or separated. The scale is applied to half the income and doubled, which is why class 2 pays far less at the same salary.
+- Registered partners are withheld in their own class during the year and can ask for joint taxation in their tax return.
+- Married non-residents are in class 1 unless they ask to be treated as residents; their card then shows a withholding rate instead of a class.
+
+#### Tax credits on the payslip
+
+- **CIS** (crédit d’impôt pour salariés) — €600 a year for a gross salary between €11,266 and €40,000, less above, nothing from €80,000.
+- **CI-CO2** — €216 a year in 2026 up to €40,000 gross, tapering to nothing at €80,000. It offsets the CO2 tax.
+- **CISSM** (minimum-wage credit) — €81 a month for a full-time gross of €1,800 to €3,000, tapering to nothing at €3,600; prorated for part-time work.
+- **CIM** (single-parent credit) — €3,504 a year below €60,000 of taxable income, falling to €750 from €105,000. Class 1a only, on request.
+
+#### What is not included
+
+- Benefits in kind such as a company car, meal vouchers or housing, and the tax relief on overtime.
+- A withholding rate printed on the tax card — a spouse’s second card, or a non-resident treated as a resident.
+- The profit-sharing bonus and impatriate regimes, and deductions you claim only in a tax return.
+- Maintenance payments, which reduce the single-parent credit.
+- This is an estimate for information. Your payslip and the tax office’s assessment are what count.
+
+### FAQ
+
+**How much is €5,000 gross net in Luxembourg?**
+In 2026, **€5,000 gross a month is €3,676.50 net in tax class 1**, €3,885.30 in class 1a and €4,155.80 in class 2 — before any travel allowance, which adds a little more.
+
+**What is the minimum wage in Luxembourg in 2026?**
+From 1 June 2026 the minimum social wage is **€2,771.33 gross a month** for an unskilled worker aged 18 or over and **€3,325.60** for a skilled worker (full time, index 992.24). The unskilled minimum is about **€2,418 net** in class 1, helped by the €81 minimum-wage tax credit.
+
+**Which tax class am I in?**
+Class 1 if you are single without children; class 1a if you are a single parent, widowed, or 64 or over on 1 January; class 2 if you are married and taxed jointly. It is printed on the tax card your employer receives from the tax administration.
+
+**How is a 13th month taxed?**
+It is ordinary salary: it pays pension, dependency and 2.8% health insurance, and is taxed at your top rate because it comes on top of the year’s other pay. On €5,000 a month in class 1 you keep about €2,423 of a €5,000 13th month.
+
+**Does this work for cross-border workers?**
+Yes for the Luxembourg payslip: frontaliers pay the same contributions and the same withholding tax on salary earned in Luxembourg. Days worked from home beyond the treaty limit (34 a year for Belgium, France and Germany) are taxed in your country of residence instead, which this calculator does not model.
+
+**Is the pension contribution 8% or 8.5%?**
+It is **8.5%** for the employee and 8.5% for the employer since 1 January 2026. It was 8% each until the end of 2025.
+
+**Why is my real payslip a little different?**
+Usually because of benefits in kind, overtime, a different travel allowance or extra deductions on your tax card, or because the month had back pay or a bonus. Enter the distance and deductions from your card to get closer.
+
+**Is my salary stored or sent anywhere?**
+No. The calculation runs in your browser and nothing you type is uploaded.
+
+## GPA & CGPA Calculator
+
+URL: https://justtools.online/calculators/gpa-cgpa-calculator/
+Category: Calculators
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-13
+
+Calculate SGPA, GPA and CGPA from credits and grades, convert CGPA to percentage with your university’s formula, and find the SGPA you need for a target.
+
+### At a glance
+
+- Calculates **SGPA (semester GPA)** from each course’s credits and grade: Σ(credits × grade points) ÷ Σ credits, rounded to two decimals.
+- Calculates **CGPA** across semesters — credit-weighted when you enter credits — and reproduces the worked examples in the UGC’s credit-system guidelines.
+- Supports the **UGC 10-point scale** (O = 10, A+ = 9, A = 8, B+ = 7, B = 6, C = 5, P = 4, F = 0), the **US 4.0 scale** with Honors and AP weighting, and a 5-point scale — or type grade points directly.
+- Converts **CGPA to percentage** and back with the formula your university uses: CGPA × 9.5, CGPA × 10, (CGPA − 0.75) × 10, (CGPA − 0.5) × 10, 7.1 × CGPA + 11, or your own.
+- An **8.2 CGPA** is 77.9% with CGPA × 9.5, 82% with CGPA × 10 and 74.5% with (CGPA − 0.75) × 10.
+- **Target planner**: the average SGPA you need in the remaining semesters to reach a goal CGPA, and the highest CGPA still possible.
+- Your courses and semesters are saved on your device only; nothing is uploaded.
+
+### Features
+
+- **SGPA from credits and grades**: Add your courses, pick a letter grade or type grade points, and see the working.
+- **CGPA across semesters**: Enter each semester’s SGPA and credits — or send a finished semester over with one tap.
+- **CGPA to percentage**: Formulas commonly used by CBSE, DU, VTU, AKTU, Anna, GTU, KTU, MAKAUT, JNTUH and Mumbai University — or your own.
+- **Target CGPA planner**: Find the average you need from here, and whether the goal is still within reach.
+- **US GPA too**: The 4.0 scale with plus and minus grades, and weighted GPA for Honors, AP and IB courses.
+- **Saved for next semester**: Your entries stay in your browser, ready when the next results come out.
+
+### How to calculate SGPA and CGPA
+
+1. **Pick your grading scale** — Choose the 10-point scale used in India, the US 4.0 scale or a 5-point scale.
+2. **Enter your courses** — For each course type the credits and choose the grade. If your university uses different letters, switch to **Grade points** and type the number from your marksheet.
+3. **Read your SGPA** — The SGPA appears with the total credits and credit points. Tap **Add to CGPA** to carry it over as a semester.
+4. **Get your CGPA** — On the **CGPA** tab enter the SGPA and credits of every semester to get your cumulative figure.
+5. **Convert or plan** — Use **CGPA to %** with your university’s formula, or **Target** to see what you need in the semesters left.
+
+### Guide
+
+#### SGPA and CGPA formulas
+
+**SGPA = Σ(credits × grade points) ÷ Σ credits** for the courses of one semester. Each course’s grade points are multiplied by its credits, so a 4-credit course counts twice as much as a 2-credit one.
+
+**CGPA = Σ(semester credits × SGPA) ÷ Σ credits** over all semesters so far. The UGC’s own illustration: six semesters of 20, 20, 26, 26, 24 and 24 credits with SGPAs of 6.9, 6.7, 9.15, 7.38, 7.75 and 8.0 give (20 × 6.9 + 20 × 6.7 + 26 × 9.15 + 26 × 7.38 + 24 × 7.75 + 24 × 8.0) ÷ 140 = **7.71**.
+
+| Course | Credits | Grade | Grade points | Credit points |
+| --- | --- | --- | --- | --- |
+| Mathematics | 4 | O | 10 | 40 |
+| Physics | 4 | A+ | 9 | 36 |
+| Programming | 3 | A | 8 | 24 |
+| English | 2 | B+ | 7 | 14 |
+| Physics lab | 2 | O | 10 | 20 |
+| Total | 15 |  |  | 134 → SGPA 8.93 |
+
+#### UGC 10-point grading scale
+
+The letter grades and grade points the University Grants Commission recommends for the choice-based credit system. Universities set their own marks ranges for each grade.
+
+| Letter grade | Grade points | Meaning |
+| --- | --- | --- |
+| O | 10 | Outstanding |
+| A+ | 9 | Excellent |
+| A | 8 | Very good |
+| B+ | 7 | Good |
+| B | 6 | Above average |
+| C | 5 | Average |
+| P | 4 | Pass |
+| F | 0 | Fail |
+| Ab | 0 | Absent |
+
+#### CGPA to percentage formulas
+
+There is no single national rule: each board and university publishes its own conversion, and some change it between schemes — KTU, for example, moved from 10 × CGPA − 2.5 to CGPA × 10 in 2023. The table shows the formulas commonly reported. **Use the one printed on your marksheet or in your university’s circular**; that is what employers and admission offices accept.
+
+| Formula | Commonly used by | 8.2 CGPA becomes |
+| --- | --- | --- |
+| CGPA × 9.5 | CBSE (Class 10 CGPA), Delhi University | 77.9% |
+| CGPA × 10 | Anna University, KTU and many others | 82% |
+| (CGPA − 0.75) × 10 | VTU, AKTU, MAKAUT | 74.5% |
+| (CGPA − 0.5) × 10 | GTU, JNTU Hyderabad | 77% |
+| 7.1 × CGPA + 11 | Mumbai University | 69.22% |
+| 7.25 × CGPA + 11 | Mumbai University | 70.45% |
+
+#### US GPA on the 4.0 scale
+
+An A is 4.0, A− 3.7, B+ 3.3, B 3.0, B− 2.7, C+ 2.3, C 2.0, C− 1.7, D+ 1.3, D 1.0, D− 0.7 and F 0. GPA is the credit-weighted average, exactly like SGPA.
+
+A **weighted GPA** adds 0.5 for an Honors course and 1.0 for an AP or IB course, so it can go above 4.0. Colleges usually look at both. Schools differ on the details — some count A+ as 4.3 — so check your school’s handbook.
+
+#### SGPA, CGPA and GPA — what is the difference?
+
+- **SGPA** (semester grade point average) covers the courses of one semester.
+- **CGPA** (cumulative grade point average) covers every semester completed so far.
+- **GPA** is the general term, and the one used in the US; a semester GPA is the same idea as an SGPA.
+- Some universities call the same figures SPI and CPI, or GPA and CGPI.
+
+#### Converting an Indian CGPA to a 4.0 GPA
+
+There is no official conversion. Dividing by 10 and multiplying by 4 gives a rough figure — an 8.0 CGPA is about 3.2 — but US universities and credential evaluators such as WES convert course by course from your marks, so their figure can differ a good deal. When applying abroad, report your CGPA on its own scale unless the form asks otherwise.
+
+### FAQ
+
+**How do I calculate SGPA?**
+Multiply each course’s credits by its grade points, add those up, and divide by the total credits. Five courses worth 15 credits with 134 credit points give 134 ÷ 15 = **8.93**.
+
+**How do I calculate CGPA from SGPA?**
+Multiply each semester’s SGPA by its credits, add the results, and divide by the total credits. If every semester has the same credits, the CGPA is simply the average of the SGPAs.
+
+**How do I convert CGPA to percentage?**
+It depends on your university. Common formulas are **CGPA × 9.5** (CBSE, Delhi University), **CGPA × 10** (Anna University, KTU), **(CGPA − 0.75) × 10** (VTU, AKTU, MAKAUT) and **(CGPA − 0.5) × 10** (GTU, JNTUH). An 8.2 CGPA is 77.9%, 82%, 74.5% or 77% respectively — check your marksheet for the right one.
+
+**Why is CGPA multiplied by 9.5?**
+CBSE set 9.5 as the factor for the CGPA it printed on Class 10 marksheets, so a perfect 10 CGPA corresponds to 95%. Many colleges borrowed the same factor, but it is not a universal rule.
+
+**What SGPA do I need to reach my target CGPA?**
+Use the **Target** tab. For example, with a 7.5 CGPA after 80 credits, finishing on 8.0 after another 80 credits needs an average of 8.5 from here. If the answer is above 10, the target is out of reach and the calculator shows the best CGPA still possible.
+
+**Does a failed course count in SGPA and CGPA?**
+Yes — an F carries 0 grade points and its credits still count, which pulls the average down. Most universities replace it with the new grade once you clear the backlog; enter the grade that appears on your latest marksheet.
+
+**What is the difference between weighted and unweighted GPA?**
+An unweighted GPA treats every course the same, on a 4.0 scale. A weighted GPA adds 0.5 for Honors and 1.0 for AP or IB courses to reward harder classes, so it can exceed 4.0.
+
+**Is my data stored?**
+Only on your own device. Your courses, semesters and chosen formula are kept in your browser’s local storage so they are there next time; **Clear** removes them. Nothing is sent to a server.
+
+## GST Calculator
+
+URL: https://justtools.online/calculators/gst-calculator/
+Category: Calculators
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-13
+
+GST calculator for India: add or remove GST at 5%, 18% or 40%, split CGST, SGST and IGST, total a multi-item bill and check the 2026 GST rate of any item.
+
+### At a glance
+
+- **Adds GST** to a price or **removes GST** from a price that already includes it, at the current slabs of **5%, 18% and 40%** — plus 0%, 0.25%, 1.5% and 3%, and the old 12% and 28% for earlier bills.
+- Splits the tax into **CGST + SGST** for a sale within one state, or **IGST** for a sale to another state.
+- **₹10,000 + 18% GST = ₹11,800** (CGST ₹900 + SGST ₹900). Taking 18% GST out of ₹10,000 leaves **₹8,474.58** before tax and ₹1,525.42 of GST.
+- Totals a **bill with several items at different rates**, with a rate-wise summary of taxable value, CGST, SGST or IGST, and round-off — downloadable as CSV.
+- Works out the **GST payable after input tax credit**: the tax on a sale less the tax already paid on the purchase.
+- Has a **GST rate finder** for over 90 everyday goods and services, with the rates in force since **22 September 2025** (and tobacco at 40% since 1 February 2026).
+- Shows the working and the amount in words. Everything runs in your browser; nothing is uploaded.
+
+### Features
+
+- **Add or remove GST**: From a price before tax to the total, or from an MRP or bill total back to the taxable value.
+- **CGST, SGST, IGST**: Equal CGST and SGST for a sale in the same state, IGST across states — rounded to the paisa.
+- **Current 2026 slabs**: 5%, 18% and 40% one tap away, with the special 3% for gold and the old 12% and 28% for past invoices.
+- **Multi-item bill**: Up to 30 items, each with its own quantity, price and rate, prices with or without GST.
+- **Input tax credit**: See the net GST a registered seller actually pays, and the profit on the deal.
+- **Rate finder**: Search mobile, cement, gold, hotel, medicine or insurance and tap the rate to use it.
+
+### How to calculate GST
+
+1. **Choose add or remove** — Pick **Add GST** if your price is before tax, or **Remove GST** if the price already includes it.
+2. **Enter the amount** — Type the price in rupees.
+3. **Pick the GST rate** — Tap 5%, 18% or 40%, type any other rate, or search the **rate finder** below for your product.
+4. **Choose the type of sale** — Keep **The same state** for CGST + SGST, or switch to **Different states** for IGST.
+5. **Read the result** — See the taxable value, each tax and the total, with the working and the amount in words. Copy it, or build a full bill below.
+
+### Guide
+
+#### GST calculation formulas
+
+**To add GST:** GST = price × rate ÷ 100, and total = price + GST. For ₹10,000 at 18%: GST = 10,000 × 18 ÷ 100 = ₹1,800, so the total is **₹11,800**.
+
+**To remove GST (reverse calculation):** value before GST = total ÷ (1 + rate ÷ 100), and GST = total − value. For a ₹11,800 bill at 18%: 11,800 ÷ 1.18 = **₹10,000**, so the GST inside it is ₹1,800.
+
+Do not simply take the percentage off the total. 18% of ₹11,800 is ₹2,124 — too much, because GST is charged on the value before tax, not on the total.
+
+#### GST rates in 2026
+
+Since 22 September 2025 GST has two main slabs, a merit rate of 5% and a standard rate of 18%, and a 40% rate for a short list of luxury and sin goods. The 12% and 28% slabs were abolished.
+
+| GST rate | What it covers |
+| --- | --- |
+| Nil | Fresh food, milk, bread and roti, paneer, notebooks and pencils, individual health and life insurance, 36 life-saving medicines |
+| 0.25% / 1.5% | Rough diamonds / cut and polished diamonds |
+| 3% | Gold, silver, platinum and jewellery |
+| 5% | Packaged food, butter and ghee, toothpaste, soap and shampoo, medicines, clothes and footwear up to ₹2,500, tractors, bicycles, hotel rooms up to ₹7,500, gyms and salons |
+| 18% | The standard rate: mobile phones, laptops, TVs, air conditioners, cement, small cars, motorcycles up to 350 cc, and most services |
+| 40% | Aerated and energy drinks, larger cars and SUVs, motorcycles above 350 cc, yachts, betting and casinos, cigarettes and pan masala |
+
+#### How much of an inclusive price is GST?
+
+When a price already includes GST, the tax is a smaller share of it than the rate suggests. Divide the price by the number in the last column to get the value before tax.
+
+| GST rate | GST as a share of the inclusive price | Divide the price by |
+| --- | --- | --- |
+| 3% | 2.91% | 1.03 |
+| 5% | 4.76% | 1.05 |
+| 12% (old) | 10.71% | 1.12 |
+| 18% | 15.25% | 1.18 |
+| 28% (old) | 21.88% | 1.28 |
+| 40% | 28.57% | 1.40 |
+
+#### CGST, SGST and IGST
+
+- **CGST** (central GST) and **SGST** (state GST) apply together to a sale within one state. Each is half the rate: 18% GST is 9% CGST + 9% SGST.
+- **UTGST** replaces SGST in union territories without a legislature, such as Chandigarh and Ladakh.
+- **IGST** (integrated GST) applies to a sale from one state to another, and to imports. It is the full rate as one tax: 18% IGST.
+- The total tax is the same either way — only where the money goes differs.
+
+#### What changed with GST 2.0
+
+The GST Council’s 56th meeting on 3 September 2025 replaced the four slabs of 5%, 12%, 18% and 28% with **5% and 18%**, plus **40%** for a few goods. Most 12% items moved to 5%, and most 28% items — air conditioners, large TVs, cement, small cars, motorcycles up to 350 cc — moved to 18%. The new rates apply from **22 September 2025**.
+
+The **compensation cess** on cars, aerated drinks and coal ended on the same day, which is why larger cars are now a flat 40% instead of 28% plus cess. Cigarettes, pan masala and other tobacco products moved to 40% on **1 February 2026**, charged on the printed retail price, with a separate excise duty or health cess on top.
+
+#### Input tax credit
+
+A GST-registered business does not pay the whole GST it collects. It deducts the GST it paid on its own purchases — the **input tax credit** — and pays the difference. Buy goods for ₹10,000 + ₹1,800 GST and sell them for ₹12,000 + ₹2,160 GST: the tax to pay is 2,160 − 1,800 = **₹360**, which is 18% of the ₹2,000 of value added.
+
+### FAQ
+
+**How do I calculate GST on an amount?**
+Multiply the amount by the GST rate and divide by 100. For ₹5,000 at 18%: 5,000 × 18 ÷ 100 = ₹900 of GST, so the total is ₹5,900. Within a state that is ₹450 CGST + ₹450 SGST.
+
+**How do I remove GST from a total?**
+Divide the total by 1 + the rate: by **1.05** for 5%, **1.18** for 18%, **1.40** for 40%. A ₹5,900 bill at 18% is 5,900 ÷ 1.18 = ₹5,000 before GST, with ₹900 of tax. Choose **Remove GST** above to do it automatically.
+
+**What are the GST rates in 2026?**
+The main slabs are **5%** and **18%**, with **40%** on a short list of luxury and sin goods. Essentials are nil-rated, gold and silver are 3%, and diamonds 0.25% or 1.5%. The 12% and 28% slabs ended on 22 September 2025.
+
+**Is 12% or 28% GST still charged?**
+Not on new sales. Those slabs were abolished on 22 September 2025 — tobacco products stayed at 28% plus cess until 1 February 2026 and are now 40%. Both rates are still offered here so you can check older invoices.
+
+**What is the difference between CGST, SGST and IGST?**
+CGST and SGST are charged together, half the rate each, when buyer and seller are in the same state. IGST is charged alone, at the full rate, when they are in different states or the goods are imported.
+
+**What is the GST on mobile phones, gold and cars?**
+Mobile phones are **18%**. Gold and silver jewellery is **3%**, with 5% on making charges. Small cars are **18%**; larger cars and SUVs are **40%**; electric vehicles are 5%. Search the rate finder above for other items.
+
+**How is GST rounded?**
+Each tax is rounded to the nearest paisa, and CGST and SGST are always equal — so when GST is taken out of a price within a state, the value before tax can sit one paisa below price ÷ (1 + rate). Many businesses then round the bill total to the nearest rupee: switch on **Round off the total** in the bill section.
+
+**Is anything I enter stored or uploaded?**
+No. The calculation happens in your browser and nothing is sent to a server.
+
+## Attendance Calculator
+
+URL: https://justtools.online/calculators/attendance-calculator/
+Category: Calculators
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-15
+
+Free attendance calculator: your attendance %, how many classes you can skip or must attend to reach 75%, subject-wise tracking and a term planner.
+
+### At a glance
+
+- Attendance % = classes attended ÷ classes held × 100. The calculator gives the **exact number of classes to attend in a row** to reach your minimum, or **how many you can miss** and stay at it.
+- At **75%**, each class you miss has to be balanced by three you attend: 30 of 50 (60%) needs **30 more in a row**, while 45 of 50 (90%) can miss **10**.
+- Works with any minimum – 75% (CBSE board exams and many colleges), 70% per subject (law, under the BCI rules), 75% theory and 80% practical (MBBS) – using exact whole-number arithmetic, so 75% of 40 is exactly 30.
+- An option for colleges that **round to the nearest whole percent**, where 74.5% counts as 75%.
+- Counts approved **medical, duty or OD leave** as present if your college does, and with the classes left this term says how many you must attend – or that the minimum can no longer be reached.
+- **Subject-wise tracker** with one-tap Present and Absent buttons and Undo, the overall percentage, the subjects below the minimum and a CSV download.
+- **Term planner**: enter classes per weekday, holidays and the last day of classes, then tick the days you plan to miss to see your percentage after every day. Everything is saved in your browser only.
+
+### Features
+
+- **The answer students want**: “You can miss the next 4 classes” or “Attend the next 12 in a row” – with the percentage before and after, and the working.
+- **Every subject at a glance**: One row per subject with its percentage, a bar against your minimum and what it allows, plus the overall figure most colleges also check.
+- **Tap after each class**: Present and Absent buttons keep the numbers current without retyping them; Undo fixes a wrong tap.
+- **Plan the whole term**: From your timetable and holidays it lists every class day left, so you can see which days you can afford to miss – and which you cannot.
+- **Any rule**: Set 60, 75, 80, 85% or any figure, and choose exact or rounded comparison to match your college’s handbook.
+- **Private**: No sign-up and no upload: your numbers stay in this browser for the next time you check.
+
+### How to calculate attendance and the classes you can skip
+
+1. **Set your minimum** — Type your college’s requirement or tap 75%, 80% and so on. Choose **Rounded %** if your college rounds to whole percent.
+2. **Enter your classes** — On **Calculator**, type the classes held and attended (or missed). Add leave counted as present and the classes left this term if you know them.
+3. **Read the answer** — See your percentage, how many classes you can miss or must attend in a row, and the what-if table.
+4. **Track each subject** — On **Subjects**, enter each subject’s numbers once, then tap **Present** or **Absent** after every class.
+5. **Plan the term** — On **Term planner**, fill in your weekly timetable, holidays and the last day of classes, and tick the days you plan to miss.
+
+### Guide
+
+#### Attendance formulas
+
+**Attendance % = attended ÷ held × 100.** To find how many classes you must attend in a row to reach a minimum p (as a fraction, 75% = 0.75), solve (attended + x) ÷ (held + x) ≥ p, which gives **x ≥ (p × held − attended) ÷ (1 − p)**, rounded up.
+
+To find how many you can miss and still have p, solve attended ÷ (held + y) ≥ p, which gives **y ≤ attended ÷ p − held**, rounded down.
+
+| You have | Attendance | At 75% | At 80% |
+| --- | --- | --- | --- |
+| 30 of 50 | 60% | attend the next 30 | attend the next 50 |
+| 36 of 50 | 72% | attend the next 6 | attend the next 20 |
+| 40 of 50 | 80% | can miss 3 | can miss 0 |
+| 45 of 50 | 90% | can miss 10 | can miss 6 |
+| 54 of 60 | 90% | can miss 12 | can miss 7 |
+
+#### How many classes can I miss?
+
+The minimum decides how many classes you must attend for every one you miss. Over a whole term this is the largest share of classes you can miss:
+
+| Minimum | Attend for every class missed | Most you can miss |
+| --- | --- | --- |
+| 60% | 1.5 | 40% of classes |
+| 65% | 1.86 | 35% of classes |
+| 70% | 2.33 | 30% of classes |
+| 75% | 3 | 25% – 1 in 4 |
+| 80% | 4 | 20% – 1 in 5 |
+| 85% | 5.67 | 15% of classes |
+| 90% | 9 | 10% – 1 in 10 |
+
+#### Attendance rules you may meet
+
+Colleges and universities set their own rules on top of these, often per subject and overall, and some count labs as two or more periods. Check your handbook – and count periods the same way it does.
+
+| Where | Rule |
+| --- | --- |
+| CBSE Class 10 and 12 | 75% to sit the board exams (Examination Bye-Laws); shortages of up to 25% can be condoned for medical emergencies, national or international sport and other serious reasons, with documents |
+| MBBS in India (NMC) | 75% in theory and 80% in practical and clinical training |
+| Law degrees in India (BCI) | 70% in each subject; a college may condone down to 65% in a subject if the overall attendance is 70% |
+| Schools in the United States | missing 10% or more of school days, excused or not, is “chronic absenteeism” |
+| Schools in England | missing 10% or more of sessions (half days) is “persistent absence” |
+
+#### If you are short of attendance
+
+- Act early: every week left in the term is classes that can still pull the percentage up.
+- Attend everything for a while – the What if table shows how fast the figure climbs.
+- Get approved medical, sports or duty leave on record now, with documents; it is much harder afterwards.
+- Ask how condonation works at your college: who decides, how far below the minimum is allowed, and the deadline.
+- Watch each subject, not just the overall figure – one short subject can stop you sitting its exam.
+
+### FAQ
+
+**How do I calculate my attendance percentage?**
+Divide the classes you attended by the classes held and multiply by 100. For example, 42 classes attended out of 56 held is 42 ÷ 56 × 100 = **75%**.
+
+**How many classes can I miss and still have 75%?**
+Divide the classes you have attended by 0.75 and subtract the classes held so far, then round down. With 45 of 50, that is 45 ÷ 0.75 − 50 = **10** classes. Enter your numbers above to get yours.
+
+**How many classes do I need to attend to reach 75%?**
+Use (0.75 × held − attended) ÷ 0.25, rounded up. With 30 of 50 (60%), you need (37.5 − 30) ÷ 0.25 = **30** classes in a row, which takes you to 60 of 80 = 75%.
+
+**Does medical leave count as attendance?**
+It depends on your institution. Many colleges add approved duty or on-duty (OD) leave to attendance, and some count medical leave or allow it when deciding condonation. Enter such classes under **Leave counted as present** only if your college counts them.
+
+**Is the 75% rule per subject or overall?**
+Often both: many universities require the minimum in each subject and overall, and a strong overall figure can hide one subject that is short. Use the **Subjects** tab to see every subject against the minimum.
+
+**What if I can’t reach 75% this term?**
+The calculator tells you when even attending every remaining class is not enough. Speak to your teacher or department straight away about medical or duty leave and condonation – most rules allow some relaxation only with documents and before a deadline.
+
+**Are my numbers saved?**
+Yes, in this browser on this device, so they are there next time. Nothing is sent anywhere, and you can clear them at any time.
+
+## Car Loan EMI Calculator
+
+URL: https://justtools.online/calculators/car-loan-emi-calculator/
+Category: Calculators
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-16
+
+Free car loan EMI calculator for India: EMI on the on-road price, the real cost of a flat rate, processing fee and APR, tenure comparison and early closure.
+
+### At a glance
+
+- Starts from the **on-road price**: ex-showroom price + RTO and road tax + insurance + accessories, less your down payment.
+- Example: a ₹9.2 lakh loan at 9% for 5 years has an EMI of **₹19,098** and total interest of **₹2,25,861**.
+- Converts a **flat rate** to the reducing-balance rate it really is: **7% flat for 5 years costs 12.50% a year**, 8% flat costs 14.13%.
+- Adds the **processing fee with 18% GST** to the cost and shows the true yearly cost (APR) – a 0.5% fee lifts 9% to about 9.25%.
+- **Compares 3- to 7-year loans** side by side: at 9%, stretching ₹9.2 lakh from 3 to 7 years halves the EMI but raises the interest from ₹1.33 lakh to ₹3.23 lakh.
+- **Early closure**: the outstanding amount, the foreclosure charge with GST and what you save. RBI rules bar pre-payment charges on floating-rate loans to individuals sanctioned or renewed from 1 January 2026.
+- Checks the **20/4/10 rule of thumb** and builds a full year-by-year and month-by-month schedule. Nothing you enter leaves your browser.
+
+### Features
+
+- **The whole price, not just the sticker**: Road tax, insurance and accessories add a good deal to the ex-showroom price. Enter them once and the loan follows.
+- **See through flat rates**: A flat rate charges interest on the full loan for the whole term, so it looks about half as expensive as it is. The calculator shows the real rate to compare.
+- **Fees count too**: The processing fee and its GST are added to the cost and folded into an APR, so offers with different fees compare fairly.
+- **Pick a sensible tenure**: A table of 3- to 7-year loans shows how a smaller EMI trades against more interest. Tap a row to switch to it.
+- **Plan an early close**: Choose when you might pay off the loan and the charge your lender takes, and see whether it is worth it.
+- **Private**: Everything is worked out on your device. Your last figures are kept in this browser for next time.
+
+### How to calculate your car loan EMI
+
+1. **Enter the on-road price** — Type the ex-showroom price, RTO and road tax, insurance and accessories from the dealer’s quotation.
+2. **Set your down payment** — Type an amount or tap 10%, 20% or 30%; the loan amount updates.
+3. **Enter the rate and tenure** — Choose **Reducing balance** for a bank-quoted rate or **Flat** for a dealer’s flat rate, then pick 3–7 years.
+4. **Add the processing fee** — Enter the fee as a % of the loan; GST is added at 18%.
+5. **Read the result** — See the EMI, total interest, APR and total cost, compare tenures, and check what closing early would save.
+
+### Guide
+
+#### Car loan EMI formula
+
+Banks work out a car loan EMI on the reducing balance: **EMI = P × r × (1 + r)^n ÷ ((1 + r)^n − 1)**, where P is the loan, r the monthly rate (annual rate ÷ 12 ÷ 100) and n the number of months. Each EMI pays the month’s interest on what you still owe, and the rest reduces the loan.
+
+With a **flat rate**, interest is worked out on the full loan for the whole term – P × rate × years – and added to the loan before dividing by the months. Because you are paying interest on money you have already repaid, a flat rate costs much more than the same number on a reducing balance.
+
+| Flat rate | Tenure | Equivalent reducing rate |
+| --- | --- | --- |
+| 6% | 3 years | 11.08% |
+| 7% | 5 years | 12.50% |
+| 7% | 7 years | 12.16% |
+| 8% | 5 years | 14.13% |
+| 9% | 5 years | 15.71% |
+
+#### EMI for ₹9.2 lakh at 9% by tenure
+
+A car loses value every year, so a long loan can leave you owing more than the car is worth. Keeping the tenure short keeps interest down and the loan below the car’s value.
+
+| Tenure | EMI | Total interest |
+| --- | --- | --- |
+| 3 years | ₹29,256 | ₹1,33,207 |
+| 4 years | ₹22,894 | ₹1,78,923 |
+| 5 years | ₹19,098 | ₹2,25,861 |
+| 6 years | ₹16,583 | ₹2,74,012 |
+| 7 years | ₹14,802 | ₹3,23,364 |
+
+#### The 20/4/10 rule
+
+A popular rule of thumb for buying a car: put down at least **20%**, borrow for no more than **4 years**, and keep the EMI – ideally all car costs, including fuel and insurance – within **10%** of your income. It is a guide rather than a rule, but it keeps a car affordable for the whole loan.
+
+### FAQ
+
+**How is car loan EMI calculated?**
+With the reducing-balance formula EMI = P × r × (1 + r)^n ÷ ((1 + r)^n − 1), where P is the loan amount, r the monthly interest rate and n the number of months. For ₹9.2 lakh at 9% a year for 60 months, r = 0.0075 and the EMI is ₹19,098.
+
+**Is a flat interest rate cheaper?**
+No – it only looks cheaper. A flat rate charges interest on the original loan for the whole term even as you repay it. A 7% flat rate over 5 years costs the same as 12.5% a year on a reducing balance. Choose **Flat** in the calculator to see the equivalent rate before you compare offers.
+
+**Is the loan on the ex-showroom or the on-road price?**
+Lenders fund a share of the car’s price – some of the ex-showroom price, others of the on-road price – and you pay the rest as a down payment. This calculator starts from the on-road price, the total you actually pay, so the down payment covers whatever the loan does not.
+
+**Can I close my car loan early?**
+Usually yes, after a minimum number of EMIs set by your lender, sometimes with a foreclosure charge on the outstanding amount plus GST. Car loans are often fixed-rate, so check your sanction letter. Under RBI’s pre-payment directions, floating-rate loans to individuals for non-business purposes sanctioned or renewed from 1 January 2026 carry no pre-payment charge.
+
+**What is a good tenure for a car loan?**
+Shorter is cheaper: the table shows that the same loan costs about 2.4 times as much interest over 7 years as over 3. Many people pick the shortest tenure whose EMI fits comfortably in their budget – often 4 or 5 years.
+
+**Does the processing fee matter?**
+Yes. A fee paid upfront means you borrow less than you repay on, which raises the true cost. The calculator adds 18% GST to the fee and shows the APR, so a lower rate with a high fee can be compared fairly with a higher rate and no fee.
+
+## Home Loan EMI Calculator
+
+URL: https://justtools.online/calculators/home-loan-emi-calculator/
+Category: Calculators
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-16
+
+Free home loan EMI calculator: EMI, interest and schedule, prepayments that cut years off, rate changes, RBI LTV limits, tax benefit and loan eligibility.
+
+### At a glance
+
+- Example: a **₹50 lakh** loan at **8.5%** for **20 years** has an EMI of **₹43,391** and total interest of **₹54,13,879** – more than the loan itself.
+- **Prepayments**: an extra ₹1 lakh once a year on that loan saves **₹18.55 lakh** of interest and closes it **6 years** sooner; ₹5,000 more every month saves ₹13.89 lakh.
+- Choose whether a prepayment **shortens the tenure** or **lowers the EMI**, and add one-time prepayments such as a bonus.
+- **Floating rates**: a rise from 8.5% to 9.5% after 3 years keeps the EMI but adds 3 years 3 months and ₹16.9 lakh of interest – or raises the EMI to ₹46,265 to finish on time.
+- Checks **RBI’s loan-to-value limits** – 90% for loans up to ₹30 lakh, 80% up to ₹75 lakh, 75% above – and shows the largest loan the property allows.
+- **Tax benefit** (old regime): interest up to ₹2 lakh and principal within ₹1.5 lakh of 80C a year, per co-owner borrower – ₹93,448 saved in year 1 at the 30% slab. The new regime gives none for a self-occupied home.
+- **Eligibility** from income and other EMIs, a year-by-year schedule with prepayments and a CSV download. Nothing you enter leaves your browser.
+
+### Features
+
+- **More than an EMI**: Loan, rate, tenure and processing fee give the EMI, the APR with the fee and the full repayment schedule.
+- **Prepayment planner**: Monthly, yearly and one-time prepayments together, with the interest saved and the years cut – the best lever most borrowers have.
+- **Rates that move**: Most home loans float with the repo rate. See what a change does to the tenure or the EMI.
+- **Within RBI limits**: The loan is checked against the loan-to-value ceilings, with the largest loan the price allows one tap away.
+- **Tax saved, year by year**: Interest and principal deductions are capped exactly, doubled for two co-owner borrowers, and priced at your slab plus cess.
+- **Borrow what you can repay**: Enter your income and other EMIs to see the loan lenders are likely to offer.
+
+### How to calculate your home loan EMI
+
+1. **Enter the price and loan** — Type the property price and the loan amount; the share of the price and RBI’s limit appear below.
+2. **Set the rate and tenure** — Enter the interest rate and choose a tenure from 10 to 30 years, and the processing fee if any.
+3. **Add prepayments** — Add an extra amount every month or year, or one-time prepayments, and choose whether they shorten the tenure or lower the EMI.
+4. **Try a rate change** — Switch on **See a rate change** to see a floating rate move after a few years.
+5. **Check tax and eligibility** — Pick your regime and slab for the tax saved, and enter your income to see the loan it supports.
+
+### Guide
+
+#### EMI on ₹50 lakh at 8.5% by tenure
+
+Going from 20 to 30 years lowers the EMI by under ₹5,000 but adds over ₹34 lakh of interest. A longer tenure with regular prepayments keeps the EMI flexible while still cutting the cost.
+
+| Tenure | EMI | Total interest |
+| --- | --- | --- |
+| 10 years | ₹61,993 | ₹24,39,141 |
+| 15 years | ₹49,237 | ₹38,62,656 |
+| 20 years | ₹43,391 | ₹54,13,879 |
+| 25 years | ₹40,261 | ₹70,78,406 |
+| 30 years | ₹38,446 | ₹88,40,443 |
+
+#### Reduce the EMI or the tenure?
+
+When you prepay, lenders usually let you keep the EMI and finish sooner, or keep the end date and pay a smaller EMI. **Shortening the tenure saves far more interest**, because the whole EMI keeps working against a smaller balance. Lowering the EMI makes sense when you need breathing space in the monthly budget.
+
+Under RBI’s pre-payment directions, floating-rate loans to individuals for non-business purposes sanctioned or renewed from 1 January 2026 cannot carry pre-payment charges, whatever the source of the money.
+
+#### RBI loan-to-value limits
+
+The rest is your down payment (margin). Stamp duty and registration are usually not counted in the property value for this, so plan for them separately.
+
+| Loan amount | Largest loan as a share of the property value |
+| --- | --- |
+| Up to ₹30 lakh | 90% |
+| Above ₹30 lakh up to ₹75 lakh | 80% |
+| Above ₹75 lakh | 75% |
+
+#### Home loan tax benefits
+
+Each co-owner who also pays the EMIs can claim up to the limits separately. The Income-tax Act, 2025, in force from 1 April 2026, keeps these deductions under new section numbers.
+
+| Deduction | Old regime | New regime |
+| --- | --- | --- |
+| Interest, self-occupied home (section 24(b)) | up to ₹2 lakh a year | not allowed |
+| Principal repaid (section 80C) | within the ₹1.5 lakh 80C limit | not allowed |
+| Interest, let-out home | against the rent; a loss up to ₹2 lakh can reduce other income | against that home’s rent only |
+
+### FAQ
+
+**How is home loan EMI calculated?**
+EMI = P × r × (1 + r)^n ÷ ((1 + r)^n − 1), where P is the loan, r the monthly interest rate (annual rate ÷ 12 ÷ 100) and n the number of months. ₹50 lakh at 8.5% for 240 months gives ₹43,391.
+
+**Is it better to prepay or invest?**
+Prepaying saves the loan’s interest rate with certainty, after tax. If you are in the old regime and still within the ₹2 lakh interest deduction, the saving is a little lower. Many borrowers do both – keep an emergency fund and investments going, and prepay windfalls such as bonuses.
+
+**Should I reduce my EMI or tenure after prepaying?**
+Reducing the tenure saves much more interest; reducing the EMI eases your monthly budget. Switch between **Shorten the tenure** and **Lower the EMI** in the calculator to see the difference for your loan.
+
+**How much home loan can I get on my salary?**
+Lenders typically let all your EMIs together take up 40–60% of your take-home pay. With ₹1 lakh a month and no other EMIs, 50% allows an EMI of ₹50,000 – about ₹57.6 lakh at 8.5% for 20 years. The property’s loan-to-value limit can cap it further.
+
+**Can I claim home loan benefits in the new tax regime?**
+Not for a home you live in: the new regime allows neither the interest deduction nor 80C for principal. For a let-out home, interest can still be set off against that home’s rental income.
+
+**What happens when the repo rate changes?**
+Repo-linked loans reset at intervals set in your agreement. Lenders usually keep the EMI and change the tenure; you can ask to change the EMI instead. Use **See a rate change** to compare both.
+
+## Income Tax Calculator
+
+URL: https://justtools.online/calculators/income-tax-calculator/
+Category: Calculators
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-16
+
+Free income tax calculator for India, FY 2026-27 and 2025-26: compare the new and old regimes with HRA, 80C, 80D, NPS and home loan, slab by slab.
+
+### At a glance
+
+- New-regime slabs for **FY 2026-27**, unchanged by Budget 2026: nil up to ₹4 lakh, then 5%, 10%, 15%, 20% and 25% in steps of ₹4 lakh, and **30% above ₹24 lakh**.
+- No tax up to **₹12 lakh** of taxable income in the new regime thanks to the rebate (section 87A, section 156 of the 2025 Act) – a salary of **₹12.75 lakh** after the ₹75,000 standard deduction – with marginal relief just above.
+- Old regime: nil up to ₹2.5 lakh (₹3 lakh at 60–79, ₹5 lakh at 80+), then 5%, 20% and 30%, with a rebate up to ₹5 lakh and a ₹50,000 standard deduction.
+- **HRA** is the least of the HRA received, rent minus 10% of basic, and 50% of basic in metro cities (40% elsewhere). From FY 2026-27, Bengaluru, Hyderabad, Pune and Ahmedabad join Delhi, Mumbai, Kolkata and Chennai at 50%.
+- Old-regime deductions with their limits: 80C ₹1.5 lakh, NPS 80CCD(1B) ₹50,000, 80D, 80E, 80G, 80TTA/80TTB and home-loan interest up to ₹2 lakh. The new regime allows the employer’s NPS contribution up to 14% of basic.
+- Surcharge of 10%, 15% and 25% (37% in the old regime above ₹5 crore) **with marginal relief**, and 4% health and education cess.
+- Shows which regime is cheaper, by how much, and the **extra deductions the old regime would need** to break even. Everything stays in your browser.
+
+### Features
+
+- **Both regimes side by side**: Every figure is worked out under the new and the old regime at once, with the cheaper one marked and the difference in rupees.
+- **The full working**: Gross income, exemptions, deductions, taxable income, slab-by-slab tax, rebate, marginal relief, surcharge and cess – line by line.
+- **HRA done properly**: The three-way HRA rule with the right city rate for the year, including the four cities added to the 50% list from 2026-27.
+- **Monthly or yearly**: Type your salary per month or per year, and see the tax per month to compare with the TDS on your payslip.
+- **Break-even deductions**: If the new regime wins, see how much more you would need to invest or claim before the old regime would pay off.
+- **Private**: Your salary and deductions never leave your device; they are kept in this browser for next time.
+
+### How to calculate your income tax
+
+1. **Choose the year and your age** — Pick FY 2026-27 or FY 2025-26, and your age group for the old-regime slabs.
+2. **Enter your salary** — Type your gross salary, basic pay, HRA received and rent paid – per month or per year – and your city.
+3. **Add other income** — Add interest, other income and any house property: home-loan interest, or rent from a let-out home.
+4. **Add deductions** — Enter 80C, NPS, health insurance and other deductions; they count only in the old regime.
+5. **Compare** — Read the tax under both regimes, which one is lower, and the full breakdown slab by slab.
+
+### Guide
+
+#### New tax regime slabs, FY 2025-26 and 2026-27
+
+A rebate of up to ₹60,000 makes the tax nil when taxable income is ₹12 lakh or less. Just above ₹12 lakh, marginal relief caps the tax at the income above ₹12 lakh, until about ₹12.7 lakh.
+
+| Taxable income | Rate |
+| --- | --- |
+| Up to ₹4,00,000 | Nil |
+| ₹4,00,001 – ₹8,00,000 | 5% |
+| ₹8,00,001 – ₹12,00,000 | 10% |
+| ₹12,00,001 – ₹16,00,000 | 15% |
+| ₹16,00,001 – ₹20,00,000 | 20% |
+| ₹20,00,001 – ₹24,00,000 | 25% |
+| Above ₹24,00,000 | 30% |
+
+#### Old tax regime slabs
+
+A rebate of up to ₹12,500 makes the tax nil when taxable income is ₹5 lakh or less.
+
+| Taxable income | Below 60 | 60 to 79 | 80 and over |
+| --- | --- | --- | --- |
+| Up to ₹2,50,000 | Nil | Nil | Nil |
+| ₹2,50,001 – ₹3,00,000 | 5% | Nil | Nil |
+| ₹3,00,001 – ₹5,00,000 | 5% | 5% | Nil |
+| ₹5,00,001 – ₹10,00,000 | 20% | 20% | 20% |
+| Above ₹10,00,000 | 30% | 30% | 30% |
+
+#### New or old regime: tax on salary
+
+With cess, for a resident under 60 with only salary income, using the standard deduction, ₹1.5 lakh under 80C and ₹25,000 under 80D in the old regime. Large HRA and home-loan claims can tip the balance – enter yours above.
+
+| Salary | New regime | Old regime with ₹1.75 lakh of deductions |
+| --- | --- | --- |
+| ₹8 lakh | ₹0 | ₹28,600 |
+| ₹10 lakh | ₹0 | ₹70,200 |
+| ₹12.75 lakh | ₹0 | ₹1,32,600 |
+| ₹15 lakh | ₹97,500 | ₹2,02,800 |
+| ₹20 lakh | ₹1,92,400 | ₹3,58,800 |
+| ₹25 lakh | ₹3,19,800 | ₹5,14,800 |
+| ₹30 lakh | ₹4,75,800 | ₹6,70,800 |
+
+#### What changed in 2026
+
+The **Income-tax Act, 2025** replaced the 1961 Act from 1 April 2026. It speaks of a single “tax year” instead of the previous year and assessment year, and renumbers the sections – the 87A rebate, for example, is now section 156 – but Budget 2026 kept the rates, the ₹12 lakh rebate limit and the ₹75,000 standard deduction.
+
+Under the new Income-tax Rules, 2026, HRA in Bengaluru, Hyderabad, Pune and Ahmedabad is worked out at 50% of salary, like Delhi, Mumbai, Kolkata and Chennai. For FY 2025-26 those four cities stay at 40%.
+
+### FAQ
+
+**Is income up to ₹12 lakh tax-free?**
+In the new regime, yes: if your taxable income is ₹12 lakh or less, the rebate wipes out the tax. For salaried people, the ₹75,000 standard deduction makes a salary of up to ₹12.75 lakh tax-free. The rebate does not apply to income taxed at special rates, such as capital gains on shares.
+
+**Which tax regime is better for me?**
+It depends on your deductions. The new regime has lower rates but few deductions; the old one rewards large claims such as HRA, 80C, 80D and home-loan interest. Enter your figures and the calculator shows both totals, the cheaper regime and how much more you would need to claim for the old one to win.
+
+**How is HRA exemption calculated?**
+It is the least of three amounts: the HRA you receive; the rent you pay minus 10% of basic pay and DA; and 50% of basic and DA in Delhi, Mumbai, Kolkata and Chennai – plus Bengaluru, Hyderabad, Pune and Ahmedabad from 2026-27 – or 40% elsewhere. It is available only in the old regime.
+
+**Can I switch between the old and new regimes?**
+If you have no business income, you can choose either regime every year when you file your return. Tell your employer your choice so that TDS is deducted correctly; the new regime applies if you do not.
+
+**What is marginal relief?**
+It stops a small rise in income from causing a bigger rise in tax. Just above ₹12 lakh in the new regime, your tax cannot be more than the income above ₹12 lakh. The same idea applies at the surcharge thresholds of ₹50 lakh, ₹1 crore, ₹2 crore and ₹5 crore.
+
+**Does this calculator include capital gains?**
+No. It covers salary, pension, house property, interest and other income taxed at slab rates for resident individuals. Gains on shares and mutual funds are taxed at special rates with their own rules, so add them separately or ask a tax professional.
+
+## Student Loan Payoff & Refinance Calculator
+
+URL: https://justtools.online/calculators/student-loan-payoff-calculator/
+Category: Calculators
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-16
+
+Free student loan payoff calculator: add every loan, pay extra with the avalanche or snowball method, see your debt-free date and test a refinance offer.
+
+### At a glance
+
+- Handles up to 15 loans, each with its own balance, APR and monthly payment, federal or private.
+- Example: $40,000 across three loans at 5–9% on 10-year payments costs **$16,417** in interest; **$200 a month extra** with the avalanche method cuts that to **$9,073** and finishes **47 months sooner**.
+- **Avalanche** puts the extra on the highest-rate loan first and always costs the least interest; **snowball** clears the smallest balance first. When a loan is paid off, its payment rolls on to the next.
+- Shows your **debt-free date**, the month each loan is paid off and a combined year-by-year schedule you can download as CSV.
+- **Refinance**: choose which loans to refinance and compare a new rate, term and fees with keeping them – monthly payment, total interest, lifetime saving and the months to recover any fees.
+- Warns when federal loans are included: refinancing them with a private lender gives up income-driven repayment, Public Service Loan Forgiveness and federal deferment and forbearance.
+- Interest is worked out monthly at APR ÷ 12. Nothing you enter leaves your browser.
+
+### Features
+
+- **All your loans together**: Federal and private loans with different rates and payments, in one plan with one debt-free date.
+- **Avalanche or snowball**: Compare the interest-saving and the quick-wins approach on your own numbers.
+- **Every extra dollar counted**: Add an extra monthly amount and see the interest saved and the months cut, loan by loan.
+- **Honest refinancing**: A lower payment can still cost more over a longer term. The calculator shows both, with fees included.
+- **Federal protections flagged**: Refinancing federal loans privately is permanent; the calculator says what you would give up.
+- **Private**: No sign-up, no credit check and no data sent anywhere.
+
+### How to plan your student loan payoff
+
+1. **List your loans** — Enter each loan’s balance, APR and monthly payment from your servicer, and tick **Federal** for federal loans.
+2. **Add an extra payment** — Type how much more you can pay each month, or tap a preset.
+3. **Pick a method** — Choose **Highest rate** (avalanche) to save the most, or **Smallest balance** (snowball) for quick wins.
+4. **Read your plan** — See your debt-free date, total interest, what you save and when each loan is paid off.
+5. **Test a refinance** — On **Refinance**, tick the loans, enter the offer’s APR, term and fees, and compare.
+
+### Guide
+
+#### Avalanche or snowball?
+
+Both methods pay every loan its normal payment and send any extra money to one loan at a time. **Avalanche** targets the highest interest rate, which is mathematically the cheapest. **Snowball** targets the smallest balance, so the first loan disappears sooner – a boost that helps some people keep going. On the example below the difference is small, so the best method is the one you will stick to.
+
+| Extra a month | Debt-free in (avalanche) | Interest (avalanche) | Interest (snowball) |
+| --- | --- | --- | --- |
+| $0 | about 10 years | $16,417 | $16,417 |
+| $100 | 7 years 7 months | $11,568 | $12,430 |
+| $200 | 6 years 2 months | $9,073 | $9,842 |
+| $500 | 4 years | $5,604 | $6,097 |
+
+#### When refinancing makes sense
+
+- You have **private loans** at a high rate and can qualify for a clearly lower one – the example’s $15,000 private loan at 9% costs $7,802 in interest over 10 years, but $4,535 at 5.5%.
+- You will **keep or shorten the term**: stretching the term lowers the payment but can raise the total interest even at a lower rate.
+- Any **fees** are repaid by the lower payments well before the loan ends.
+- You do **not** need federal benefits – income-driven repayment, Public Service Loan Forgiveness, generous deferment and forbearance. Refinancing federal loans privately ends them for good.
+
+### FAQ
+
+**How do I pay off student loans faster?**
+Pay more than the minimum and direct the extra to one loan at a time – the highest-rate loan saves the most interest. When that loan is gone, add its payment to the next. Ask your servicer to apply extra payments to principal on the loan you choose, not to future payments.
+
+**Is it better to pay off the highest interest or the smallest balance first?**
+Highest interest first (avalanche) always costs least. Smallest balance first (snowball) gives earlier wins. Try both in the calculator: with similar rates the difference is often a few hundred dollars.
+
+**Should I refinance my federal student loans?**
+Only after weighing what you give up. A private refinance can lower the rate, but the loans lose federal protections such as income-driven repayment, Public Service Loan Forgiveness and federal deferment and forbearance, and that cannot be reversed. Many borrowers refinance only their private loans.
+
+**Does refinancing always save money?**
+No. A lower rate over a longer term can cost more in total interest, and fees add to the cost. The calculator compares the lifetime cost of keeping your loans with the offer, fees included.
+
+**How is student loan interest calculated?**
+Most US student loans charge simple daily interest; this calculator uses the monthly equivalent, APR ÷ 12 on the balance, which gives very close results. Your servicer’s figures may differ by small amounts because of day counts and payment dates.
+
+## Mortgage Calculator
+
+URL: https://justtools.online/calculators/mortgage-calculator/
+Category: Calculators
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-16
+
+Free US mortgage calculator with PMI, property tax, home insurance and HOA: monthly payment, when PMI ends, amortization schedule and extra payments.
+
+### At a glance
+
+- Adds up the whole payment – **principal and interest, property tax, homeowners insurance, PMI and HOA** (PITI) – and shows each part.
+- Example: a **$400,000** home with **20% down** at **6.5%** for 30 years has a principal and interest payment of **$2,022.62**, and **$408,142** of interest over the loan.
+- **PMI** applies with less than 20% down. Under the Homeowners Protection Act you can ask to cancel it at **80%** of the original value; it ends automatically at **78%** on the original schedule, and at the latest after the loan’s midpoint.
+- With 10% down on that home and PMI at 0.5%, PMI of **$150 a month** is paid for **7 years 11 months** if you ask to cancel at 80%, or 9 years 1 month until it ends automatically – **$14,250** against $16,350.
+- **Extra payments**: $200 a month more on the $320,000 loan saves **$105,429** of interest and pays it off **6 years 7 months** sooner – and lets you ask to drop PMI sooner.
+- Checks the **28/36 guideline** and estimates the home price your income supports. Property tax can be a rate or a yearly amount.
+- Full amortization schedule with a PMI column, by year or by month, as CSV. Nothing you enter leaves your browser.
+
+### Features
+
+- **The real monthly payment**: Lenders and listings often quote principal and interest only. Taxes, insurance, PMI and HOA can add hundreds a month – here they are all in.
+- **PMI, start to finish**: The PMI payment, the month it ends – on request at 80% or automatically at 78% – and the total you will pay.
+- **Pay it off sooner**: Add extra principal every month or once a year and see the interest saved and the years cut.
+- **Affordability check**: Compare your payment with the 28/36 guideline and see the price that fits your income.
+- **Amortization schedule**: Every payment split into principal, interest and PMI, with the balance left, by year or by month.
+- **Private**: No sign-up and no lead forms: your numbers stay in your browser.
+
+### How to calculate a mortgage payment
+
+1. **Enter the home price and down payment** — Type the price, then the down payment in dollars or tap 3%, 5%, 10% or 20%.
+2. **Set the rate and term** — Enter the interest rate and pick a 10-, 15-, 20- or 30-year term.
+3. **Add taxes and insurance** — Enter the property tax rate or yearly amount, homeowners insurance and any HOA dues.
+4. **Check PMI** — With under 20% down, enter the PMI rate from your quote and choose whether you will ask to cancel it at 80%.
+5. **Read the result** — See the monthly payment and its parts, when PMI ends, the payoff date and the total cost; add extra payments to compare.
+
+### Guide
+
+#### What is in a mortgage payment
+
+- **Principal and interest** – the loan payment itself: P × r × (1 + r)^n ÷ ((1 + r)^n − 1), with r the monthly rate and n the number of payments.
+- **Property tax** – set by your county or city, usually paid through an escrow account with the mortgage.
+- **Homeowners insurance** – required by lenders, also often paid through escrow.
+- **PMI** – private mortgage insurance on conventional loans with less than 20% down; it protects the lender, not you.
+- **HOA dues** – paid to a homeowners association, usually separately from the mortgage.
+
+#### 15-year or 30-year mortgage
+
+For a $320,000 loan at 6.5%. Shorter loans usually come with lower rates too, which widens the gap further. A 30-year loan with regular extra payments keeps the lower required payment while cutting much of the interest.
+
+| Term | Principal & interest | Total interest |
+| --- | --- | --- |
+| 15 years | $2,787.54 | $181,758 |
+| 20 years | $2,385.83 | $252,600 |
+| 30 years | $2,022.62 | $408,142 |
+
+#### When PMI ends
+
+Under the Homeowners Protection Act, for loans on a primary home made since July 1999: you may ask in writing to cancel PMI once the balance reaches **80% of the original value** (the lower of the price and the appraisal), if your payments are up to date. Extra payments bring that date forward. PMI **must end automatically** when the original schedule reaches **78%**, and in any case by the first month after the **midpoint** of the loan term if you are current. FHA mortgage insurance follows different rules.
+
+### FAQ
+
+**How is a mortgage payment calculated?**
+The loan part uses P × r × (1 + r)^n ÷ ((1 + r)^n − 1): P is the loan, r the yearly rate ÷ 12 and n the number of months. For $320,000 at 6.5% over 360 months that is $2,022.62. Property tax, insurance, PMI and HOA are then added on top.
+
+**How do I avoid or get rid of PMI?**
+Put down at least 20% on a conventional loan. If you put down less, you can ask to cancel PMI once the balance is 80% of the original value – sooner if you pay extra principal – and it ends by itself at 78%. A big rise in value can also help, but lenders usually require an appraisal for that.
+
+**How much house can I afford?**
+A common starting point is the 28/36 guideline: total housing costs within 28% of gross monthly income, and all debt payments within 36%. Enter your income and debts in the calculator to see the price that fits, then compare with what lenders approve.
+
+**Are extra mortgage payments worth it?**
+Every extra dollar of principal saves the loan’s interest rate on it for the rest of the loan. $200 a month more on a $320,000 loan at 6.5% saves about $105,000 and 6½ years. Check that your loan has no prepayment penalty and ask your servicer to apply extra payments to principal.
+
+**What property tax rate should I use?**
+Use the rate or yearly bill for the specific home: listings and county assessor websites show the current tax. Rates vary a lot between states and counties, and taxes are based on the assessed value, which can differ from the price.
+
+## Auto Loan Calculator
+
+URL: https://justtools.online/calculators/auto-loan-calculator/
+Category: Calculators
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-16
+
+Free US auto loan calculator with trade-in, payoff owed, sales tax, rebates and fees: monthly payment, out-the-door price, total cost and low-APR vs cash back.
+
+### At a glance
+
+- Covers everything on the buyer’s order: **vehicle price, cash rebate, down payment, trade-in value, what you still owe on the trade-in, sales tax and fees**.
+- Example: a **$35,000** car with an $8,000 trade-in ($3,000 owed), $3,000 down, 7% sales tax and $800 of fees at **6.5% APR for 60 months** is **$580.92 a month**, with $5,165 of interest.
+- In most states the **trade-in lowers the taxed price** – $1,890 of tax instead of $2,450 in that example. California, Hawaii, Virginia and Washington DC tax the full price; Michigan limits the credit.
+- **Negative equity** – owing more on the trade-in than it is worth – is added to the new loan, and the calculator warns you when it is.
+- Shows the **out-the-door price**, the cash due at signing, the total of payments and the total cost with interest, and lets you pay tax and fees upfront or in the loan.
+- **Low APR or cash back?** On that example, 1.9% APR beats $2,500 cash back at 6.5% by **$774**. Compare any two offers.
+- Compares 36- to 84-month terms, estimates the price a monthly budget covers and builds the amortization schedule. Nothing you enter leaves your browser.
+
+### Features
+
+- **Dealer math, made clear**: Rebate, trade-in, payoff, tax and fees are applied in the right order, so the amount financed matches the buyer’s order.
+- **Sales tax done properly**: Choose whether your state credits the trade-in against tax and whether the rebate is taxed.
+- **Negative equity flagged**: See exactly how much of an old loan rolls into the new one, and what it does to the payment.
+- **Low APR or cash back**: Put a dealer’s special rate against a rebate with your own financing and see which costs less over the loan.
+- **Term comparison**: A table of 36- to 84-month payments and interest shows the real price of a lower payment.
+- **Private**: No sign-up and no dealer leads – the numbers stay on your device.
+
+### How to calculate a car payment
+
+1. **Enter the price and rebate** — Type the negotiated vehicle price, any cash rebate and your cash down payment.
+2. **Add your trade-in** — Enter what the dealer gives for your current car and what you still owe on it.
+3. **Set tax and fees** — Enter your sales tax rate, how your state treats trade-ins and rebates, and the title, registration and dealer fees.
+4. **Choose the loan** — Enter the APR and pick a term from 36 to 84 months.
+5. **Compare** — Read the payment and total cost, compare terms, and test a low-APR offer against cash back.
+
+### Guide
+
+#### How the amount financed is worked out
+
+Sales tax is charged on the price – less the trade-in in states that allow it, and usually before a manufacturer rebate. Whether fees such as the documentation fee are taxed varies by state; the calculator taxes the price only.
+
+- **Price − rebate** – what the car costs after incentives.
+- **− trade-in equity** – the trade-in value minus what you owe on it; if you owe more, the difference is added instead.
+- **− down payment** – cash you pay at signing.
+- **+ sales tax and fees** – if you choose to finance them rather than pay them upfront.
+
+#### Car payment by term
+
+For $29,690 financed at 6.5% APR. Long terms lower the payment but more than double the interest, and leave you owing more than the car is worth for longer.
+
+| Term | Monthly payment | Total interest |
+| --- | --- | --- |
+| 36 months | $909.97 | $3,069 |
+| 48 months | $704.10 | $4,107 |
+| 60 months | $580.92 | $5,165 |
+| 72 months | $499.09 | $6,244 |
+| 84 months | $440.88 | $7,344 |
+
+### FAQ
+
+**How do I calculate my car payment?**
+Work out the amount financed – price, minus rebate, trade-in equity and down payment, plus any tax and fees you finance – then apply P × r × (1 + r)^n ÷ ((1 + r)^n − 1), where r is the APR ÷ 12 and n the number of months. $29,690 at 6.5% for 60 months is $580.92.
+
+**Does a trade-in reduce sales tax?**
+In most states, yes: you pay sales tax only on the price minus the trade-in. California, Hawaii, Virginia and Washington DC tax the full price, and Michigan caps the credit. Check your state’s rules and set the switch to match.
+
+**What happens if I owe more than my trade-in is worth?**
+That negative equity is usually added to the new loan, so you pay interest on it and start the new loan upside down. Paying it off in cash, waiting until you have equity, or choosing a cheaper car avoids the trap.
+
+**Is 0% APR or cash back better?**
+It depends on the rebate, your own rate and the term. Enter both offers in **Low APR or cash back?** – the one with the lower total cost wins. Large rebates often beat a low rate on shorter loans; low rates win on longer ones.
+
+**What is the out-the-door price?**
+The full amount to buy the car: price minus rebates, plus sales tax and fees. Negotiating on the out-the-door price stops add-ons and fees from creeping in after you agree a price.
+

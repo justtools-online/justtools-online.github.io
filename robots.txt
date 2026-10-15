@@ -1,0 +1,61 @@
+User-agent: *
+Allow: /
+
+# AI assistants and answer engines are welcome to crawl and cite JustTools.
+
+# OpenAI
+User-agent: GPTBot
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+Allow: /
+
+# Anthropic
+User-agent: ClaudeBot
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+Allow: /
+
+# Perplexity
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+Allow: /
+
+# Google (Gemini, AI Overviews)
+User-agent: Google-Extended
+Allow: /
+
+# Apple Intelligence
+User-agent: Applebot
+User-agent: Applebot-Extended
+Allow: /
+
+# Microsoft Bing / Copilot
+User-agent: Bingbot
+Allow: /
+
+# Meta AI
+User-agent: meta-externalagent
+Allow: /
+
+# Amazon
+User-agent: Amazonbot
+Allow: /
+
+# DuckDuckGo
+User-agent: DuckAssistBot
+Allow: /
+
+# Mistral
+User-agent: MistralAI-User
+Allow: /
+
+# Common Crawl
+User-agent: CCBot
+Allow: /
+
+Sitemap: https://justtools.online/sitemap.xml
+
+# Guides for AI systems (llmstxt.org):
+#   https://justtools.online/llms.txt
+#   https://justtools.online/llms-full.txt
+# AI usage policy: https://justtools.online/ai.txt

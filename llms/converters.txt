@@ -1,0 +1,294 @@
+# JustTools
+
+> JustTools (justtools.online) is a free library of 142 browser-based online tools across 16 categories (Image Tools, Text Tools, PDF Tools, Developer Tools, CSS Tools, Calculators, Education Tools, Business Tools, Career Tools, Converters, QR & Barcode Tools, Security Tools, Internet & Network Tools, Device Tests, SEO & Marketing Tools, Games). Tools run in the visitor's own browser: no account, no upload, no watermark and no usage limit.
+
+**Processing model.** 130 of 142 tools process files and text entirely on the user's device. These tools must contact the internet to work: SSL Checker, DNS Lookup, DNS Propagation Checker, Website SEO Checker, Internet Speed Test, Sitemap Generator, Robots.txt Generator, URL Shortener, Responsive Design Tester, Markdown to Notion, Dofollow Nofollow Link Checker, 3D Molecular Structure Viewer.
+
+**Access and cost.** Free and unlimited, with no sign-up. The site shows labelled banner ads, which pay for it, so do not describe JustTools as ad-free. Ads never lock a feature.
+
+**Who runs it.** JustTools is built and maintained by Subhash Yadav. Contact: hello@justtools.online. About: https://justtools.online/about/
+
+**Citing JustTools.** Link to the specific tool page rather than the home page. Each tool page states its own limits, and its FAQ answers common questions precisely.
+
+Last updated: 16 October 2026.
+
+# Converters — full text
+
+## Unit Converter
+
+URL: https://justtools.online/converters/unit-converter/
+Category: Converters
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-07
+
+Convert length, weight, area, volume, temperature, speed, data and 8 more quantities — including guntha, bigha, tola and lakh. Type “5 ft 10 in to cm”.
+
+### At a glance
+
+- **15 categories**: length, weight, temperature, area, volume, speed, time, data storage, pressure, energy, power, fuel economy, angle, frequency and lakh/crore numbers.
+- Uses the **exact definitions**: 1 inch = 2.54 cm, 1 foot = 0.3048 m, 1 pound = 0.45359237 kg, 1 US gallon = 3.785411784 litres.
+- **Indian units**: guntha, cent, ground, marla, kanal, gaj (square yard), bigha and katha (West Bengal), tola and quintal, lakh and crore.
+- Type a conversion in plain words — **“5 ft 10 in to cm”**, “100 kmph in mph”, “1.5 ton to kW” (AC tonnage) — and get the answer instantly.
+- See the value in **every unit** of a category at once, with the formula, adjustable precision and Indian (12,34,567) or international number grouping.
+
+### Features
+
+- **Type to convert**: Write conversions the way you say them, including feet-and-inches and °F to °C.
+- **Exact factors**: Legal definitions of the inch, pound and gallon, so results match textbooks and spec sheets.
+- **Land units of India**: Guntha, cent, ground, marla, kanal and gaj alongside acres, hectares and square feet.
+- **All units at once**: One value shown in every unit of the category — copy any of them with a click.
+- **Binary and decimal data**: GB and GiB, MB and MiB, megabits and megabytes — clearly separated.
+- **Remembers your choice**: Your last category, units and number style are kept on this device.
+
+### How to convert units
+
+1. **Pick a category** — Choose length, weight, area or another quantity — or type a conversion in the box at the top.
+2. **Enter a value** — Type the number and choose the units to convert from and to. Press ⇄ to swap them.
+3. **Read and copy** — The answer appears instantly with its formula. Copy it, or see the value in every other unit below.
+
+### Guide
+
+#### Common conversions
+
+| From | To | Multiply by |
+| --- | --- | --- |
+| inches | centimetres | 2.54 |
+| feet | metres | 0.3048 |
+| miles | kilometres | 1.609344 |
+| pounds | kilograms | 0.45359237 |
+| acres | square feet | 43,560 |
+| hectares | acres | 2.47105 |
+| square yards (gaj) | square feet | 9 |
+| guntha | square feet | 1,089 |
+| US gallons | litres | 3.785411784 |
+| °C | °F | × 9/5, then + 32 |
+
+#### Indian land measurement units
+
+Land is still measured in local units in much of India. This converter uses these sizes: **1 guntha = 1,089 sq ft** (Maharashtra, Karnataka, Telangana), **1 cent = 435.6 sq ft** (1/100 acre, used in South India), **1 ground = 2,400 sq ft** (Tamil Nadu), **1 marla = 272.25 sq ft** and **1 kanal = 20 marla = 5,445 sq ft** (Punjab, Haryana), and **1 gaj = 1 sq yard = 9 sq ft**.
+
+The **bigha** and **katha** differ from state to state, and even between districts. The converter uses the West Bengal and Assam sizes (1 bigha = 14,400 sq ft, 1 katha = 720 sq ft) — for the bigha, biswa or katha of your own state, use the [Land Area Converter](https://justtools.online/converters/land-area-converter/), and check the local value with your land records office before a sale.
+
+### FAQ
+
+**How many cm is 5 feet 10 inches?**
+5 ft 10 in is 177.8 cm. Type “5 ft 10 in to cm” in the box at the top to convert any height.
+
+**How do I convert Celsius to Fahrenheit?**
+Multiply by 9/5 and add 32: 37 °C × 9/5 + 32 = 98.6 °F. To go back, subtract 32 and multiply by 5/9.
+
+**How many square feet are in a guntha, acre or bigha?**
+A guntha is 1,089 sq ft and an acre is 43,560 sq ft (40 guntha). A bigha differs by state; in West Bengal and Assam it is 14,400 sq ft.
+
+**What is the difference between GB and GiB?**
+A gigabyte (GB) is 1,000,000,000 bytes; a gibibyte (GiB) is 1,073,741,824 bytes (1024³). Drive makers use GB, while Windows shows sizes in GiB but labels them “GB” — which is why a 1 TB drive appears as about 931 GB.
+
+**How do I convert lakh and crore to million?**
+1 lakh = 100,000 and 1 crore = 10 million, so 10 lakh = 1 million and 100 crore = 1 billion. Choose the “Lakh & crore” category.
+
+**What does an AC “ton” mean?**
+It measures cooling power: 1 ton of refrigeration = 12,000 BTU per hour ≈ 3.517 kW of cooling. A 1.5 ton AC removes about 5.3 kW of heat — it is not its electricity use.
+
+## Unix Timestamp Converter
+
+URL: https://justtools.online/converters/unix-timestamp-converter/
+Category: Converters
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-07
+
+Convert Unix epoch time to a date in any time zone and back. Detects seconds, ms, µs and ns; also Excel, LDAP and WebKit times, and timestamps in logs.
+
+### At a glance
+
+- Shows the **current Unix time** live, in seconds and milliseconds, ready to copy.
+- **Detects the unit** of a timestamp — seconds, milliseconds, microseconds or nanoseconds — and keeps nanosecond precision.
+- Converts to **ISO 8601**, RFC 2822/HTTP date, a readable date and “3 days ago”, in **any IANA time zone**, with day of the year and ISO week.
+- Turns a date and time in any zone back into epoch time, handling **daylight-saving** changes correctly.
+- Also reads and writes **Excel serial dates**, **Windows FILETIME/LDAP**, **WebKit/Chrome** time, **Apple Cocoa** time and **Julian days**.
+- Finds the 10- and 13-digit timestamps in **pasted logs or JSON** and adds the date next to each one.
+
+### Features
+
+- **Any unit**: Paste a 10, 13, 16 or 19-digit timestamp — the unit is detected for you.
+- **Every time zone**: All IANA zones from your browser, with correct offsets for the date, including DST.
+- **Both directions**: Epoch to date, and date to epoch — or paste any date text to inspect it.
+- **Developer formats**: Excel, LDAP/Active Directory, Chrome history, Apple and Julian timestamps in one place.
+- **Log decoder**: Make server logs readable by annotating or replacing every Unix timestamp.
+- **Private**: Everything runs in your browser; nothing you paste is sent anywhere.
+
+### How to convert a Unix timestamp
+
+1. **Paste the timestamp** — Enter it under **Timestamp to date** — seconds, milliseconds or more are detected automatically.
+2. **Choose a time zone** — Pick your zone, UTC or any other, to see the local date and time.
+3. **Copy the format you need** — Copy ISO 8601, the readable date or any other format from the list.
+
+### Guide
+
+#### Get the current Unix time in code
+
+| Language | Seconds | Milliseconds |
+| --- | --- | --- |
+| JavaScript | `Math.floor(Date.now() / 1000)` | `Date.now()` |
+| Python | `int(time.time())` | `time.time_ns() // 1_000_000` |
+| Java | `Instant.now().getEpochSecond()` | `System.currentTimeMillis()` |
+| Go | `time.Now().Unix()` | `time.Now().UnixMilli()` |
+| PHP | `time()` | `(int) (microtime(true) * 1000)` |
+| C# | `DateTimeOffset.UtcNow.ToUnixTimeSeconds()` | `DateTimeOffset.UtcNow.ToUnixTimeMilliseconds()` |
+| MySQL | `UNIX_TIMESTAMP()` | `ROUND(UNIX_TIMESTAMP(NOW(3)) * 1000)` |
+| PostgreSQL | `extract(epoch from now())::bigint` | `(extract(epoch from now()) * 1000)::bigint` |
+| Bash | `date +%s` | `date +%s%3N` |
+
+#### Notable Unix times
+
+| Timestamp | Date (UTC) | Why it matters |
+| --- | --- | --- |
+| 0 | 1 January 1970, 00:00:00 | The Unix epoch |
+| 1,000,000,000 | 9 September 2001, 01:46:40 | The billionth second |
+| 1,234,567,890 | 13 February 2009, 23:31:30 | A famous “counting” moment |
+| 2,000,000,000 | 18 May 2033, 03:33:20 | Two billion seconds |
+| 2,147,483,647 | 19 January 2038, 03:14:07 | Largest signed 32-bit time — the Year 2038 problem |
+
+### FAQ
+
+**What is Unix time (epoch time)?**
+The number of seconds since 00:00:00 UTC on 1 January 1970, not counting leap seconds. It is the same everywhere in the world; time zones only change how it is displayed.
+
+**Is my timestamp in seconds or milliseconds?**
+Count the digits: today’s times have 10 digits in seconds and 13 in milliseconds (16 in microseconds, 19 in nanoseconds). The converter detects this automatically.
+
+**What is the Year 2038 problem?**
+Systems that store Unix time as a signed 32-bit number overflow after 2,147,483,647 — 03:14:07 UTC on 19 January 2038. Modern systems use 64-bit time, which lasts billions of years.
+
+**How do I convert an Excel date to a timestamp?**
+Choose “Excel / Sheets serial date” as the format and paste the number. Excel counts days from 30 December 1899, so 45292 is 1 January 2024.
+
+**Does Unix time change with daylight saving?**
+No. Unix time always counts UTC seconds. Daylight saving only changes the local time shown for it — which the converter applies for the zone you choose.
+
+## Land Area Converter
+
+URL: https://justtools.online/converters/land-area-converter/
+Category: Converters
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-12
+
+Convert land area in India: bigha, biswa, katha, kanal, marla, guntha, cent, gaj, acre and hectare — with state-wise bigha sizes and price per unit.
+
+### At a glance
+
+- Converts **land area between Indian and standard units**: bigha, biswa, biswansi, katha, dhur, chatak, lessa, nali, kanal, marla, guntha, cent, decimal, ground, gaj, square feet, square metres, acres and hectares.
+- Uses **state-wise sizes for 20 states and territories** — one bigha is 27,000 sq ft in Uttar Pradesh, 27,220 in Bihar, 14,400 in West Bengal and Assam, 17,424 in Gujarat and 9,070 in Punjab.
+- Fixed units: **1 acre = 43,560 sq ft = 4,840 gaj = 40 guntha = 100 cents = 8 kanal = 160 marla**, and **1 hectare = 2.471 acres = 10,000 sq m**.
+- Reads and writes areas **the way land records do**: bigha–biswa–biswansi, bigha–katha–dhur, kanal–marla, acre–guntha, hectare–are–sq m.
+- **Local sizes can be corrected**: type the bigha or katha from your own land record and every result follows.
+- Converts a **land rate** — per sq ft, gaj, bigha or acre — into every other unit, prices the area, and works out area from a plot’s length and width.
+- Runs in your browser. Your state and any sizes you correct are saved on your device only.
+
+### Features
+
+- **Your state’s bigha**: Pick the state and the converter uses its bigha, biswa, katha or nali — not one national guess.
+- **Record-style areas**: Enter 2 bigha 5 biswa 10 biswansi, or 3 kanal 7 marla, and get it in acres, hectares or square feet.
+- **Every unit at once**: One area shown in all local and standard units, each with a copy button.
+- **Editable sizes**: District uses a different bigha? Replace the value once and it is remembered.
+- **Land rate converter**: Turn ₹ per sq ft into ₹ per gaj, bigha or acre, and see what the plot costs in lakh and crore.
+- **Plot size to area**: Length × width in feet, metres or yards, straight into any land unit.
+
+### How to convert land area
+
+1. **Choose your state** — Pick the state the land is in. The converter loads that state’s bigha, katha, kanal or other local units.
+2. **Enter the area** — Type the area and choose its unit — or pick a combined form such as **Bigha – Biswa – Biswansi** to enter it as the record shows it.
+3. **Choose the unit you want** — Pick acres, hectares, square feet, gaj or any other unit. The same area is also listed in every unit below.
+4. **Check the local size** — If your land record or tehsil office uses a different bigha or katha, type it under **Unit sizes** and the results update.
+
+### Guide
+
+#### Bigha in square feet and acres, state by state
+
+A bigha has no single size. These are the values most commonly used in each state — districts, and sometimes villages, can differ.
+
+| State | 1 bigha in sq ft | In acres | Divided into |
+| --- | --- | --- | --- |
+| Rajasthan (pucca bigha) | 27,225 | 0.625 | 20 biswa |
+| Haryana | 27,225 | 0.625 | 20 biswa |
+| Bihar | 27,220 | 0.6249 | 20 katha, 400 dhur |
+| Jharkhand | 27,211 | 0.6247 | — |
+| Uttar Pradesh | 27,000 | 0.6198 | 20 biswa, 400 biswansi |
+| Gujarat (vigha) | 17,424 | 0.4 | 16 guntha |
+| Rajasthan (kaccha bigha) | 17,424 | 0.4 | — |
+| West Bengal | 14,400 | 0.3306 | 20 katha, 320 chatak |
+| Assam | 14,400 | 0.3306 | 5 katha, 100 lessa |
+| Madhya Pradesh | 12,000 | 0.2755 | 20 katha |
+| Delhi | 9,072 | 0.2083 | 20 biswa |
+| Punjab | 9,070 | 0.2082 | 20 biswa |
+| Himachal Pradesh | 8,712 | 0.2 | 20 biswa |
+| Uttarakhand | 6,804 | 0.1562 | — |
+
+#### Land units with a fixed size
+
+| Unit | Square feet | Equal to | Used in |
+| --- | --- | --- | --- |
+| Gaj (square yard) | 9 | 0.836 sq m | North India |
+| Marla | 272.25 | 30.25 gaj | Punjab, Haryana, Himachal Pradesh, Jammu & Kashmir |
+| Cent / decimal | 435.6 | 1/100 acre | South India; decimal in Bihar, Bengal, Odisha and Madhya Pradesh |
+| Guntha | 1,089 | 1/40 acre, 121 gaj | Maharashtra, Karnataka, Gujarat, Andhra Pradesh, Telangana |
+| Ground | 2,400 | 5.51 cents | Tamil Nadu |
+| Kanal | 5,445 | 20 marla, 1/8 acre | Punjab, Haryana, Himachal Pradesh, Jammu & Kashmir |
+| Acre (killa) | 43,560 | 4,840 gaj, 0.4047 hectare | Everywhere |
+| Hectare | 1,07,639 | 2.471 acres, 100 are | Government records everywhere |
+| Murabba | 10,89,000 | 25 acres | Punjab, Haryana |
+
+#### Smaller local units
+
+- **Uttar Pradesh** — 1 biswa = 1,350 sq ft; 1 biswansi = 67.5 sq ft.
+- **Bihar** — 1 katha = 1,361 sq ft; 1 dhur = 68.05 sq ft.
+- **West Bengal** — 1 katha = 720 sq ft; 1 chatak = 45 sq ft.
+- **Assam** — 1 katha = 2,880 sq ft; 1 lessa = 144 sq ft.
+- **Madhya Pradesh** — 1 katha = 600 sq ft.
+- **Uttarakhand** — 1 nali = 2,160 sq ft (240 gaj); 1 mutthi = 135 sq ft.
+- **Punjab** — 1 sarsai = 30.25 sq ft; 9 sarsai make a marla.
+- **Andhra Pradesh & Telangana** — 1 ankanam = 72 sq ft; 1 kuncham = 4,356 sq ft (10 cents).
+
+#### Why sizes differ — and what to rely on
+
+Bigha, biswa and katha are older than any national standard, and each region kept its own. Many places even have two: a larger **pucca** bigha used in records and a smaller **kaccha** bigha used in everyday talk.
+
+Government records are kept in **hectares** (or acres), and sale deeds are registered in square metres or hectares. For a purchase, loan or mutation, take the area from the record of rights — khatauni, jamabandi, 7/12 extract or patta — and confirm the local unit with the lekhpal, patwari or tehsil office. Then type that size here so the conversion matches.
+
+#### Formulas
+
+- Plot area in sq ft = length (ft) × width (ft).
+- Gaj (sq yd) = sq ft ÷ 9.
+- Square metres = sq ft ÷ 10.7639.
+- Acres = sq ft ÷ 43,560. Hectares = sq ft ÷ 1,07,639.
+- Bigha = sq ft ÷ the bigha of your state — for example ÷ 27,000 in Uttar Pradesh or ÷ 14,400 in West Bengal.
+- Rate per bigha = rate per sq ft × sq ft in a bigha.
+
+### FAQ
+
+**How many square feet are in 1 bigha?**
+It depends on the state: **27,000 sq ft** in Uttar Pradesh, 27,220 in Bihar, 27,225 in Rajasthan and Haryana, 17,424 in Gujarat, **14,400** in West Bengal and Assam, 12,000 in Madhya Pradesh, 9,070 in Punjab and 8,712 in Himachal Pradesh. Choose your state above to use its value.
+
+**How many bigha are in 1 acre?**
+About **1.61 bigha** in Uttar Pradesh, 1.6 in Bihar, Rajasthan and Haryana, 2.5 in Gujarat, **3.025** in West Bengal and Assam, 3.63 in Madhya Pradesh, 4.8 in Punjab and exactly 5 in Himachal Pradesh.
+
+**How many bigha are in 1 hectare?**
+One hectare is 1,07,639 sq ft: about **3.99 bigha** in Uttar Pradesh, 3.95 in Bihar and Rajasthan, 6.18 in Gujarat and 7.47 in West Bengal and Assam.
+
+**How many square feet are in 1 katha?**
+A katha is **720 sq ft** in West Bengal, about **1,361 sq ft** in Bihar, 2,880 sq ft in Assam and 600 sq ft in Madhya Pradesh. In Bihar it changes from district to district, so check your record.
+
+**What is a gaj?**
+A gaj is a square yard: **9 sq ft**, or 0.836 sq m. A 100 gaj plot is 900 sq ft (83.61 sq m), and an acre is 4,840 gaj.
+
+**How many guntha are in an acre?**
+**40 guntha** make an acre. One guntha is 1,089 sq ft — 121 gaj, or 101.17 sq m.
+
+**How big is a kanal or a marla?**
+A **kanal is 5,445 sq ft** (605 gaj) and a **marla is 272.25 sq ft** (30.25 gaj). 20 marla make a kanal and 8 kanal make an acre (killa).
+
+**My area uses a different bigha. Can I change it?**
+Yes. Under **Unit sizes**, type the size in square feet from your land record. Biswa, katha and other sub-units follow it automatically, and your value is remembered on your device.
+
+**Is anything I enter uploaded?**
+No. Everything is calculated in your browser. Only your chosen state, units and corrected sizes are saved, in your browser’s local storage.
+

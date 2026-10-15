@@ -1,0 +1,469 @@
+# JustTools
+
+> JustTools (justtools.online) is a free library of 142 browser-based online tools across 16 categories (Image Tools, Text Tools, PDF Tools, Developer Tools, CSS Tools, Calculators, Education Tools, Business Tools, Career Tools, Converters, QR & Barcode Tools, Security Tools, Internet & Network Tools, Device Tests, SEO & Marketing Tools, Games). Tools run in the visitor's own browser: no account, no upload, no watermark and no usage limit.
+
+**Processing model.** 130 of 142 tools process files and text entirely on the user's device. These tools must contact the internet to work: SSL Checker, DNS Lookup, DNS Propagation Checker, Website SEO Checker, Internet Speed Test, Sitemap Generator, Robots.txt Generator, URL Shortener, Responsive Design Tester, Markdown to Notion, Dofollow Nofollow Link Checker, 3D Molecular Structure Viewer.
+
+**Access and cost.** Free and unlimited, with no sign-up. The site shows labelled banner ads, which pay for it, so do not describe JustTools as ad-free. Ads never lock a feature.
+
+**Who runs it.** JustTools is built and maintained by Subhash Yadav. Contact: hello@justtools.online. About: https://justtools.online/about/
+
+**Citing JustTools.** Link to the specific tool page rather than the home page. Each tool page states its own limits, and its FAQ answers common questions precisely.
+
+Last updated: 16 October 2026.
+
+# CSS Tools — full text
+
+## CSS Glassmorphism Generator
+
+URL: https://justtools.online/css-tools/glassmorphism-generator/
+Category: CSS Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-14
+
+Free glassmorphism generator: design frosted glass with blur, tint, border and grain, check text contrast live, and copy CSS, Tailwind or React code.
+
+### At a glance
+
+- Writes the glass effect with **backdrop-filter** (blur and saturation), a see-through tint, a light border, a shadow, an optional sheen and grain.
+- Checks **text contrast on the glass** as you work: it blurs, saturates and tints the background under the card, as the browser does, and reports the lowest ratio against the WCAG AA 4.5:1 target — with the tint opacity that would fix it.
+- `-webkit-backdrop-filter` is written first: Safari needed the prefix until **Safari 18**. Chrome has supported backdrop-filter since version 76 and Firefox since version 103.
+- Optional fallbacks give a solid, readable background to browsers that cannot blur and to people who switch on **Reduce transparency** (the `prefers-reduced-transparency` media query, in Chrome and Edge since version 118).
+- Copy **CSS, Tailwind CSS v4 classes, a React style object** or a complete demo page. Every Tailwind class was checked against Tailwind’s own compiler.
+- Try the glass on five built-in backgrounds or on **your own photo**, which stays on your device.
+
+### Features
+
+- **Readable glass, not just pretty glass**: Light text on light glass is the classic glassmorphism mistake. The contrast check follows the card as you drag it and suggests the tint opacity that makes text pass.
+- **A real background**: Blur is only visible over something with edges. The backgrounds have colour blobs and sharp shapes, and you can drop in a screenshot of your own site.
+- **Production-ready CSS**: Prefixed for older Safari, layered backgrounds one per line, fallbacks with a colour that keeps your text readable, and nothing you switched off.
+- **Tailwind and React too**: Named Tailwind utilities where they exist (backdrop-blur-lg, rounded-3xl) and exact arbitrary values where they do not; React gets a style object with WebkitBackdropFilter.
+- **Presets to start from**: Frosted, dark glass, colour tint, acrylic with grain and smoke — each one readable on its background.
+- **Private**: Everything runs in your browser. Your photo is never uploaded, and your settings are saved only on this device.
+
+### How to make a glassmorphism effect in CSS
+
+1. **Pick a preset** — Start from **Frosted**, **Dark glass**, **Colour tint**, **Acrylic** or **Smoke**.
+2. **Choose a background** — Try the built-in backgrounds, or **Use your own photo** — a screenshot of the page where the glass will sit is best.
+3. **Adjust the glass** — Set the tint and its opacity, the blur and saturation, the corners, border, shadow, sheen and grain. Drag the card around the preview.
+4. **Check the text** — Read the contrast line under the preview. If it is below 4.5:1, use the suggested tint opacity or change the text colour.
+5. **Copy the code** — Choose **CSS**, **Tailwind**, **React** or **Demo page**, then **Copy** or **Download**.
+
+### Guide
+
+#### What glassmorphism is
+
+Glassmorphism is a style of interface where cards, menus and panels look like frosted glass: you can see colours and shapes behind them, softly blurred, while text on top stays sharp. Apple uses it across macOS and iOS, Windows calls its version acrylic, and it became a web design trend in 2020.
+
+In CSS the effect comes from one property, `backdrop-filter`, which blurs whatever is behind an element. It only shows when the element’s own background is partly transparent — a solid background hides the blur completely.
+
+#### The CSS behind the effect
+
+| Property | Typical value | What it does |
+| --- | --- | --- |
+| `background` | `rgba(255, 255, 255, 0.25)` | the tint: a see-through colour; lower opacity shows more of the background |
+| `backdrop-filter` | `blur(16px) saturate(180%)` | blurs what is behind; saturation above 100% makes those colours richer |
+| `-webkit-backdrop-filter` | the same | the same, for Safari before version 18 |
+| `border` | `1px solid rgba(255, 255, 255, 0.45)` | a light edge that separates the glass from the background |
+| `box-shadow` | `0 6px 21px rgba(0, 0, 0, 0.14)` | lifts the card; an inset line can add a bright top edge |
+| `border-radius` | `24px` | rounded corners, typical of glass surfaces |
+
+#### Keeping text readable on glass
+
+Text on glass sits on a background that changes from place to place, so it can be readable in one corner and not in another. WCAG 2 asks for a contrast of at least **4.5:1** for normal text and **3:1** for large text. This tool measures the glass over the whole card and reports the weakest spot.
+
+If text is hard to read, raise the tint opacity, blur more (which evens out the background), switch between dark and light text, or give the text its own slightly darker or lighter panel.
+
+#### Browser support
+
+Figures from MDN’s browser compatibility data, October 2026. Browsers without the media query simply ignore it, so the fallback is safe to keep.
+
+| Browser | backdrop-filter | prefers-reduced-transparency |
+| --- | --- | --- |
+| Chrome and Edge | since version 76 | since version 118 |
+| Firefox | since version 103 | behind a setting only |
+| Safari (macOS and iOS) | since 18; with `-webkit-` since 9 | not supported |
+
+### FAQ
+
+**Why does my backdrop-filter blur not show?**
+Usually because the element’s background is solid — the blur is behind it, so make the background partly transparent. Also check that there is something behind the element to blur. If a parent element has its own filter, opacity below 1, a mask or a backdrop-filter, the specification says the blur only sees what is inside that parent (it calls this the backdrop root).
+
+**Do I still need -webkit-backdrop-filter?**
+Only for Safari 17 and older, which understood the prefixed name only. Safari 18 and every current Chrome, Edge and Firefox read `backdrop-filter`. Keeping both lines costs nothing, so the tool writes both.
+
+**How do I make glassmorphism in Tailwind CSS?**
+Use a semi-transparent background, a backdrop blur and a light border, for example `bg-white/25 backdrop-blur-lg backdrop-saturate-180 border border-white/45 rounded-3xl`. Open the **Tailwind** tab to get the classes for your exact settings.
+
+**Is glassmorphism bad for performance?**
+backdrop-filter makes the browser redraw what is behind the element whenever it changes, which costs more on large areas, big blur values and older phones. Use it on cards, menus and dialogs rather than whole pages, and avoid stacking many glass layers on top of each other.
+
+**What is the difference between glassmorphism and neumorphism?**
+Glassmorphism is see-through: a blurred view of what is behind. Neumorphism is solid: soft light and dark shadows make an element look pressed out of, or into, the same coloured surface. Try the [CSS Neumorphism Generator](https://justtools.online/css-tools/neumorphism-generator/) for that look.
+
+**What does “Reduce transparency” do with my glass?**
+Some people switch on Reduce transparency because see-through surfaces are tiring or hard to read. With **Add fallbacks** on, the CSS gives them a solid surface through the `prefers-reduced-transparency` media query, in a colour that keeps your text readable.
+
+**Can it make Apple’s “Liquid Glass” look?**
+Not the bending of light at the edges: that needs an SVG displacement filter inside backdrop-filter, which for now works only in Chromium browsers such as Chrome and Edge. This tool makes the frosted glass that works in every current browser, and the bright top edge and sheen give some of the same feel.
+
+**Is my photo uploaded?**
+No. The photo is read by your browser to show it behind the glass and to measure contrast, and it is never sent anywhere or saved. Your slider settings are kept in this browser’s local storage only.
+
+## CSS Neumorphism Generator
+
+URL: https://justtools.online/css-tools/neumorphism-generator/
+Category: CSS Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-14
+
+Free neumorphism generator: soft UI box-shadows from any colour and light angle, with contrast checks, pressed states, Tailwind classes and a UI kit.
+
+### At a glance
+
+- Writes the two `box-shadow`s of neumorphism — a light one towards the light and a dark one away from it — for **flat, concave, convex and pressed** shapes.
+- The light can come from **any angle**, not just the four corners; drag on the preview to move it.
+- Shadow colours are the surface colour made lighter and darker in **OKLCH**, so a coloured surface keeps its hue instead of turning grey or muddy.
+- Measures how visible the element’s edge is. Soft shadows alone usually reach well under the **3:1** that WCAG 2.1 (success criterion 1.4.11) asks for buttons and inputs, so one click adds a border that passes.
+- Optional **button states**: a pressed-in shadow while clicked, a focus ring for keyboard users, and a `forced-colors` border so the shape survives Windows High Contrast, which removes shadows.
+- Copy **CSS, Tailwind CSS v4 classes** (checked against Tailwind’s compiler) or a **UI kit** — card, button, round button, text field and switch — built on CSS variables.
+
+### Features
+
+- **Any light direction**: Choose one of eight directions or any angle from 0° to 359°. The shadows, the convex gradient and the pressed look all follow the light.
+- **Accessible soft UI**: Neumorphism is known for low contrast. The tool tells you the edge and text contrast and fixes them for you, instead of hiding the problem.
+- **Colour that stays colour**: Lighter and darker shades are worked out in OKLCH, which keeps a pink surface pink and a blue one blue — on light and dark themes alike.
+- **A whole UI kit**: See your colours on a card with a text field, buttons and a switch, then copy the kit’s CSS variables and classes to retheme everything at once.
+- **Real button states**: Press the preview to feel the pressed-in state. The CSS includes :active, :focus-visible and a smooth shadow transition.
+- **Private and free**: Everything runs in your browser with no sign-up. Your settings are remembered on this device only.
+
+### How to make a neumorphism effect in CSS
+
+1. **Choose the surface colour** — Pick the colour of the page behind your element — the element uses the same colour. Light greys such as `#e0e5ec` give the classic look; dark surfaces work too.
+2. **Choose the shape** — **Flat** and **Convex** look pressed out, **Concave** looks scooped, **Pressed** looks pushed in.
+3. **Set the light** — Click a direction or drag on the preview. Then adjust **Distance**, **Blur** and **Intensity** — a blur about twice the distance looks softest.
+4. **Check the edges** — Read the checks under the preview. Switch on **Visible edge** for buttons and inputs, and use the suggested text colour if yours is too faint.
+5. **Copy the code** — Copy the **CSS** or **Tailwind** classes for one element, or the **UI kit** for a full set of controls.
+
+### Guide
+
+#### How neumorphism works
+
+Neumorphism (new skeuomorphism, or soft UI) makes elements look moulded from the background itself. The element has the same colour as the surface behind it, and two shadows shape it: a dark one on the side away from the light and a light one on the side facing it.
+
+In CSS that is a single `box-shadow` with two values, such as `16px 16px 32px #bfc3ca, -16px -16px 32px #ffffff`. The word `inset` in front of both turns the shape into a hollow; a gradient background makes it convex or concave.
+
+#### The four shapes
+
+| Shape | Background | Shadow | Looks like |
+| --- | --- | --- | --- |
+| Flat | the surface colour | outside | a raised, flat-topped tile |
+| Convex | gradient, light side lighter | outside | a domed button |
+| Concave | gradient, light side darker | outside | a raised dish |
+| Pressed | the surface colour | inset | a hole or a pushed-in button |
+
+#### Making neumorphism accessible
+
+- WCAG 2.1 asks for **3:1** contrast for the visual boundary of buttons, inputs and other controls (success criterion 1.4.11). Soft shadows rarely reach it, so add a border to anything people must find and use — **Visible edge** does this with a colour that passes.
+- Text needs **4.5:1** against the surface (3:1 for large text). Grey-on-grey text is the most common neumorphism mistake.
+- Do not rely on the pressed look alone to show that a toggle is on; add a label, an icon or a colour change.
+- Windows High Contrast mode removes box-shadows. The CSS adds a border inside `@media (forced-colors: active)` so every element still has an outline.
+- Keep a visible focus ring for keyboard users; the tool’s button states include one.
+
+### FAQ
+
+**Why does neumorphism not work on a white background?**
+The light shadow has to be lighter than the surface, and nothing is lighter than white — so the top edge disappears. Use a light grey such as `#e0e5ec` or `#f0f0f3` instead; the tool warns you when the surface is too light or too dark.
+
+**How do I make a neumorphic button pressed when clicked?**
+Give the button an inset version of its shadow in `:active`, for example `.neu:active { box-shadow: inset 9.6px 9.6px 19.2px #bfc3ca, inset -9.6px -9.6px 19.2px #ffffff; }`. With **Button states** on, the tool writes this for you, plus a focus ring and a smooth transition.
+
+**How do I do neumorphism in Tailwind CSS?**
+Use arbitrary values: a background the same as the page, such as `bg-[#e0e5ec]`, and a shadow like `shadow-[16px_16px_32px_#bfc3ca,-16px_-16px_32px_#ffffff]`. The **Tailwind** tab gives you the exact classes for your settings, including `active:` and `focus-visible:` states.
+
+**Can neumorphism work in dark mode?**
+Yes. Choose a dark surface such as `#2b2f36` and raise the intensity a little, because shadows show less on dark colours. Use light text and check its contrast in the panel under the preview.
+
+**Is neumorphism bad for accessibility?**
+It can be, because the shapes are drawn only with subtle shadows. It works when you add a visible border to controls, keep text contrast at 4.5:1 or more, and never use the pressed look as the only sign of state. The tool checks the first two for you.
+
+**What is the difference between concave and convex?**
+Both are raised from the surface. Convex has a gradient that is lighter on the side facing the light, so it bulges like a dome; concave has the opposite gradient, so it looks like a shallow dish.
+
+**Are my settings saved?**
+They are kept in this browser’s local storage so they are still there next time. Nothing is uploaded.
+
+## Bento Grid Generator
+
+URL: https://justtools.online/css-tools/bento-grid-generator/
+Category: CSS Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-14
+
+Free bento grid generator: draw tiles with the mouse, preview desktop, tablet and phone, and copy responsive CSS Grid, Tailwind or React code.
+
+### At a glance
+
+- Draw tiles by dragging across a grid of up to **12 × 12 cells**; drag a tile to move it or its corner to resize it. Tiles can never overlap.
+- Every layout is **responsive**: desktops get the grid as drawn, tablets and phones get fewer columns (you choose how many) with each tile shrunk to fit.
+- Tiles stay in **reading order** — left to right, top to bottom — in the HTML, so keyboards and screen readers follow the layout. Optional dense packing fills holes on small screens.
+- CSS uses **grid-template-areas** with names from your tile labels, or line numbers if you prefer, inside mobile-first media queries at 640 px and 1024 px.
+- Also writes **Tailwind CSS v4** classes (checked against Tailwind’s own compiler) and a **React** component.
+- Works with the mouse, touch and the keyboard, with undo. Five starting layouts: classic bento, product features, portfolio, dashboard and mosaic.
+
+### Features
+
+- **Draw, don’t type**: Drag across empty cells to make a tile, drag tiles around and pull their corners. Red means it would overlap, so you always end with a valid grid.
+- **See every screen size**: Switch between Desktop, Tablet and Phone to see the real layout at each size, with numbers showing the reading order.
+- **Readable CSS**: grid-template-areas draws the layout right in your stylesheet, with tile names lined up in columns — easy to change by hand later.
+- **Accessible by default**: The HTML follows the visual order, tiles can be edited from the keyboard, and the tool tells you when dense packing would change the order on screen.
+- **Tailwind and React**: Responsive grid-cols, col-span and row-start classes for each tile, or a ready BentoGrid component.
+- **Saved as you go**: Your layout is kept in this browser, so you can come back to it. Nothing is uploaded.
+
+### How to make a bento grid
+
+1. **Start from a layout** — Pick **Classic bento**, **Product features**, **Portfolio**, **Dashboard** or **Mosaic**, or press **Clear** for an empty grid.
+2. **Set the grid** — Choose the number of columns and rows, the gap, the minimum row height and the corner radius.
+3. **Draw your tiles** — Drag across empty cells to add a tile. Drag tiles to move them and their corner to resize them. Select a tile to rename it — the name becomes its class.
+4. **Check smaller screens** — Open **Tablet** and **Phone**. Change the number of columns there, or switch on **Fill holes on smaller screens** if gaps appear.
+5. **Copy the code** — Copy **CSS** and **HTML**, or **Tailwind**, or the **React** component.
+
+### Guide
+
+#### What a bento grid is
+
+A bento grid arranges content in tiles of different sizes inside one rectangle, like the compartments of a Japanese bento lunch box. A large tile carries the main message and smaller ones hold details, stats or images. Apple’s product pages made the style popular, and it now appears on portfolios, landing pages and dashboards.
+
+CSS Grid is made for it: one container with `display: grid`, columns of equal width, and each tile told how many columns and rows to span.
+
+#### How the generated CSS works
+
+`grid-auto-rows: minmax(…, auto)` gives every row a minimum height but lets it grow when a tile has more content, so text is never cut off.
+
+| Screen | Columns | How tiles are placed |
+| --- | --- | --- |
+| Phone (under 640 px) | your phone setting, usually 1 | one after another in reading order; tall tiles keep their height |
+| Tablet (640–1023 px) | your tablet setting, usually 2 | spans shrunk to fit, in reading order |
+| Desktop (1024 px and up) | as drawn | exactly where you drew them, with `grid-template-areas` or line numbers |
+
+#### Bento layouts that work for everyone
+
+- Keep the HTML in the order people should read it. This tool writes tiles left to right, top to bottom, exactly as you see them on desktop.
+- `grid-auto-flow: dense` fills holes by moving later tiles up. That can make the order on screen differ from the order a keyboard or screen reader follows — fine for pictures, not for links and buttons.
+- Put the most important content in the biggest tile; it is also the first tile on phones.
+- Give tiles enough contrast with the page background, and let text wrap instead of fixing tile heights.
+
+### FAQ
+
+**How do I make a bento grid in CSS?**
+Use a grid container, for example `display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px;`, then give big tiles a span such as `grid-column: span 2; grid-row: span 2;`. Draw your layout here and the tool writes all of this, plus the rules for tablets and phones.
+
+**What is grid-template-areas?**
+A CSS property that lets you draw the layout in text: each quoted string is a row and each word is a cell, so `"hero hero stats"` puts the hero tile across two columns. A dot marks an empty cell. Each tile then gets `grid-area: hero;`.
+
+**How do I make a bento grid with Tailwind CSS?**
+Use `grid` with responsive column counts such as `grid-cols-1 sm:grid-cols-2 lg:grid-cols-4`, a row height like `auto-rows-[minmax(180px,auto)]`, and spans on the tiles such as `row-span-2 sm:col-span-2`. The **Tailwind** tab gives you the exact classes for your layout.
+
+**How does the layout change on mobile?**
+On phones the tiles stack in reading order in the number of columns you choose (one by default). On tablets, wide tiles shrink to fit the tablet columns. Open the **Phone** and **Tablet** views to see it before you copy the code.
+
+**Why are there holes in my tablet layout?**
+In reading order, a wide tile sometimes cannot fit next to the tile before it, so it starts a new row and leaves a gap. Change the tile sizes or the tablet columns, or switch on **Fill holes on smaller screens**, which lets later tiles move up into the gaps.
+
+**Can I edit the grid with a keyboard?**
+Yes. Press Tab to reach a tile, then use the arrow keys to move it, Shift with the arrow keys to resize it, and Delete to remove it. **Add tile** puts a new tile in the first free cell.
+
+**Is my layout saved?**
+Yes, in this browser’s local storage, so it is still there when you come back. Nothing is uploaded.
+
+## Scroll Animation Generator
+
+URL: https://justtools.online/css-tools/scroll-animation-generator/
+Category: CSS Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-14
+
+Free scroll animation generator: fade, slide, zoom and reveal effects with CSS scroll-driven animations, parallax and progress bars, plus a Firefox fallback.
+
+### At a glance
+
+- **14 reveal effects** — fades in four directions, slide, zoom, blur, flips, rotate and three wipes — plus **parallax**, a **reading progress bar** and a **shrinking header**.
+- Uses **CSS scroll-driven animations** (`animation-timeline: view()` and `scroll()` with `animation-range`), which run in Chrome and Edge 115+ and Safari 26+ without JavaScript.
+- Firefox only has scroll-driven animations in test builds so far, so an optional script of about 20 lines takes over there — IntersectionObserver for reveals, a scroll listener for the rest — and stops at once where CSS can do the job.
+- Or choose **Plays once in view**: a short transition when each element appears, with a delay, a stagger for elements that appear together, and an option to replay.
+- Every motion is wrapped in `prefers-reduced-motion: no-preference`, and elements are only hidden when something will reveal them, so content never disappears.
+- The generated CSS was checked with Lightning CSS, and the fallback scripts were run in tests; copy the CSS, the script, the HTML or a complete demo page.
+
+### Features
+
+- **Modern CSS first**: Scroll-driven animations follow the scroll position on the compositor, with no scroll listeners. The tool writes them with the correct order of animation and animation-timeline, which the shorthand otherwise resets.
+- **Works everywhere**: The fallback script switches itself on only in browsers that need it, and the line for the page head stops elements from flashing before it runs.
+- **See it while you tweak it**: Scroll the preview box to watch the effect. Browsers without scroll-driven animations see the fallback, just as your visitors would.
+- **Exact control**: Pick when the animation runs — while the element comes into view, until it reaches the middle, or the whole time it is on screen — or set the range by hand, and read it back in plain words.
+- **Kind to everyone**: People who ask their system to reduce motion see no movement, and nothing stays invisible if a script fails or is blocked.
+- **No library**: No AOS, GSAP or other dependency: plain CSS and, where needed, a few lines of JavaScript you can read.
+
+### How to animate elements on scroll with CSS
+
+1. **Choose what to animate** — **Reveal** elements as they scroll in, add **Parallax**, a **Progress bar** or a **Shrinking header**.
+2. **Pick an effect** — Choose fade up, zoom, blur, a wipe or another effect, and adjust its distance, size, blur or angle.
+3. **Choose how it plays** — **Follows the scroll** ties the animation to the scroll position; **Plays once in view** runs it once, with a duration, delay and stagger.
+4. **Watch the preview** — Scroll inside the preview box, or press **Replay**. Change the range until it starts and finishes where you want.
+5. **Add it to your page** — Copy the **CSS**, put the **HTML** tab’s head line in your <head>, add the class to your elements, and include the **JavaScript** if there is one.
+
+### Guide
+
+#### What scroll-driven animations are
+
+A normal CSS animation runs over time. A scroll-driven animation runs over a scroll distance instead: `animation-timeline: view()` ties it to the element’s journey through the screen, and `animation-timeline: scroll()` ties it to how far the whole page has scrolled. Scroll down and the animation moves forward; scroll back up and it moves back.
+
+`animation-range` says which part of that journey the animation covers. `entry 0% cover 40%` starts as the element’s top edge appears at the bottom of the screen and finishes when it is 40% of the way through its time on screen.
+
+#### The range names
+
+| Range | Covers the time when the element… |
+| --- | --- |
+| `entry` | comes into view at the bottom of the screen |
+| `exit` | leaves at the top of the screen |
+| `cover` | is at least partly on screen, from first to last pixel |
+| `contain` | is completely on screen (or fills it, if it is taller than the screen) |
+| `entry-crossing` | crosses the bottom edge of the screen |
+| `exit-crossing` | crosses the top edge of the screen |
+
+#### Browser support
+
+Figures from MDN’s browser compatibility data, October 2026.
+
+| Browser | Scroll-driven animations | What the generated code does |
+| --- | --- | --- |
+| Chrome and Edge | since version 115 | runs the CSS |
+| Safari (macOS and iOS) | since version 26 | runs the CSS |
+| Firefox | test builds only | runs the fallback script |
+| Older browsers | no | runs the fallback script, or shows content without animation |
+
+### FAQ
+
+**Do scroll animations need JavaScript?**
+Not in Chrome, Edge and Safari 26 or later: `animation-timeline` does it in CSS. Firefox only has it in test builds, so the tool adds a short optional script that does the same job there. **Plays once in view** always uses a small script, because only Chrome 146 and later can start an animation on scroll with CSS alone (`animation-trigger`).
+
+**Why must animation-timeline come after the animation shorthand?**
+The `animation` shorthand resets every animation property it does not mention, including `animation-timeline`. Written before the shorthand, the timeline would be thrown away and the animation would run on the clock instead. The generated CSS always puts it after.
+
+**How do I make elements fade in on scroll?**
+Choose **Reveal** and the **Fade up** effect, copy the CSS, and add `class="reveal"` to the elements. For a scroll-linked version that is all you need in Chrome, Edge and Safari; add the script and the head line for other browsers.
+
+**Is this an alternative to AOS (Animate On Scroll)?**
+Yes. AOS is a JavaScript library that adds classes as elements come into view. This tool writes the same kind of effect as a few lines of CSS — plus about 20 lines of script where needed — with nothing to install.
+
+**What happens for people who prefer reduced motion?**
+All movement sits inside `@media (prefers-reduced-motion: no-preference)`, so people who have asked their device to reduce motion see the content straight away with no animation. The reading progress bar still works, because it shows information rather than decoration.
+
+**Will hidden elements stay invisible if the script fails?**
+No. Elements are only hidden when the line in the page head has confirmed that the script will run, and in scroll-linked mode the hidden state exists only inside the animation itself. If anything fails, the content simply appears.
+
+**Can I animate several elements one after another?**
+Yes. With **Plays once in view**, set a **Stagger**: elements that come into view together start one after another. With **Follows the scroll**, each element already animates at its own position.
+
+**Are my settings saved?**
+Yes, in this browser’s local storage, so they are still there when you come back. Nothing is uploaded.
+
+## CSS Box Shadow Generator
+
+URL: https://justtools.online/css-tools/box-shadow-generator/
+Category: CSS Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-15
+
+Free CSS box-shadow generator: build smooth layered shadows, edit each layer, start from Tailwind or Material presets, and copy CSS, Tailwind or React.
+
+### At a glance
+
+- **Smooth mode** stacks up to 8 shadow layers, each twice as far and as soft as the one before, so the shadow fades the way a real one does instead of ending in one grey blur.
+- The shadow can take its **colour from the background** — a dark shade of the same hue — which looks more natural than black on coloured pages.
+- A **layer editor** for x, y, blur, spread, colour, opacity and inset, with show/hide, duplicate and reorder. The first layer in the list is drawn on top.
+- **27 presets**: eight designs, the 10 shadow and inset-shadow utilities of Tailwind CSS v4 and the 9 Material Design elevations (1 to 24 dp).
+- **Paste any box-shadow** — hex, rgb(), hsl() or a colour name, with or without `box-shadow:` — to see it and edit it. Anything it cannot read is explained.
+- Copy **CSS** (with an optional hover lift that respects reduced motion), **Tailwind v4 classes** checked against Tailwind’s compiler, a **React** style, a **drop-shadow() filter** or five **elevation tokens** as CSS variables.
+
+### Features
+
+- **Shadows that look real**: One big blur looks flat. Layered shadows put a sharp, dark shadow near the element and a wide, faint one far away, like light in a room.
+- **Every layer in reach**: Pick any layer to change it, hide it to compare, duplicate it to build on it, or move it up. The CSS updates as you drag.
+- **Tailwind and Material, exactly**: The presets use the values Tailwind CSS v4 and Material Design publish. When your shadow matches a Tailwind utility, the Tailwind tab gives you that class name.
+- **Edit what you already have**: Paste a shadow from your stylesheet, a design tool or a framework and it opens in the layer editor.
+- **A whole elevation scale**: Turn one Smooth setting into five matching levels, --shadow-1 to --shadow-5, ready for cards, menus, dialogs and hover states.
+- **Private**: Everything runs in your browser. Your settings are saved only on this device.
+
+### How to make a box shadow in CSS
+
+1. **Choose how to start** — Use **Smooth** for a soft layered shadow, **Presets** for Tailwind, Material or a ready design, or **Paste CSS** to edit a shadow you have.
+2. **Shape the shadow** — In Smooth, set where the light comes from, the distance, softness, number of layers and opacity. In **Layers**, choose a layer and change its offsets, blur, spread, colour and opacity.
+3. **Check it in place** — Set the background, element colour, corner radius and shape to match your page, and try the **Dark** preview.
+4. **Add a hover state** — Switch on **Lift on hover** for a deeper shadow and a small lift when the element is pointed at.
+5. **Copy the code** — Choose **CSS**, **Tailwind**, **React**, **drop-shadow** or **Elevation tokens**, then **Copy** or **Download**.
+
+### Guide
+
+#### How box-shadow works
+
+The CSS `box-shadow` property draws one or more shadows around an element’s box, following its rounded corners. Each shadow is written as up to four lengths and a colour, with the word `inset` to put it inside the element. Separate several shadows with commas; the first one is drawn on top.
+
+| Part | Example | What it does |
+| --- | --- | --- |
+| x offset | `0` | moves the shadow right (negative: left) |
+| y offset | `8px` | moves the shadow down (negative: up) |
+| blur | `24px` | how soft the edge is; 0 is a hard edge, and it cannot be negative |
+| spread | `-4px` | grows the shadow (or shrinks it, if negative) before the blur |
+| colour | `rgba(15, 23, 42, 0.12)` | usually a dark, see-through colour; without one, the text colour is used |
+| `inset` | `inset 0 2px 4px …` | draws the shadow inside the element, so it looks pressed in |
+
+#### Why layered shadows look better
+
+A real shadow is sharp and dark close to an object and gets wider and fainter further away. One `box-shadow` layer can only do one of those at a time, so it looks either harsh or muddy. Stacking a few layers, each with double the offset and blur of the last, gets much closer — the idea Josh W. Comeau and Tobias Ahlin popularised as smooth or layered shadows.
+
+Tinting helps too. A shadow on a blue page is not grey; it is a darker, duller blue. With **Colour from the background** on, the tool works out that colour for you in the OKLCH colour space.
+
+#### Tailwind CSS v4 shadow values
+
+From Tailwind CSS v4.3’s default theme. In v4, the old `shadow-sm` is now `shadow-xs` and the old `shadow` is now `shadow-sm`, so check the names when you upgrade from v3.
+
+| Class | box-shadow |
+| --- | --- |
+| `shadow-2xs` | `0 1px rgb(0 0 0 / 0.05)` |
+| `shadow-xs` | `0 1px 2px 0 rgb(0 0 0 / 0.05)` |
+| `shadow-sm` | `0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1)` |
+| `shadow-md` | `0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)` |
+| `shadow-lg` | `0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1)` |
+| `shadow-xl` | `0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1)` |
+| `shadow-2xl` | `0 25px 50px -12px rgb(0 0 0 / 0.25)` |
+
+#### box-shadow or drop-shadow()?
+
+`box-shadow` always follows the element’s box. `filter: drop-shadow()` follows the visible shape instead — the outline of a transparent PNG, an SVG icon or text. It has no spread and no inset, and several drop-shadows are applied one after another, so each one also shadows the shadow before it. Use the **drop-shadow** tab for images and icons, and box-shadow for cards, buttons and panels.
+
+### FAQ
+
+**How do I add more than one box shadow?**
+Separate the shadows with commas in one `box-shadow` declaration, for example `box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1), 0 8px 24px rgba(0, 0, 0, 0.12);`. A second `box-shadow` line would replace the first instead of adding to it. The first shadow in the list is drawn on top.
+
+**How do I put a shadow on only one side?**
+Offset the shadow towards that side and use a negative spread to pull the other edges in. For a shadow only at the bottom, try `0 8px 6px -6px rgba(0, 0, 0, 0.3)`. For one inside edge, use inset, as in `inset 0 2px 0 rgba(0, 0, 0, 0.1)` for the top.
+
+**What is the difference between blur and spread?**
+Spread changes the size of the shadow — positive spread makes it bigger than the element, negative makes it smaller. Blur then softens its edge; a blur of 0 gives a hard edge. A shadow with 0 offsets, 0 blur and 1px spread draws a 1px line around the element, which is a common way to make a border that takes no space.
+
+**Why does my shadow look grey and dirty?**
+Usually because it is one large, dark layer of pure black. Use several lighter layers instead (Smooth mode does this), keep each layer’s opacity low, and tint the shadow towards the background colour rather than black.
+
+**How do I make shadows in Tailwind CSS?**
+Use the built-in utilities such as `shadow-sm`, `shadow-md` or `shadow-lg`, or an arbitrary value for anything else — spaces become underscores, as in `shadow-[0_8px_24px_rgba(0,0,0,0.12)]`. The **Tailwind** tab writes the right one for your shadow, and the class names are for Tailwind v4.
+
+**Do box shadows work on dark backgrounds?**
+They are much harder to see, because there is little light to take away. On dark pages, raise the opacity, make the element lighter than the background, or add a faint light ring such as `0 0 0 1px rgba(255, 255, 255, 0.06)`. Use the **Dark** preview to check.
+
+**Are box shadows bad for performance?**
+Static shadows are cheap. Animating `box-shadow` itself makes the browser repaint each frame, which can stutter on large elements or slow phones. For many animated cards, put the hover shadow on a pseudo-element and animate its opacity instead.
+
+**Which browsers support box-shadow?**
+All of them. Every browser in use today supports box-shadow without a prefix, including multiple and inset shadows; the `-webkit-box-shadow` prefix has not been needed for over ten years.
+
