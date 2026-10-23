@@ -1,0 +1,14 @@
+Jigsaw puzzle pictures. All are in the public domain; files come from Wikimedia Commons, resized and re-encoded as WebP (and a 320 px thumbnail).
+
+sunflowers.webp — Sunflowers (1888), Vincent van Gogh. Public domain. https://commons.wikimedia.org/wiki/File:Vincent_Willem_van_Gogh_127.jpg
+water-lilies.webp — Water Lilies (1906), Claude Monet. Public domain. https://commons.wikimedia.org/wiki/File:Claude_Monet_-_Water_Lilies_-_1906,_Ryerson.jpg
+great-wave.webp — The Great Wave off Kanagawa (c. 1831), Katsushika Hokusai. Public domain. https://commons.wikimedia.org/wiki/File:Tsunami_by_hokusai_19th_century.jpg
+cafe-terrace.webp — Café Terrace at Night (1888), Vincent van Gogh. Public domain. https://commons.wikimedia.org/wiki/File:Van_Gogh_-_Terrasse_des_Caf%C3%A9s_an_der_Place_du_Forum_in_Arles_am_Abend1.jpeg
+ravi-varma-fruit.webp — Woman Holding a Fruit (late 19th century), Raja Ravi Varma. Public domain. https://commons.wikimedia.org/wiki/File:Raja_Ravi_Varma_-_Woman_Holding_a_Fruit_-_Google_Art_Project.jpg
+hunters-in-the-snow.webp — The Hunters in the Snow (1565), Pieter Brueghel the Elder. Public domain. https://commons.wikimedia.org/wiki/File:Pieter_Bruegel_the_Elder_-_Hunters_in_the_Snow_(Winter)_-_Google_Art_Project.jpg
+grande-jatte.webp — A Sunday on La Grande Jatte (1884–86), Georges Seurat. Public domain. https://commons.wikimedia.org/wiki/File:Georges_Seurat_-_A_Sunday_on_La_Grande_Jatte_--_1884_-_Google_Art_Project.jpg
+impression-sunrise.webp — Impression, Sunrise (1872), Claude Monet. Public domain. https://commons.wikimedia.org/wiki/File:Monet_-_Impression,_Sunrise.jpg
+starry-night.webp — The Starry Night (1889), Vincent van Gogh. Public domain. https://commons.wikimedia.org/wiki/File:Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg
+the-kiss.webp — The Kiss (1907–08), Gustav Klimt. Public domain. https://commons.wikimedia.org/wiki/File:The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg
+pearl-earring.webp — Girl with a Pearl Earring (c. 1665), Johannes Vermeer. Public domain. https://commons.wikimedia.org/wiki/File:1665_Girl_with_a_Pearl_Earring.jpg
+blue-marble.webp — The Blue Marble (7 December 1972), NASA/Apollo 17 crew; taken by either Harrison Schmitt or Ron Evans. Public domain. https://commons.wikimedia.org/wiki/File:The_Blue_Marble_(remastered).jpg

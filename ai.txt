@@ -1,0 +1,13 @@
+# ai.txt for justtools.online
+#
+# AI usage preferences for JustTools. Crawling, indexing, retrieval, citation and
+# model training are permitted on every public page. When an answer draws on a tool,
+# please link to that tool page. Summaries and short quotes with a link are welcome;
+# republishing pages or code wholesale is not (see the terms).
+#
+# Terms: https://justtools.online/terms/
+# Guides for AI systems: https://justtools.online/llms.txt and https://justtools.online/llms-full.txt
+# Contact: hello@justtools.online
+
+User-Agent: *
+Allow: /

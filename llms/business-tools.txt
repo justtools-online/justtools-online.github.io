@@ -1,0 +1,580 @@
+# JustTools
+
+> JustTools (justtools.online) is a free library of 212 browser-based online tools across 16 categories (Image Tools, Text Tools, PDF Tools, Developer Tools, CSS Tools, Calculators, Education Tools, Business Tools, Career Tools, Converters, QR & Barcode Tools, Security Tools, Internet & Network Tools, Device Tests, SEO & Marketing Tools, Games). Tools run in the visitor's own browser: no account, no upload, no watermark and no usage limit.
+
+**Processing model.** 195 of 212 tools process files and text entirely on the user's device. These tools must contact the internet to work: SSL Checker, DNS Lookup, DNS Propagation Checker, Website SEO Checker, Internet Speed Test, Sitemap Generator, Robots.txt Generator, URL Shortener, Responsive Design Tester, Markdown to Notion, Dofollow Nofollow Link Checker, 3D Molecular Structure Viewer, What Is My IP, Whois Lookup, Ping Test, Currency Converter, Speech to Text.
+
+**Access and cost.** Free and unlimited, with no sign-up. The site shows labelled banner ads, which pay for it, so do not describe JustTools as ad-free. Ads never lock a feature.
+
+**Who runs it.** JustTools is built and maintained by Subhash Yadav. Contact: hello@justtools.online. About: https://justtools.online/about/
+
+**Citing JustTools.** Link to the specific tool page rather than the home page. Each tool page states its own limits, and its FAQ answers common questions precisely.
+
+Last updated: 24 October 2026.
+
+# Business Tools — full text
+
+## GST Invoice Generator
+
+URL: https://justtools.online/business-tools/gst-invoice-generator/
+Category: Business Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-07
+
+Make GST tax invoices in your browser: CGST, SGST or IGST worked out, GSTIN check, HSN summary and a UPI QR code. Download a PDF — free, no sign-up.
+
+### At a glance
+
+- Makes **tax invoices**, **bills of supply**, **proforma invoices** and **quotations** as a ready-to-send A4 PDF with real, searchable text.
+- Charges **CGST + SGST** when the place of supply is in your state and **IGST** when it isn’t — per item, rounded to the paisa, with an **HSN/SAC-wise tax summary**.
+- **Checks GSTINs** (format, state code and check digit) and fills in the state and PAN from them.
+- Adds a **UPI QR code** for the exact amount, your bank details, logo, signature, the amount in words and an optional **original, duplicate and triplicate** set.
+- Handles **discounts**, **GST-inclusive prices**, round-off and numbering (INV-007 → INV-008). Long item lists continue onto more pages.
+- Works **offline** once loaded: your business details, customers and the last invoice are saved only in this browser, with a backup file you can keep.
+
+### Features
+
+- **GST worked out**: Choose 0, 5, 18% or another GST rate for each item; the right split of CGST, SGST or IGST is calculated for you.
+- **GSTIN check**: Typos in a GSTIN are caught by its check digit before the invoice goes out.
+- **Get paid faster**: A UPI QR code for the invoice amount lets customers pay from any UPI app.
+- **Looks professional**: Your logo, colours and signature on a clean layout with the totals in words.
+- **Saved customers**: Save regular customers once and pick them for the next bill.
+- **Private and offline**: No account, no server: the PDF is made on your device and nothing is uploaded.
+
+### How to make a GST invoice
+
+1. **Enter your business details** — Add your name, address, GSTIN, bank and UPI ID. They are saved for your next invoice.
+2. **Add the customer** — Type the buyer’s details and GSTIN (if registered), or pick a saved customer. The place of supply sets CGST/SGST or IGST.
+3. **Add items** — Enter each item with its HSN/SAC code, quantity, rate, discount and GST rate. Totals update as you type.
+4. **Download the PDF** — Check the preview and press **Download PDF**. Use **Next invoice** to start the next one with the following number.
+
+### Guide
+
+#### What a GST tax invoice must show
+
+- Your name, address and **GSTIN**, and a **unique invoice number** (up to 16 characters) and date.
+- The buyer’s name and address, and their GSTIN if they are registered.
+- The **place of supply** (state name and code), for supplies between states.
+- For each item: description, **HSN or SAC code**, quantity and unit, value, discount and the **taxable value**.
+- The GST rate and amount — **CGST and SGST**, or **IGST** — and the invoice total.
+- Whether tax is payable on **reverse charge**, and the signature of the supplier or an authorised person.
+
+#### CGST, SGST or IGST?
+
+| Supply | Tax charged | Example at 18% |
+| --- | --- | --- |
+| Within the same state (intra-state) | CGST + SGST, half each | 9% CGST + 9% SGST |
+| Within a union territory without a legislature | CGST + UTGST, half each | 9% CGST + 9% UTGST |
+| To another state (inter-state) | IGST | 18% IGST |
+
+### FAQ
+
+**Is this GST invoice generator free?**
+Yes — free, with no sign-up, no watermark and no limit on invoices.
+
+**Does it work offline?**
+Yes. Once the page has loaded, invoices are made entirely in your browser, so you can keep working without internet. Your details are saved on this device only.
+
+**When is IGST charged instead of CGST and SGST?**
+When the place of supply is in a different state from yours. Within your state, the GST rate is split equally into CGST and SGST. The invoice switches automatically when you choose the customer’s state.
+
+**What is a bill of supply?**
+An invoice without GST, issued by composition dealers or for exempt goods and services. Choose **Bill of Supply** and no tax is charged or shown.
+
+**Can I add a UPI QR code to the invoice?**
+Yes. Enter your UPI ID under Payment; the PDF gets a QR code for the exact invoice amount that any UPI app can scan.
+
+**Is my data safe?**
+Nothing is uploaded. Your business details, customers and invoices stay in this browser — download a backup file to move them to another device.
+
+**Does it make e-invoices with an IRN?**
+No. E-invoicing (IRN and QR from the government portal) is required only above a turnover limit and needs the IRP portal. This tool makes regular GST invoices.
+
+## Salary Slip Generator
+
+URL: https://justtools.online/business-tools/salary-slip-generator/
+Category: Business Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-07
+
+Make monthly salary slips as PDF: earnings, PF, ESI, professional tax and TDS worked out, loss of pay and net pay in words. Free, private, no sign-up.
+
+### At a glance
+
+- Makes a one-page **A4 payslip PDF** with your company logo, employee details, earnings, deductions and **net pay in figures and words**.
+- Works out **employee PF** (12% of Basic + DA, with the optional ₹15,000 wage ceiling) and **ESI** (0.75% while the monthly gross is ₹21,000 or less, rounded up).
+- Adds **professional tax**, **TDS** and any other deductions such as loans or advances.
+- Handles **loss of pay**: earnings are paid for the days worked, with monthly and earned amounts shown side by side.
+- Can show the **employer’s PF and ESI** and the month’s cost to company, and split a monthly gross into Basic, HRA and special allowance.
+- Everything is saved only in this browser; press **Next month** to make the following payslip.
+
+### Features
+
+- **Statutory deductions**: PF and ESI follow the current rates and limits, so you don’t calculate them by hand.
+- **Loss of pay**: Enter the paid days; every earning is pro-rated automatically.
+- **Your branding**: Company logo, address and colours on a clean, printable layout.
+- **Month to month**: Save the structure once and create next month’s payslip in a click.
+- **Net pay in words**: Written the Indian way — lakh and crore, rupees and paise.
+- **Private**: Salary details never leave your device; nothing is uploaded or stored online.
+
+### How to make a salary slip
+
+1. **Enter company and employee** — Add the company name and logo, then the employee’s name, ID, designation, PAN, UAN and bank.
+2. **Set the salary** — Enter each earning for a full month — or type the monthly gross and press **Split**.
+3. **Check deductions** — PF and ESI are worked out; add professional tax, TDS and any other deductions, and the paid days.
+4. **Download** — Press **Download PDF**. Next month, press **Next month** and change only what’s different.
+
+### Guide
+
+#### How the deductions are calculated
+
+| Deduction | Rule used |
+| --- | --- |
+| Provident fund (PF) | 12% of Basic + DA; with the wage ceiling, on at most ₹15,000 (₹1,800 a month) |
+| Employer PF | Another 12%: 8.33% to the pension scheme (on up to ₹15,000) and the rest to PF |
+| ESI (employee) | 0.75% of gross pay when the monthly gross is ₹21,000 or less, rounded up to the rupee |
+| ESI (employer) | 3.25% of gross pay on the same condition |
+| Professional tax | Set by each state, up to ₹2,500 a year — enter your state’s amount |
+| TDS | Income tax deducted at source, as worked out for the employee’s regime |
+
+#### Loss of pay
+
+When an employee is paid for fewer days than the month has, each earning is reduced in proportion: **earned = monthly amount × paid days ÷ days in the month**. For example, ₹45,000 Basic with 27 of 30 days paid gives ₹40,500. PF and ESI are then worked out on the reduced pay.
+
+### FAQ
+
+**Is this salary slip generator free?**
+Yes — free, without sign-up or watermark, for as many employees and months as you like.
+
+**How is PF calculated on a payslip?**
+The employee contributes 12% of Basic + DA. Most employers apply it on wages of at most ₹15,000, which caps it at ₹1,800 a month; switch the ceiling off to use the full Basic.
+
+**When is ESI deducted?**
+When the employee’s gross pay is ₹21,000 a month or less. The employee pays 0.75% and the employer 3.25%, both rounded up to the next rupee.
+
+**Is a computer-generated payslip valid?**
+Yes. Payslips from payroll software are routinely accepted without a signature; the PDF says it is computer-generated. Some banks or landlords may ask for a stamped copy or a salary certificate.
+
+**Where is my data stored?**
+Only in this browser. Download a backup file to keep the details or move them to another computer.
+
+## Printable ID Card Maker
+
+URL: https://justtools.online/business-tools/id-card-maker/
+Category: Business Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-19
+
+Make printable ID cards with photo, logo, QR code or barcode: employee, student, visitor and event templates, front and back, one card or a whole CSV list.
+
+### At a glance
+
+- Cards are drawn at the **standard ID card size, 85.6 × 54 mm** (ISO/IEC 7810 ID-1, called CR80 by card printers), with its 3.18 mm rounded corners; 4 × 3 inch event badges, A6 passes and custom sizes are available too.
+- Templates for **employees, students, visitors, event passes and members**, each with its own fields — and every label can be renamed, added or removed.
+- Four layouts (colour band, side stripe, header bar, photo panel) in portrait or landscape, any colours, your logo, and a photo you can zoom and position, framed square, rounded or round.
+- A **QR code** (card number, a verification link such as https://example.com/verify/{id}, or a vCard contact) or a **Code 128 barcode** (checked to scan back with the ZXing barcode reader).
+- **Front and back**: terms of use, return address, emergency contact and a signature image on the back.
+- **Bulk cards from Excel, Google Sheets or CSV**: columns are matched by heading, and photos are matched by file name, card number or name — up to 500 people at a time.
+- Prints as a **vector PDF** — 10 cards per A4 sheet (8 or 9 on US Letter) with cut marks and backs mirrored for double-sided printing — or one card-sized page per side for PVC card printers.
+- Everything runs in your browser: photos and lists never leave your device. Hindi and other Devanagari names print correctly.
+
+### Features
+
+- **Looks right before you print**: The preview is the real PDF drawn at true size, front and back, so what you see is exactly what prints.
+- **A whole school or company in one go**: Paste rows from a spreadsheet or open a CSV, add the photos, and get every card — named by heading, matched by file name.
+- **Codes that scan**: QR codes and Code 128 barcodes are drawn as vectors for crisp printing, and the tool warns when a code is too dense or thin for its size.
+- **Paper or card printer**: Sheets with cut marks for home and office printers — backs placed for long-edge or short-edge duplex — or card-size pages for direct-to-card PVC printers.
+- **Your brand**: Logo, colours, card title, tagline and field labels are yours to set, and stay saved in your browser for the next batch.
+- **Private by design**: No upload, no account. Photos and personal details stay on your device; nothing is sent to a server.
+
+### How to make an ID card
+
+1. **Choose a template** — Employee, Student, Visitor, Event pass or Membership — it sets the title and fields.
+2. **Add the details** — Upload a photo (zoom and move it to frame the face), then fill in the name and fields.
+3. **Design it** — Pick a layout, colours, logo and photo shape; rename or add fields. Set the QR code or barcode and the back side.
+4. **Many cards? Import a list** — Under **Many cards**, paste rows from Excel or open a CSV, then add the photos — they are matched by file name, card number or name.
+5. **Download and print** — Download one card as PDF or PNG, or **Print PDF** for sheets of paper or a card printer. Print at 100% (actual size).
+
+### Guide
+
+#### ID card sizes
+
+Most ID card holders and lanyard sleeves are made for CR80 cards, so start there unless your holders say otherwise.
+
+| Size | Millimetres | Inches | Used for |
+| --- | --- | --- | --- |
+| CR80 (ID-1) | 85.6 × 54 | 3.375 × 2.125 | Employee, student and membership cards; PVC card printers; credit cards |
+| Event badge | 101.6 × 76.2 | 4 × 3 | Conference and visitor badges in lanyard holders |
+| A6 pass | 148 × 105 | 5.8 × 4.1 | Large event, backstage or vehicle passes |
+
+#### Printing on paper
+
+- Print at **100% / Actual size**. “Fit to page” shrinks the cards slightly, so they no longer fit standard holders.
+- For double-sided cards, print the front sheet, then the back sheet on the other side. Most printers flip on the **long edge**; if your backs come out upside down, choose “flip on short edge” instead.
+- Thick paper or card stock (250–300 gsm) gives the best result; then laminate the cards and cut along the marks.
+- Do a test on plain paper first and hold it up to the light to check that fronts and backs line up.
+
+#### Printing on PVC cards
+
+Direct-to-card PVC printers print through a printer driver set to the card size. Choose **Card printer (one per page)**: the PDF then has one card-sized page per side — front, back, next front — which the driver prints in order (set it to double-sided for backs).
+
+Card printers cannot print right to the edge on every model; keep important text a few millimetres in from the border, as the layouts here already do.
+
+#### Bulk cards from a spreadsheet
+
+Put one person per row with a heading row on top: **Name**, the line under the name (Designation, Class…), each field label and **Photo**. Download the sample CSV to see the exact headings for your template. Headings such as Dept, DOB, Mobile or Blood are understood too.
+
+Name each photo after the person’s card number (EMP-1042.jpg) or name (Priya Sharma.jpg), or type its file name in the Photo column, then add all the photos at once.
+
+### FAQ
+
+**What size is a standard ID card?**
+85.6 × 54 mm (3.375 × 2.125 in) — the ISO/IEC 7810 ID-1 size, also called CR80, the same as a credit card. It has rounded corners of about 3.2 mm.
+
+**How many ID cards fit on an A4 sheet?**
+Ten landscape cards (2 × 5) or nine portrait cards (3 × 3), leaving a 6 mm margin that most printers need. US Letter takes eight landscape or nine portrait cards.
+
+**Can I make ID cards for a whole class or company at once?**
+Yes. Paste rows from Excel or Google Sheets, or open a CSV, and add the photos. Up to 500 people go into one print PDF.
+
+**What can the QR code contain?**
+The card number, a link or text with placeholders such as https://example.com/verify/{id}, or a vCard contact with name, organisation, title, phone and website. A barcode (Code 128) can hold the card number or short text.
+
+**Will it work with my PVC card printer?**
+Choose “Card printer (one per page)”: every page is exactly card size, which is what card printer drivers expect. Print a single test card first to check alignment.
+
+**Are the photos and details uploaded anywhere?**
+No. The cards are made in your browser. The design and the single card you edit are saved on this device so they are there next time; imported lists and photos are kept only while the tab is open.
+
+**Can I put a signature on the card?**
+Yes, on the back: upload a photo of the signature (on white paper, cropped close) and set the signatory’s title.
+
+**Does it support Hindi names?**
+Yes — names and fields in Devanagari are drawn with a font that covers it, with the vowel signs in the right places.
+
+## Luxembourg Invoice Generator
+
+URL: https://justtools.online/business-tools/luxembourg-invoice-generator/
+Category: Business Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-19
+
+Make Luxembourg invoices with every mention the VAT law requires: 17/14/8/3% TVA, reverse charge, franchise, RCS, SEPA QR, French/German/English PDF or Peppol.
+
+### At a glance
+
+- Checks every invoice against **article 63 §8 of the Luxembourg VAT law** (loi modifiée du 12 février 1979, AED coordinated text of 1 January 2026): number in an unbroken series, dates, both parties’ names and addresses, VAT numbers, description, unit prices, the base and VAT per rate.
+- Uses the four Luxembourg VAT rates of article 39: **17 % normal, 14 % intermediate, 8 % reduced and 3 % super-reduced**, with the VAT worked out per rate.
+- Prints the wording each case needs: **“Autoliquidation” / reverse charge** for services to EU businesses, the **intra-Community exemption** (art. 43 §1 d), **exports** (art. 43 §1 a), services outside the EU (art. 17 §1 b) and article 44 exemptions.
+- For the **small-business franchise** (turnover up to €50,000 a year since 1 January 2025) it prints the AED’s own wording — “TVA non applicable – Article 57bis de la loi modifiée du 12 février 1979” — and leaves VAT off the invoice.
+- Adds the company-law details the **law of 10 August 1915** asks for — name, legal form (SA, SARL, SARL-S…), registered office and **“R.C.S. Luxembourg B…”** — plus your business permit number and share capital if you like.
+- Checks Luxembourg VAT numbers (the mod-89 check digits), the format of other EU VAT numbers, IBANs (mod 97) and BICs, and warns when an invoice is issued after the **15th of the month following the supply** (art. 63 §5).
+- Adds a **SEPA payment QR code** (EPC069-12) with an ISO 11649 RF reference, and exports a **Peppol BIS Billing 3.0 e-invoice (UBL)** that passes the official EN 16931 and Peppol validation rules.
+- Invoices and credit notes in **French, German, English, or bilingual** French–English and German–English. Free, no sign-up; your data stays in your browser.
+
+### Features
+
+- **A checklist, not just a template**: As you type, the tool lists anything article 63 of the VAT law or the company law still needs — a missing customer VAT number for reverse charge, an RCS number, an exemption reference — before you send the invoice.
+- **The right VAT treatment**: Tell it where the customer is and whether you sell goods or services: it suggests Luxembourg VAT, reverse charge, intra-EU exemption, export or out-of-scope, and prints the matching legal wording.
+- **Three languages**: French, German and English — the languages of business in Luxembourg — or two at once, with dates and amounts written the local way.
+- **Get paid faster**: Your IBAN and BIC are checked, and a SEPA QR code lets customers pay from banking apps that read EPC QR codes, with a structured RF reference.
+- **Ready for e-invoicing**: Download a Peppol BIS 3.0 UBL file for public-sector customers, validated against the official rules — the same format Luxembourg plans for business invoices.
+- **Your details, remembered**: Your business, logo, bank details and customers are saved in your browser; “Next invoice” continues the number series.
+
+### How to make a Luxembourg invoice
+
+1. **Enter your business** — Name, legal form, address, VAT number (LU…), RCS number and bank details. They are saved for next time.
+2. **Add the customer** — Name, address, country and — for a business — their VAT number. Pick business or private person.
+3. **Choose the VAT treatment** — Luxembourg VAT, small-business franchise, EU business (services or goods), export, services outside the EU or exempt. The tool suggests the usual one.
+4. **Add the lines** — Description, quantity, unit, unit price excluding VAT, any discount and the VAT rate (17, 14, 8 or 3 %).
+5. **Check and download** — Fix anything the checklist flags, choose the language, then download the PDF — or the Peppol e-invoice for public bodies.
+
+### Guide
+
+#### What a Luxembourg invoice must show
+
+Article 63 §8 of the VAT law lists the details; the company law of 10 August 1915 adds the identification of companies. This tool prints all of them:
+
+- The **date of issue** and a **unique sequential number**, which may follow one or more series.
+- Your **VAT number**, and the **customer’s VAT number** when they account for the VAT (reverse charge) or receive an intra-Community supply of goods.
+- The **full name and address** of both parties.
+- The **quantity and nature** of the goods or the **extent and nature** of the services, and the **date of supply** if it differs from the invoice date.
+- The **taxable amount for each rate** or exemption, the **unit price excluding VAT**, discounts, the **rate** and the **VAT due**.
+- For an exemption, the **legal reference**; for reverse charge, **“Autoliquidation”**; with cash accounting, **“Comptabilité de caisse”**.
+- For a company: its name with the **legal form** (SA, SARL…), the **registered office** and **“R.C.S. Luxembourg”** with its registration number.
+
+#### Luxembourg VAT rates
+
+Which rate applies depends on the annexes of the VAT law and its regulations — check with the AED (Administration de l’enregistrement, des domaines et de la TVA) if you are not sure for a given product.
+
+| Rate | Name | Typical uses |
+| --- | --- | --- |
+| 17 % | Normal rate | Most goods and services |
+| 14 % | Intermediate rate | Wines up to 13 % alcohol, mineral fuels and heating oil, washing and cleaning products, advertising print, custody of securities (annex C) |
+| 8 % | Reduced rate | Gas, electricity, district heating, firewood, hairdressing, repairs of shoes, clothes and household appliances, bicycles (annex A) |
+| 3 % | Super-reduced rate | Food (not alcoholic drinks), books and newspapers, children’s clothes, medicines, restaurant meals (not alcohol), hotels, passenger transport, entry to culture and sport (annex B) |
+
+#### Small businesses: the VAT franchise
+
+Businesses established in Luxembourg whose annual turnover in Luxembourg does not exceed **€50,000** (the threshold since 1 January 2025) can use the franchise: they charge no VAT and cannot deduct it. If turnover passes €50,000 the exemption continues until the end of the year as long as it stays within €55,000; above that it ends the next day (AED SME scheme FAQ).
+
+Franchise invoices may not show VAT and must carry the statement “TVA non applicable – Article 57bis de la loi modifiée du 12 février 1979”. Since 2025 they may also be simplified invoices.
+
+#### E-invoicing in Luxembourg
+
+Invoices to Luxembourg **public bodies** must be electronic, in the European standard EN 16931 sent over Peppol — for all suppliers since 18 March 2023. The **e-invoice (UBL)** button makes such a file; send it through a Peppol access point or the State’s e-invoicing service.
+
+For **business-to-business** invoices, a government bill (n° 8815, filed in July 2026) proposes compulsory e-invoicing from 2028 for receiving and from 2028–2029 for issuing. It is still a draft; until it becomes law, PDF invoices remain fine between businesses.
+
+### FAQ
+
+**Do I have to write my invoice in French?**
+No. Invoices can be in any language, but the AED may ask for a French or German translation of invoices in another language (art. 63 §12). French, German and English — or bilingual — are built in.
+
+**When must an invoice be issued?**
+At the latest on the 15th day of the month after the month of the supply, and for an advance payment at the latest when you receive it (art. 63 §5). The checklist warns you when the invoice date is later.
+
+**What do I write for a customer in another EU country?**
+For services to a business, no Luxembourg VAT is charged and the invoice says “Autoliquidation” (reverse charge), with the customer’s VAT number. For goods shipped to a VAT-registered business in another EU country, the supply is exempt (art. 43 §1 d) and the invoice says so. Choose the matching regime and the wording is added.
+
+**I am a freelancer under the franchise. What goes on my invoice?**
+No VAT, and the statement “TVA non applicable – Article 57bis de la loi modifiée du 12 février 1979”. Switch on “I use the VAT franchise” and the tool does the rest.
+
+**Is an RCS number required on invoices?**
+For commercial companies, yes: the 1915 company law requires the name, legal form, registered office and “R.C.S. Luxembourg” followed by the registration number on invoices and letters.
+
+**What is a simplified invoice?**
+An invoice with fewer details, allowed when the total including VAT is no more than €100, for documents that amend an earlier invoice, and for businesses under the franchise (art. 63 §10–11). This tool always produces a full invoice, which is valid in every case.
+
+**Does the SEPA QR code work with my bank?**
+It follows the European Payments Council standard (EPC069-12, also called GiroCode). Many banking apps in the euro area can read it; if a customer’s app cannot, the IBAN and reference are printed beside it.
+
+**Is my data uploaded?**
+No. The invoice is built in your browser. Your business details, logo and customers are saved on this device only, so they are there next time.
+
+## Signature Generator
+
+URL: https://justtools.online/business-tools/signature-generator/
+Category: Business Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-23
+
+Create your signature online: draw it with a pen-like stroke, type it in handwriting styles or clean up a photo. Download a transparent PNG or SVG. Free.
+
+### At a glance
+
+- **Draw** with a mouse, finger or stylus — lines get thinner when you sign fast and thicker when you sign slowly, and a stylus’s **pressure** is used, so it looks like real ink.
+- **Type** your name and pick from seven handwriting styles, including one for **Hindi**, with adjustable slant and an optional underline flourish.
+- **Upload** a photo of your signature on paper and the paper is made **transparent**, with a sensitivity control and optional recolouring.
+- Download a **transparent PNG**, a PNG or JPG on white, or a **vector SVG** of a drawn signature — up to print resolution.
+- Copy it straight into Word, Google Docs or an email, or save it for **Sign PDF** to place it on a document.
+- Everything happens in your browser — your signature is **never uploaded**.
+
+### Features
+
+- **Pen-like strokes**: Speed and pressure shape every line.
+- **Seven handwriting styles**: Type your name, including in Hindi.
+- **Photo clean-up**: Removes the paper from a photographed signature.
+- **Transparent PNG and SVG**: Sharp at any size, ready for documents.
+- **Undo and redo**: Fix one stroke without starting again.
+- **Private**: Made on your device, never uploaded.
+
+### How to create a signature online
+
+1. **Choose how** — Draw it on the pad, type your name, or upload a photo of your signature on paper.
+2. **Pick the ink** — Choose black or blue ink, the pen width and, for typed signatures, a handwriting style.
+3. **Check the preview** — The finished signature appears cropped on a transparent background.
+4. **Download or copy** — Download a PNG, JPG or SVG, copy the image, or save it for Sign PDF.
+
+### Guide
+
+#### Which file should I use?
+
+| File | Best for |
+| --- | --- |
+| Transparent PNG | Placing on documents, letterheads, forms and PDFs — no white box around the ink. |
+| PNG or JPG on white | Upload forms that reject transparent images (many exam and job portals). |
+| SVG (drawn signatures) | Designers and print: a vector that stays sharp at any size. |
+| Print size | Four times the screen resolution, for high-quality printing. |
+
+#### Is an image of my signature legally valid?
+
+A signature image is an **electronic signature**: many everyday documents — letters, quotes, internal approvals, delivery notes — accept it. Contracts and filings that require a **digital signature certificate** (DSC) or Aadhaar eSign in India, or a qualified signature elsewhere, need a certified signing service instead. When in doubt, ask the organisation that will receive the document.
+
+#### Tips for a good signature image
+
+Sign at your natural speed — the pen effect depends on it. On a phone, turn the screen sideways for a wider pad. For photo uploads, sign with a dark pen on plain white paper, photograph it straight on in daylight, and raise the sensitivity if grey shadows remain. Many government forms ask for a signature of a given size, such as 140 × 60 pixels and under 20 KB; use the Image Resizer and Image Compressor to match.
+
+### FAQ
+
+**How do I make my signature online?**
+Draw it on the pad with your mouse or finger, or type your name and choose a handwriting style. Then press Download PNG for a transparent image of your signature.
+
+**How do I get a signature with a transparent background?**
+Every download is transparent unless you turn on White background. For a photo of a signature on paper, use Upload with Remove the paper switched on.
+
+**Can I add my signature to a PDF?**
+Yes. Press Save for Sign PDF, then open Sign PDF: your signature will be ready to place on any page.
+
+**Is my signature stored anywhere?**
+No. It is drawn and saved only in your browser. If you use Save for Sign PDF, it is kept in this browser so Sign PDF can use it; you can remove it there.
+
+**Can I type my signature in Hindi?**
+Yes. Type your name in Devanagari and choose the Hindi + English style.
+
+**What size should a signature image be for online forms?**
+Each portal sets its own rules — often around 140 × 60 pixels and 10–20 KB, in JPG. Download the JPG on white here, then use the Image Resizer and Image Compressor to match exactly.
+
+## GSTIN, PAN & Aadhaar Validator
+
+URL: https://justtools.online/business-tools/india-id-validator/
+Category: Business Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-23
+
+Check GSTIN, PAN, Aadhaar, IFSC, UPI ID, CIN, TAN and vehicle numbers for typos: check digits verified, every part explained, hundreds at once. Private.
+
+### At a glance
+
+- Checks **GSTINs** fully: the state code, the PAN inside, the registration number and the **check character** — the last character catches almost every typo.
+- Checks **Aadhaar numbers and Virtual IDs** with the **Verhoeff** check digit, and shows the number masked.
+- Explains **PAN** (holder type: person, company, HUF, firm…), **CIN** (listed or not, state, year, company type), **TAN**, **IFSC** (which bank) and **UPI IDs** (which app).
+- Also checks **mobile numbers**, **PIN codes**, **vehicle numbers** (including BH series), **passport** and **voter ID** numbers.
+- **Bulk mode**: paste a column of up to 5,000 numbers from Excel, see which are wrong, and download the results as CSV.
+- Runs entirely in your browser — numbers are **never uploaded or saved**.
+
+### Features
+
+- **12 kinds of numbers**: Detected automatically from their shape.
+- **Real check digits**: GSTIN check character and Aadhaar Verhoeff digit.
+- **Every part explained**: State, holder type, bank, app, company type and more.
+- **Bulk checking**: Thousands of lines from a spreadsheet, with CSV export.
+- **Official links**: Where to confirm a number is real and active.
+- **Private**: Checked on your device; nothing leaves it.
+
+### How to check a GST number
+
+1. **Paste the GSTIN** — Type or paste the 15-character GST number. The type is detected automatically.
+2. **Read the result** — A valid format shows the state, the PAN and each part of the number; a typo shows exactly what is wrong.
+3. **Check many at once** — Switch to Many at once and paste a column from your vendor list or invoice register.
+4. **Confirm it is active** — For a supplier, use the GST portal’s Search Taxpayer to see the legal name and status.
+
+### Guide
+
+#### How a GSTIN is built
+
+| Characters | Meaning | Example (27AAPFU0939F1ZV) |
+| --- | --- | --- |
+| 1–2 | State code | 27 = Maharashtra |
+| 3–12 | PAN of the business | AAPFU0939F |
+| 13 | Registration number under that PAN in the state | 1 = first |
+| 14 | Letter Z by default | Z |
+| 15 | Check character, calculated from the first 14 | V |
+
+#### The 4th letter of a PAN
+
+| Letter | Holder |
+| --- | --- |
+| P | Individual |
+| C | Company |
+| H | Hindu Undivided Family |
+| F | Firm or LLP |
+| A / B | Association of Persons / Body of Individuals |
+| T | Trust |
+| G / L / J | Government / Local authority / Artificial juridical person |
+
+#### Valid format is not the same as genuine
+
+A correct check digit proves the number has no typing mistake — not that it was issued to anyone, or is still active. Anyone can make up a number that passes. Before paying a supplier or accepting a document, confirm it with the issuing authority: the GST portal for GSTINs, the Income Tax e-filing portal for PANs, UIDAI for Aadhaar and MCA for companies. Never share someone’s full Aadhaar number without need; use the masked form.
+
+### FAQ
+
+**How do I check if a GST number is valid?**
+Paste it above. The tool checks the 15-character format, the state code and the check character, which catches nearly all typos. To see the business name and whether the registration is active, use Search Taxpayer on the GST portal.
+
+**Can it tell me whose PAN or Aadhaar this is?**
+No. Names are held only by the Income Tax Department and UIDAI, and this tool never contacts them. It checks the format and explains what the characters mean.
+
+**Is it safe to enter Aadhaar numbers here?**
+The check runs entirely in your browser — nothing is uploaded, stored or logged — and the result is shown masked. Still, share Aadhaar numbers only when you have to.
+
+**What is the Verhoeff algorithm?**
+A check-digit formula that detects every single-digit mistake and every swap of two neighbouring digits. The last digit of an Aadhaar number is a Verhoeff check digit.
+
+**Can I validate a whole list from Excel?**
+Yes. Choose Many at once, paste the column, and download the results as CSV with the reason for every invalid number.
+
+**Does a PAN have a check digit?**
+Yes, the last letter — but the Income Tax Department has not published the formula, so only the format and the holder-type letter can be checked.
+
+## Rent Receipt Generator
+
+URL: https://justtools.online/business-tools/rent-receipt-generator/
+Category: Business Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-23
+
+Make rent receipts for your HRA claim in a minute: a whole financial year at once, monthly or quarterly, with landlord PAN, signature and amount in words.
+
+### At a glance
+
+- Makes **every receipt for a period at once** — the whole April–March financial year in one tap — **monthly or quarterly**.
+- Each receipt has a number, the date, the tenant and landlord, the property, the period, the rent **in figures and words**, and how it was paid.
+- Reminds you when the **landlord’s PAN** is needed (rent above ₹1,00,000 a year) and prints a **revenue stamp** box on cash receipts above ₹5,000.
+- Add the landlord’s **signature** from the Signature Generator or an image — or leave the line blank to sign by hand.
+- A clean **A4 PDF**, three receipts to a page, with a live preview of exactly what you’ll download.
+- Made on your device — names, PAN and address are kept only in this browser.
+
+### Features
+
+- **Whole year at once**: Monthly or quarterly receipts for any period.
+- **HRA-ready**: Everything employers check, with the rent in words.
+- **PAN reminder**: Flags when the landlord’s PAN is required.
+- **Revenue stamp**: A stamp box on cash receipts above ₹5,000.
+- **Signature**: Use a saved signature or sign by hand.
+- **Private**: The PDF is made in your browser.
+
+### How to make rent receipts for HRA
+
+1. **Enter the names** — Your name, the landlord’s name and PAN, and the rented property’s address.
+2. **Set the rent and period** — Monthly rent and the months to cover — tap This financial year for April to March.
+3. **Choose the details** — How you pay, monthly or quarterly receipts, and the date on each.
+4. **Download and sign** — Download the PDF, get the landlord to sign (and stamp cash receipts), and submit it to your employer.
+
+### Guide
+
+#### What employers check on rent receipts
+
+| Item | Why |
+| --- | --- |
+| Tenant and landlord names | The rent must be paid by you to the owner (paying rent to a parent is allowed if they own the house and declare the income). |
+| Property address | It should match the address you declare for HRA. |
+| Amount and period | Must match the rent you declare to the employer. |
+| Landlord’s PAN | Required when the yearly rent is above ₹1,00,000; if the landlord has none, a declaration from them is needed instead. |
+| Landlord’s signature | Proves the rent was received. |
+| Revenue stamp | For receipts paid in cash above ₹5,000. |
+
+#### HRA in the new and old tax regimes
+
+The HRA exemption is available only under the **old tax regime**. Under the new regime, which is the default, rent receipts don’t reduce your tax — but many employers still collect them during the year. Use the Income Tax Calculator to see which regime saves you more.
+
+### FAQ
+
+**Are rent receipts made online valid for HRA?**
+Yes. Employers need the details — names, address, amount, period, the landlord’s PAN where required — and the landlord’s signature. A printed receipt signed by the landlord is accepted the same as a handwritten one.
+
+**When is the landlord’s PAN required?**
+When the rent you pay is more than ₹1,00,000 in the year (about ₹8,334 a month). If the landlord has no PAN, they give you a signed declaration saying so.
+
+**Do rent receipts need a revenue stamp?**
+Only receipts for cash payments above ₹5,000 need a ₹1 revenue stamp signed across by the landlord. Rent paid by UPI, bank transfer or cheque doesn’t.
+
+**Monthly or quarterly receipts?**
+Both are accepted by most employers. Quarterly receipts mean four signatures a year instead of twelve.
+
+**Can I pay rent to my parents and claim HRA?**
+Yes, if the house is owned by them, you really pay the rent (preferably by bank transfer), and they show it as income in their tax return.
+
+**Is my information stored?**
+Only in this browser, so the form is filled in next time. Nothing is uploaded.
+

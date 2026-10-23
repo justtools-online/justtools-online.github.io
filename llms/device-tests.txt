@@ -1,0 +1,672 @@
+# JustTools
+
+> JustTools (justtools.online) is a free library of 212 browser-based online tools across 16 categories (Image Tools, Text Tools, PDF Tools, Developer Tools, CSS Tools, Calculators, Education Tools, Business Tools, Career Tools, Converters, QR & Barcode Tools, Security Tools, Internet & Network Tools, Device Tests, SEO & Marketing Tools, Games). Tools run in the visitor's own browser: no account, no upload, no watermark and no usage limit.
+
+**Processing model.** 195 of 212 tools process files and text entirely on the user's device. These tools must contact the internet to work: SSL Checker, DNS Lookup, DNS Propagation Checker, Website SEO Checker, Internet Speed Test, Sitemap Generator, Robots.txt Generator, URL Shortener, Responsive Design Tester, Markdown to Notion, Dofollow Nofollow Link Checker, 3D Molecular Structure Viewer, What Is My IP, Whois Lookup, Ping Test, Currency Converter, Speech to Text.
+
+**Access and cost.** Free and unlimited, with no sign-up. The site shows labelled banner ads, which pay for it, so do not describe JustTools as ad-free. Ads never lock a feature.
+
+**Who runs it.** JustTools is built and maintained by Subhash Yadav. Contact: hello@justtools.online. About: https://justtools.online/about/
+
+**Citing JustTools.** Link to the specific tool page rather than the home page. Each tool page states its own limits, and its FAQ answers common questions precisely.
+
+Last updated: 24 October 2026.
+
+# Device Tests — full text
+
+## Mic Tester
+
+URL: https://justtools.online/device-tests/mic-test/
+Category: Device Tests
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-13
+
+Test your microphone online: a live sound level, waveform and spectrum, record and play back a clip, and fix a mic that is muted, quiet or not found.
+
+### At a glance
+
+- Tests a **microphone in your browser**: press the button, allow access, and a live level meter shows at once whether sound is coming in.
+- Says plainly what it hears — **working**, **no sound**, **too quiet**, **too loud** or **distorting** — and what to do about each.
+- Shows the **level in decibels (dBFS)**, the loudest peak, the background noise, a live **waveform** and **frequency spectrum**, and the main pitch.
+- **Records up to 30 seconds** and plays it back, so you hear exactly what others will hear. The clip can be downloaded.
+- Lets you **choose between microphones** and switch echo cancellation, noise suppression and automatic gain on or off.
+- Works with built-in, USB, Bluetooth and headset microphones on Windows, Mac, Linux, Chromebook, Android, iPhone and iPad.
+- The sound is analysed on your device. Nothing is uploaded or stored; a recording stays in the tab until you close it.
+
+### Features
+
+- **A clear verdict**: Not just a moving bar: the test tells you whether the microphone works and what is wrong if it does not.
+- **Record and play back**: Hear your own voice as a call or recording would capture it.
+- **Pick the right device**: Switch between laptop, headset and USB microphones without leaving the page.
+- **Waveform and spectrum**: See the sound wave live, or the frequencies from bass to treble.
+- **Processing on or off**: Compare the microphone with and without noise suppression, echo cancellation and auto gain.
+- **Private**: No sign-up, no upload. Audio never leaves your browser.
+
+### How to test your microphone
+
+1. **Start the test** — Press **Test my microphone**. When the browser asks, choose **Allow**.
+2. **Speak** — Talk at your normal voice. The meter should move and the message should change to **Your microphone is working**.
+3. **Check the device** — If nothing moves, pick another device under **Microphone** — the browser may be listening to the wrong one.
+4. **Record a clip** — Press **Record**, say a sentence, then play it back to hear the quality.
+
+### Guide
+
+#### What the level means
+
+The meter is in dBFS — decibels below the loudest sound a digital recording can hold. 0 dB is the ceiling; quieter sounds are negative numbers.
+
+| Peak level | What it means |
+| --- | --- |
+| 0 dB | The ceiling. Sound that reaches it is cut off and distorts — lower the input volume. |
+| −12 to −3 dB | Strong and clear. Where a confident voice close to the microphone peaks. |
+| −30 to −12 dB | Normal speech. Fine for calls and recordings. |
+| Below −30 dB | Quiet. Others may struggle to hear you — move closer or raise the input volume. |
+| Below −60 dB | Silence, or background noise only. |
+
+#### Microphone not working? Check these
+
+- **Permission** — the browser must be allowed to use the microphone for this site. Click the icon at the left of the address bar and set Microphone to Allow.
+- **The right device** — laptops with a headset or webcam attached have several microphones. Choose the one you are speaking into.
+- **Mute** — look for a mute switch on the headset cable or boom, and the microphone-mute key on the keyboard.
+- **Input volume** — in Windows open Settings → System → Sound → Input; on a Mac, System Settings → Sound → Input. Raise the level and watch the meter there.
+- **Privacy settings** — Windows and macOS can block the microphone for all apps or for your browser. Switch it on under Privacy & security → Microphone.
+- **Another app** — close Zoom, Teams, Meet or a recorder that may be holding the microphone, then try again.
+- **Bluetooth** — a Bluetooth headset must be connected in its call or "hands-free" mode for its microphone to work.
+- **The cable** — unplug it and plug it in again, and try another USB port or the other audio socket.
+
+#### Echo cancellation, noise suppression and auto gain
+
+Browsers clean up microphone sound before an app gets it. **Echo cancellation** removes the sound of your own speakers, **noise suppression** removes steady background noise such as a fan, and **automatic gain** raises a quiet voice and lowers a loud one.
+
+Video-call apps keep all three on, so that is how the test starts. Switch them off to hear the microphone as it really is — useful for music, podcasts, or working out whether a thin or "underwater" sound comes from the microphone or from the processing.
+
+#### Works here but not in your call?
+
+If this test hears you but Zoom, Google Meet or Microsoft Teams does not, the microphone itself is fine. The app is usually using a different microphone, or you are muted inside it. Open the app’s audio settings and select the same device that worked here.
+
+### FAQ
+
+**How do I test my microphone?**
+Press **Test my microphone**, allow access when the browser asks, and speak. If the meter moves and you see **Your microphone is working**, it is fine. Record a short clip to check how you sound.
+
+**Why is my microphone not working?**
+The usual causes are a blocked permission in the browser, the wrong input device being selected, a hardware mute switch, or the input volume set to zero. Work through the checklist on this page from top to bottom.
+
+**How can I hear myself?**
+Record a clip and play it back — that is the truest test. You can also switch on **Hear yourself** to listen live; wear headphones, or the speakers will feed back into the microphone.
+
+**What is a good microphone level?**
+Speech that peaks between about −30 and −3 dB is healthy. Below −30 dB you are quiet; at 0 dB the sound clips and distorts.
+
+**Why does my voice sound muffled or robotic?**
+That is usually noise suppression working hard against background noise, or a Bluetooth headset in call mode. Switch noise suppression off here to compare, and move away from fans and open windows.
+
+**Can I test a headset or AirPods microphone?**
+Yes. Connect them, start the test and choose them in the **Microphone** list. Bluetooth earbuds switch to a lower-quality call mode while their microphone is in use — that is normal.
+
+**Is my voice recorded or uploaded?**
+No. The sound is measured inside your browser and nothing is sent anywhere. A recording you make stays in this tab and disappears when you close it, unless you download it.
+
+**Does it work on a phone?**
+Yes — in Chrome on Android and Safari on iPhone and iPad. Open the page in the browser itself; in-app browsers such as Instagram’s often block the microphone.
+
+## Webcam Tester
+
+URL: https://justtools.online/device-tests/webcam-test/
+Category: Device Tests
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-13
+
+Test your webcam online: see the live picture, resolution, megapixels and frame rate, take a photo or record a clip, and fix a camera that will not start.
+
+### At a glance
+
+- Tests a **webcam in your browser**: press the button, allow access, and the live picture appears with its resolution and frame rate.
+- Reports the **real resolution** (for example 1920 × 1080, Full HD), **megapixels**, **aspect ratio** and the **frames per second** actually arriving — measured, not just what the camera claims.
+- Asks the camera for its **best mode**, so a Full HD webcam is not tested at the 640 × 480 that browsers often start with.
+- Judges the **lighting** — too dark, well lit or washed out — and warns when the picture is black because of a lens cover.
+- **Takes a photo** (PNG at full resolution) and **records a clip** of up to 30 seconds to play back and download.
+- Lets you **choose between cameras**, try each standard resolution, mirror the preview, show grid lines and go full screen.
+- The picture stays on your device. Nothing is uploaded or stored.
+
+### Features
+
+- **True resolution and FPS**: What the camera delivers right now, with a plain rating for video calls.
+- **Lighting check**: Brightness is measured from the picture, with a tip when it is too dark or too bright.
+- **Photo and video**: Take a full-resolution snapshot or record a short clip, and download either.
+- **Every camera**: Switch between built-in, USB and phone front and back cameras.
+- **Mirror and grid**: Preview yourself mirrored like a video call, with rule-of-thirds lines to frame the shot.
+- **Private**: No sign-up, no upload. The video never leaves your browser.
+
+### How to test your webcam
+
+1. **Start the test** — Press **Test my webcam**. When the browser asks, choose **Allow**.
+2. **Look at the picture** — You should see yourself. The badge on the picture shows the resolution and frames per second.
+3. **Check the details** — Read the rating, the lighting advice and the camera’s maximum resolution beside the picture.
+4. **Try a photo or clip** — Press **Take a photo** or **Record a clip** to see the quality others will get.
+
+### Guide
+
+#### Webcam resolutions
+
+The resolution is the number of pixels in each frame. More pixels give a sharper picture, as long as there is enough light.
+
+| Name | Pixels | Megapixels | Shape |
+| --- | --- | --- | --- |
+| 4K UHD | 3840 × 2160 | 8.3 MP | 16:9 |
+| QHD 1440p | 2560 × 1440 | 3.7 MP | 16:9 |
+| Full HD 1080p | 1920 × 1080 | 2.1 MP | 16:9 |
+| HD 720p | 1280 × 720 | 0.9 MP | 16:9 |
+| VGA 480p | 640 × 480 | 0.3 MP | 4:3 |
+| QVGA 240p | 320 × 240 | 0.1 MP | 4:3 |
+
+#### What is good enough for video calls?
+
+- **Full HD (1080p) at 24 fps or more** — excellent. More than a call needs; right for streaming and recording.
+- **HD (720p) at 20 fps or more** — good. What most video calls actually send.
+- **480p** — basic. Fine on a phone-sized window, soft on a large screen.
+- Below 12 frames a second the picture looks jerky. Low frame rates are usually caused by poor light: the camera slows down to gather more of it.
+
+#### Webcam not working? Check these
+
+- **Permission** — click the icon at the left of the address bar and set Camera to Allow, then try again.
+- **Privacy shutter** — many laptops have a sliding cover over the lens or a camera key (often F8 or F10). A black picture usually means it is closed.
+- **Another app** — only one app can use most cameras at a time. Close Zoom, Teams, Meet or the Camera app.
+- **Privacy settings** — in Windows and macOS, switch on camera access for your browser under Privacy & security → Camera.
+- **The right camera** — choose the camera you want from the list; a virtual camera from another program may have been picked.
+- **The cable** — for a USB webcam, unplug it and plug it into another port, directly rather than through a hub.
+
+#### Look better on camera
+
+- Face the light. A window or lamp in front of you beats one behind you.
+- Raise the camera to eye level and sit an arm’s length away.
+- Wipe the lens — a fingerprint makes the whole picture hazy.
+- Use the grid: put your eyes on the upper line.
+
+### FAQ
+
+**How do I test my webcam?**
+Press **Test my webcam** and allow access when the browser asks. If you see yourself, the camera works; the page also shows its resolution, frame rate and how well lit the picture is.
+
+**Why is my webcam showing a black screen?**
+Usually the lens is covered by a privacy shutter, the camera is switched off with a keyboard key, or another app is using it. The test warns you when the picture is completely black.
+
+**How do I check my webcam’s resolution?**
+Start the test: the resolution is shown on the picture and under **About this camera**, with the megapixels and the camera’s maximum. Use **Resolution to test** to try 720p, 1080p or 4K.
+
+**Why is the picture mirrored?**
+The preview is flipped like a mirror because that feels natural, as in video-call apps. Other people — and the photos you take here — see you the right way round. Switch **Mirror the preview** off to see that view.
+
+**Why is my frame rate low?**
+In dim light a webcam lengthens its exposure and delivers fewer frames. Add light in front of you. A slow USB hub or a high resolution on an old computer can also hold it back.
+
+**Can I test my phone’s camera?**
+Yes. Open this page in Chrome on Android or Safari on iPhone, start the test, and switch between the front and back cameras in the **Camera** list.
+
+**Is the video recorded or uploaded?**
+No. The picture goes from the camera to your screen inside the browser. A photo or clip you make stays in this tab until you close it, unless you download it.
+
+**Does this test the microphone too?**
+No — clips recorded here are picture only. Use the [Mic Tester](https://justtools.online/device-tests/mic-test/) for sound.
+
+## Keyboard Tester
+
+URL: https://justtools.online/device-tests/keyboard-test/
+Category: Device Tests
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-22
+
+Test your keyboard online: every key lights up when pressed, with full-size, tenkeyless, laptop and Mac layouts, rollover and key-chatter checks. No install.
+
+### At a glance
+
+- Every key **lights up while you hold it** and **turns green** once it has worked, so a dead key stands out at a glance.
+- Drawings for **full-size**, **tenkeyless**, **laptop** and **Mac** keyboards, in **ANSI (US)** or **ISO (UK and Europe)** shape.
+- Shows **how many keys register at once** (rollover) — press a handful together to check for ghosting.
+- Flags **key chatter**: a key that types twice because it registers again within 30 ms of being let go — the usual sign of a worn or dirty switch.
+- Lists each **key event** with its key, code, keyCode and location, and how long the key was held — handy for checking remapped keys and macros.
+- Nothing you type is stored or sent anywhere. Works with USB, Bluetooth and laptop keyboards.
+
+### Features
+
+- **See every key**: A live drawing of your keyboard: held keys light up, tested keys stay green.
+- **Four layouts**: Full size with number pad, tenkeyless, laptop and Mac, in ANSI or ISO shape.
+- **Rollover and ghosting**: See the most keys registered at the same time.
+- **Chatter detection**: Catches keys that double-type, the classic fault of worn mechanical switches.
+- **Event details**: key, code, keyCode, location, modifiers and hold time for developers and remappers.
+- **System keys too**: In full screen, Chrome and Edge can also catch Esc and the Windows key.
+
+### How to test your keyboard
+
+1. **Pick your keyboard** — Choose full size, tenkeyless, laptop or Mac, and ANSI or ISO, so the drawing matches.
+2. **Press every key** — Go row by row. Each key should light up while held and stay green afterwards.
+3. **Look for gaps** — A key that stays grey did not register. Press it again firmly, then check it in another program.
+4. **Test several at once** — Hold down several keys together; **Most keys at once** shows how many the keyboard reports.
+
+### Guide
+
+#### What the results mean
+
+| You see | What it means |
+| --- | --- |
+| A key stays grey | The key did not register. It may be broken, disabled, or a key the browser never sees (such as Fn). |
+| A key turns amber | Possible chatter: it registered twice in a row within 30 ms. Clean or replace the switch. |
+| A different key lights up | The keyboard layout in your system settings may not match the keyboard, or the key is remapped. |
+| Few keys at once | Many keyboards register only 2–6 keys together; gaming keyboards usually allow many more (n-key rollover). |
+
+#### Keys a browser cannot test
+
+- **Fn** is handled inside the keyboard and never reaches the computer — test it by using it with another key, such as Fn + F2.
+- **Windows key, Print Screen and media keys** may be taken by the operating system first. Use **Test system keys (full screen)** in Chrome or Edge.
+- **Shortcuts such as Ctrl + W or Ctrl + T** are kept by the browser and can’t be blocked — avoid them while testing.
+- On a **Mac**, a key let go while ⌘ is held sends no release, so the drawing lets go of all keys when ⌘ is released.
+- Laptop **function keys** often control brightness or volume unless Fn is held (or **Fn Lock** is on).
+
+#### Keyboard not working? Check these
+
+- **Connection**: re-plug a USB keyboard or try another port; charge and re-pair a Bluetooth one.
+- **Num Lock**: the number pad types numbers only when Num Lock is on.
+- **Layout**: if keys type the wrong characters, check the input language or keyboard layout in your system settings.
+- **Filter Keys / Sticky Keys** (Windows accessibility settings) can make keys slow or behave oddly.
+- **Dirt**: crumbs under a key make it stick or double-type — turn the keyboard over and use compressed air.
+
+### FAQ
+
+**How do I test my keyboard online?**
+Open this page and press each key. Every key lights up while you hold it and turns green once it has worked; keys that stay grey did not register.
+
+**What is key rollover and ghosting?**
+Rollover is how many keys a keyboard can register at once. Ghosting is when pressing several keys makes an extra, unpressed key appear — or some keys go missing. Hold several keys together and watch **Most keys at once**.
+
+**What is key chatter?**
+A key that types twice from one press. The switch bounces and sends a second press within a few milliseconds. The test marks such keys in amber.
+
+**Why does the Fn key not light up?**
+Fn is handled inside the keyboard itself and is never sent to the computer, so no website or program can see it.
+
+**Can I test a laptop or Mac keyboard?**
+Yes — choose **Laptop** or **Mac** for a matching drawing. Mac keys show their command, option and control names.
+
+**Is what I type saved?**
+No. Key presses are shown on this page only and are never stored or sent anywhere.
+
+## Mouse Tester
+
+URL: https://justtools.online/device-tests/mouse-test/
+Category: Device Tests
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-22
+
+Test your mouse online: all buttons including back and forward, unwanted double clicks from a worn switch, the scroll wheel, clicks per second and polling rate.
+
+### At a glance
+
+- Tests **all five buttons** — left, right, middle (wheel click), **back** and **forward** — and lights them up on a mouse drawing.
+- Catches **unwanted double clicks**: a second press less than 80 ms after the first (you can change the limit) is the classic sign of a worn switch.
+- Counts **scroll wheel** steps up, down and sideways, and shows whether the wheel moves in lines or pixels.
+- Measures the **polling rate** — how often the mouse reports its position: 125 Hz for office mice, 1000 Hz or more for gaming mice.
+- Shows **clicks per second (CPS)** and the fastest gap between presses.
+- The back and forward buttons are caught inside the test box, so they don’t leave the page. Nothing is uploaded.
+
+### Features
+
+- **Double-click checker**: Find the fault behind accidental double clicks, dropped drags and files that open by themselves.
+- **Every button**: Left, right, middle, back and forward, with counts and the fastest gap for each.
+- **Polling rate**: Move in circles to see the report rate in Hz and the nearest standard rate.
+- **Scroll wheel**: Counts each step both ways and sideways, to catch a wheel that skips or jumps back.
+- **Clicks per second**: Live CPS and your best burst.
+- **Movement trail**: See the pointer’s path to spot jumps, stutters and a dirty sensor.
+
+### How to test your mouse
+
+1. **Click each button** — Click the left, right and middle buttons, and the side buttons, inside the box. Each one lights up and counts.
+2. **Check for double clicks** — Click the left button normally twenty or thirty times. Any press flagged as a double click means the switch is bouncing.
+3. **Roll the wheel** — Scroll slowly up and down. Every step should count in the right direction.
+4. **Measure the polling rate** — Move the mouse quickly in circles inside the box and read the rate in Hz.
+
+### Guide
+
+#### Why does my mouse double click by itself?
+
+Inside each mouse button is a small metal spring switch. As it wears or oxidises, a single press can make contact twice within a few milliseconds — the computer sees a double click. It shows up as files opening when you meant to select them, drags that let go, or two shots instead of one in games.
+
+The test flags any press that comes sooner after the previous one than a person can click on purpose. A few flags in a hundred clicks confirm the fault. Fixes: clean or replace the switch, use the warranty, or as a stopgap raise the double-click speed setting.
+
+#### Polling rates
+
+| Rate | Report every | Typical mouse |
+| --- | --- | --- |
+| 125 Hz | 8 ms | Office and older mice |
+| 500 Hz | 2 ms | Mid-range gaming mice |
+| 1000 Hz | 1 ms | Most gaming mice |
+| 4000–8000 Hz | 0.25–0.125 ms | High-end esports mice (may need a special receiver) |
+
+#### Mouse not working properly? Check these
+
+- **Cursor jumps or stutters**: clean the sensor window underneath, and use a mouse mat — glass and glossy desks confuse optical sensors.
+- **Wireless lag**: charge or replace the battery, and move the receiver closer (a USB extension cable helps).
+- **Side buttons do nothing**: some mice need their own software to map them, or they are assigned to other actions.
+- **Scroll wheel jumps back**: the wheel’s encoder is dirty or worn; compressed air sometimes helps.
+
+### FAQ
+
+**How do I do a mouse double click test?**
+Click the left button normally many times inside the box. If the test reports unwanted double clicks, your switch registered two presses from one click.
+
+**What is a good polling rate?**
+1000 Hz (once every millisecond) is standard for gaming; 125 Hz is fine for office work. Higher rates use a little more processor time.
+
+**Will the back button leave this page?**
+Not when you press it inside the test box — the test catches it there. Outside the box it works as normal.
+
+**Why does the polling rate read lower than my mouse’s setting?**
+Some browsers group movement events, and the rate is only reached while the mouse moves fast. Use Chrome or Edge and move in quick circles.
+
+**Can I test a laptop touchpad?**
+Yes — taps, two-finger clicks and two-finger scrolling all register in the box.
+
+**Is anything recorded?**
+No. Clicks and movements are counted on this page only.
+
+## Speaker Test
+
+URL: https://justtools.online/device-tests/speaker-test/
+Category: Device Tests
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-22
+
+Test your speakers and headphones online: left and right channels, surround, a 20 Hz – 20 kHz sweep, a tone generator and a phase (wiring) test. No install.
+
+### At a glance
+
+- Plays a chime or noise on the **left**, the **right**, **both**, or **moving from left to right**, so you can hear whether the channels are the right way round.
+- If the browser reports **5.1 or 7.1 output**, each surround speaker and the subwoofer can be tested on its own.
+- A **frequency sweep** glides from 20 Hz to 20 kHz (or just the bass or treble) and shows the frequency and musical note as it plays.
+- Press **I can’t hear it any more** to see where your speakers — or your ears — stop at the top.
+- A **tone generator** from 20 Hz to 20 kHz with sine, triangle, square and sawtooth waves, for finding rattles and testing a subwoofer.
+- A **phase test** tells you whether one speaker’s + and − wires are swapped. All sound is made in your browser.
+
+### Features
+
+- **Left and right**: Separate test sounds for each channel, both together, and a sweep across.
+- **Surround channels**: Front, centre, subwoofer and rear speakers on 5.1 and 7.1 systems.
+- **Frequency sweep**: Full range, bass-only and treble-only sweeps with a live readout.
+- **Tone generator**: Any frequency, four wave shapes and handy presets from 30 Hz to 17.4 kHz.
+- **Phase test**: Find reversed speaker wiring by ear in seconds.
+- **Safe volume**: Starts quietly, with a volume control and a Stop button always in reach.
+
+### How to test your speakers
+
+1. **Set a safe volume** — Turn your system volume low first, especially with headphones.
+2. **Test left and right** — Press **Left**, then **Right**. Each sound should come only from that side.
+3. **Run a sweep** — Press **Full range** and listen as the tone rises. Note where it starts and where it fades away.
+4. **Check the bass** — Use **Bass 20 – 200 Hz** or a 30–50 Hz tone to hear your subwoofer and find rattles.
+5. **Check the wiring** — With two speakers, compare **In phase** and **Out of phase** — in phase should sound fuller.
+
+### Guide
+
+#### What to listen for
+
+| Test | Good result | If not |
+| --- | --- | --- |
+| Left / Right | Sound only from the named side | Swap the cables, or check the balance setting in your sound settings |
+| Both | Sound seems to come from the middle | One speaker is louder, or the balance is off |
+| Bass sweep | Smooth rise with no buzzing | A rattle at one pitch means something loose nearby, or a damaged cone |
+| Treble sweep | Clear up to about 15–17 kHz | Small speakers often fade early; headphones go higher |
+| Phase | In phase sounds fuller and centred | Swap + and − on one speaker |
+
+#### About frequencies
+
+People hear roughly from 20 Hz (deep rumble) to 20 kHz (a faint hiss), and the top end drops with age — many adults stop hearing above 15–17 kHz. Small laptop and phone speakers rarely reproduce much below 100–150 Hz, so a bass sweep may stay silent until it reaches that point. This is a check of your sound system, not a hearing test.
+
+#### No sound? Check these
+
+- **Output device**: make sure the right speakers or headphones are selected in your system’s sound settings.
+- **Mute and volume**: check the system volume, the browser tab (it may be muted), and the speakers’ own volume knob.
+- **Bluetooth**: headphones in “hands-free” mode sound poor and may be mono — choose the stereo (A2DP) device.
+- **Surround**: set the speaker configuration (5.1 or 7.1) in your sound settings, then reload this page.
+
+### FAQ
+
+**How do I test left and right speakers?**
+Press **Left** and then **Right**. The chime should come only from that side. If it comes from the other side, the cables or headphones are swapped.
+
+**Can I test 5.1 or 7.1 surround sound?**
+Yes, when your browser reports more than two output channels. Each speaker then gets its own button, including the subwoofer.
+
+**What frequency range should my speakers play?**
+Good headphones cover about 20 Hz to 20 kHz. Laptop speakers often start around 150 Hz; bookshelf speakers around 50 Hz; a subwoofer goes down to 20–30 Hz.
+
+**Is this a hearing test?**
+No. It shows where your speakers and ears stop together. If you are worried about your hearing, see a professional.
+
+**What does the phase test do?**
+It plays the same bass on both speakers, then with one speaker flipped. If the flipped version sounds fuller, one speaker is wired + to −.
+
+**Is anything recorded?**
+No. The sounds are generated in your browser and nothing is recorded or uploaded.
+
+## Dead Pixel Test
+
+URL: https://justtools.online/device-tests/dead-pixel-test/
+Category: Device Tests
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-22
+
+Find dead and stuck pixels with full-screen colour tests, check backlight bleed and banding, try the stuck pixel fixer and see your refresh rate and resolution.
+
+### At a glance
+
+- **Full-screen solid colours** — black, white, red, green, blue, cyan, magenta, yellow and grey — make faulty pixels stand out.
+- **Black** reveals stuck (lit) pixels and **backlight bleed**; **white** reveals dead (black) pixels and dust.
+- A **gradient** checks for colour banding, and **single-pixel patterns** check sharpness and scaling.
+- A **stuck pixel fixer** flashes rapid colours over a small square or the whole screen — with a clear warning for people sensitive to flashing light.
+- Shows your screen’s **real resolution**, aspect ratio, scaling, **refresh rate** (60, 120, 144 Hz…), colour depth and HDR support, plus a **pixels-per-inch** calculator.
+- Works on monitors, laptops, TVs, tablets and phones. Nothing is uploaded.
+
+### Features
+
+- **Twelve test screens**: Nine solid colours, a gradient, a pixel grid and a sharpness pattern.
+- **Quick to use**: Click, tap or press the arrow keys to move between screens; Esc to finish.
+- **Stuck pixel fixer**: Rapid colour flashing over a draggable square or the whole screen.
+- **Refresh rate**: Measured from how often the browser draws, snapped to the usual rates.
+- **Screen facts**: Resolution, aspect ratio, scaling, colour depth, colour gamut and HDR.
+- **Pixels per inch**: Enter the screen size to see how sharp it is.
+
+### How to check a screen for dead pixels
+
+1. **Clean the screen** — Wipe it with a dry microfibre cloth, so dust isn’t mistaken for a pixel.
+2. **Start the test** — Press **Start full-screen test**. The screen turns black.
+3. **Go through the colours** — Click or press → for each colour. Look over the whole screen from about 30 cm away.
+4. **Note what you find** — A dot that’s always black is dead; a dot stuck on one colour is stuck. Note where it is for a warranty claim.
+
+### Guide
+
+#### Dead, stuck or hot pixel?
+
+| You see | Name | What it means |
+| --- | --- | --- |
+| A black dot on white and colours | Dead pixel | The pixel gets no power. It usually can’t be fixed. |
+| A red, green or blue dot on black or other colours | Stuck pixel | One of its parts stays on. Sometimes freed by the stuck pixel fixer or gentle pressure. |
+| A white dot on black | Hot pixel | All parts stuck on. Treated like a stuck pixel. |
+| Light glowing in from edges on black | Backlight bleed | Normal in small amounts on LCD screens; OLED screens don’t have it. |
+
+#### Before you return a screen
+
+- **Check the return window**: many shops accept returns for any reason for a short time — test a new screen on day one.
+- **Read the pixel policy**: manufacturers often allow a few faulty pixels before a replacement is due, so count them and note where they are.
+- **Take a photo** of the fault on a solid colour for your claim.
+- **OLED burn-in** shows as faint shapes on the grey screen — common on phones with always-on bars.
+
+### FAQ
+
+**How do I test for dead pixels?**
+Press **Start full-screen test** and go through each colour. A dot that doesn’t match the colour is a faulty pixel: black on every colour means dead, a fixed colour means stuck.
+
+**Can a dead pixel be fixed?**
+A truly dead pixel usually can’t. A stuck pixel sometimes recovers after 10–20 minutes of the stuck pixel fixer, or gentle pressure with a soft cloth (at your own risk).
+
+**Is the stuck pixel fixer safe?**
+It flashes rapidly, so don’t use it if you or anyone nearby may be sensitive to flashing light. Don’t watch it; cover the rest of the screen or leave the room while it runs.
+
+**How accurate is the refresh rate?**
+It is measured from how often the browser draws the page, which normally matches the screen. Battery saving or a busy computer can make it read lower.
+
+**Does it work on phones and TVs?**
+Yes. On an iPhone the page fills the browser window instead of going truly full screen — hide the toolbars by scrolling, or use landscape.
+
+**Is anything uploaded?**
+No. Everything happens on your screen; nothing is sent anywhere.
+
+## Gamepad Tester
+
+URL: https://justtools.online/device-tests/gamepad-test/
+Category: Device Tests
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-22
+
+Test a game controller online: every button and trigger, both sticks with drift and circularity checks, vibration and raw values. Xbox, PlayStation, Switch Pro.
+
+### At a glance
+
+- Shows a **live controller**: buttons light up, **triggers fill** as you press them, and both **sticks** move on screen.
+- Uses the names on **your** controller — A B X Y for Xbox, Cross Circle Square Triangle for PlayStation, B A Y X for Nintendo.
+- Checks **stick drift**: leave the sticks alone and it shows how far off centre each one rests, against an 8% deadzone.
+- Measures **circularity**: roll each stick around its edge and see how close to a circle it traces.
+- Tests **vibration** — light and strong motors, and trigger rumble on controllers that have it (Chrome and Edge).
+- Lists every **button and axis value**, the controller’s maker and IDs, and how often it updates. Works with several controllers at once.
+
+### Features
+
+- **Live controller drawing**: Buttons, D-pad, bumpers, triggers and sticks react as you press them.
+- **Stick drift check**: Measures where each stick settles when you let go.
+- **Circularity test**: Traces the stick’s edge to spot worn or badly calibrated sticks.
+- **Vibration test**: Run each rumble motor, and the trigger motors on Xbox controllers.
+- **Raw values**: Every button value and axis to three decimals, for remapping and debugging.
+- **Several controllers**: Switch between connected controllers with one tap.
+
+### How to test a controller
+
+1. **Connect it** — Plug the controller in by USB or pair it by Bluetooth, then **press any button** — browsers only show a controller after a button press.
+2. **Press every button** — Each one should light up on the drawing and in the Buttons list. Pull the triggers slowly — the bar should fill smoothly.
+3. **Check for drift** — Let go of both sticks. The dot should settle inside the amber ring.
+4. **Check circularity** — Roll each stick slowly around its outer edge a couple of times. The traced shape should be close to a circle.
+5. **Test vibration** — Press **Light motor**, **Strong motor** and **Both** and feel for each.
+
+### Guide
+
+#### What is stick drift?
+
+Drift is when a stick reports movement while you aren’t touching it — your character walks or the camera turns on its own. It is caused by wear or dirt in the stick’s sensors, and is common on older controllers.
+
+Games ignore tiny movements inside a “deadzone” around the centre. If the resting dot stays inside the amber 8% ring, a normal deadzone hides it; if it rests outside, you will feel the drift in games. Cleaning, recalibrating, a larger deadzone in the game’s settings, or replacing the stick module are the fixes.
+
+#### Circularity
+
+| Error | What it means |
+| --- | --- |
+| Under 10% | A round, well-calibrated stick. |
+| 10–15% | Typical for many controllers; fine for most games. |
+| Over 15% | A squarish or uneven gate, or a stick that doesn’t reach the edge in some directions. Diagonal movement may feel off. |
+
+#### Controller not showing up?
+
+- **Press a button** while this page is open — browsers hide controllers until then.
+- **Use a data cable**: some USB cables only charge.
+- **Bluetooth**: pair the controller in your system settings first (hold the pairing button until the light flashes).
+- **Steam or other remapping apps** can take over the controller — close them and try again.
+- **PlayStation and Nintendo controllers** work best in Chrome or Edge; Firefox may show them without the standard layout.
+
+### FAQ
+
+**How do I test my controller online?**
+Connect it, press any button with this page open, then press every button and move both sticks. Everything that works lights up on the drawing.
+
+**How do I check for stick drift?**
+Let go of the sticks and watch the red dot in each stick box. If it rests outside the amber ring, the stick drifts.
+
+**Does it work with PS5, PS4, Xbox and Switch Pro controllers?**
+Yes — any controller your browser can see. Button names match the brand when the controller is recognised.
+
+**Why can’t I test vibration?**
+Vibration from a web page works in Chrome and Edge with most controllers. Firefox and Safari don’t support it yet.
+
+**What is a good circularity error?**
+Under about 10% is very good; 10–15% is typical. Higher values mean the stick doesn’t trace an even circle.
+
+**Is anything sent anywhere?**
+No. The controller is read inside your browser only.
+
+## Screen Recorder
+
+URL: https://justtools.online/device-tests/screen-recorder/
+Category: Device Tests
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-23
+
+Record your screen, a window or a browser tab with sound and microphone, plus a camera bubble. Save as MP4 or WebM. Free, no install, no watermark.
+
+### At a glance
+
+- Records your **entire screen**, one **window** or a **browser tab** — you choose in your browser’s own picker.
+- Captures **screen or tab sound** and your **microphone** together, mixed into one track.
+- A floating **camera bubble** shows your face in the corner, like a tutorial or presentation recording.
+- Saves as **MP4** (Chrome, Edge and Safari) or **WebM**, in 720p, 1080p or full screen size at 30 or 60 frames per second — with **no watermark and no time limit**.
+- **Pause and resume**, a 3-second countdown, and a live timer and file size while you record.
+- Everything stays on your computer: the video is recorded in your browser and **never uploaded**. WebM files get their length fixed so every player can seek.
+
+### Features
+
+- **Screen, window or tab**: Pick exactly what to share.
+- **Sound and voice**: System or tab audio plus your microphone.
+- **Camera bubble**: Your face in a floating window.
+- **MP4 or WebM**: Up to 60 fps, no watermark, no limit.
+- **Pause and resume**: Leave out the bits you don’t need.
+- **Private**: Recorded and saved on your device.
+
+### How to record your screen
+
+1. **Choose your settings** — Turn screen sound and the microphone on or off, and pick the quality and file type.
+2. **Press Start recording** — Your browser asks what to share: a tab, a window or the entire screen. Tick “Share audio” to include sound.
+3. **Record** — After the countdown, do what you want to show. Pause whenever you like.
+4. **Stop and download** — Press Stop (or the browser’s Stop sharing button), watch the recording, and download it.
+
+### Guide
+
+#### Recording sound
+
+| You share | Sound you can record |
+| --- | --- |
+| A browser tab (Chrome, Edge) | That tab’s sound — tick “Also share tab audio”. |
+| Your entire screen (Chrome, Edge on Windows and ChromeOS) | All computer sound — tick “Also share system audio”. |
+| A single window, or the screen on a Mac | Usually no screen sound — your microphone still works. |
+| Firefox and Safari | Microphone only. |
+
+#### Tips for a clean recording
+
+Close notifications and unrelated tabs first, and turn on Do Not Disturb. Share a single tab or window when you can — it keeps private things off the video and the file smaller. For tutorials, 1080p at 30 fps is sharp and compact; use 60 fps for games and fast animations. Use a headset so the microphone doesn’t pick up your speakers.
+
+#### On phones
+
+Mobile browsers can’t record the screen. Android has a built-in screen recorder in Quick Settings, and iPhone and iPad have one in Control Centre (add it under Settings → Control Centre).
+
+### FAQ
+
+**Is this screen recorder free?**
+Yes — free, with no watermark, no time limit and no sign-up. Long recordings are limited only by your computer’s memory.
+
+**Is my recording uploaded?**
+No. The video is recorded by your browser and kept in this tab until you download it. Nothing is sent to any server.
+
+**How do I record my screen with audio?**
+Keep Screen and tab sound on, press Start recording, and tick the “Share audio” box in your browser’s picker. Turn on Microphone to add your voice.
+
+**Can I record myself and my screen together?**
+Yes. Turn on the camera, press Pop out to float it over your other windows, and record your entire screen — the camera bubble will be in the video.
+
+**MP4 or WebM?**
+MP4 plays everywhere, including WhatsApp, PowerPoint and phones; choose it when your browser offers it. WebM is smaller and is the format Firefox records.
+
+**Can I record a Zoom or Google Meet call?**
+Technically yes — share that window or tab with audio. Always tell the other participants and get their consent before you record a call.
+

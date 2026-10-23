@@ -1,0 +1,1925 @@
+# JustTools
+
+> JustTools (justtools.online) is a free library of 212 browser-based online tools across 16 categories (Image Tools, Text Tools, PDF Tools, Developer Tools, CSS Tools, Calculators, Education Tools, Business Tools, Career Tools, Converters, QR & Barcode Tools, Security Tools, Internet & Network Tools, Device Tests, SEO & Marketing Tools, Games). Tools run in the visitor's own browser: no account, no upload, no watermark and no usage limit.
+
+**Processing model.** 195 of 212 tools process files and text entirely on the user's device. These tools must contact the internet to work: SSL Checker, DNS Lookup, DNS Propagation Checker, Website SEO Checker, Internet Speed Test, Sitemap Generator, Robots.txt Generator, URL Shortener, Responsive Design Tester, Markdown to Notion, Dofollow Nofollow Link Checker, 3D Molecular Structure Viewer, What Is My IP, Whois Lookup, Ping Test, Currency Converter, Speech to Text.
+
+**Access and cost.** Free and unlimited, with no sign-up. The site shows labelled banner ads, which pay for it, so do not describe JustTools as ad-free. Ads never lock a feature.
+
+**Who runs it.** JustTools is built and maintained by Subhash Yadav. Contact: hello@justtools.online. About: https://justtools.online/about/
+
+**Citing JustTools.** Link to the specific tool page rather than the home page. Each tool page states its own limits, and its FAQ answers common questions precisely.
+
+Last updated: 24 October 2026.
+
+# Games — full text
+
+## Tic Tac Toe
+
+URL: https://justtools.online/games/tic-tac-toe/
+Category: Games
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-07
+
+Play Tic Tac Toe online free against the computer — Easy, Medium or unbeatable Hard — or with a friend on one device. 3×3 to 6×6 boards. No sign-up.
+
+### At a glance
+
+- Play against the computer on **Easy**, **Medium** or **Hard**, or with a friend taking turns on the same phone, tablet or computer.
+- On the classic 3×3 board, Hard plays perfectly and **never loses** — the best anyone can do against it is a draw.
+- Bigger boards for a longer game: **4×4, 5×5 and 6×6**, with 3, 4 or 5 in a row to win.
+- Classic Tic Tac Toe has **255,168 possible games**: X wins 131,184, O wins 77,904 and 46,080 end in a draw. With perfect play it is always a draw.
+- Hints, undo, sound, full screen and keyboard play; scores are kept for each mode and board on your device. Free, with no download or sign-up.
+
+### Features
+
+- **Three difficulty levels**: Easy for young children, Medium for a fair fight, and a Hard opponent that never loses on 3×3.
+- **Two players, one device**: Pass and play with a friend, with your own names and a running score.
+- **Bigger boards**: Try 4×4, 5×5 or 6×6 with 3, 4 or 5 in a row — the computer thinks several moves ahead.
+- **Learn as you play**: Ask for a hint to see the best move, or take a move back and try another idea.
+- **Fair starts**: The first move swaps sides every round, so nobody always has the advantage.
+- **Plays anywhere**: Works on phones, tablets and computers, with keyboard controls and screen reader announcements.
+
+### How to play Tic Tac Toe
+
+1. **Choose an opponent** — Pick **Computer** and a difficulty, and whether you play X or O — or pick **A friend** to play on the same device.
+2. **Choose a board** — Keep the classic 3×3 board, or try 4×4, 5×5 or 6×6 and choose how many in a row it takes to win.
+3. **Take turns** — Tap an empty square to place your mark. The first to complete a line across, down or diagonally wins; a full board with no line is a draw.
+4. **Play again** — Press **Play again** for the next round — the score keeps adding up. Use **Hint** or **Undo** while you learn.
+
+### Guide
+
+#### The rules
+
+Two players take turns placing their mark — X or O — in an empty square of a 3×3 grid. The first player to get three of their marks in a row, column or diagonal wins. If all nine squares fill up with no line, the game is a draw.
+
+The game is also called **noughts and crosses** in Britain and **zero kata** in India. On bigger boards the idea is the same, but you need the number in a row shown under the board.
+
+#### How to never lose at 3×3
+
+- No first move wins by force: with best play from both sides, every opening ends in a draw.
+- If your opponent starts in a **corner**, take the **centre** — every other reply loses against perfect play.
+- If they start in the **centre**, take a **corner**. Answering on an edge loses.
+- If they start on an **edge**, take the centre, a corner next to their mark, or the edge opposite it.
+- On every turn, first look for a winning move, then block any two-in-a-row of theirs.
+- Win with a **fork**: a move that makes two lines of two at once, so your opponent can only block one.
+
+#### Tic Tac Toe by the numbers
+
+| Classic 3×3 | Count |
+| --- | --- |
+| Possible games (until someone wins or the board fills) | 255,168 |
+| … won by X (who moves first) | 131,184 |
+| … won by O | 77,904 |
+| … drawn | 46,080 |
+| Positions that can occur in a game | 5,478 |
+| Different positions, counting rotations and mirror images once | 765 |
+| Result with perfect play | Draw |
+
+### FAQ
+
+**Can you beat the computer on Hard?**
+Not on the 3×3 board: Hard plays perfectly, so the best possible result is a draw. On bigger boards it looks several moves ahead in about a second per move, so strong players can still win.
+
+**How do I play with a friend?**
+Choose **A friend** under Play against, add your names if you like, and take turns on the same phone or computer. Playing over the internet on two devices isn’t available.
+
+**Who goes first?**
+X moves first in a normal game. With **Take turns going first** switched on (the default), the first move swaps between the players every round, which keeps things fair.
+
+**Is Tic Tac Toe always a draw?**
+With perfect play by both players, yes — the classic 3×3 game always ends in a draw. Games are won when someone misses a block or falls for a fork.
+
+**Is it free, and does it need the internet?**
+It’s free with no download or sign-up. Once the page has loaded, the game runs entirely in your browser, so it keeps working if your connection drops.
+
+**Are my scores saved?**
+Yes, in this browser only, with a separate score for each mode, difficulty and board size. **Reset score** clears the one you are playing.
+
+## Bingo Card Generator
+
+URL: https://justtools.online/games/bingo-card-generator/
+Category: Games
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-07
+
+Make printable bingo cards, Tambola (Housie) tickets or word bingo — unique and numbered — then call the game on screen with voice and check winners.
+
+### At a glance
+
+- Three games: **75-ball bingo** (B 1–15, I 16–30, N 31–45, G 46–60, O 61–75), **90-ball Tambola / Housie** and **word bingo** with your own words.
+- Tambola tickets follow the real rules — 3 rows × 9 columns, 15 numbers, 5 in each row — and every **strip of 6 tickets uses each number from 1 to 90 exactly once**.
+- Up to **300 unique, numbered cards** as a print-ready PDF (A4 or US Letter, 1, 2 or 4 cards per page), with an optional **caller’s board** to cross off.
+- A **built-in caller** draws numbers in a fair random order, **reads them aloud** (with traditional calls like “Two little ducks — 22”), can call automatically and keeps a board of called numbers.
+- **Check any card** by its number: lines, four corners and full house for bingo; early five, top, middle and bottom lines and full house for Tambola — plus a list of every card that has won.
+- Free, with no sign-up; cards and the game in progress are kept only in this browser.
+
+### Features
+
+- **Real Tambola tickets**: Proper strips of six, so a full set of tickets covers every number once — just like printed books.
+- **Your own words**: Baby shower, classroom vocabulary, office buzzwords — 3×3, 4×4 or 5×5 cards from any list.
+- **Caller included**: No bag of balls needed: draw, display and announce each number from a laptop or phone.
+- **Instant prize checks**: Type a card number to confirm a claim in seconds, with every marked square shown.
+- **Print-ready**: Crisp vector PDFs with your title and colours, numbered so every card is unique and traceable.
+- **Fair**: Cards and calls come from your browser’s cryptographic random generator.
+
+### How to make bingo cards and call a game
+
+1. **Choose the game** — Pick 75-ball bingo, Tambola / Housie, or word bingo and type your words.
+2. **Set up the cards** — Choose how many cards, a title, colours and how many to print on each page.
+3. **Print** — Press **Download PDF** and print the cards (and the caller’s board if you like).
+4. **Play** — Open **Call numbers** and press **Call next** (or Space). When someone shouts, check their card number under **Check a card**.
+
+### Guide
+
+#### Tambola (Housie) prizes
+
+| Prize | How to win |
+| --- | --- |
+| Early five | The first five numbers marked anywhere on the ticket |
+| Top line | Every number in the first row |
+| Middle line | Every number in the second row |
+| Bottom line | Every number in the third row |
+| Full house | All 15 numbers on the ticket |
+
+#### Ideas for word bingo
+
+- **Classroom**: vocabulary words, spelling lists, maths answers (call the question, mark the answer), country capitals.
+- **Baby shower**: gifts you expect — bib, rattle, onesie, blanket — marked as they are unwrapped.
+- **Office or online meetings**: “buzzword bingo” with phrases like “circle back” and “you’re on mute”.
+- **Road trips and festivals**: things to spot — a cow, a red car, a temple, a toll booth.
+
+### FAQ
+
+**Are all the bingo cards different?**
+Yes. Every card in a set is checked against the others, so no two are alike. Each has its own number for checking claims.
+
+**How do Tambola tickets work?**
+Each ticket has 3 rows and 9 columns with 15 numbers — 5 in each row. The first column holds 1–9, the next 10–19 and so on up to 80–90. Six tickets make a strip that uses every number from 1 to 90 once.
+
+**Can it call the numbers for me?**
+Yes. Open **Call numbers** and press **Call next** — or switch on automatic calling. Each number is shown large and read aloud by your device’s voice, with traditional Tambola calls if you like.
+
+**How do I check if a card has won?**
+Under **Check a card**, type the number printed on the card. You will see the card with every called number marked and which prizes it has won.
+
+**How many words do I need for word bingo?**
+24 for a 5×5 card with a free centre (25 without), 16 for 4×4, and 8 for 3×3 with a free centre. Use more words than that so the cards differ more.
+
+**Is it free to print?**
+Yes — free, with no sign-up and no watermark, for as many cards as you need.
+
+## Coin Flip
+
+URL: https://justtools.online/games/coin-flip/
+Category: Games
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-07
+
+Flip a coin online: a fair 50/50 heads or tails toss with a 3D coin. Flip up to 10 coins, play best of 3, use custom sides and see your stats. Free.
+
+### At a glance
+
+- Every toss is a **fair 50/50** result from your browser’s cryptographic random number generator.
+- A realistic **3D coin** in gold, silver or rupee style — with Heads/Tails, Yes/No, **Bat/Bowl for a cricket toss**, or your own two words or pictures.
+- Flip **up to 10 coins** at once, or play a **best of 3, 5 or 7** series.
+- **Statistics**: heads and tails counts and percentages, the current and longest streak, and quick runs of 10, 100 or 1,000 flips.
+- Streaks are more common than people expect: in 100 flips there is a **54.6% chance** of six or more heads in a row somewhere.
+
+### Features
+
+- **Truly random**: Not a pattern or a timer — each result uses the same randomness that protects passwords and encryption.
+- **Settle it fairly**: Best-of series for bigger decisions, so one lucky toss doesn’t decide everything.
+- **Your own choices**: Put names, foods or photos on the two sides and let the coin choose.
+- **See probability at work**: Run 1,000 flips in a click and watch the split settle near 50%.
+- **Feels real**: A spinning 3D coin, a clink when it lands and a buzz on phones.
+- **Works anywhere**: Phones, tablets and computers — press Space to flip on a keyboard.
+
+### How to flip a coin online
+
+1. **Choose the sides** — Keep Heads/Tails, pick Yes/No or Bat/Bowl, or type your own two options.
+2. **Flip** — Press **Flip the coin** (or Space). The coin spins and lands on a random side.
+3. **Read the result** — The result appears under the coin and is added to your statistics.
+
+### Guide
+
+#### Chances of streaks
+
+| Event | Chance |
+| --- | --- |
+| Heads on one flip | 1 in 2 (50%) |
+| Heads three times in a row | 1 in 8 (12.5%) |
+| Heads five times in a row | 1 in 32 (3.1%) |
+| Heads ten times in a row | 1 in 1,024 (0.1%) |
+| Three heads in a row somewhere in 10 flips | 50.8% |
+| Six heads in a row somewhere in 100 flips | 54.6% |
+
+#### Is the next flip “due”?
+
+No. A fair coin has no memory: after five heads in a row, the next flip is still exactly 50/50. Believing otherwise is called the **gambler’s fallacy**. What does happen is that over thousands of flips the *percentage* of heads drifts towards 50% — try the 1,000-flip button to see it.
+
+### FAQ
+
+**Is this coin flip really random?**
+Yes. Each result comes from your browser’s cryptographic random number generator (crypto.getRandomValues), so heads and tails are equally likely and no flip depends on the one before.
+
+**Can I use it for a cricket toss?**
+Yes. Choose **Bat / Bowl** and let the coin decide — or keep Heads/Tails and have the captains call it.
+
+**Is a real coin toss 50/50?**
+Almost. A 2023 study by Bartoš and colleagues, with 350,757 real flips, found coins land on the side they started on slightly more often — about 50.8% of the time. This virtual coin has no starting side, so it is exactly 50/50.
+
+**Can I flip more than one coin?**
+Yes, up to 10 at once — the result shows how many landed heads and tails. For quick experiments, add 10, 100 or 1,000 flips to the statistics.
+
+**What does best of 3 mean?**
+The first side to win two flips wins (three for best of 5, four for best of 7). It makes a decision feel fairer than a single toss.
+
+## Sudoku
+
+URL: https://justtools.online/games/sudoku/
+Category: Games
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-07
+
+Play free Sudoku online: easy to expert puzzles with one solution, notes, hints that explain the logic, a daily puzzle, printable PDFs and a solver.
+
+### At a glance
+
+- Four levels — **Easy, Medium, Hard and Expert** — graded by the techniques a person needs, from simple singles to **pairs, pointing pairs, X-Wing and XY-Wing**.
+- Every puzzle is newly made, has **exactly one solution** and can be solved by **logic alone**, without guessing.
+- **Hints explain the next step** — which digit goes where and why — and point out a wrong digit first if you have one.
+- Pencil **notes**, automatic notes, undo, mistake highlighting, a timer with pause, and your **best time** for each level.
+- A new **daily puzzle** that is the same for everyone, with a streak counter.
+- **Print** 1 to 48 puzzles as a PDF (1, 2, 4 or 6 a page, A4 or US Letter) with answer pages, or **solve** a puzzle from a newspaper or app.
+
+### Features
+
+- **Always solvable by logic**: One solution and no guessing — each puzzle is checked by a solver that thinks like a person.
+- **Hints that teach**: See the technique behind each hint, from hidden singles to X-Wings.
+- **Pencil notes**: Jot candidates by hand, fill them in automatically, and they tidy themselves as you place digits.
+- **Daily puzzle**: A fresh medium puzzle every day — the same for everyone — and a streak to keep up.
+- **Print and play**: Make a PDF of new puzzles with answers for travel, classrooms or the newspaper habit.
+- **Your game is kept**: Close the tab and carry on later; the game is saved in this browser.
+
+### How to play Sudoku
+
+1. **Know the rule** — Fill every row, every column and every 3×3 box with the digits 1 to 9, each exactly once.
+2. **Pick a cell** — Tap a cell (or use the arrow keys) and tap a number — or type it.
+3. **Use notes** — Switch on **Notes** to pencil in the digits a cell could be, or press **Auto notes**.
+4. **Get unstuck** — Press **Hint** to see the next logical step and why it works.
+
+### Guide
+
+#### Sudoku techniques, from easy to expert
+
+| Technique | Level | What it means |
+| --- | --- | --- |
+| Naked single | Easy | A cell where only one digit is still possible. |
+| Hidden single | Easy | A digit that fits in only one cell of a row, column or box. |
+| Pointing pair / box-line | Hard | A digit locked into one line of a box (or one box of a line) can be removed elsewhere. |
+| Naked / hidden pair and triple | Hard | Two or three cells that share the same two or three digits rule those digits out of the rest of the unit. |
+| X-Wing | Expert | A digit limited to the same two columns in two rows can be removed from the rest of those columns. |
+| XY-Wing | Expert | Three two-digit cells that force a digit out of any cell that sees both ends. |
+
+### FAQ
+
+**Is this Sudoku free?**
+Yes — unlimited puzzles, hints, the daily puzzle and printable PDFs, with no sign-up.
+
+**Does every puzzle have one solution?**
+Yes. Each puzzle is checked by a solver to have exactly one solution, and a second, human-style solver makes sure it can be finished by logic alone.
+
+**What makes a Sudoku hard?**
+Not the number of clues but the techniques needed. Easy and medium puzzles need only singles; hard ones need pairs or pointing pairs; expert ones need an X-Wing or XY-Wing.
+
+**Can I solve a Sudoku from the newspaper?**
+Yes. Open **Solve my puzzle**, type or paste the clues, and see the solution, whether it has exactly one solution and how hard it is — or play it here with hints.
+
+**Is my game saved?**
+Yes, in this browser: the game in progress, your settings and your best times. Nothing is uploaded.
+
+## Minesweeper
+
+URL: https://justtools.online/games/minesweeper/
+Category: Games
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-08
+
+Play Minesweeper free online: Beginner, Intermediate, Expert or custom boards, a safe first click, no-guess boards that never need luck, hints and best times.
+
+### At a glance
+
+- Three classic levels — **Beginner** (9×9, 10 mines), **Intermediate** (16×16, 40) and **Expert** (30×16, 99) — plus custom boards up to 40×30.
+- The **first click is always safe** and opens a clearing; mines are placed only after it.
+- **No-guess boards**: each board is checked by a logic solver so it can be cleared without a single 50/50 guess.
+- **Hints** show the next safe cell or certain mine and explain why — and point out a wrong flag first.
+- Right-click or long-press to flag, click a number to open around it (**chording**), question marks optional, full keyboard control.
+- Tracks wins, **best times** and **3BV/s** for each level in your browser; your game is saved if you close the tab.
+
+### Features
+
+- **Never a forced guess**: No-guess mode builds boards a careful player can always solve by logic.
+- **Hints that teach**: Learn patterns like 1-2-1 from hints that name the numbers involved.
+- **Made for phones**: Tap to dig, long-press or switch to flag mode, and Expert turns tall to fit the screen.
+- **Chording**: Click a satisfied number to open all its other neighbours at once.
+- **Replay a board**: Hit a mine? Replay the same board from the same start.
+- **Speedrun stats**: Best time and 3BV per second for each level, like the competitive players use.
+
+### How to play Minesweeper
+
+1. **Click any cell** — The first click is always safe and opens an area of the board.
+2. **Read the numbers** — A number shows how many mines touch that cell, including diagonally.
+3. **Flag the mines** — Right-click (or long-press) a cell you know is a mine to put a flag on it.
+4. **Clear the rest** — Open every cell that isn’t a mine to win. Click a number whose mines are all flagged to open around it.
+
+### Guide
+
+#### Minesweeper patterns worth knowing
+
+| Pattern | What it tells you |
+| --- | --- |
+| A 1 with one hidden neighbour | That neighbour is a mine. |
+| A number with all its mines flagged | Every other neighbour is safe — click the number to open them. |
+| 1-1 along a wall | The cell beyond the second 1 is safe. |
+| 1-2-1 along a wall | The mines are under the 1s; the cell under the 2 is safe. |
+| 1-2-2-1 along a wall | The mines are under the two 2s. |
+
+#### What is 3BV?
+
+3BV (Bechtel’s Board Benchmark Value) is the smallest number of clicks that can clear a board: one click per open area plus one per number not on the edge of an open area. Dividing it by your time gives **3BV/s**, the fairest way to compare speed across boards.
+
+### FAQ
+
+**Is the first click always safe?**
+Yes. Mines are placed after your first click, away from it and its neighbours, so you always start with an open area.
+
+**What are no-guess boards?**
+Boards that a logic solver has cleared from your first click without guessing. With the option on, losing always means a mistake — never bad luck.
+
+**How do I flag a mine on a phone?**
+Long-press the cell, or switch the **Tap to** control to 🚩 Flag and tap.
+
+**What does clicking a number do?**
+If that number already has as many flags around it as its value, clicking it opens all its other neighbours. If a flag is wrong, you’ll set off a mine.
+
+**Do hints count against my best time?**
+Games where you used a hint still count as wins, but not for your best time or 3BV/s.
+
+**Is my game saved?**
+Yes, in this browser — the game in progress, your settings and your statistics. Nothing is uploaded.
+
+## 2048 Game
+
+URL: https://justtools.online/games/2048-game/
+Category: Games
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-08
+
+Play 2048 free online: swipe or use the arrow keys to join tiles. Undo, AI hints, an auto-play AI, 3×3 to 6×6 boards and your best score saved. No sign-up.
+
+### At a glance
+
+- The classic **2048** rules: slide all tiles up, down, left or right; two equal tiles that meet join into one, and a new 2 (or sometimes 4) appears after each move.
+- Play with **swipes** on a phone or the **arrow keys / W A S D** on a keyboard, with smooth sliding and merging animations.
+- **Undo** up to 50 moves, and a **hint** from an expectimax AI that usually reaches 2048 on its own.
+- **Let the AI play** to watch the strategy — games where it plays don’t count towards your best score.
+- Boards from **3×3 to 6×6**, with the goal scaled to the size (256 on 3×3, 2048 on 4×4, 4096 on 5×5, 8192 on 6×6).
+- Your game, best score and top tile for each size are saved in your browser.
+
+### Features
+
+- **Undo**: Took a wrong turn? Step back up to 50 moves.
+- **AI hints**: Ask for the best move from an AI that looks a few tiles ahead.
+- **Watch the AI**: Let it play and see how keeping the big tile in a corner works.
+- **Four board sizes**: A quick 3×3, the classic 4×4, or roomy 5×5 and 6×6 boards.
+- **Keep going**: Reached the goal? Carry on for 4096 and beyond.
+- **Saved as you play**: Close the tab and carry on later on this device.
+
+### How to play 2048
+
+1. **Slide the tiles** — Swipe, or press an arrow key, to move every tile as far as it can go.
+2. **Join equal numbers** — Two tiles with the same number merge into their sum: 2 + 2 = 4, 4 + 4 = 8…
+3. **Plan ahead** — Keep your biggest tile in a corner and build the row next to it in order.
+4. **Reach 2048** — Make a 2048 tile to win — or keep going for a higher score. The game ends when no move is left.
+
+### Guide
+
+#### Strategy that works
+
+- **Pick a corner** for your biggest tile and keep it there — mostly use two directions (say left and down) and a third only when needed.
+- **Keep the edge row in order**, largest to smallest away from the corner, so tiles can chain into each other.
+- **Avoid the fourth direction**: pressing it pulls the big tile out of its corner and lets a small tile land behind it.
+- **Think about where the new tile will appear** — leave space on the side away from your corner.
+
+#### Scoring
+
+Each merge adds the new tile’s value to your score: joining two 8s gives 16 points. Reaching 2048 usually means a score of about 20,000.
+
+### FAQ
+
+**Is 2048 free to play here?**
+Yes — unlimited games with undo, hints and every board size, with no sign-up or download.
+
+**How do I play on a phone?**
+Swipe up, down, left or right on the board. The page won’t scroll while you swipe on it.
+
+**What happens after 2048?**
+Choose **Keep going** to continue for 4096, 8192 and beyond, or start a new game.
+
+**How does the AI hint work?**
+It tries each move and averages over where the next tile could appear, a few moves ahead (expectimax), favouring boards with empty cells, merges and tiles in order.
+
+**Does undo affect my best score?**
+No — undo is part of this version of the game. Only games where the AI played for you are left out of your best score.
+
+**Is my game saved?**
+Yes, in this browser, along with your best score and top tile for each board size.
+
+## Connect Four
+
+URL: https://justtools.online/games/connect-four/
+Category: Games
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-20
+
+Play Connect Four online free: drop discs and get four in a row against the computer — Easy, Medium or Hard — or a friend on one device. No sign-up.
+
+### At a glance
+
+- The classic **7-column, 6-row** board, plus larger **8×7** and **9×7** boards for a longer game.
+- Play the computer on **Easy, Medium or Hard**, or a friend taking turns on the same phone, tablet or computer.
+- Hard searches many moves ahead — with alpha-beta pruning and a transposition table — for up to a second per move and never misses a win or a block it can see.
+- Connect Four is a **solved game**: with perfect play the first player wins by starting in the centre column, at the latest on the 41st move. James D. Allen and Victor Allis proved it independently in October 1988.
+- The 7×6 board has **4,531,985,219,092** possible positions.
+- Hints, undo, sound, full screen and keyboard play (keys 1–7 drop a disc); scores are kept on your device. Free, with no download or sign-up.
+
+### Features
+
+- **An opponent for everyone**: Easy for children, Medium for a fair game and Hard for a real challenge — it blocks threats and sets up its own.
+- **Two players, one screen**: Pass the phone or share the keyboard, with your own names and a running score.
+- **Learn the tricks**: Ask for a hint to see the strongest column — it tells you when a forced win is on the board.
+- **Fair starts**: Turn on “Take turns going first” so the first move swaps every game — going first is a real advantage.
+- **Bigger boards**: Try 8×7 or 9×7 for more room to build threats.
+- **Plays anywhere**: Phones, tablets and computers, with keyboard control and screen-reader announcements of every move.
+
+### How to play Connect Four
+
+1. **Pick an opponent** — Choose **Computer** and a difficulty, and your colour — Red moves first — or **A friend** to play on the same device.
+2. **Drop a disc** — Tap a column (or press its number). The disc falls to the lowest free space.
+3. **Make four in a row** — Line up four of your discs across, down or diagonally before your opponent does. A full board with no line is a draw.
+4. **Play again** — Press **Play again** — the score keeps adding up. Use **Hint** or **Undo** while you learn.
+
+### Guide
+
+#### Connect Four strategy
+
+- **Take the centre.** The middle column is part of more possible lines than any other — that is why perfect play starts there.
+- **Block threes at once.** If your opponent has three in a row with an empty square they can reach, drop there before anything else.
+- **Build double threats.** Two winning squares at the same time can’t both be blocked — the most common way games are won.
+- **Watch the square below.** Don’t fill the space directly under your opponent’s winning square: your disc lets theirs land on it.
+- **Think in rows.** The first player usually wants threats on odd rows (counting from the bottom), the second player on even rows — a key idea in Victor Allis’s solution.
+
+#### How the computer plays
+
+The computer reads the board column by column, tries the centre first and looks ahead with a minimax search pruned by alpha-beta, remembering positions it has already scored. When it can’t see to the end of the game it scores the board by the open lines each side still has. Hard thinks for up to a second and often looks ten or more moves ahead; it is strong, but it is not a perfect solver — a well-built trap can still beat it.
+
+### FAQ
+
+**Who wins Connect Four with perfect play?**
+The first player. Starting in the middle column, the first player can always force a win — at the latest on the 41st move. James D. Allen and Victor Allis showed this independently in 1988.
+
+**How many positions are there in Connect Four?**
+On the standard 7×6 board there are 4,531,985,219,092 legal positions.
+
+**Can I play against a friend?**
+Yes — choose **A friend** and take turns on the same device. You can type your names, and the score is kept for each board size.
+
+**Is the Hard level unbeatable?**
+No, but it is tough: it never misses a win or a block it can see and looks many moves ahead. Set up two threats at once, or a threat it can’t reach in time, to beat it.
+
+**Can I take back a move?**
+Yes. **Undo** takes back your last move (and the computer’s reply). Use **Hint** to see the column the computer would pick for you.
+
+**Does it work offline?**
+Once the page has loaded, yes — the game and the computer run entirely in your browser, and nothing is sent anywhere.
+
+## Reversi
+
+URL: https://justtools.online/games/reversi/
+Category: Games
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-20
+
+Play Reversi online free — the disc-flipping strategy game — against the computer (Easy, Medium, Hard) or a friend. 6×6, 8×8 or 10×10 boards. No sign-up.
+
+### At a glance
+
+- Standard rules on the **8×8** board — Black moves first from the four centre discs — plus **6×6** and **10×10** boards.
+- Play the computer on **Easy, Medium or Hard**, or a friend on the same device; possible moves are marked, and pointing at one shows which discs would turn.
+- Hard searches ahead for about a second per move, values corners, edges and mobility, and plays the **last 12 moves of an 8×8 game perfectly** with an exact endgame search.
+- The computer’s solver was checked on the 4×4 board, where perfect play is known: **White wins 11–3**.
+- Small boards are solved: on **6×6, White wins 16–20** with perfect play. For 8×8, a 2023 computer study (a preprint by Hiroki Takizawa) reports that perfect play leads to a draw.
+- Hints, undo, the full move list in standard notation (f5 d6 …), sound, full screen and keyboard play. Free, with no sign-up.
+
+### Features
+
+- **Three levels**: Easy to learn the rules, Medium for a fair game, Hard for a real fight — it knows the value of corners.
+- **See every move**: Dots mark the squares you can play; point at one to see exactly which discs it turns.
+- **Passes handled for you**: When a player has no move the turn passes automatically, and the game ends when neither side can move.
+- **Learn from hints**: Hint shows the computer’s choice; near the end it tells you the final margin with perfect play.
+- **Two players, one screen**: Play a friend with your own names and a running score for each board size.
+- **Notation**: Every game is recorded in standard notation, a1 at the top-left — paste it into any Reversi program to study.
+
+### How to play Reversi
+
+1. **Choose an opponent** — Pick **Computer** and a difficulty, and Black (moves first) or White — or **A friend**.
+2. **Outflank** — Place a disc so that one or more straight lines of your opponent’s discs lie between it and another of your discs — across, down or diagonally. Those discs turn to your colour.
+3. **Pass if you must** — If you have no square that outflanks anything, your turn passes. If you can move, you must.
+4. **Count the discs** — When neither player can move, the one with more discs on the board wins.
+
+### Guide
+
+#### Reversi strategy
+
+- **Corners can never be flipped.** Take them when you can — and avoid the squares next to an empty corner (b2, g2, b7, g7 and the edge squares beside the corners), which tend to give it away.
+- **Fewer discs early is often better.** Having many discs in the opening limits your own moves; keep your options (mobility) and squeeze your opponent’s.
+- **Edges are strong but not always safe.** A lone edge disc can be outflanked along the edge.
+- **Parity in the endgame.** Try to make the last move in each region of empty squares.
+
+#### Reversi or Othello?
+
+Reversi is the original name of the game, from the 1880s. The modern version — with the four centre discs placed in a fixed cross pattern and Black moving first — is sold under the trademark Othello, and those are the rules used here. JustTools is not connected with the Othello trademark owners.
+
+### FAQ
+
+**Who moves first in Reversi?**
+Black. The game starts with two black and two white discs crossed in the centre (d5 and e4 black, d4 and e5 white), and Black has four possible first moves: d3, c4, f5 and e6.
+
+**What happens if I can’t move?**
+You pass and your opponent moves again. If neither player can move, the game ends and the discs are counted.
+
+**Is Reversi solved?**
+The 4×4 and 6×6 boards are: White wins both with perfect play (6×6 ends 16–20). For the standard 8×8 board, a 2023 preprint by Hiroki Takizawa reports a computer proof that perfect play is a draw.
+
+**How strong is the Hard computer?**
+It looks several moves ahead with alpha-beta search, values corners, edges and mobility, and plays the last 12 moves on 8×8 perfectly. Strong club players can still beat it in the middle game.
+
+**Can I play against a friend?**
+Yes — choose **A friend** and take turns on the same device.
+
+**Is my game saved?**
+Your settings and scores are kept in your browser on this device. Nothing is sent to a server.
+
+## Checkers
+
+URL: https://justtools.online/games/checkers/
+Category: Games
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-20
+
+Play checkers online free against the computer or a friend: American/English checkers plus international, Brazilian and Russian draughts. No sign-up.
+
+### At a glance
+
+- Four rule sets: **American / English checkers** (8×8), **international draughts** (10×10), **Brazilian draughts** (8×8) and **Russian draughts (shashki)** (8×8).
+- Every rule that differs between them is built in: backward captures by men, **flying kings**, the rule to **capture the most pieces** (international and Brazilian), and the Russian rule that a man crowned mid-jump keeps jumping as a king.
+- Captures are compulsory and multi-jumps must be finished; jumped pieces leave the board only when the move ends, so no piece can be jumped twice.
+- Play the computer on **Easy, Medium or Hard** — Hard thinks for about a second a move and follows every exchange to its end — or a friend on one device.
+- English checkers is **solved**: Jonathan Schaeffer’s team showed in 2007 (Science) that perfect play from the start is a draw. The game has 500,995,484,682,338,672,639 possible positions.
+- Hints, undo, a move list in standard notation (11-15 or e3-d4), optional square numbers, sound and keyboard play. Free, with no sign-up.
+
+### Features
+
+- **The rules you grew up with**: Pick American checkers, international draughts, Brazilian or Russian rules — the board, first player and capture rules follow automatically.
+- **Captures made clear**: When a jump is compulsory the tool says so and rings the pieces that must jump; landing squares are marked for the piece you pick.
+- **Multi-jumps your way**: Click each landing square in turn, or go straight to the final square when only one route ends there.
+- **A computer that fights back**: Three levels, from random-ish moves for beginners to a search that sees exchanges coming.
+- **Learn the notation**: Moves are written the standard way for each variant, with optional square numbers on the board.
+- **Two players, one screen**: Play a friend with your own names; the board turns so the first player sits at the bottom.
+
+### How to play checkers
+
+1. **Choose the rules** — American / English checkers is the default; pick international, Brazilian or Russian draughts if that is what you play.
+2. **Choose an opponent** — Play the **Computer** at Easy, Medium or Hard (and choose your colour), or **A friend** on the same device.
+3. **Move diagonally** — Click one of your pieces, then a highlighted square. Men move forward one square on the dark squares; kings move both ways.
+4. **Capture by jumping** — Jump over an opponent’s piece to an empty square beyond it. If you can capture, you must — and keep jumping while you can.
+5. **Crown and win** — A man reaching the far row becomes a king. You win when your opponent has no pieces left or no legal move.
+
+### Guide
+
+#### How the rule sets differ
+
+|  | American / English | International | Brazilian | Russian |
+| --- | --- | --- | --- | --- |
+| Board | 8×8 | 10×10 | 8×8 | 8×8 |
+| Pieces each | 12 | 20 | 12 | 12 |
+| Moves first | Dark | Light | Light | Light |
+| Men capture backwards | No | Yes | Yes | Yes |
+| Kings | One square | Flying (any distance) | Flying | Flying |
+| Must take the most pieces | No | Yes | Yes | No |
+| Man reaching the far row mid-jump | Is crowned; move ends | Not crowned unless it ends there | Not crowned unless it ends there | Is crowned and keeps jumping |
+
+#### Checkers strategy
+
+- **Control the centre.** Pieces in the middle of the board have more moves and support each other.
+- **Keep your back row.** Leaving your own back-row pieces at home stops the opponent from crowning cheaply.
+- **Use the compulsory capture.** Offer a piece so that the forced jump lands your opponent where you can take two back.
+- **Trade when ahead.** With a piece more, swapping pieces off makes your advantage count.
+- **Kings win endgames.** Get a king early in the endgame — in the flying-king variants one king can control whole diagonals.
+
+#### When the game is a draw
+
+In every variant a game is drawn when the same position, with the same player to move, comes up a third time. Each rule set also ends games that make no progress after a set number of moves by each side, and the tool applies these automatically, warning you in the last ten moves. A player who cannot move loses, whether their pieces are all gone or just blocked.
+
+| Rules | Automatic draw after |
+| --- | --- |
+| American / English | 40 moves each without a capture or a man moving. Official rules have no automatic limit: a player who refuses a draw offer must show a win within 40 moves. With no draw offers here, the limit applies to every game. |
+| International (FMJD) | 25 moves each with only kings moving and no captures; 16 moves each with three pieces (at least one a king) against a lone king; 5 moves each with two pieces or one, including a king, against a lone king. |
+| Brazilian | 20 moves each with only kings moving and no captures, which also covers three kings against one. |
+| Russian | 15 moves each with only kings moving and no captures, or with three or more kings against a lone king; with kings on both sides and no capture or crowning, 5 moves in 2–3 piece endings, 30 in 4–5 and 60 in 6–7; 5 moves with three pieces against a lone king on the main road (a1–h8). |
+
+### FAQ
+
+**Is capturing compulsory in checkers?**
+Yes, in all four rule sets: if you can jump, you must, and a multi-jump must be finished. In American checkers and Russian draughts you may choose which capture to make; in international and Brazilian draughts you must take the greatest number of pieces.
+
+**Who moves first in checkers?**
+In American / English checkers the dark pieces (often red or black) move first. In international, Brazilian and Russian draughts, light (white) moves first.
+
+**Can kings move more than one square?**
+In American checkers, no — a king moves one square diagonally in any direction. In international, Brazilian and Russian draughts kings “fly”: they move any distance along a diagonal and can capture from afar.
+
+**Is checkers solved?**
+Yes. In 2007 Jonathan Schaeffer’s team at the University of Alberta published a proof (in Science) that English checkers is a draw with perfect play from the starting position.
+
+**How do I make a multiple jump?**
+Click the piece, then click each landing square in turn — or click the final square directly if only one route ends there. The tool won’t let you stop part-way.
+
+**When is a game of checkers a draw?**
+When the same position comes up three times with the same player to move, or when nobody makes progress for a set number of moves: 40 moves each without a capture or a man moving in American checkers, 25 moves of kings only in international draughts, 20 in Brazilian and 15 in Russian draughts. Endgames against a lone king have shorter limits in international and Russian rules.
+
+**Can I play against a friend?**
+Yes — choose **A friend** and take turns on the same device. The board shows the player who moves first at the bottom.
+
+## Snake Game
+
+URL: https://justtools.online/games/snake/
+Category: Games
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-20
+
+Play the classic Snake game online free: eat apples, grow longer and dodge walls and your own tail. Mazes, wrap-around, 4 speeds and swipe controls.
+
+### At a glance
+
+- Steer with the **arrow keys or W A S D**, **swipe** on a phone or tablet, or use the on-screen arrows. Turns you press quickly are queued, so sharp corners never get lost.
+- **Four speeds** (with an option to speed up as you grow), **three board sizes**, **solid walls or wrap-around edges**, and **Bars** or **Pillars** obstacles.
+- Every fifth apple brings a **golden apple** worth up to 50 points — the quicker you reach it, the more it pays. Fill every free square and you win.
+- Press **Computer plays** to watch it: it plans the shortest path to each apple that still leaves it a way back to its own tail, and often fills almost the whole board.
+- Snake began as **Blockade**, a two-player arcade game from Gremlin Industries in **1976**. **Nokia’s Snake**, written by Taneli Armanto, came on the Nokia 6110 in **1998**; Nokia says 350 million copies exist.
+- Pick a smooth **modern** look or a blocky **retro phone** screen. Best scores are kept on your device for every speed and board. Free, with no sign-up.
+
+### Features
+
+- **Controls that feel right**: Quick turns are remembered one step at a time, a turn straight back into your neck is ignored, and the game pauses itself if you switch tabs.
+- **Play on any screen**: Swipe anywhere on the board — keep your finger down to turn again — or switch on large arrow buttons.
+- **Make it harder**: Choose a faster speed, a bigger board, obstacles, or turn off wrap-around so the edges are walls.
+- **Golden apples**: A bonus apple appears after every fifth apple and fades away — grab it fast for up to 50 points.
+- **Watch and learn**: Let the computer play to see how it keeps an escape route open, then press an arrow key to take over.
+- **Retro or modern**: A smooth gliding snake on a grass board, or chunky pixels on a phone-style screen.
+
+### How to play Snake
+
+1. **Start moving** — Press an arrow key, swipe on the board or tap **Play**. The snake keeps moving forward on its own.
+2. **Steer to the apple** — Turn up, down, left or right to reach the red apple. Each apple makes the snake one square longer and is worth 10 points.
+3. **Grab golden apples** — After every fifth apple a golden one appears for a short time. The faster you reach it, the more points it gives — up to 50.
+4. **Don’t crash** — Hitting a wall, an obstacle or your own body ends the game. With **Wrap around** on, the edges take you to the other side instead.
+5. **Fill the board** — Keep going until the snake fills every free square — the perfect game.
+
+### Guide
+
+#### Scoring
+
+|  | Points | Snake grows |
+| --- | --- | --- |
+| Apple | 10 | One square |
+| Golden apple | 10–50, more the sooner you reach it | No |
+| Every free square filled | You win | — |
+
+#### Tips for a higher score
+
+- **Hug the edges early.** Running along the walls keeps the middle of the board open for later.
+- **Don’t chase every apple directly.** When the snake is long, a short cut can wall you in; take the long way round if it keeps a path back to your tail.
+- **Follow your tail when in doubt.** The square your tail is leaving is always safe to move into next.
+- **Plan your turns early.** You can press two or three turns ahead and they will be played one square at a time.
+- **Start slow, then speed up.** Learn a board size at Slow or Normal before trying Fast or Insane.
+
+#### A short history of Snake
+
+The idea began with **Blockade** (1976), a two-player arcade game from Gremlin Industries in which each player leaves a growing wall behind them and tries to outlast the other. The first known home-computer version, *Worm*, appeared for the TRS-80 in 1978, and single-player games where the snake eats items and grows — such as *Snake Byte* and the arcade game *Nibbler*, both 1982 — followed.
+
+Many PC users first met it as *Nibbles*, a sample program that came with QBasic on MS-DOS from 1991. Then in 1998 Nokia put **Snake**, written by Taneli Armanto, on the Nokia 6110 and 5110 phones. It became one of the best-known mobile games ever: Nokia says 350 million copies exist, and in 2012 New York’s Museum of Modern Art named it among the video games it wanted for its collection.
+
+### FAQ
+
+**How do you play Snake?**
+Steer the snake with the arrow keys (or W A S D, or by swiping on a phone) to eat the apples. Each apple makes it longer. The game ends if the snake hits a wall, an obstacle or its own body.
+
+**Can you win at Snake?**
+Yes — if the snake fills every free square on the board, you win. It is very hard on a large board, so try a small board first.
+
+**What does wrap-around mean?**
+With **Wrap around** on, leaving one edge of the board brings the snake back in on the opposite side, so only obstacles and your own body can end the game. With **Solid walls**, the edges are deadly.
+
+**How do I play Snake on my phone?**
+Swipe on the board in the direction you want to go — you can keep your finger down and swipe again to turn twice. Or switch on **On-screen arrows** for large buttons below the board.
+
+**Does the computer’s game count towards my best score?**
+No. If you press **Computer plays** at any point in a game, that game isn’t added to your records. Press an arrow key at any time to take over.
+
+**Why did the game pause?**
+It pauses by itself when you switch to another tab or window, or scroll the board off the screen, so you never lose a game by accident. Press Space or tap the board to carry on.
+
+**What was the first Snake game?**
+The genre began with Blockade, a two-player arcade game released by Gremlin Industries in 1976. Nokia’s Snake, which made the game famous on phones, followed in 1998.
+
+## Solitaire
+
+URL: https://justtools.online/games/solitaire/
+Category: Games
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-21
+
+Play classic Klondike solitaire online free: draw 1 or draw 3, Vegas scoring, winnable deals, hints, undo and a daily deal. No download, no sign-up.
+
+### At a glance
+
+- Classic **Klondike** rules: build the seven columns down in alternating colours, and the four foundations up by suit from ace to king. Choose **Draw 1** (easier) or **Draw 3** (the classic challenge).
+- **Winnable deals only**: before you see a deal, a built-in solver checks it can be won. Even knowing where every card is, only about **82%** of draw-three deals can be won (Blake and Gent, 2019).
+- **Windows scoring** (10 for a card on a foundation, 5 for turning a card, a time bonus of 700,000 ÷ seconds), **Vegas** scoring ($52 for the deck, $5 a card back), or no score at all.
+- **Tap a card** to send it where it fits, or drag it. Safe cards go up to the foundations by themselves, and **Finish** plays out the rest once every card is face up.
+- Unlimited **undo**, **hints**, a **daily deal**, deals you can **share by number**, and a **Solve it for me** button that plays out a winning line.
+- Stats for every mode — win rate, streaks, fastest win and best score — and your game in progress are saved on this device. Free, no sign-up.
+
+### Features
+
+- **Every deal can be won**: The solver tries each deal before you get it, so a loss is never the cards’ fault. Turn it off for random deals.
+- **Plays the way you do**: Tap to move, drag and drop, or use the keyboard. Left-handed layout puts the stock on the right.
+- **Help when you’re stuck**: Hints point to a useful move, undo has no limit, and the game tells you when no useful moves are left.
+- **Windows or Vegas scoring**: The original Windows Solitaire points and time bonus, the Vegas money game with limited passes, or no score.
+- **A deal a day**: The daily deal is the same for everyone today — and any game can be shared by its number.
+- **The bouncing cards**: Win and the cards cascade off the foundations, just like the Windows classic.
+
+### How to play solitaire
+
+1. **Aim for the foundations** — Move all 52 cards to the four foundations at the top, one suit each, from ace up to king.
+2. **Build down in the columns** — In the seven columns, put a card on one rank higher of the opposite colour — a red 6 on a black 7. You can move a whole run of cards together.
+3. **Turn up hidden cards** — When you move the face-up cards off a column, the card below turns over. Only a king (or a run starting with one) can fill an empty column.
+4. **Draw from the stock** — Tap the stock to turn one or three cards onto the waste. The top waste card can be played. When the stock runs out, tap again to turn the waste over.
+5. **Win** — Once every card is face up, press **Finish** and the rest go up by themselves.
+
+### Guide
+
+#### Scoring
+
+Standard scores never drop below zero. In Vegas scoring you get one pass through the stock when drawing one card and three passes when drawing three; your running Vegas total is kept with your stats.
+
+| Move | Standard (Windows) | Vegas |
+| --- | --- | --- |
+| Card from the waste to a column | +5 | — |
+| Card to a foundation | +10 | +$5 |
+| Turning over a column card | +5 | — |
+| Card from a foundation back to a column | −15 | −$5 |
+| Turning the waste over (draw 1) | −100 | Not allowed |
+| Time | −2 every 10 seconds; win bonus 700,000 ÷ seconds (30 s or more) | — |
+| Start | 0 | −$52 |
+
+#### Solitaire tips
+
+- **Turn up hidden cards first.** Moves that reveal a face-down card are almost always the best — especially in the columns with the most hidden cards.
+- **Don’t empty a column without a king to fill it.** An empty column only takes a king, so clear one when a king is waiting.
+- **Think before playing from the waste.** It’s often better to free cards in the columns first and use the stock later.
+- **Keep the colours balanced.** If you build a long red-black run, make sure the other colour of the next card is still reachable.
+- **Don’t rush cards up.** A card on a foundation can’t hold the next lower card; keep useful cards in play until they are safe to move up.
+
+#### About Klondike
+
+Klondike is the best-known patience game, so well known in the US and Canada that “solitaire” on its own usually means Klondike; in the UK it is often just called patience. Where its name comes from is unknown — the late-1890s Klondike Gold Rush is a popular guess, but nothing proves it.
+
+Its fame today owes a lot to Microsoft, which included Solitaire with Windows 3.0 in 1990, partly to teach people to use a mouse by dragging cards. Whether a random deal can be won is still an open question in mathematics; with every card known, about 82% of draw-three deals can be won, but nobody has worked out the exact figure for the real game, where most cards are hidden.
+
+### FAQ
+
+**Is every solitaire game winnable?**
+No. Some deals can’t be won however well you play — even knowing where every card is, roughly one draw-three deal in five is impossible. With **Winnable deals only** on, the solver checks each deal before you play it, so every game here can be won.
+
+**What is the difference between draw 1 and draw 3?**
+In **Draw 1** you turn one card from the stock at a time, so you can reach every card — it’s easier. In **Draw 3** you turn three at a time and can only play the top one, so many cards stay buried; this is the classic, harder game.
+
+**How does Vegas scoring work?**
+You “pay” $52 for the deck and win $5 for each card you move to the foundations, so you need 11 cards to break even. You get one pass through the stock drawing one card, or three passes drawing three. Your running total is kept.
+
+**How is the score calculated?**
+Standard scoring follows Windows Solitaire: 10 points for a card to a foundation, 5 for playing from the waste to a column or turning over a card, −15 for moving a card back down, and −100 for turning the waste over when drawing one. Time takes 2 points every 10 seconds, and a win adds 700,000 ÷ your seconds.
+
+**Can I play the same deal again or share it?**
+Yes. **Restart** replays the current deal, and **Share this deal** gives a link with the game number, so a friend gets exactly the same cards.
+
+**Does it save my game?**
+Yes — your game in progress, settings and stats are saved in this browser. Close the tab and carry on later.
+
+**Is it free?**
+Yes, completely free with no download and no sign-up. It works on phones, tablets and computers.
+
+## Mahjong Solitaire
+
+URL: https://justtools.online/games/mahjong-solitaire/
+Category: Games
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-21
+
+Play mahjong solitaire online free: the classic 144-tile turtle and three more layouts, every deal winnable, with hints, shuffle, undo and a daily game.
+
+### At a glance
+
+- Remove the 144 tiles two at a time by matching **free** pairs — a tile is free when nothing lies on top of it and its left or right side is open. Any two **flowers** match, and so do any two **seasons**.
+- Four layouts: the classic **Turtle** (144 tiles on five layers), **Pyramid** (120), **Fortress** (116) and **Quick** (72) for a short game.
+- **Every deal can be cleared.** Boards are built by playing the game backwards; with random deals, an analysis of ten million turtles found about 3% can’t be cleared at all.
+- **Hints** come from a solver, so they point to a pair on a winning line — and the game tells you when the board can no longer be cleared. **Shuffle** rearranges what’s left and keeps it winnable; **undo** has no limit.
+- Tiles carry small Latin numbers and letters (E S W N for the winds), so you don’t need to read Chinese characters. Blocked tiles can be shaded to make free ones stand out.
+- The computer game was created by **Brodie Lockard in 1981** on the PLATO system. A **daily game**, shareable game numbers, stats and your saved game are all included — free, no sign-up.
+
+### Features
+
+- **Always winnable**: Each deal is built backwards from an empty board, so there is always a way to clear it.
+- **Hints that know the way**: A solver picks a pair that keeps the board winnable, and warns you when it no longer is.
+- **Easy to read**: Clear, crisp tiles with small index numbers, and shading on blocked tiles.
+- **Four layouts**: From the 144-tile turtle to a 72-tile quick game for a coffee break.
+- **Shuffle and undo**: Stuck? Shuffle the tiles that are left, or step back as far as you like.
+- **Daily game and stats**: Play the same board as everyone today, share a game by its number, and track your fastest clears.
+
+### How to play mahjong solitaire
+
+1. **Find a free tile** — A tile is free if no tile lies on top of it and it can slide out to the left or right — one side must be open.
+2. **Match a pair** — Tap two free tiles that are the same to remove them. Any flower matches any flower, and any season matches any season.
+3. **Open up the board** — Prefer pairs that free the most tiles: the top of the stacks and the long rows’ ends.
+4. **Use help when stuck** — Press **Hint** for a pair that keeps the game winnable, **Undo** to step back, or **Shuffle** when no pairs are left.
+5. **Clear the board** — Remove all the tiles to win.
+
+### Guide
+
+#### The tiles
+
+| Group | Tiles | How many |
+| --- | --- | --- |
+| Dots (circles) | 1 to 9 | 4 of each — 36 |
+| Bamboo | 1 to 9 (the 1 is a bird) | 4 of each — 36 |
+| Characters | 1 to 9, Chinese numerals above 萬 | 4 of each — 36 |
+| Winds | East 東, South 南, West 西, North 北 | 4 of each — 16 |
+| Dragons | Red 中, Green 發, White (a blue frame) | 4 of each — 12 |
+| Flowers | Plum, orchid, chrysanthemum, bamboo — any two match | 1 of each — 4 |
+| Seasons | Spring, summer, autumn, winter — any two match | 1 of each — 4 |
+
+#### Tips
+
+- **Work from the top and the ends.** Tiles on top of stacks and at the ends of long rows hold the most other tiles in place.
+- **When three of a kind are free, think first.** Removing the wrong two can leave the fourth stuck under its twin.
+- **Clear long rows from both ends** so a single tile doesn’t end up blocking a whole row.
+- **Save the flowers and seasons** — they match freely, so they’re handy when you need one more move.
+- **All four of a kind free? Take them.** Removing a complete set can never hurt.
+
+#### About mahjong solitaire
+
+Mahjong solitaire uses the tiles of the four-player game mahjong, but it is a matching game for one. Brodie Lockard wrote the first computer version, *Mah-Jongg*, in 1981 on the PLATO system, and Activision’s *Shanghai* (1986) brought it to home computers. The classic starting arrangement is called the turtle.
+
+### FAQ
+
+**How do you play mahjong solitaire?**
+Tap two matching tiles that are both free to remove them. A tile is free when nothing is on top of it and its left or right side is open. Clear all the tiles to win.
+
+**Is every game winnable?**
+Here, yes — each board is built by playing a game backwards, so it can always be cleared. With truly random deals, about 3% of turtle boards can never be cleared.
+
+**Which tiles match?**
+Identical tiles match. The exceptions are the flowers and the seasons: any flower matches any other flower, and any season matches any other season.
+
+**What if there are no moves left?**
+Press **Shuffle** to rearrange the remaining tiles in the same places — the new arrangement can still be cleared — or **Undo** to go back.
+
+**What does the hint do?**
+It asks a solver for a pair that keeps the board winnable and highlights it. If the board can no longer be cleared, it tells you so you can undo or shuffle.
+
+**Can I play on my phone?**
+Yes. The board fits phone screens; for bigger tiles, try the Pyramid or Quick layout or full screen.
+
+## Word Guess
+
+URL: https://justtools.online/games/word-guess/
+Category: Games
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-21
+
+Guess the hidden word in six tries: a free 5-letter word game with unlimited play, a daily word, 4- and 6-letter modes, hard mode and stats. No sign-up.
+
+### At a glance
+
+- Guess the hidden word in **six tries**. After each guess, letters turn **green** (right letter, right spot), **yellow** (in the word, wrong spot) or **grey** (not in the word).
+- **Unlimited** play — a new word whenever you want — plus a **daily word** that is the same for everyone, in **4, 5 or 6 letters**.
+- Answers are everyday words: about **1,900** common five-letter words (and 1,400 four- and 2,500 six-letter ones), while any of **8,636** valid five-letter words is accepted as a guess. Rude words are never answers.
+- **Hard mode** makes you use every letter you’ve found; **high-contrast** colours (orange and blue) help with colour vision deficiency.
+- Share a **spoiler-free grid** of coloured squares, follow your **streak** and guess distribution, and tap the answer to look up its meaning.
+- Type on your keyboard or tap the on-screen keys. Your game in progress and stats are saved on this device. Free, no sign-up.
+
+### Features
+
+- **Unlimited words**: Finished? Press Next word and keep going — there are thousands to play.
+- **A word a day**: The daily word is the same for everyone and comes round once a day, at local midnight.
+- **Short or long**: Four letters for a quick game, five for the classic, six for a real stretch.
+- **Hard mode**: Every green and yellow letter must be used again — no throwaway guesses.
+- **Share without spoilers**: Copy your grid of coloured squares to show how you did, without giving the word away.
+- **Kind to every eye**: High-contrast colours, a big keyboard, and screen-reader announcements of each result.
+
+### How to play Word Guess
+
+1. **Type a word** — Enter any real word of the right length and press **Enter**.
+2. **Read the colours** — **Green** means the letter is in the right spot, **yellow** means it is in the word but somewhere else, and **grey** means it is not in the word at all.
+3. **Narrow it down** — Use what you learn: keep green letters where they are, move yellow ones, and avoid grey ones. The keyboard keeps track for you.
+4. **Solve within six** — Find the word in six guesses or fewer to win and keep your streak going.
+5. **Play again** — Press **Next word** for another, or switch to the **daily word**.
+
+### Guide
+
+#### Repeated letters
+
+A letter is coloured only as many times as it appears in the answer. If you guess GEESE and the answer is THOSE, only the final E turns green — the other two Es are grey, because THOSE has just one E. Exact matches are coloured first, then letters in the wrong spot from left to right.
+
+#### Tips for solving in fewer guesses
+
+- **Start with common letters.** Words with E, A, R, O, T, L, I, S and N give you the most information.
+- **Use new letters early.** On your second guess, try mostly letters you haven’t used yet, even if you suspect a word.
+- **Remember repeated letters.** Words like LEVEL, GEESE or APPLE trip people up — the answer can repeat a letter.
+- **Think about word endings.** -ER, -LY, -ED and -ING patterns (in six letters) narrow things fast.
+- **Save hard mode for later.** Normal mode lets you spend a guess on testing letters.
+
+#### Word list credits
+
+Accepted guesses come from the public-domain ENABLE word list. Answers were chosen from the common-word levels of the English Speller Database (SCOWL), which draws on Alan Beale’s public-domain 12dicts lists, and then checked to leave out rude and offensive words.
+
+Copyright 2000–2026 by Kevin Atkinson. Permission to use, copy, modify, distribute, and sell any part of the English Speller Database (ESDB, previously known as SCOWLv2), or word lists created from it, is hereby granted without fee, provided that the above copyright notice appears in all copies and that both the above copyright notice and this notice appear in supporting documentation. Kevin Atkinson makes no representations about the suitability of this database for any purpose. It is provided “as is” without express or implied warranty.
+
+### FAQ
+
+**How do you play Word Guess?**
+Guess the hidden word in six tries. Type a real word and press Enter; each letter turns green (right spot), yellow (in the word, wrong spot) or grey (not in the word). Use the clues to find the answer.
+
+**Can I play more than one word a day?**
+Yes. **Unlimited** mode gives you a new word every time you press Next word. The **daily word** is the one-a-day puzzle that everyone gets.
+
+**Why was my word not accepted?**
+Guesses must be real English words of the right length from our word list. Names, abbreviations and most slang aren’t included.
+
+**How do repeated letters work?**
+A letter is only coloured as many times as it appears in the answer. Extra copies of a letter in your guess turn grey.
+
+**What is hard mode?**
+In hard mode every green letter must stay in its spot and every yellow letter must be used in your next guesses. It stops you from spending a guess just to test new letters.
+
+**Does it work on my phone?**
+Yes — tap the on-screen keyboard. Your game and stats are saved in your browser, so you can come back later.
+
+## Chess
+
+URL: https://justtools.online/games/chess/
+Category: Games
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-21
+
+Play chess online free against the computer at five levels, from beginner to master, or with a friend on one screen. Hints, undo, move list, PGN and FEN.
+
+### At a glance
+
+- Every rule is built in: **castling**, **en passant** and **promotion**, check and **checkmate**, **stalemate**, and draws by **threefold repetition**, the **fifty-move rule** and too little material to mate.
+- Play the computer at **five levels** — Beginner, Casual, Club, Strong and Master. It thinks in a background thread with alpha-beta search, so the page never freezes; at Master it looks around ten moves ahead.
+- Play **a friend** on one device, take moves back with **undo**, ask for a **hint**, and step back through the game in the move list.
+- Legal moves are shown as dots when you pick up a piece; drag pieces or tap the start and end squares. Choose your piece on promotion, or always queen.
+- **Copy the game as PGN** or the position as **FEN**, and start from any position you paste in. Your game in progress is saved on this device.
+- Claude Shannon wrote the first paper on computer chess in **1950**; in **1997** IBM’s Deep Blue beat world champion Garry Kasparov 3½–2½. Free, no download, no sign-up.
+
+### Features
+
+- **A level for everyone**: Beginner looks one move ahead and leaves pieces hanging; Master thinks up to four seconds a move and is hard to beat.
+- **Learn as you play**: Legal-move dots, hints from the engine, and undo as often as you like.
+- **Two players, one board**: Play a friend on a phone, tablet or computer and flip the board when you need to.
+- **Review your game**: Step back and forward through every move with the arrows or the move list.
+- **PGN and FEN**: Copy your game to analyse elsewhere, or paste a FEN to practise any position.
+- **Never freezes**: The computer thinks in the background, so the board stays smooth even at the strongest level.
+
+### How to play chess here
+
+1. **Choose your opponent** — Play the **Computer** — pick a level and your colour — or **A friend** on the same device.
+2. **Make a move** — Drag a piece, or tap it and then tap a highlighted square. White moves first.
+3. **Use the help** — Press **Hint** for a suggestion, **Undo** to take a move back, or step through the moves with the arrow keys.
+4. **Finish the game** — Checkmate the king to win. Stalemate, repetition, the fifty-move rule and bare kings are draws — or resign when it’s hopeless.
+5. **Save it** — Copy the PGN to keep the game or study it in another program.
+
+### Guide
+
+#### How the pieces move
+
+| Piece | Moves | Value |
+| --- | --- | --- |
+| King | One square any way; castling with a rook | — |
+| Queen | Any distance along ranks, files and diagonals | 9 |
+| Rook | Any distance along ranks and files | 5 |
+| Bishop | Any distance along diagonals | 3 |
+| Knight | An L: two squares one way, one square to the side; jumps over pieces | 3 |
+| Pawn | One square forward (two from its first square); captures diagonally; promotes on the last rank | 1 |
+
+#### Special rules
+
+- **Castling**: the king moves two squares toward a rook, and the rook jumps to the other side. Not allowed if either has moved, if a square between them is occupied, or if the king is in check, passes through check or ends in check.
+- **En passant**: when a pawn moves two squares and lands beside an enemy pawn, that pawn may capture it as if it had moved one square — but only on the very next move.
+- **Promotion**: a pawn reaching the far rank becomes a queen, rook, bishop or knight.
+- **Draws**: stalemate (no legal move but not in check), the same position three times, fifty moves each without a capture or pawn move, or not enough material left to checkmate.
+
+#### Credits
+
+The chess pieces are the Chessnut set, copyright 2015 Alexis Luengas, used under the Apache License 2.0 (a copy is served with the piece images). The computer player was written for this site.
+
+### FAQ
+
+**Can I play chess against the computer for free?**
+Yes — choose **Computer**, pick a level from Beginner to Master, and play as White, Black or a random colour. There’s no sign-up and nothing to download.
+
+**How strong is the computer?**
+Beginner looks one move ahead with deliberate mistakes, Casual sees simple tactics, Club plays solid chess, Strong thinks about a second and a half a move, and Master thinks up to four seconds and looks around ten moves ahead.
+
+**Can two people play on one device?**
+Yes — choose **A friend** and take turns. Use **Flip** to turn the board.
+
+**How do I castle or promote a pawn?**
+To castle, move the king two squares toward the rook; the rook follows automatically. When a pawn reaches the last rank you choose its new piece (or switch on “Always promote to a queen”).
+
+**What is PGN and FEN?**
+PGN records a whole game move by move; FEN describes a single position. Copy either to use in other chess software, or paste a FEN under “Set up a position” to play from it.
+
+**Is my game saved?**
+Yes, your game in progress, settings and results are saved in this browser.
+
+## Spider Solitaire
+
+URL: https://justtools.online/games/spider-solitaire/
+Category: Games
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-21
+
+Play Spider Solitaire online free with 1, 2 or 4 suits: build king-to-ace runs to clear the table. Undo, hints, Windows scoring and stats. No download.
+
+### At a glance
+
+- Two packs, **104 cards**: 54 dealt into ten columns (six cards in the first four, five in the rest), and 50 in the stock, dealt **ten at a time** — one on each column — when no column is empty.
+- Put any card on one a rank higher, but only a **run of one suit** moves as a group. A complete run from **king to ace** in one suit leaves the table by itself; clear all eight to win.
+- Choose **1 suit** (all spades — most games can be won), **2 suits** (spades and hearts) or **4 suits**, the classic, where good players win about **one game in three**.
+- **Windows scoring**: start at 500, lose a point for every move (and every undo), and gain 100 for each completed suit.
+- **Tap a card** to move it and the cards on it, or drag; **hints** point to the most useful move; **undo** has no limit. Long columns squeeze to fit the screen.
+- Spider came to Windows in **Microsoft Plus! 98**. Stats by difficulty, shareable deals and your game in progress are kept on this device — free, no sign-up.
+
+### Features
+
+- **One, two or four suits**: Start with all spades, step up to two suits, and take on the classic four-suit game when you’re ready.
+- **Smart tap to move**: Tap a card and it goes to the best place — onto its own suit if it can.
+- **Hints that skip the pointless**: Hints prefer building in suit and turning cards up, and never suggest shuffling a run back and forth.
+- **Undo all the way**: Step back as far as you like (each undo costs a point, as in Windows).
+- **Fits any screen**: Ten columns on a phone, with long columns squeezed to stay in view.
+- **Stats and streaks**: Win rate, best score, fastest win and streaks, kept separately for each difficulty.
+
+### How to play Spider Solitaire
+
+1. **Build down** — Move a face-up card onto any card one rank higher — a 6 on any 7. Kings can only go into an empty column.
+2. **Keep runs in one suit** — A run of one suit (say 9-8-7 of hearts) can be moved together; mixed-suit runs can only be moved a card at a time.
+3. **Turn up hidden cards** — When you move the face-up cards off a column, the card below turns over. Empty columns accept any card or run.
+4. **Deal when stuck** — Tap the stock to deal one card onto every column. You can’t deal while a column is empty.
+5. **Clear the suits** — A full run from king to ace in one suit is removed automatically. Remove all eight to win.
+
+### Guide
+
+#### Difficulty levels
+
+| Suits | Cards | What changes |
+| --- | --- | --- |
+| 1 suit | 8 × spades | Every card can join any run — the gentle way to learn. |
+| 2 suits | 4 × spades, 4 × hearts | Runs of two suits block each other; planning matters. |
+| 4 suits | 2 × each suit | The classic and toughest game: roughly one in three is won with good play. |
+
+#### Spider Solitaire tips
+
+- **Turn up face-down cards** as early as you can — especially in the columns with the most of them.
+- **Build in suit whenever you can.** A same-suit run can move as one; a mixed run is stuck.
+- **Empty a column** and keep it for a while: it is the most powerful space on the table.
+- **Put cards on kings and high cards** before low ones, so runs have room to grow.
+- **Before dealing, tidy up** — a new row covers every column, so fix what you can first.
+
+#### About Spider
+
+Spider is a two-pack patience in which the ten columns are built down by rank and cleared one complete suit at a time. Microsoft added Spider Solitaire to Windows in the Microsoft Plus! 98 pack with one-, two- and four-suit versions; an earlier Windows 3.x version was written in 1991 by John A. Junod. Hoyle’s Rules of Games puts the chance of winning the classic game with good play at about one in three.
+
+### FAQ
+
+**How do you play Spider Solitaire?**
+Build the ten columns down in rank — any card on one a rank higher — and move runs of one suit together. When a column holds a full king-to-ace run of one suit, it is removed. Clear all eight runs to win; deal from the stock when you run out of moves.
+
+**Which is easiest: 1, 2 or 4 suits?**
+One suit is by far the easiest, because every run is in suit and can move as a group. Two suits is a good middle step, and four suits is the classic, hardest game.
+
+**Why can’t I deal new cards?**
+The rules don’t allow dealing while any column is empty. Move a card or run into the empty column first.
+
+**How is the score worked out?**
+As in Windows: you start with 500 points, lose 1 for every move or undo, and gain 100 for each suit you complete.
+
+**Can every game be won?**
+No. Most one-suit games can be won, but in the four-suit game only about one in three is won even with good play.
+
+**Does it save my game?**
+Yes — your game in progress, settings and stats are saved in this browser.
+
+## Block Puzzle
+
+URL: https://justtools.online/games/block-puzzle/
+Category: Games
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-21
+
+Play a free block puzzle game online: drag blocks onto the grid and fill rows and columns to clear them. Combos, hints, 8×8 or 10×10 board. No sign-up.
+
+### At a glance
+
+- Drag each block onto the **grid**; fill a whole **row or column** and it clears. Rows and columns clear together, so one block can clear several lines.
+- You get **three blocks at a time** and can place them in any order. Blocks can’t be rotated — plan where each shape fits.
+- **Combos**: clear lines on several moves in a row and every clear is multiplied — ×2, ×3 and more. Empty the whole board for **+300**.
+- More than **30 shapes**: lines, squares, rectangles, small and large L shapes, T, S and Z pieces.
+- Play on the classic **8×8** board or a roomier **10×10**. A **hint** finds a good spot, and a glowing preview shows which lines a block will clear.
+- Works with a mouse, a finger (the block floats above it so you can see) or the keyboard. Your game and best score are saved — free, no sign-up.
+
+### Features
+
+- **See before you drop**: A ghost shows where the block lands, and the lines it will clear light up.
+- **Made for phones**: The block rides above your finger so it never hides the spot you’re aiming at.
+- **Combos and clears**: Chain clears for multipliers and empty the board for a big bonus.
+- **Two board sizes**: The tight 8×8 classic or a 10×10 board for longer games.
+- **Stuck? Ask for a hint**: The hint looks for clears first, then the spot that leaves the fewest gaps.
+- **Carry on later**: Your game is saved after every move, so you can close the tab and come back.
+
+### How to play Block Puzzle
+
+1. **Pick up a block** — Drag one of the three blocks below the board — or tap it to select it.
+2. **Place it** — Drop it anywhere it fits on the grid, or tap the board where it should go. Blocks can’t be turned.
+3. **Clear lines** — Fill every square of a row or a column and it disappears, making room and scoring points.
+4. **Build combos** — Clear lines on consecutive moves to multiply your score; clear the whole board for a bonus.
+5. **Keep space free** — The game ends when none of your blocks fits anywhere. Leave room for the big pieces.
+
+### Guide
+
+#### Scoring
+
+|  | Points |
+| --- | --- |
+| Each square placed | 1 |
+| 1 line cleared at once | 10 |
+| 2 lines | 30 |
+| 3 lines | 60 |
+| 4 lines | 100 |
+| Combo (clears on consecutive moves) | Line points × the combo count |
+| Board completely cleared | +300 |
+
+#### Tips for a higher score
+
+- **Keep a 3×3 space open** — the big square and large L blocks need it, and they end most games.
+- **Work along the edges and corners** first, so the middle stays flexible.
+- **Look at all three blocks before placing one**: the order matters, and one block can block the others.
+- **Set up several lines at once.** Clearing two or three lines together is worth far more than one at a time.
+- **Don’t leave single holes** that only a 1×1 block can fill.
+
+### FAQ
+
+**How do you play Block Puzzle?**
+Drag the blocks from the tray onto the grid. When a row or column is completely filled it clears. You get three blocks at a time; the game ends when none of them fits.
+
+**Can I rotate the blocks?**
+No — like classic block puzzles, the blocks keep their shape. Choose where each one fits best.
+
+**Is this the same as Block Blast or 1010!?**
+It’s our own free take on the same kind of block puzzle made popular by mobile games such as 1010! (by Gram Games) and Block Blast! (by Hungry Studio, launched in 2022). JustTools isn’t connected with either.
+
+**How do combos work?**
+Each move that clears at least one line adds to your combo; the line points are multiplied by it. A move that clears nothing resets the combo.
+
+**Does the game end?**
+Yes — when none of the three blocks you hold fits anywhere on the board. Then it’s about beating your best score.
+
+**Can I play on my phone?**
+Yes. Drag with your finger (the block floats just above it) or tap a block and then the board.
+
+## FreeCell
+
+URL: https://justtools.online/games/freecell/
+Category: Games
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-21
+
+Play FreeCell solitaire online free with the same numbered deals as Microsoft FreeCell (1 to 1,000,000). Hints, undo, a solver and stats. No sign-up.
+
+### At a glance
+
+- All **52 cards are dealt face up** into eight columns (four of seven, four of six). Four **free cells** each hold one card; the **foundations** build up by suit from the ace.
+- Columns build down in **alternating colours**. Runs move together through the free cells and empty columns: up to **(free cells + 1) × 2 to the power of empty columns** cards at once.
+- Deals use **Microsoft FreeCell’s numbering**, 1 to 1,000,000 — type a number to play the same game as on Windows. Game **#11982** is the only one of the original 32,000 that can’t be won.
+- Almost every deal can be won: one 2018 study found just one impossible deal in about **84,000**. A built-in solver gives **hints** and can **solve the game for you**.
+- **Tap a card** to send it to its foundation, a column or a free cell, or drag runs. Safe cards go up by themselves; **undo** has no limit.
+- Paul Alfille created FreeCell on the PLATO system in **1978**. Stats, streaks, shareable deals and your game in progress are saved on this device — free, no sign-up.
+
+### Features
+
+- **Microsoft-numbered deals**: Game #1 here is game #1 on Windows — play famous deals or share any game by its number.
+- **Smart moves**: Tap a card and it goes to the best place; runs move in one go, as many as the free cells allow.
+- **A solver that helps**: Hints come from a real search, and it tells you when a position can no longer be won.
+- **Undo without limits**: Step back as far as you like and try another line.
+- **Left- or right-handed**: Put the foundations on the side you prefer.
+- **Streaks and stats**: Win rate, fastest win and your best streak, saved in your browser.
+
+### How to play FreeCell
+
+1. **Free the aces** — Move cards off the aces and twos so they can go up to the foundations, built by suit from ace to king.
+2. **Build down in alternating colours** — Put a card on one a rank higher of the other colour — a black 7 on a red 8.
+3. **Use the free cells** — Park any single card in one of the four free cells. Use them sparingly: each empty cell lets you move longer runs.
+4. **Empty a column** — An empty column takes any card or run and doubles how many cards you can move together.
+5. **Finish** — Win by moving all 52 cards to the foundations. Safe cards go up by themselves.
+
+### Guide
+
+#### How many cards can I move at once?
+
+A “supermove” is a shortcut for moving the cards one at a time through the free cells and empty columns — the game does it for you, so you only drag the whole run.
+
+| Free cells | Empty columns | Run you can move |
+| --- | --- | --- |
+| 4 | 0 | 5 cards |
+| 3 | 0 | 4 cards |
+| 2 | 1 | 6 cards (3 into the empty column) |
+| 4 | 1 | 10 cards (5 into the empty column) |
+| 0 | 0 | 1 card |
+
+#### FreeCell tips
+
+- **Look before you move.** Every card is visible, so plan where the low cards will go.
+- **Keep free cells empty** as long as you can — each one adds a card to the runs you can move.
+- **Aim for an empty column**; it is worth more than a free cell.
+- **Dig out aces and twos first**, especially those deep in a column.
+- **Don’t fill the last free cell** unless it wins you something right away.
+
+#### About FreeCell
+
+FreeCell grew out of Baker’s Game, which Martin Gardner described in Scientific American in 1968; Paul Alfille changed it to build in alternating colours and wrote the first computer version on the PLATO system in 1978. Microsoft’s version numbered its deals, and of the original 32,000 only game #11982 has no solution. Across billions of deals, about one in 84,000 can’t be won.
+
+### FAQ
+
+**Is every FreeCell game winnable?**
+Almost. Of Microsoft’s original 32,000 deals only #11982 can’t be won, and a 2018 study of 8.6 billion deals found about one impossible deal in 84,000.
+
+**Are these the same games as Microsoft FreeCell?**
+Yes — the deals use the same numbering, so typing a game number gives the same layout as the Windows game.
+
+**Why can’t I move a long run?**
+You can only move as many cards as the free cells and empty columns allow: (free cells + 1) × 2 for each empty column. Free up a cell or a column and try again.
+
+**What do the free cells do?**
+Each of the four cells holds one card, to get it out of the way. They’re the key to FreeCell — and the fewer you use, the more freedom you keep.
+
+**Can the computer solve it for me?**
+Yes. **Solve it for me** plays out a winning line from where you are (that game won’t count in your stats), and **Hint** shows the next move of a winning line.
+
+**Is it free?**
+Yes, free with no download and no sign-up. Your game and stats are saved in your browser.
+
+## Dinosaur Game
+
+URL: https://justtools.online/games/dinosaur-game/
+Category: Games
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-21
+
+Play the dinosaur running game online free: jump the cacti, duck the flying pterosaurs and beat your high score. Works with keys, mouse or touch.
+
+### At a glance
+
+- Press **Space**, **↑** or **tap** to jump; **hold** it for a higher jump or tap for a short hop. **↓** ducks — or drops you faster in the air.
+- **Cacti** come in small and large groups; once you’re running fast, **pterosaurs** fly in at three heights: jump the low ones, duck the middle ones, run under the high ones.
+- The game **speeds up** the longer you last, and the desert turns to **night** every 700 points.
+- Your score counts the distance run; every 100 points the score flashes. Your **high score** and average are saved on this device.
+- Our own cartoon dinosaur and art, inspired by the Dinosaur Game that Google’s Chrome browser shows offline — made by the Chrome UX team in **2014**, with about **270 million** games a month by 2018.
+- Works with a **keyboard, mouse or touch screen** (with big Jump and Duck buttons), pauses itself when you switch tabs, and needs no download or sign-up.
+
+### Features
+
+- **Jump high or hop**: Hold to jump higher, tap for a short hop, and press down to drop fast — just like the original.
+- **Made for phones**: Tap anywhere to jump, or use the big Jump and Duck buttons.
+- **Day and night**: The desert switches between day and a starry night as your score climbs.
+- **Faster and faster**: The pace keeps rising until only quick reactions will do.
+- **Never lose a run by accident**: Switch tabs or scroll away and the game pauses itself.
+- **Beat your best**: Your high score, number of runs and average are kept in your browser.
+
+### How to play the Dinosaur Game
+
+1. **Start running** — Press **Space** or tap the game. The dinosaur runs on its own.
+2. **Jump the cacti** — Press **Space**, **↑** or tap just before a cactus. Hold for a bigger jump over tall groups.
+3. **Duck the flyers** — Pterosaurs at head height: hold **↓** (or Duck) to run under them. Low ones you jump; high ones you can ignore.
+4. **Drop fast** — Press **↓** in the air to land sooner when the next obstacle is close.
+5. **Beat your record** — One hit ends the run. Press Space or tap to go again.
+
+### Guide
+
+#### Tips for a higher score
+
+- **Jump late, not early** — leaving the ground too soon lands you on the cactus.
+- **Use short hops** for single small cacti; save full jumps for wide groups.
+- **Watch the height of pterosaurs**: duck the middle ones, jump only the low ones.
+- **Drop fast with ↓** after a jump to be ready for the next obstacle sooner.
+- **Look ahead, not at the dinosaur** — at high speed, reaction time is everything.
+
+### FAQ
+
+**Is this the Chrome dinosaur game?**
+It’s our own version, with its own art, inspired by the Dinosaur Game that Google Chrome shows when you’re offline. You can play it here any time, online, on any browser.
+
+**How do you play the dinosaur game?**
+Jump over cacti with Space, ↑ or a tap, and duck under flying pterosaurs with ↓. The game speeds up as you go; one hit ends the run.
+
+**How do I jump higher?**
+Hold the jump key or your finger down. A quick tap gives a short hop; holding gives a full jump.
+
+**Can I play on my phone?**
+Yes — tap the game to jump, or use the big Jump and Duck buttons below it.
+
+**Why did it turn dark?**
+Every 700 points the desert switches between day and night.
+
+**Is my high score saved?**
+Yes, your high score, runs and average are saved in this browser.
+
+## Bubble Pop
+
+URL: https://justtools.online/games/bubble-pop/
+Category: Games
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-21
+
+Play a free bubble shooting game online: aim, bounce off the walls and match three or more bubbles to pop them. Levels, aiming guide, no sign-up.
+
+### At a glance
+
+- Shoot a bubble into the cluster: when **three or more** of one colour touch, they pop. Bubbles left hanging from nothing **fall** for double points.
+- Bank shots off the **side walls**; a dotted **aiming guide** shows the path, bounce included, and where the bubble will stick.
+- Every few shots that pop nothing, a **new row** pushes down from the top. If the bubbles reach the dashed line, the game is over.
+- **Clear the board** for a 1,000-point bonus and the next level — with more rows, more colours and less time between new rows.
+- See the **next bubble** and **swap** it in when it suits you. You’re only dealt colours that are still on the board, so every board can be cleared.
+- Aim with the mouse, a finger or the arrow keys; turn on **shapes** for colour blindness. Your game and best score are saved — free, no sign-up.
+
+### Features
+
+- **See where it lands**: A dotted guide follows your aim off the walls and rings the spot where the bubble will stick.
+- **Drops score double**: Pop the bubbles holding a cluster up and everything below them falls for extra points.
+- **Levels that build**: Each cleared board brings more rows and colours, and new rows come down sooner.
+- **Swap your shot**: The next bubble is always on show — tap it to swap.
+- **Colour-blind friendly**: Turn on shapes and every colour has its own symbol.
+- **Phone, mouse or keys**: Drag and release on a phone, click with a mouse, or aim with ← → and shoot with Space.
+
+### How to play Bubble Pop
+
+1. **Aim** — Move the mouse or drag your finger to aim the launcher. The dotted line shows where the bubble goes.
+2. **Shoot** — Click, let go of your finger, or press Space. Bounce shots off the walls to reach tricky spots.
+3. **Make groups of three** — A bubble that joins two or more of its colour pops the whole group.
+4. **Drop the rest** — Bubbles no longer attached to the top fall away for double points.
+5. **Clear the board** — Empty the board before the bubbles reach the dashed line to move up a level.
+
+### Guide
+
+#### Scoring
+
+|  | Points |
+| --- | --- |
+| Each bubble popped | 10 |
+| Each bubble dropped | 20 (40 if six or more fall at once) |
+| Board cleared | +1,000 and the next level |
+
+#### Tips
+
+- **Aim for the bubbles holding others up.** Dropping a big cluster scores far more than popping.
+- **Use the walls.** A bank shot reaches gaps you can’t hit straight on.
+- **Plan with the next bubble** and swap when the current one has nowhere good to go.
+- **Keep the sides open** so bank shots stay possible.
+- **Watch the row counter** — use your last shots before a new row to clear something.
+
+#### About bubble-shooting games
+
+The genre goes back to Taito’s arcade game Puzzle Bobble (known as Bust-a-Move in North America), released in 1994. Many browser and phone games have followed the same idea; Bubble Pop is our own free version.
+
+### FAQ
+
+**How do you play a bubble shooting game?**
+Aim the launcher and shoot bubbles into the cluster at the top. Three or more of the same colour together pop, and any bubbles left hanging fall. Clear the board before the bubbles reach the line at the bottom.
+
+**How do I bounce a shot?**
+Aim at a side wall — the bubble bounces off at the same angle. The aiming guide shows the bounce.
+
+**When does a new row appear?**
+After several shots in a row that don’t pop anything (the counter above the board shows how many are left). Popping a group resets it.
+
+**Can I change the bubble I’m shooting?**
+Yes — tap the small “next” bubble (or press X) to swap it with the one in the launcher.
+
+**Is it the same as Bubble Shooter or Puzzle Bobble?**
+It’s our own game in the same style as the bubble-shooting games made popular by Taito’s Puzzle Bobble (1994). JustTools isn’t connected with those games.
+
+**Is my game saved?**
+Yes — your game in progress, best score and highest level are saved in this browser.
+
+## Ludo
+
+URL: https://justtools.online/games/ludo/
+Category: Games
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-21
+
+Play Ludo online free for 2 to 4 players: against the computer or with friends on one device. Star safe squares, captures, extra rolls on a six. No sign-up.
+
+### At a glance
+
+- Play **2, 3 or 4 players**: you against the computer (Easy or Smart), or friends taking turns on one phone, tablet or computer.
+- Roll a **six** to bring a token out of your yard; a six also gives you **another roll** — but **three sixes in a row** lose the turn.
+- Land on an opponent to **send them back to their yard** (and roll again). Start squares and **star squares are safe**; your home column is yours alone.
+- Race once round the board, up your coloured home column and into the centre — you need the **exact roll** to get home. First with all four tokens home wins.
+- Tokens step square by square, the die tumbles, and tokens you can move glow. Optional rules let you switch off the capture bonus or the three-sixes rule.
+- Ludo comes from **Pachisi**, played in India for centuries, and was sold under the name Ludo — Latin for “I play” — in England from **1896**. Free, no sign-up.
+
+### Features
+
+- **You against the computer**: Play one, two or three computer opponents. Smart captures, runs for safety and gets tokens home.
+- **Pass and play**: Two to four friends take turns on one device — perfect for the family.
+- **Star safe squares**: Start squares and the star on every arm are safe, as on Indian Ludo boards.
+- **Clear moves**: Movable tokens glow, single moves can play themselves, and every roll and capture is announced.
+- **Your house rules**: Turn the extra roll for a capture or the three-sixes rule on or off.
+- **Pick up later**: The game in progress is saved on your device after every move.
+
+### How to play Ludo
+
+1. **Roll to start** — Tap the die. You need a **six** to move a token out of your yard onto your coloured start square.
+2. **Move a token** — Tap a glowing token to move it forward by the number rolled, clockwise round the board.
+3. **Capture and stay safe** — Landing on an opponent sends them home to their yard. Tokens on start and star squares can’t be captured.
+4. **Go up your home column** — After a full lap, turn into your coloured column. Only your tokens can go there; you need the exact roll to reach the centre.
+5. **Win** — Get all four tokens home first. A six, a capture and getting home each earn another roll.
+
+### Guide
+
+#### Ludo rules at a glance
+
+| Situation | Rule |
+| --- | --- |
+| Leaving the yard | Needs a six; the token goes to your start square |
+| Rolling a six | Move, then roll again |
+| Three sixes in a row | Turn lost (can be switched off) |
+| Landing on an opponent | They go back to their yard; you roll again (can be switched off) |
+| Safe squares | The four start squares and the four star squares |
+| Finishing | Exact roll needed to reach home; getting a token home earns another roll |
+
+#### Ludo tips
+
+- **Get tokens out early** — having two or three on the board gives you choices with every roll.
+- **Park on safe squares** when an opponent is within six squares behind you.
+- **Capture when you can** — it costs your opponent a whole lap and gives you another roll.
+- **Don’t race one token alone**; spread your moves so a single capture can’t ruin your game.
+- **Watch the squares in front of opponents’ start squares** — tokens there are easy targets for newly released pieces.
+
+#### About Ludo
+
+Ludo is a simplified form of Pachisi, the cross-and-circle race game of India. It was sold in England as Ludo from 1896 — the name is Latin for “I play” — and is still one of the most-played board games in India, where it is often played with star safe squares.
+
+### FAQ
+
+**Can I play Ludo with the computer?**
+Yes — choose **Computer** and play Red against one, two or three computer players, at Easy or Smart.
+
+**Can I play Ludo with friends?**
+Yes, on one device: choose **Friends (pass & play)** and two to four players take turns.
+
+**Do you need a six to start in Ludo?**
+Yes. A token can only leave the yard on a six, and a six also gives you another roll.
+
+**What are the safe squares?**
+The four coloured start squares and the four star squares. A token on them can’t be captured.
+
+**What happens if you roll three sixes?**
+By default you lose the turn, as in the standard rules. You can switch this rule off.
+
+**Is my game saved?**
+Yes — the game in progress and your record against the computer are saved in this browser.
+
+## Hangman
+
+URL: https://justtools.online/games/hangman/
+Category: Games
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-21
+
+Play Hangman online free: guess the word letter by letter before the drawing is finished. Six categories, three levels, a two-player mode. No sign-up.
+
+### At a glance
+
+- Guess the hidden word **one letter at a time** — tap the on-screen keyboard or type on your own. Right letters fill in every place they appear.
+- Each wrong letter adds a line to the drawing. **Normal gives 6 lives**, **Easy 10** (the gallows is drawn too) and **Hard just 4**.
+- Pick a category — **Animals, Countries, Fruit and vegetables, Sports, Jobs or Food** (with Indian dishes) — or **Any word** from thousands of common English words.
+- Know it already? **Guess the whole word** (a wrong guess costs a life), or reveal the most common hidden letter for a life when you’re stuck.
+- **Two players**: one types a secret word (hidden as they type) with an optional clue, the other guesses. A gentler **Balloons** picture suits younger players.
+- Hangman is an old pencil-and-paper game; Alice Gomme’s 1894 book of traditional children’s games describes it as **“Birds, Beasts and Fishes”**. Free, no sign-up.
+
+### Features
+
+- **Six word categories**: Animals, countries, fruit and vegetables, sports, jobs and food — or any common English word.
+- **Three levels**: Easy (10 lives), Normal (6) and Hard (4). The drawing adapts to the number of lives.
+- **Two-player mode**: Type a secret word and a clue for a friend to guess on the same device.
+- **Keyboard friendly**: Tap the letters or type them; tried letters turn green or are crossed out.
+- **Hints and whole-word guesses**: Reveal a letter or guess the full word, each for one life.
+- **Your record**: Games won, win rate and your best winning streak are kept on your device.
+
+### How to play Hangman
+
+1. **Choose a category** — Pick a category and a level. The word appears as a row of blanks, one per letter.
+2. **Guess a letter** — Tap or type a letter. If it’s in the word, it fills in everywhere it appears.
+3. **Watch the drawing** — A wrong letter adds a part to the drawing and costs one life.
+4. **Solve it** — Fill in every letter, or type the whole word if you know it, before your lives run out.
+5. **Play again** — Press **Next word** (or Enter) for a new word — your streak carries on while you keep winning.
+
+### Guide
+
+#### Levels at a glance
+
+| Level | Lives | Drawing |
+| --- | --- | --- |
+| Easy | 10 | Base, pole, beam and rope are drawn first, then head, body, two arms and two legs |
+| Normal | 6 | The gallows is already there; head, body, arms and legs one at a time |
+| Hard | 4 | Head, body, then both arms and both legs together |
+
+#### Hangman tips
+
+- **Start with vowels** — E, A, O and I appear in most words.
+- **Then try common consonants** such as T, N, S, R and L. English letter frequency runs roughly E, T, A, O, I, N, S, H, R.
+- **Look at the length and the gaps.** A word ending in _ _ _ might be -ING or -ION.
+- **Use the category.** In Countries, think of endings like -IA and -LAND.
+- **Save the whole-word guess** until you’re fairly sure — a wrong one costs a life.
+
+#### About Hangman
+
+Hangman is a guessing game for two or more players, usually played with pencil and paper: one player thinks of a word and draws a blank for each letter, and the others guess letters until they solve it or the drawing is finished. Its origins are unclear, but Alice Gomme’s Traditional Games of England, Scotland, and Ireland (1894) describes a version called “Birds, Beasts and Fishes”.
+
+#### Word list credits
+
+The “Any word” list uses common words from the English Speller Database (SCOWL), which draws on Alan Beale’s public-domain 12dicts lists, checked to leave out rude and offensive words.
+
+Copyright 2000–2026 by Kevin Atkinson. Permission to use, copy, modify, distribute, and sell any part of the English Speller Database (ESDB, previously known as SCOWLv2), or word lists created from it, is hereby granted without fee, provided that the above copyright notice appears in all copies and that both the above copyright notice and this notice appear in supporting documentation. Kevin Atkinson makes no representations about the suitability of this database for any purpose. It is provided “as is” without express or implied warranty.
+
+### FAQ
+
+**How do you play Hangman?**
+Guess the hidden word one letter at a time. Right letters fill in the blanks; each wrong letter adds a part to the drawing. Solve the word before the drawing is finished.
+
+**How many wrong guesses do you get?**
+Six on Normal, which is the usual number on paper (head, body, two arms, two legs). Easy gives 10 and Hard gives 4.
+
+**Can two people play Hangman here?**
+Yes — choose **Two players**. One person types a secret word (with an optional clue) while the other looks away, then the other guesses.
+
+**Is there a version for kids?**
+Yes. Pick Easy and the **Balloons** picture: a balloon pops with each miss instead of the classic drawing.
+
+**What are good letters to guess first?**
+Vowels — E, A, O, I — then common consonants such as T, N, S, R and L.
+
+**Is it free?**
+Yes, free with no sign-up. Your settings and record are saved only in this browser.
+
+## Snakes and Ladders
+
+URL: https://justtools.online/games/snakes-and-ladders/
+Category: Games
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-22
+
+Play Snakes and Ladders online free: against the computer or with friends on one device. Four boards, house rules for 100 and sixes, animated moves. No sign-up.
+
+### At a glance
+
+- Play **2, 3 or 4 players** — you against the computer, or friends taking turns on one phone, tablet or computer.
+- Land on the foot of a **ladder** to climb it; land on a **snake’s head** and slide down to its tail. First to **square 100** wins.
+- Choose a board: **Classic**, **Easy climb** for younger players, the longer **Snake pit**, or a **Random** board that is new every game.
+- Set your house rules: **bounce back**, **stay put** or **still win** when you roll past 100, **another roll on a six**, and **a six to start**.
+- Each board shows **how many rolls a game takes on average**, worked out exactly from the board and your rules.
+- The game comes from ancient India, where it was called **Moksha Patam**; ladders stood for virtues and snakes for vices. Free, no sign-up.
+
+### Features
+
+- **You against the computer**: Play Red against one, two or three computer players who roll by themselves.
+- **Pass and play**: Two to four friends share one device and take turns.
+- **Four boards**: Classic, Easy climb, Snake pit, or a fresh random board every game.
+- **Your house rules**: Bounce back off 100, need the exact roll, or win with any roll; extra roll on a six; a six to start.
+- **Animated moves**: Tokens step square by square, climb ladders and slither down snakes, with sounds you can switch off.
+- **Pick up later**: The game in progress is saved on your device.
+
+### How to play Snakes and Ladders
+
+1. **Roll the die** — Tap the die or press Space. Your token moves forward that many squares, starting from off the board.
+2. **Climb ladders** — If you finish on the foot of a ladder, climb straight up to its top.
+3. **Watch out for snakes** — If you finish on a snake’s head, slide down to its tail.
+4. **Roll a six** — A six gives you another roll (you can turn this rule off).
+5. **Reach 100** — The first player to reach square 100 wins. Choose what happens if you roll past it.
+
+### Guide
+
+#### The boards
+
+| Board | Ladders | Snakes | Good for |
+| --- | --- | --- | --- |
+| Classic | 7 | 8 | Everyday games — more snakes than ladders, as on old Indian boards |
+| Easy climb | 10 | 5 | Young children and quick games |
+| Snake pit | 6 | 10 | A long, nail-biting race |
+| Random | 8 | 9 | Something new every game |
+
+#### House rules for square 100
+
+- **Bounce back** (the default): roll too high and you count up to 100 and back again — on 97, a 5 takes you to 98.
+- **Stay put**: you need the exact number; if the roll is too high, you don’t move.
+- **Still wins**: any roll that reaches 100 wins, which makes games shorter.
+- A study in The Mathematical Gazette (1993) worked out game lengths this way, treating the board as a Markov chain — the same maths shows the average on each board here.
+
+#### About Snakes and Ladders
+
+Snakes and Ladders began in India as part of a family of dice board games that also includes Pachisi, the ancestor of Ludo. Known as Moksha Patam, it was a lesson in morals: ladders were virtues such as generosity and humility, snakes were vices such as anger and theft, and reaching the top meant liberation (moksha). The Jain version is called Gyan Chaupar.
+
+The game reached England in the 1890s — the earliest known English version was registered in 1892 — and later the United States, where it is sold as Chutes and Ladders. In Hindi it is called Saanp Seedhi, in Telugu Vaikunthapali and in Tamil Parama Padam. The phrase “back to square one” is thought to come from it.
+
+### FAQ
+
+**Can I play Snakes and Ladders with the computer?**
+Yes. Choose **Computer** and play Red against one to three computer players, who roll by themselves.
+
+**Can I play with friends?**
+Yes, on one device: choose **Friends (pass & play)** and two to four players take turns.
+
+**What happens if you roll more than you need to reach 100?**
+You choose: bounce back off 100 (the default), stay where you are, or win anyway.
+
+**Do you need a six to start?**
+Not by default — everyone starts off the board and moves straight away. Switch on **Need a six to start** for that house rule.
+
+**How long does a game take?**
+Each board shows the average number of rolls one player needs, worked out from the board and your rules — around 38 on the Classic board with bounce-back.
+
+**Is my game saved?**
+Yes — the game in progress and your record against the computer are saved in this browser.
+
+## Word Search
+
+URL: https://justtools.online/games/word-search/
+Category: Games
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-22
+
+Play word search online free: 14 themes, a daily puzzle and four grid sizes — or make your own word search from any list and print it with answers. No sign-up.
+
+### At a glance
+
+- **Drag across a word**, or tap its first letter and then its last. Found words get their own colour and are crossed off the list.
+- **14 themes** — animals, countries, food, space, the body, music and more — on grids from **8 × 8 to 15 × 15**.
+- **Easy** words go across and down, **Medium** adds diagonals, **Hard** hides them in all eight directions, backwards too.
+- A **daily puzzle**, the same for everyone, with a streak to keep up. A timer, hints and your best times are built in.
+- **Make your own**: type a spelling list or any words, then play it, **print it with an answer key**, or share a link to the same puzzle.
+- The word search was first published by **Norman E. Gibat** in the Selenby Digest on **1 March 1968**, in Norman, Oklahoma. Free, no sign-up.
+
+### Features
+
+- **Drag or tap**: Swipe across a word on a phone, drag with a mouse, or tap the first and last letters. Arrow keys and Space work too.
+- **Daily puzzle**: A new 12 × 12 puzzle every day on a changing theme, with a daily streak.
+- **Your own word search**: Turn a spelling list, vocabulary or party theme into a puzzle in a second.
+- **Print-ready sheets**: A4 pages with a name and date line, a tick-box word list and an answer key on the next page.
+- **Share a puzzle**: Copy a link and everyone who opens it gets exactly the same grid.
+- **Fair puzzles**: Every word is hidden exactly once, and the random letters are checked so they don’t spell anything rude.
+
+### How to play word search
+
+1. **Pick a puzzle** — Choose a theme, today’s daily puzzle, or type your own words. Set the grid size and level.
+2. **Look for a word** — Pick a word from the list and scan the grid for its first letter, then check the letters around it.
+3. **Mark it** — Drag from the first letter to the last in a straight line, or tap both ends. A correct word stays highlighted.
+4. **Find them all** — Cross off every word on the list. Stuck? A hint makes the first letter of a word glow.
+5. **Print or share** — Print the puzzle with an answer key, or copy a link to send the same puzzle to someone else.
+
+### Guide
+
+#### Levels and grid sizes
+
+| Level | Directions | Words |
+| --- | --- | --- |
+| Easy | Across (left to right) and down | 8 × 8: 8 words |
+| Medium | Across, down and both diagonals going right | 10 × 10: 12 words, 12 × 12: 15 words |
+| Hard | All eight directions, including backwards | 15 × 15: 20 words |
+
+#### Word search tips
+
+- **Look for unusual letters first** — a Q, Z, X, J or K stands out more than an E.
+- **Search for double letters** such as the OO in ZOO or the LL in BALLOON.
+- **Go row by row** for the first letter, then check all eight neighbours for the second.
+- On Hard, **read backwards too**: a word that ends near the edge may start on the other side of it.
+- For classes, print **Easy 10 × 10** for young readers and **Hard 15 × 15** for older students.
+
+#### About word search
+
+Word search puzzles — also called word find or word seek — hide a list of words in a grid of letters. The first published word search is credited to Norman E. Gibat, who printed one in the Selenby Digest in Norman, Oklahoma, on 1 March 1968; teachers there soon asked for copies for their classes, and the puzzle spread from there.
+
+### FAQ
+
+**How do I select a word?**
+Drag from its first letter to its last in a straight line. On a phone you can also tap the first letter, then the last.
+
+**Can I make my own word search?**
+Yes. Choose **Your words**, type a title and your words (one per line or with commas), and press **Make puzzle**. Words that don’t fit the grid are listed so you can choose a bigger one.
+
+**Can I print it?**
+Yes — **Print** gives an A4 puzzle sheet, with the answers on a second page if you leave that switch on. Choose “Save as PDF” in the print dialog for a PDF.
+
+**Is there a daily word search?**
+Yes. **Daily puzzle** is the same for everyone each day and keeps a streak when you solve it on consecutive days.
+
+**Are the words ever backwards?**
+Only on **Hard**. Easy uses across and down, Medium adds the diagonals.
+
+**Is it free?**
+Yes, free with no sign-up. Your puzzle, settings and record stay in this browser.
+
+## Memory Game
+
+URL: https://justtools.online/games/memory-game/
+Category: Games
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-22
+
+Play the memory game online free: turn over cards and find the pairs. 11 card sets for kids and adults, 6 to 18 pairs, vs the computer or friends. No sign-up.
+
+### At a glance
+
+- Turn over **two cards** each turn. A **pair stays face up**; if they don’t match, they turn back — remember where they were.
+- Grids from **6 pairs** (12 cards) for small children up to **18 pairs** (36 cards) for a real workout.
+- **11 card sets**: animals, food, travel, nature, shapes and colours, numbers, letters — and learning sets that pair **A with a**, **3 + 4 with 7**, or **a picture with its word**, plus Hindi letters.
+- Play **on your own** against the clock (with stars and your best scores), **against the computer** with a forgetful, good or sharp memory, or with **2 to 4 friends**.
+- An optional **peek** shows every card for 3 seconds at the start — a gentle start for younger players.
+- Memory (also called Concentration or Pairs) is a classic card game you can also play with an ordinary pack of cards. Free, no sign-up.
+
+### Features
+
+- **Learning card sets**: Capital and small letters, sums and answers, pictures and words, numbers and Hindi letters.
+- **You against the computer**: Its memory is forgetful, good or sharp — it remembers cards it has seen, just like you.
+- **Pass and play**: Two to four players take turns; find a pair and you go again.
+- **Stars and best scores**: Playing alone, you get up to three stars and your best turns and time for each grid.
+- **Smooth flips**: Cards turn over in 3D, pairs glow, and the sound can be switched off.
+- **Keyboard friendly**: Tab or the arrow keys move between cards; Enter or Space turns one over.
+
+### How to play the memory game
+
+1. **Choose your cards** — Pick a card set and a grid size — 6 pairs for little ones, 18 for experts.
+2. **Turn over two cards** — Tap a card to see it, then tap another.
+3. **Keep the pairs** — If they match, they stay face up and you go again.
+4. **Remember the rest** — If they don’t match, they turn back over. Remember where they were for later.
+5. **Clear the board** — The game ends when every pair is found. Alone, aim for fewer turns; with others, the most pairs wins.
+
+### Guide
+
+#### Grid sizes
+
+| Grid | Cards | Good for |
+| --- | --- | --- |
+| 6 pairs | 4 × 3 = 12 | Young children |
+| 8 pairs | 4 × 4 = 16 | A quick game |
+| 10 pairs | 5 × 4 = 20 | Older children |
+| 15 pairs | 6 × 5 = 30 | Adults |
+| 18 pairs | 6 × 6 = 36 | A real memory test |
+
+#### Memory game tips
+
+- **Work in order**: turn over cards row by row, so you remember positions more easily.
+- **Say what you see** — “cat, top left” — saying it in your head helps you remember.
+- **Turn a known card second**: if your first card matches one you have seen, go straight to it.
+- **Learn something new**: when you turn an unknown card first and it doesn’t match anything you remember, use your second turn to uncover another new card.
+- Playing alone, **three stars** means about one and a half turns per pair or fewer.
+
+#### About the memory game
+
+Memory — also known as Concentration, Pairs or Pelmanism — is played with cards laid face down. Players turn over two at a time looking for matches, so it rewards attention and short-term memory. It is a favourite with teachers because the same game can practise letters, numbers, sums and new words.
+
+### FAQ
+
+**How do you play the memory game?**
+Turn over two cards. If they match, they stay up and you go again; if not, they turn back. Find all the pairs — alone in as few turns as possible, or more pairs than the other players.
+
+**Is there a memory game for kids?**
+Yes. Choose 6 or 8 pairs, a picture set such as **Animals**, and switch on **Show all cards for 3 seconds**. The learning sets practise letters, sums and reading.
+
+**Can I play against the computer?**
+Yes. Choose **Computer** and how good its memory is: forgetful, good or sharp.
+
+**Can several people play?**
+Yes — choose **Friends** for 2 to 4 players on one device. Finding a pair gives you another turn.
+
+**How are the stars worked out?**
+Three stars for about 1.5 turns per pair or fewer, two stars up to about 2.1 turns per pair, otherwise one star.
+
+**Is it free?**
+Yes, free with no sign-up. Your settings and best scores stay in this browser.
+
+## Jigsaw Puzzle
+
+URL: https://justtools.online/games/jigsaw-puzzle/
+Category: Games
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-22
+
+Play jigsaw puzzles online free: famous paintings like The Starry Night, or turn your own photo into a puzzle. 12 to 150 pieces that snap together. No sign-up.
+
+### At a glance
+
+- Classic **jigsaw-shaped pieces** with tabs and blanks, cut differently every game. Drag them onto the board — matching pieces **snap together**.
+- Choose **12, 24, 48, 96 or 150 pieces**: a quick puzzle for children or a long one for a quiet evening.
+- **12 famous pictures**: Van Gogh’s The Starry Night, Hokusai’s Great Wave, Raja Ravi Varma, Monet, Klimt, Vermeer and NASA’s Blue Marble — all public domain.
+- **Use your own photo**: it is cut into pieces in your browser and never uploaded.
+- Helpers when you want them: **edges only**, a **faint picture** on the board, a look at the **finished picture**, **tidy** the pieces, a **hint**, and **full screen**.
+- Your puzzle is **saved as you go**, so you can come back later. Free, no sign-up.
+
+### Features
+
+- **Real jigsaw pieces**: Rounded tabs and blanks, a slight bevel and shadows — and a new cut every time.
+- **Your own photo**: Turn a family photo or a holiday picture into a puzzle, privately on your device.
+- **Famous paintings**: Public-domain masterpieces from Van Gogh to Raja Ravi Varma, plus the Earth from Apollo 17.
+- **Snap together**: Pieces join when they line up and lock when they reach their place on the board.
+- **Edges first**: Show only the edge pieces to build the frame, like on a real table.
+- **Saved as you go**: Close the page and pick up exactly where you left off.
+
+### How to do a jigsaw puzzle online
+
+1. **Pick a picture** — Choose a painting, or tap **Your photo** to use a picture from your phone or computer.
+2. **Choose the pieces** — Pick 12 to 150 pieces. The pieces are scattered around the board.
+3. **Build the frame** — Press **Edges only** and put the straight-edged pieces together first.
+4. **Fill it in** — Drag pieces near their neighbours; they snap together and move as one. Pieces lock when they reach their place.
+5. **Finish** — When the last piece is in, the puzzle is solved and your time is saved.
+
+### Guide
+
+#### Piece counts
+
+| Pieces | Good for | Typical time |
+| --- | --- | --- |
+| 12 | Young children | A minute or two |
+| 24 | Children | A few minutes |
+| 48 | A coffee break | 10–20 minutes |
+| 96 | Puzzle fans | 30 minutes or more |
+| 150 | A long evening (best on a big screen) | An hour or more |
+
+#### Jigsaw puzzle tips
+
+- **Do the edges first** — straight-edged pieces make the frame and give you a guide.
+- **Sort by colour**: drag the sky pieces to one side and the dark pieces to another.
+- **Look at the shape**: a piece with two tabs opposite each other fits between two blanks.
+- Stuck? **Show the picture** for a moment, or use a **hint** to place one piece.
+- On a phone, choose 24 or 48 pieces, or turn the phone sideways and use **full screen**.
+
+#### About the pictures
+
+The built-in pictures are public-domain artworks from Wikimedia Commons: The Starry Night and Café Terrace at Night and Sunflowers by Vincent van Gogh, The Great Wave off Kanagawa by Katsushika Hokusai, Woman Holding a Fruit by Raja Ravi Varma, Water Lilies and Impression, Sunrise by Claude Monet, The Hunters in the Snow by Pieter Bruegel the Elder, The Kiss by Gustav Klimt, A Sunday on La Grande Jatte by Georges Seurat, Girl with a Pearl Earring by Johannes Vermeer, and The Blue Marble photographed by the crew of Apollo 17 (NASA).
+
+The London mapmaker John Spilsbury is believed to have made the first jigsaw puzzle around 1760: a map mounted on wood and cut along the borders of countries, sold as a “dissected map” to teach geography.
+
+### FAQ
+
+**Can I make a jigsaw puzzle from my own photo?**
+Yes. Tap **Your photo** and choose a picture. It is cut into pieces right in your browser — the photo is not uploaded anywhere.
+
+**How many pieces can I choose?**
+12, 24, 48, 96 or 150. The exact number depends a little on the picture’s shape, so pieces stay close to square.
+
+**How do pieces snap together?**
+Drop a piece close to a neighbour in the right position and they join; groups move together. A piece or group dropped near its place on the board locks in.
+
+**Is my puzzle saved?**
+Yes, after every move, in this browser. Close the page and it will be waiting for you.
+
+**Does it work on a phone or tablet?**
+Yes — drag pieces with your finger. For more room, turn the screen sideways and tap **Full screen**.
+
+**Are the pictures free to use?**
+Yes. All the built-in pictures are in the public domain.
+

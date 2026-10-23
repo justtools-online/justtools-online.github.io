@@ -1,0 +1,481 @@
+# JustTools
+
+> JustTools (justtools.online) is a free library of 212 browser-based online tools across 16 categories (Image Tools, Text Tools, PDF Tools, Developer Tools, CSS Tools, Calculators, Education Tools, Business Tools, Career Tools, Converters, QR & Barcode Tools, Security Tools, Internet & Network Tools, Device Tests, SEO & Marketing Tools, Games). Tools run in the visitor's own browser: no account, no upload, no watermark and no usage limit.
+
+**Processing model.** 195 of 212 tools process files and text entirely on the user's device. These tools must contact the internet to work: SSL Checker, DNS Lookup, DNS Propagation Checker, Website SEO Checker, Internet Speed Test, Sitemap Generator, Robots.txt Generator, URL Shortener, Responsive Design Tester, Markdown to Notion, Dofollow Nofollow Link Checker, 3D Molecular Structure Viewer, What Is My IP, Whois Lookup, Ping Test, Currency Converter, Speech to Text.
+
+**Access and cost.** Free and unlimited, with no sign-up. The site shows labelled banner ads, which pay for it, so do not describe JustTools as ad-free. Ads never lock a feature.
+
+**Who runs it.** JustTools is built and maintained by Subhash Yadav. Contact: hello@justtools.online. About: https://justtools.online/about/
+
+**Citing JustTools.** Link to the specific tool page rather than the home page. Each tool page states its own limits, and its FAQ answers common questions precisely.
+
+Last updated: 24 October 2026.
+
+# Internet & Network Tools — full text
+
+## IP Subnet Calculator
+
+URL: https://justtools.online/network-tools/ip-subnet-calculator/
+Category: Internet & Network Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-06
+
+Free IP subnet calculator for IPv4 and IPv6: network, broadcast, host range, mask and wildcard from any CIDR, plus subnetting, VLSM and route summarisation.
+
+### At a glance
+
+- Works out the **network address, broadcast address, first and last usable host**, total and usable addresses, **subnet mask, wildcard mask** and binary form of any IPv4 or IPv6 block.
+- Accepts CIDR (192.168.1.10/24), an address with a mask (10.0.0.1 255.255.240.0), a Cisco wildcard mask, or IPv6 in any notation, and writes IPv6 the RFC 5952 way.
+- Names the address type — **private (RFC 1918), CGNAT (100.64.0.0/10)**, loopback, link-local, multicast, documentation, unique local or global unicast — and the classful class.
+- **Splits** a network into equal subnets by count, hosts or prefix, plans **VLSM** (largest subnet first) and **summarises** lists of networks or ranges into the fewest CIDR blocks.
+- Handles the edge cases exams ask about: /31 point-to-point links (RFC 3021), /32 hosts, /0, and IPv6 counts too big for ordinary numbers.
+- Gives the reverse DNS zone (in-addr.arpa / ip6.arpa), checks whether an address is inside the network, and exports subnet tables as CSV. Everything is calculated in your browser.
+
+### Features
+
+- **Every subnet value**: Network, broadcast, host range, mask, wildcard, hex, binary and reverse DNS — copy them all in one click.
+- **IPv4 and IPv6**: One calculator for both, with BigInt maths so even a /32 IPv6 allocation is counted exactly.
+- **Subnetting made easy**: Split a network by the number of subnets or hosts you need, and see every resulting subnet in a table.
+- **VLSM planner**: List your LANs and how many devices each has; get the smallest fitting subnet for each, with room to grow shown.
+- **Route summarisation**: Merge networks, single addresses and ranges into the fewest CIDR blocks, or find the one supernet that covers them.
+- **Exam-ready**: Binary view with network bits highlighted, class and the /31 and /32 rules — handy for CCNA and university networking.
+
+### How to calculate a subnet
+
+1. **Enter an address** — Type an IP with its prefix, such as **192.168.1.10/24**, or pick the subnet mask from the list.
+2. **Read the results** — See the **network address**, **broadcast address**, usable host range and number of hosts instantly.
+3. **Split or plan** — Switch to **Split network** to divide it into subnets, or **VLSM** to size subnets for each LAN.
+4. **Export** — Copy the details or download the subnet table as CSV for your documentation.
+
+### Guide
+
+#### IPv4 subnet mask cheat sheet
+
+| Prefix | Subnet mask | Wildcard | Addresses | Usable hosts |
+| --- | --- | --- | --- | --- |
+| /8 | 255.0.0.0 | 0.255.255.255 | 16,777,216 | 16,777,214 |
+| /16 | 255.255.0.0 | 0.0.255.255 | 65,536 | 65,534 |
+| /20 | 255.255.240.0 | 0.0.15.255 | 4,096 | 4,094 |
+| /21 | 255.255.248.0 | 0.0.7.255 | 2,048 | 2,046 |
+| /22 | 255.255.252.0 | 0.0.3.255 | 1,024 | 1,022 |
+| /23 | 255.255.254.0 | 0.0.1.255 | 512 | 510 |
+| /24 | 255.255.255.0 | 0.0.0.255 | 256 | 254 |
+| /25 | 255.255.255.128 | 0.0.0.127 | 128 | 126 |
+| /26 | 255.255.255.192 | 0.0.0.63 | 64 | 62 |
+| /27 | 255.255.255.224 | 0.0.0.31 | 32 | 30 |
+| /28 | 255.255.255.240 | 0.0.0.15 | 16 | 14 |
+| /29 | 255.255.255.248 | 0.0.0.7 | 8 | 6 |
+| /30 | 255.255.255.252 | 0.0.0.3 | 4 | 2 |
+| /31 | 255.255.255.254 | 0.0.0.1 | 2 | 2 (point-to-point) |
+| /32 | 255.255.255.255 | 0.0.0.0 | 1 | 1 (single host) |
+
+#### Private and special IPv4 ranges
+
+| Range | Use |
+| --- | --- |
+| 10.0.0.0/8 | Private network (RFC 1918) — large companies and data centres |
+| 172.16.0.0/12 | Private network (RFC 1918) — 172.16.0.0 to 172.31.255.255 |
+| 192.168.0.0/16 | Private network (RFC 1918) — home and office routers |
+| 100.64.0.0/10 | Carrier-grade NAT — ISPs, especially mobile data, share public IPs |
+| 169.254.0.0/16 | Link-local — self-assigned when DHCP fails |
+| 127.0.0.0/8 | Loopback — the computer itself (localhost) |
+
+#### How subnetting works
+
+An IPv4 address has 32 bits. The prefix length — the number after the slash — says how many of them identify the network; the rest number the hosts inside it. A /24 leaves 8 host bits, so 2⁸ = 256 addresses. The first is the **network address** and the last the **broadcast address**, so 254 are usable for devices.
+
+Every extra prefix bit halves the block: a /24 splits into two /25s, four /26s or eight /27s. **VLSM** (variable-length subnet masking) uses different sizes inside one network — a /25 for 100 office PCs, a /30 for a router link — to avoid wasting addresses. IPv6 LANs simply use /64 each; sites usually get a /48 or /56.
+
+### FAQ
+
+**How many usable hosts does a /24 have?**
+254. A /24 has 256 addresses, but the first (network) and last (broadcast) can’t be given to devices. In general, usable hosts = 2^(32 − prefix) − 2, except /31 and /32.
+
+**What is a wildcard mask?**
+The inverse of the subnet mask: 0 bits must match and 1 bits can be anything. For 255.255.255.0 it is 0.0.0.255. Cisco access lists and OSPF network statements use wildcard masks.
+
+**How do I find the network and broadcast address?**
+The network address is the IP with all host bits set to 0 (a bitwise AND with the mask); the broadcast address has all host bits set to 1. For 192.168.1.10/24 they are 192.168.1.0 and 192.168.1.255.
+
+**Can a /31 be used?**
+Yes, on point-to-point links between two routers. RFC 3021 lets both addresses be used because a link with two ends needs no broadcast address.
+
+**What subnet size should I use for an IPv6 LAN?**
+A /64. Stateless address autoconfiguration (SLAAC) needs it, and a /64 still holds 18 quintillion addresses. Give each site a /48 or /56 to split into /64s.
+
+**What is VLSM?**
+Variable-length subnet masking: dividing one network into subnets of different sizes to match each LAN’s needs. Allocate the largest subnet first so every block stays aligned — the VLSM tab does this for you.
+
+## Internet Speed Test
+
+URL: https://justtools.online/network-tools/internet-speed-test/
+Category: Internet & Network Tools
+Processing: Contacts an external service to work (see the page).
+Last updated: 2026-10-06
+
+Free internet speed test: check download and upload speed, ping, jitter and bufferbloat on Wi-Fi, broadband or mobile data — no app, with a data saver mode.
+
+### At a glance
+
+- Measures **download and upload speed** in Mbps, **ping** (latency) and **jitter**, plus **loaded latency** — how much ping rises while the line is busy (bufferbloat).
+- Tests against **Cloudflare’s global network** (speed.cloudflare.com), usually from a data centre in or near your city; the page shows which one.
+- Leaves out connection set-up and server processing time, and reports the 90th-percentile speed of many transfers — the line’s real capacity rather than its slow start.
+- File sizes grow only while transfers stay quick, and **Data saver** caps a run at about 39 MB for mobile data.
+- Rates the connection for 4K streaming, video calls, online gaming, browsing and uploads, and shows which data centre answered, your country and your IP address.
+- Keeps your last 20 results in this browser only. No app or account is needed, and JustTools never sees your results.
+
+### Features
+
+- **All the numbers that matter**: Download, upload, ping, jitter and loaded latency — not just one big number.
+- **Live gauge**: Watch the speed as it is measured, from a quick ping to the full download and upload runs.
+- **Bufferbloat grade**: See whether calls and games will lag while someone else downloads, graded A+ to F.
+- **Mobile-data friendly**: Data saver mode keeps a test under about 39 MB, and you can stop at any moment.
+- **What it’s good for**: Plain ratings for streaming, video calls, gaming, browsing and uploading files.
+- **Your history**: Compare Wi-Fi with cable, or morning with evening — recent results stay in your browser.
+
+### How to test your internet speed
+
+1. **Close heavy apps** — Pause downloads, streaming and cloud backups on all devices so they don’t share the line during the test.
+2. **Press Start** — Choose **Full test**, or **Data saver** on mobile data, and press **Start**. Ping is measured first.
+3. **Wait for both runs** — Download and then upload are measured, which takes 15–30 seconds on most connections.
+4. **Read the results** — Compare download and upload with your plan, check the ratings, and copy the results to share with your provider.
+
+### Guide
+
+#### What the results mean
+
+| Result | What it measures | Good value |
+| --- | --- | --- |
+| Download | How fast data reaches you — streaming, browsing, downloads | 25 Mbps+ for 4K; 100 Mbps+ for busy homes |
+| Upload | How fast you send data — video calls, uploads, cloud backup | 5 Mbps+ for HD calls; 20 Mbps+ for creators |
+| Ping | Round-trip time to the server, in milliseconds | Under 30 ms great, under 100 ms fine |
+| Jitter | How much ping varies from one moment to the next | Under 10 ms for gaming, under 30 ms for calls |
+| Loaded latency | Ping while the line is busy downloading or uploading | Within 30 ms of the idle ping (grade A) |
+
+#### Why your speed may be lower than your plan
+
+- **Wi-Fi**: walls, distance and older routers or phones cut speed. Test with a cable, or close to the router on 5 GHz, to see what the line delivers.
+- **Other devices**: TVs, updates and backups on the same connection share the bandwidth during the test.
+- **Peak hours**: evenings are busiest, especially on mobile networks and shared fibre.
+- **VPNs and proxies** add distance and encryption overhead.
+- **Very fast plans**: above roughly 1 Gbps, the browser and device can become the limit rather than the line.
+
+### FAQ
+
+**How accurate is this speed test?**
+It uses the same method as Cloudflare’s own test: precise browser timings, server time removed, and the 90th-percentile speed of many transfers. Results from different test sites differ a little because they use different servers and methods.
+
+**How much data does a speed test use?**
+It depends on your speed: a full test uses up to a few hundred MB on a very fast line, less on slower ones. Data saver mode uses at most about 39 MB — the page shows the exact amount after each test.
+
+**What is a good ping for gaming?**
+Under 30 ms is excellent and under 60 ms is good for most online games; jitter should stay below about 10–20 ms. Above 100 ms you will notice lag in fast-paced games.
+
+**What is the difference between Mbps and MB/s?**
+Speeds are quoted in megabits per second (Mbps); file sizes in megabytes. One byte is 8 bits, so 100 Mbps downloads about 12.5 MB per second.
+
+**Is the speed test private?**
+The test connects your browser to Cloudflare’s speed test servers, which see your IP address like any website does. JustTools doesn’t receive or store your results; your history stays in your browser.
+
+**Why is upload slower than download?**
+Most home and mobile plans are asymmetric — designed to receive more than they send. Fibre plans are often symmetric, so similar upload and download speeds are normal there.
+
+## What Is My IP
+
+URL: https://justtools.online/network-tools/what-is-my-ip/
+Category: Internet & Network Tools
+Processing: Contacts an external service to work (see the page).
+Last updated: 2026-10-22
+
+See your public IP address (IPv4 and IPv6), internet provider, approximate location and browser details — and check whether WebRTC leaks your IP past a VPN.
+
+### At a glance
+
+- Shows your **public IP address** the moment the page opens — the address websites see — with one-click copy.
+- Both **IPv4 and IPv6**, so you can see whether your connection uses IPv6.
+- Your **internet provider** (and its AS number) and an **approximate location** — usually your provider’s nearest city, not your home.
+- A **WebRTC leak test** for VPN users, and a **time zone check** that shows when your device and IP disagree.
+- Your **browser, system, screen and user agent**, handy when support asks “what are you using?”.
+- **Hide IP for screenshots** masks the address. The IP comes from ipify and Cloudflare; nothing is stored by JustTools.
+
+### Features
+
+- **Instant IP**: Your public IPv4 and IPv6 addresses with copy buttons.
+- **Provider and place**: Internet provider, AS number, city, country and time zone.
+- **VPN leak test**: Checks whether WebRTC reveals a different public address.
+- **Browser details**: Browser, system, device type, screen, language and user agent.
+- **Screenshot-safe**: Hide the address with one tap before sharing a screenshot.
+- **Who owns it**: Jump to a whois lookup of your IP for the network owner and range.
+
+### How to find your IP address
+
+1. **Open this page** — Your public IP address appears at the top straight away.
+2. **Copy it** — Press the copy button next to the address you need — IPv4 for most purposes.
+3. **Check a VPN** — With your VPN on, check that the address and location have changed, then run the WebRTC leak test.
+
+### Guide
+
+#### Public and private IP addresses
+
+Your **public IP** is the address the internet sees; it belongs to your router or your mobile provider and is shared by every device on the same connection. Inside your home, each device has a **private IP** (such as 192.168.1.5) that only your router knows — find it in your device’s Wi-Fi settings.
+
+Many mobile and some broadband providers in India and elsewhere use **carrier-grade NAT**, so hundreds of customers share one public IPv4 address. IPv6 avoids this: each device can have its own public address.
+
+#### IPv4 and IPv6
+
+|  | IPv4 | IPv6 |
+| --- | --- | --- |
+| Looks like | 14.194.35.210 | 2401:4900:1c5a::1 |
+| Number of addresses | About 4.3 billion | 340 undecillion |
+| Shared between users | Often (NAT) | Rarely |
+
+#### How accurate is IP location?
+
+IP location is a guess from databases of which provider uses which addresses where. The country is almost always right; the city is often your provider’s nearest hub, which can be tens of kilometres away. It never shows your street or house, and a VPN shows the VPN server’s location instead.
+
+### FAQ
+
+**What is my IP address?**
+It is shown at the top of this page: your public IP address, which every website you visit sees. Copy it with the button beside it.
+
+**Why do I have two IP addresses?**
+One is IPv4 (four numbers) and one is IPv6 (longer, with colons). Many connections now use both; websites that support IPv6 see that one.
+
+**Why does my IP show the wrong city?**
+IP location shows where your provider’s equipment is registered, not where you are. Mobile data especially can show a city far away.
+
+**How do I check if my VPN is working?**
+Turn the VPN on and reload: the IP, provider and location should change to the VPN’s. Then run the WebRTC leak test — it should not find your real address.
+
+**Does my IP address change?**
+Often, yes. Most home and mobile connections get a new public IP from time to time or when the router restarts, unless you pay for a static IP.
+
+**Is it safe to share my IP?**
+It reveals your rough location and provider, not your identity. Avoid posting it publicly anyway — use **Hide IP for screenshots**.
+
+## Whois Lookup
+
+URL: https://justtools.online/network-tools/whois-lookup/
+Category: Internet & Network Tools
+Processing: Contacts an external service to work (see the page).
+Last updated: 2026-10-22
+
+Free whois lookup for any domain, IP address or AS number: registrar, registration and expiry dates, name servers, owner, network range and abuse contact.
+
+### At a glance
+
+- Looks up **domains**, **IP addresses** (IPv4 and IPv6, or a whole prefix) and **AS numbers** — paste a URL or an email address and it finds the domain.
+- For domains: the **registrar**, **registration date and age**, **expiry date** and days left, last update, **name servers**, **DNSSEC** and every **status lock** explained in plain English.
+- For IP addresses and networks: the **owner**, address **range and CIDR**, country, network type and the regional registry (ARIN, RIPE, APNIC, LACNIC or AFRINIC).
+- Shows the **abuse contact** — the right place to report spam, phishing or attacks.
+- Uses **RDAP**, the modern, structured replacement for WHOIS that ICANN requires of every registry and registrar. The query goes through rdap.org to the registry itself.
+- If a domain isn’t registered, it says so — the name may be available. Free, no sign-up, no captcha.
+
+### Features
+
+- **Domains, IPs and ASNs**: One box for all three, from a URL, email address or plain name.
+- **Expiry and age**: See when a domain was registered, how old it is and how many days are left.
+- **Status locks explained**: Codes such as clientTransferProhibited in plain words.
+- **Registrar detail**: Also asks the registrar’s own RDAP server for the registrant’s region and abuse contacts.
+- **Network owners**: Range, CIDR and owner of any IP, from the regional internet registry.
+- **Raw data**: The full RDAP response, and a one-click summary to copy.
+
+### How to look up who owns a domain or IP
+
+1. **Type or paste** — Enter a domain (example.com), a web address, an IP address (8.8.8.8) or an AS number (AS15169).
+2. **Look up** — Press **Look up**. The tool asks the registry responsible for that name or address.
+3. **Read the summary** — Check the registrar, dates, name servers, owner and status — or open the raw response.
+4. **Report abuse** — To report spam or phishing, use the abuse contact shown.
+
+### Guide
+
+#### Why is the owner “redacted for privacy”?
+
+Since the EU’s GDPR came into force in 2018, registrars hide the personal details of most domain owners. You usually see only the owner’s state or country. To contact an owner, use the contact form or email relay the registrar links to, or ask the registrar. Company-owned IP networks still show the organisation’s name.
+
+#### WHOIS and RDAP
+
+WHOIS is the old text-based way of asking who registered a domain; every registry formatted its answers differently. RDAP (Registration Data Access Protocol) replaces it with the same information as structured data, over HTTPS. ICANN made RDAP mandatory for generic top-level domains, and the regional internet registries use it for IP addresses and AS numbers. Some country-code domains don’t offer RDAP yet.
+
+#### Common domain status codes
+
+| Status | Meaning |
+| --- | --- |
+| clientTransferProhibited | Locked against transfer to another registrar — a normal safety setting. |
+| clientHold / serverHold | The domain has been taken off the internet, often for non-payment or a dispute. |
+| redemptionPeriod | Expired and deleted; the previous owner can still restore it for a fee. |
+| pendingDelete | About to be deleted, after which anyone may register it. |
+| ok / active | No locks or pending actions. |
+
+### FAQ
+
+**How do I find out who owns a domain?**
+Enter the domain and press **Look up**. You’ll see the registrar and, unless it is redacted for privacy, the owner. Most personal owners are hidden since 2018 — contact them through the registrar.
+
+**How can I check when a domain expires?**
+Look it up: the **Expires** box shows the date and how many days are left. A domain that has expired may show a redemption or pending-delete status.
+
+**Is the domain available?**
+If the registry has no record, the tool says so and the name may be available. Confirm with a registrar — some names are reserved or sold as premium.
+
+**Can I look up an IP address?**
+Yes. You’ll see which organisation the address block belongs to, its range and CIDR, country and the abuse contact.
+
+**What is an AS number?**
+An Autonomous System number identifies a network on the internet, such as an internet provider or a cloud company (Google is AS15169).
+
+**Where does the data come from?**
+From the registries’ RDAP services, reached through rdap.org. Only what you type is sent; JustTools doesn’t keep it.
+
+## MAC Address Lookup
+
+URL: https://justtools.online/network-tools/mac-address-lookup/
+Category: Internet & Network Tools
+Processing: Runs entirely in the browser; user data is not uploaded.
+Last updated: 2026-10-22
+
+Look up the maker of any MAC address from the official IEEE list, in bulk too. Spots random private addresses, converts formats and generates MACs.
+
+### At a glance
+
+- Finds the **maker** of a MAC address from the **IEEE registry** — over 54,000 assigned blocks, including the smaller MA-M and MA-S blocks.
+- Paste **one address or hundreds** (one per line) — in any format: AA:BB:CC…, aa-bb-cc…, aabb.ccdd.eeff or plain.
+- Explains **random “private” addresses** that phones and laptops use on Wi-Fi, and **multicast** and **broadcast** addresses.
+- Shows the address in **other formats** with copy buttons, and the **IPv6 interface ID and link-local address** it would make.
+- A **generator** makes random addresses for virtual machines and testing, or addresses under a chosen maker prefix.
+- Works on your device: the vendor list loads once and the addresses you type are never sent anywhere.
+
+### Features
+
+- **Official IEEE data**: MA-L, MA-M and MA-S assignments, most specific match first.
+- **Bulk lookup**: Check a whole router client list or ARP table at once.
+- **Private addresses explained**: Recognises randomised Wi-Fi addresses that hide the maker.
+- **Any format**: Colons, hyphens, Cisco dots or none — converted for you.
+- **IPv6 link-local**: The modified EUI-64 interface ID a MAC produces.
+- **MAC generator**: Random, locally administered unicast addresses, or under a maker’s prefix.
+
+### How to look up a MAC address
+
+1. **Copy the address** — Find it in your router’s device list, or in the device’s network settings.
+2. **Paste it** — Paste one address, or a list with one per line.
+3. **Look up** — Press **Look up** to see the maker, its country and the registry block.
+
+### Guide
+
+#### How to find a device’s MAC address
+
+| Device | Where to look |
+| --- | --- |
+| Windows | Open Command Prompt and type ipconfig /all — “Physical Address”. |
+| Mac | System Settings → Network → your connection → Details → Hardware. |
+| iPhone / iPad | Settings → General → About → Wi-Fi Address (or the network’s “Private Wi-Fi Address”). |
+| Android | Settings → About phone → Status (or Wi-Fi network details → MAC address). |
+| Linux | Run ip link — the “link/ether” value. |
+| Router | The list of connected devices in its web page or app. |
+
+#### Why does my phone show an unknown maker?
+
+Phones, tablets and Windows laptops now use a different random MAC address for each Wi-Fi network, so they can’t be tracked between networks. Such addresses have the “locally administered” bit set — the second digit is 2, 6, A or E — and belong to no maker. That is normal, and the lookup says so.
+
+#### About the IEEE registry
+
+The first half of a MAC address is an Organizationally Unique Identifier (OUI) that the IEEE Registration Authority assigns to manufacturers. Large blocks (MA-L) cover 16.7 million addresses; smaller MA-M and MA-S blocks go to smaller makers. Some companies pay to keep their name private, shown here as “Private”.
+
+### FAQ
+
+**What does a MAC address lookup tell me?**
+Which company the network chip’s address block was assigned to — usually the device maker (or the maker of its Wi-Fi chip).
+
+**Can I find a person or location from a MAC address?**
+No. A MAC address identifies a network chip’s maker only. It isn’t sent over the internet beyond your local network.
+
+**Why is the vendor unknown?**
+Either the address is a random private address (common on phones), or the block was assigned recently. The tool tells you which.
+
+**Can I look up many MAC addresses at once?**
+Yes — paste up to 500, one per line.
+
+**Is it safe to generate a random MAC?**
+Yes, for virtual machines and testing. Generated addresses are locally administered and unicast, so they won’t clash with real devices’ factory addresses.
+
+**Are the addresses I enter uploaded?**
+No. The vendor list is downloaded to your browser and the lookup happens there.
+
+## Ping Test
+
+URL: https://justtools.online/network-tools/ping-test/
+Category: Internet & Network Tools
+Processing: Contacts an external service to work (see the page).
+Last updated: 2026-10-22
+
+Free online ping test: measure ping, jitter and packet loss from your device to 31 data centres worldwide — India, Asia, Europe, the US and more — in seconds.
+
+### At a glance
+
+- Measures the **round-trip time (ping)** from your device to **31 Amazon Web Services data centres** — Mumbai, Hyderabad, Singapore, Dubai, Frankfurt, London, Virginia, São Paulo, Sydney and more — and your **nearest Cloudflare server**.
+- Shows the **median** and **best** ping, **jitter** (how much it varies) and **packet loss** for each place.
+- Sorts the results so the **fastest data centre** comes first, and rates it for gaming and video calls.
+- Each server gets a warm-up request first, so connection setup doesn’t inflate the result.
+- Filter by region, choose 5 or 10 pings per server, and copy the results to share with support.
+- Runs in your browser — no app. Browsers can’t send ICMP pings, so this times a tiny HTTPS request instead, which reads a few milliseconds higher.
+
+### Features
+
+- **31 data centres**: Across Asia, the Middle East, Europe, Africa, the Americas and Australia.
+- **Jitter and packet loss**: Not just the average — the steadiness that games and calls need.
+- **Fastest first**: Results sorted by ping, with a plain rating.
+- **Nearest server baseline**: Your ping to Cloudflare’s closest server — about as low as it gets.
+- **Region filter**: Test only the part of the world you care about.
+- **Copy results**: A neat text summary for forums, support tickets or your ISP.
+
+### How to test your ping
+
+1. **Close downloads** — Pause downloads, streams and updates on your network for a fair result.
+2. **Start the test** — Press **Start ping test**. Each data centre is pinged several times.
+3. **Read the results** — Look at the median ping for the places you play or call, plus jitter and loss.
+
+### Guide
+
+#### What is a good ping?
+
+| Ping | Rating | Feels like |
+| --- | --- | --- |
+| Under 50 ms | Excellent | Instant — ideal for competitive games |
+| 50–100 ms | Good | Fine for most games and video calls |
+| 100–180 ms | Fair | Noticeable in fast shooters; calls still OK |
+| Over 180 ms | High | Lag in games, talk-over in calls |
+
+#### Ping, jitter and packet loss
+
+- **Ping (latency)** is the time for a message to reach a server and come back. Distance matters: light in fibre covers roughly 200 km per millisecond, so Mumbai to Frankfurt can’t be much under 100 ms.
+- **Jitter** is how much the ping changes from one moment to the next. Below 10 ms is good; high jitter makes calls choppy.
+- **Packet loss** means some messages never arrive. Anything above 1–2% causes stutters and dropped audio.
+
+#### How to lower your ping
+
+- Use a **wired (Ethernet) connection** instead of Wi-Fi, or move closer to the router.
+- Stop **downloads, uploads and streaming** on other devices while you play.
+- Pick **game servers in the nearest region** — the table shows which is fastest for you.
+- Restart your router, and ask your provider about congestion if evening pings are much higher.
+
+### FAQ
+
+**What does a ping test measure?**
+How long a small message takes to travel from your device to a server and back, in milliseconds — plus how steady that is (jitter) and whether any messages get lost.
+
+**Why is my ping higher here than in the command line?**
+Browsers can’t send ICMP ping packets, so this test times a tiny HTTPS request on an open connection. That adds a few milliseconds of processing.
+
+**Which servers are tested?**
+Amazon Web Services data centres in 31 cities (the same regions many games and apps run in) and Cloudflare’s server nearest to you.
+
+**Is this the ping to my game?**
+It is a good guide: games hosted on AWS in the same region will be close. Game servers elsewhere may differ.
+
+**Does the test use much data?**
+No — each ping is a few hundred bytes, under 100 KB for the whole test.
+
+**Is anything stored?**
+No. The servers see your IP address like any website does; results stay in your browser.
+
